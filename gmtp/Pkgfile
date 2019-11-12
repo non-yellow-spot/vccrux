@@ -1,0 +1,23 @@
+# Description:  A simple MP3 and Media player client for UNIX and UNIX like systems.
+# URL:          https://gmtp.sourceforge.io/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   libvorbis flac libmtp libid3tag desktop-file-utils gtk3
+
+name=gmtp
+version=1.3.10
+release=1
+source=(http://sourceforge.net/projects/gmtp/files/gMTP-$version/gmtp-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure                         \
+		--prefix=/usr               \
+		--with-gtk3                 \
+		--disable-schema-compile    \
+		--disable-schema-install    \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}
