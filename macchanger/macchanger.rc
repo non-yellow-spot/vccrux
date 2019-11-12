@@ -1,0 +1,31 @@
+#!/bin/sh
+#
+# /etc/rc.d/macchanger: start/stop mac interface changing
+#
+
+DEV=wlp2s0
+
+case $1 in
+	start)
+		/sbin/ifconfig $DEV down
+		/usr/bin/macchanger --random $DEV
+		/sbin/ifconfig $DEV up
+		;;
+	stop)
+		/sbin/ifconfig $DEV down
+		/usr/bin/macchanger --permanent $DEV
+		/sbin/ifconfig $DEV up
+		;;
+	restart)
+		$0 stop
+		$0 start
+		;;
+	status)
+		/usr/bin/macchanger --show $DEV
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart|status]"
+		;;
+esac
+
+# End of file
