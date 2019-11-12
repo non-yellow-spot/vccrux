@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFB5lg7zmZb+MMzXSUtpJWAU8qAWpFSq8NdpsraXJ7l7EY2fL5tjSXKnyONIdBl343wbocLmQ3qAPlhlxyVfK5AM=
+SHA256 (Pkgfile) = 65afdbbc07995d530c7dcc93b4d7564906c170787073b77ed9c8f27998ad144c
+SHA256 (.footprint) = 2d96074301a7cf53f19ea0ff3f5ecc6935a9f4385c02cc1f34c9e1fcfd0421ea
+SHA256 (masscan-1.0.5.tar.gz) = a0686929888674892f464014806444d26ded56838d45035221ff88ee9f6ead73
