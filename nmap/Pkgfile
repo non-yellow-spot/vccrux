@@ -8,7 +8,6 @@ version=7.80
 release=1
 source=(http://nmap.org/dist/$name-$version.tar.bz2)
 
-
 build () {
 	cd $name-$version
 
