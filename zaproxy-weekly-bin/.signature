@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFNDn0+XHSgohDTiSRffiAAjeop+neBbtQLxdQT9yea+yGl9gdwNEsSTBsvqWjoUJtPMIQLBZlXo++usoQokVeAs=
+SHA256 (Pkgfile) = 55092d63f8bd480d9f9ceb1c78805c5627a9766c8357f3c77c78c303fc10992d
+SHA256 (.footprint) = 95275be5d67ffa3d2c04e12434d8c906fd79d7240bab6442d06a07db37864d92
+SHA256 (ZAP_WEEKLY_D-2019-11-04.zip) = 3aae5d6696058ea78a55f8d661433f57f4f27cbc7874fca3e58c6075c57c206d
+SHA256 (zaproxy-weekly.sh) = 56bba56d60ae819ee75f041f7368a8de89a320bcecff0f45312a1a9d19c90f40
