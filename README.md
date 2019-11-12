@@ -3,6 +3,8 @@
 
 ## Some ports for the [CRUX](http://crux.nu/).
 
+See git branches for more info.
+
 ### rsync
 
 To use these ports via rsync, download the `chruxzzz.httpup` file to
