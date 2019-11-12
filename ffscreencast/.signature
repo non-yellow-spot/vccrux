@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFBjJJi8FUuzyig1eGcz70cHWZRWr88lRMBKBfj2FzJa0SFzmYCp7OABdhVK+3TG2dj5MAalY/bVIh9/W1Xq3fwo=
+SHA256 (Pkgfile) = ca7e22bfc876dd2eb1d825382e47df202062dca3a69e558679ec08741614fe74
+SHA256 (.footprint) = 8f994832470c1917d886e6d30753236fb2a528545c0118a482f0e5c5a7dc148a
+SHA256 (ffscreencast-0.6.4.tar.gz) = 19f80da62838ea8c0ebab0d4a997b09f94bc45106eb0de137eaac5614452695b
+SHA256 (0001-change-output-dir.patch) = fc42df49a81acda14689d93016fe0d8369766062d0b6832070061a7b7a0d818f

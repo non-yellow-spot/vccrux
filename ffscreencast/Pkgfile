@@ -1,0 +1,17 @@
+# Description:  Desktop-recording with video overlay and multi monitor support
+# URL:          https://github.com/cytopia/ffscreencast
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   alsa-utils ffmpeg v4l-utils xorg-xdpyinfo 
+
+name=ffscreencast
+version=0.6.4
+release=1
+source=(https://github.com/cytopia/ffscreencast/archive/v$version/$name-$version.tar.gz
+	0001-change-output-dir.patch)
+
+build() {
+	cd $name-$version
+
+	patch -p1 < $SRC/0001-change-output-dir.patch
+	install -Dm 0755 bin/$name $PKG/usr/bin/$name
+}
