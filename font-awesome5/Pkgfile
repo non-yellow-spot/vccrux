@@ -1,0 +1,19 @@
+# Description:  Font Awesome
+# URL:          http://fontawesome.io/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   fontconfig
+
+name=font-awesome5
+version=5.10.2
+release=1
+source=(https://github.com/FortAwesome/Font-Awesome/archive/$version/FontAwesome-$version.tar.gz)
+
+build() {
+	cd Font-Awesome-$version
+
+	install -d $PKG/usr/share/fonts/TTF
+	install -d $PKG/usr/share/fonts/OTF
+
+	install -m644 ./webfonts/*.ttf  $PKG/usr/share/fonts/TTF
+	install -m644 ./otfs/*.otf      $PKG/usr/share/fonts/OTF
+}
