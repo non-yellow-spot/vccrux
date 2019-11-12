@@ -1,0 +1,46 @@
+README for dracut
+
+REQUIREMENTS
+
+    For encrypted root need the following:
+    --------------------------------------
+
+    1. Install cryptsetup
+
+    2. In kernel configuration is recommended to include the following
+       necessary features 'statically', i.e. not as modules.
+
+       General Setup --->
+         [*] Initial RAM filesystem and RAM disk (iniramfs/initrd) support
+
+       Device Drivers --->
+         Multiple devices driver support (RAID and LVM) --->
+           [*] Device mapper support
+           [*] Crypt target support
+    
+       Note: you also have to include the desired
+
+         Block modes
+         Hash modes
+         Digest
+         Ciphers
+
+       in Cryptographic API --->
+
+       to be able to decrypt your partitions later.
+
+
+POST-INSTALL
+
+    Generate an init ramdisk:
+
+        dracut -q --kver 5.2.17 /boot/initrd-5.2.17.img
+
+    Install grub2 into the ESP:
+
+        grub-install --efi-directory=/boot --recheck
+
+    Generate a grub2 configuration file:
+
+        grub-mkconfig -o /boot/grub/grub.cfg
+

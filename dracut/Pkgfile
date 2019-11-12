@@ -1,0 +1,27 @@
+# Description:  An event-driven initramfs infrastructure
+# URL:          https://dracut.wiki.kernel.org/index.php/Main_Page
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+
+name=dracut
+version=048
+release=1
+source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$version.tar.xz
+	$name-bash5.patch
+	10-crux.conf)
+
+build() {
+	cd $name-$version
+
+	patch -p1 -i $SRC/$name-bash5.patch
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
+	make
+	make DESTDIR=$PKG install
+
+	# initrd config
+	cp $SRC/10-crux.conf $PKG/etc/dracut.conf.d/
+
+	rm $PKG/usr/lib/$name/modules.d/*/README*
+}
