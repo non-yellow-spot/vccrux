@@ -1,0 +1,30 @@
+# Description: Fast network logon cracker
+# URL:         https://github.com/vanhauser-thc/thc-hydra
+# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:  mysql libssh libidn libssh gtk
+# Optional:    mysql libssh libidn libssh gtk
+
+name=thc-hydra
+version=9.0
+release=1
+source=(https://github.com/vanhauser-thc/thc-hydra/archive/v$version/$name-v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	sed -i 's/dummy_ssh/dummy_sshkey/' hydra-sshkey.c
+
+	./configure --prefix=$PKG/usr
+
+	make
+	make MANDIR=/share/man install
+
+	# Move password lists
+	mkdir -p $PKG/usr/share/hydra
+	mv $PKG/usr/etc/* $PKG/usr/share/hydra
+	rm -rf $PKG/usr/etc
+
+	#  Fix paths in dpl4hydra.sh
+	sed -i -e "s|^INSTALLDIR=.*|INSTALLDIR=/usr|" $PKG/usr/bin/dpl4hydra.sh
+	sed -i -e "s|^LOCATION=.*|LOCATION=share/hydra|" $PKG/usr/bin/dpl4hydra.sh
+}
