@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFNIBOOG99XwkqfyMxIbUD0MH04NQTGMp8JSkmeGBprmdhjB+2k4yA/ncX/DCfgQgmKBKugJxv+/NOEOuf2MWwwM=
+SHA256 (Pkgfile) = 84594efa8d749e63e1ae99599b018c9c7aada7d47f9b827d1fc2ff06a9063d93
+SHA256 (.footprint) = 36c556857a5439b234552b25b178a828a35a668c38ca308bc0f2022e3ba57a98
+SHA256 (password-store-1.7.3.tar.xz) = 2b6c65846ebace9a15a118503dcd31b6440949a30d3b5291dfb5b1615b99a3f4
