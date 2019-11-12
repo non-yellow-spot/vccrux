@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFIzd1BzubvrOViZtvbWpyJ8DXsynN6D6Ood0A2qbTw9l55SRnhyxeGc//6U3Zg+7FdvsrS6v9O5We1Sf/hvlRwk=
+SHA256 (Pkgfile) = 3be8794ff91a5194cd5dcf3e4f59ae07ed47438cd27311322af385931c3b9665
+SHA256 (.footprint) = 4713e2e3cd66c9c86e1691e5f02209c5379b5154c6506f7dcb1107020cfc20b7
+SHA256 (ZAP_2.8.0_Linux.tar.gz) = cca5cbf68b861a8ef3d5142f13eb0c586a9e072e3535e2169c4efb0ec3716c60
+SHA256 (zaproxy.sh) = 69e364cf09e856605f164db32074a94e352a05b099fbc01edc9fb8cb8f555684
