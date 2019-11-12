@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFPVnUTlHGiRyRIZimIk7BGUDsNpaC2TsEhkbZ/SHxj6ChxBYygFDOp0zb7H+9FU5jZV6DwUVlkWMqnJXiYHgHQY=
+SHA256 (Pkgfile) = 1df5d98012f7b9ca3e6a5fe7c6ce7ec0a2f2da939eea151ff19f5839304cb794
+SHA256 (.footprint) = 84e7a17cbfbe9ce795d4f4fd350124647c3f03861002c739f2b424b3748abf36
+SHA256 (torsocks-2.3.0.tar.xz) = b9f1b981d6b3fd4e1820de1eee325f8a7038c84765d5a6cd9af12571d5cc3622
