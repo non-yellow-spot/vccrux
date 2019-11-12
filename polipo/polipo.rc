@@ -1,0 +1,46 @@
+#!/bin/sh
+#
+# /etc/rc.d/polipo: start/stop polipo daemon
+#
+
+SSD=/sbin/start-stop-daemon
+PROG=/usr/bin/polipo
+PID=/var/run/polipo.pid
+OPTS=""
+RUN_AS_USER=polipo
+
+# Check for configuration files
+[ -f /etc/polipo/config ] || exit 1
+
+print_status() {
+	$SSD --status --pidfile $2
+	case $? in
+	0) echo "$1 is running with pid $(cat $2)" ;;
+	1) echo "$1 is not running but the pid file $2 exists" ;;
+	3) echo "$1 is not running" ;;
+	4) echo "Unable to determine the program status" ;;
+	esac
+}
+
+case $1 in
+	start)
+		$SSD --start -b -c $RUN_AS_USER -m -p $PID -x $PROG -- $OPTS
+		RETVAL=$?
+		;;
+	stop)
+		$SSD --stop -R 10 -p $PID --remove-pidfile
+		RETVAL=$?
+		;;
+	restart)
+		$0 stop
+		$0 start
+		;;
+	status)
+		print_status $PROG $PID
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart|status]"
+		;;
+esac
+
+exit $RETVAL

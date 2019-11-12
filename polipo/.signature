@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFMSWN/T7VJjU44NilP93KktG52YzHztOBpcCQ6LNhMRl2WNkZ5WiXOhKBGmhit5MoQJjXTsh0rjwFHGFa/v+IQ4=
+SHA256 (Pkgfile) = d5442734e2d87f2e345d3c9a784d5150d279400257a9257c8bf759260988f278
+SHA256 (.footprint) = 6d4a8a6f4ec34a1e3cec0b56b88509dcee305ba2ceb292a46305bf897ceb60ab
+SHA256 (polipo-1.1.1.tar.gz) = a259750793ab79c491d05fcee5a917faf7d9030fb5d15e05b3704e9c9e4ee015
+SHA256 (config) = e0b0af37c9c1d71632521abd5934331990c654f261b573a14295d9dfc75e4da1
+SHA256 (polipo.rc) = 111b8aacd7ae4b45fe38ada74dbaaf224ab59c7f3690b0d1f7724c7418059e35
