@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/dumpelf
+-rwxr-xr-x	root/root	usr/bin/pspax
+-rwxr-xr-x	root/root	usr/bin/scanelf
+-rwxr-xr-x	root/root	usr/bin/scanmacho
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rwxr-xr-x	root/root	usr/share/man/man1/dumpelf.1.gz
+-rwxr-xr-x	root/root	usr/share/man/man1/pspax.1.gz
+-rwxr-xr-x	root/root	usr/share/man/man1/scanelf.1.gz
+-rwxr-xr-x	root/root	usr/share/man/man1/scanmacho.1.gz

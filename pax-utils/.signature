@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFHme5Lp3ndndISrnxBtTDMsMoIBvnLXs+Fkj1j2cnXc/KEWO3RtQTLO+gqn2xNrpkgvIbhHzKTPUEmP0JYhWNwQ=
+SHA256 (Pkgfile) = 7d3495fcbe96de380b85b0e14ac54bf8fcc3a22d58f9f93892768747361ae350
+SHA256 (.footprint) = a3795cc02e538cc6362306cf3495ea6254f9be4e9d192b5679217af90c6f2feb
+SHA256 (pax-utils-1.2.3.tar.gz) = 6106a89f019c88a3d54c2550068620c1038789a620b7a199bd706740bb301fa2
