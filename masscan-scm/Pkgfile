@@ -1,0 +1,38 @@
+# Description:  Mass IP port scanner (master branch)
+# URL:          https://github.com/robertdavidgraham/masscan
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   libpcap
+
+name=masscan-scm
+version=git
+release=$(date +%Y%m%d)
+
+download_git() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
+
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+}
+
+build() {
+	download_git https://github.com/robertdavidgraham/${name/-scm} master
+	cd $name
+
+	sed -i \
+		-e '/$(CC)/s!$(CFLAGS)!$(LDFLAGS) $(CFLAGS)!g' \
+		-e '/^GITVER :=/s!= .(.*!=!g' \
+		-e '/^SYS/s|gcc|$(CC)|g' \
+		-e '/^CFLAGS =/{s,=,+=,;s,-g -ggdb,,;s,-O.,,;}' \
+		-e '/^CC =/d' \
+		Makefile
+
+	make
+	make DESTDIR=$PKG install
+
+	install -Dm 644 doc/masscan.8 -t "$PKG/usr/share/man/man8"
+}
