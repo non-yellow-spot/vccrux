@@ -1,0 +1,42 @@
+# Description:	Utility for network exploration of security auditing (master branch)
+# URL:		https://nmap.org	
+# Maintainer:	Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:	libpcap libpcre lua	
+
+name=nmap-scm
+version=git
+release=$(date +%Y%m%d)
+source=()
+
+download_git() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
+
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+}
+
+build() {
+	download_git https://github.com/${name/-scm}/${name/-scm} master
+	cd $name
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--without-zenmap \
+		--without-nping \
+		--without-ncat \
+		--without-nmap-update \
+		--disable-nls \
+		#--without-ndiff # now it's a python script
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -f $PKG/usr/share/nmap/nselib/data/psexec/README
+	rm -f $PKG/usr/share/nmap/nselib/data/jdwp-class/README.txt
+}
