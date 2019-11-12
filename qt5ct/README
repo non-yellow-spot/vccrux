@@ -1,0 +1,4 @@
+README for qt5ct
+
+Add the following line to your profile if you don't use KDE or GNOME:
+export QT_QPA_PLATFORMTHEME="qt5ct"
