@@ -1,0 +1,19 @@
+# Description:  A tool for recovering passwords and content from PDF-files
+# URL:          http://pdfcrack.sourceforge.net/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+
+name=pdfcrack
+version=0.18
+release=1
+source=(https://downloads.sourceforge.net/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	sed -i 's,-O3 -g,,g' Makefile
+
+	make
+
+	install -Dm755 pdfcrack -t $PKG/usr/bin
+	install -Dm644 pdfcrack.1 -t $PKG/usr/share/man/man1
+}
