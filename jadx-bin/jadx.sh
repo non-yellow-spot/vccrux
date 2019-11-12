@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+
+cd /usr/share/jadx/bin
+exec ./jadx "$@"
