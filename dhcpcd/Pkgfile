@@ -1,0 +1,27 @@
+# Description: An RFC2131-compliant DHCP client daemon
+# URL:         http://roy.marples.name/projects/dhcpcd/
+# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:  eudev
+
+name=dhcpcd
+version=8.1.1
+release=2
+source=(https://roy.marples.name/downloads/dhcpcd/$name-$version.tar.xz
+	73ac184333f77b38a8b4c4202c2928278e2237ca.patch)
+
+build () {
+	cd $name-$version
+
+	# Fix corruption of IPv4 address flags when renewing
+	patch -p1 < $SRC/73ac184333f77b38a8b4c4202c2928278e2237ca.patch
+
+	./configure --prefix=             \
+		--libexecdir=/lib/dhcpcd  \
+		--dbdir=/var/lib/dhcpcd   \
+		--sysconfdir=/etc/dhcpcd  \
+		--with-hooks=
+
+	make
+	make DESTDIR=$PKG install
+	chmod -R u+w $PKG
+}
