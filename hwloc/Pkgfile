@@ -1,0 +1,20 @@
+# Description: The Portable Hardware Locality 
+# URL:         http://www.multiprecision.org/
+# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+
+name=hwloc
+version=2.0.4
+release=1
+source=(https://download.open-mpi.org/release/$name/v${version%.*}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--enable-netloc
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/doc
+}
