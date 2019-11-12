@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFHq6VsoymGRMfH/o3MNTHX+eLlgewGTtE76jl5taBUHtrQWmJ2L2Rq7BBddD6sV2FZEHrJaj48SRV2+qELTPnQY=
-SHA256 (Pkgfile) = b475391fe0d2eb0635f37bd9b2f3dcf48b858fbb66d50a2c78ea2f7e4b54a941
+RWS6XVhk44XbFH3T9EqOnKPk+dtBzPgJ4TNfHkMO3QtxRbY8nZ3FcKVOXTT6C06jsSsS/kkLPVH2tE67Wa2GEv/s2brnkTeiSws=
+SHA256 (Pkgfile) = f0f650d8b48cc00e7ae84ac24336b816e836fe38e80c0d93b440bd8702b62efb
 SHA256 (.footprint) = e08b7028d62354b57fb4b0b894fc41f95897a581799e75f5b51c2edc641ae808
 SHA256 (apktool_2.4.0.jar) = a0f116e8916d6f21160e1559847bb8b8c32ee71900f321cafeadbe37b87ebcc1
 SHA256 (apktool.sh) = 9ff965b35e0a276e3298d9e71cf4cc1c7c04e1fa6d317f04bd5800cbceb0b3cb

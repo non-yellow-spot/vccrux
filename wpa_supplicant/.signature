@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFO8NGMr56O8emRdFgEYZub9Zx6bdJqEbqkZc3TZMWf2Mde3XXSPzd7fvbCSzcw6SrzGMiYo7xVT/QrcyKXrlvgc=
-SHA256 (Pkgfile) = a1a74f0a65efdb8ce710871c1e5f996e5e12a5784483abc0ba410f25f0e40e27
+RWS6XVhk44XbFJVvPp0l8G66OCia3ByFsEozDDSQ0wmoM9eNgOgUNVmzCiEfYy32TJdLPKfsw/1SiWKluqP+rNGSd0RnNEbaYwA=
+SHA256 (Pkgfile) = f13ffd0e2171f0beb6ed2f27edb724c686b47c1a3232e4bb51b8df004a3a1c6e
 SHA256 (.footprint) = d4302c7846d3447459040f032e05e10dc251113e6a1555b045a4d95aded9e409
 SHA256 (wpa_supplicant-2.9.tar.gz) = fcbdee7b4a64bea8177973299c8c824419c413ec2e3a95db63dd6a5dc3541f17
 SHA256 (wlan) = 62f4c0bf8d5fedcf5b6ad79278f4be16f29841099f385acc4fc91e2d52ca1927

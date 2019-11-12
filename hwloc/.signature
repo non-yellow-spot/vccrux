@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFCrY9TnpiYZ2jCBEJ84SxpJqgD7Tt8xGUGORB7CoOkSSbRYQH4eJoG7Qa9oLhTl6gbQTLbyGPtTDPoNHUjJXwwE=
-SHA256 (Pkgfile) = d338c5ea72ee2e0254ea3bf4c13191d4a01c5e1387272d976057542ac43f9fc9
+RWS6XVhk44XbFK5Vu85Ab8sq6KNoUN4nm92pGc2VMbmAexos/1MkqK/5mWnFEMPbWQMs5BRaLgC5m1vnDfQnnFvam3RoT2c8dgU=
+SHA256 (Pkgfile) = be3abd9aadc0592db16aae9c3f9d72f026e2af03b6817f9be9a042997d82fa6f
 SHA256 (.footprint) = dfa0289f4fab0d1be7acc5dbddcbedd0510322d825c922035f483be09467424c
 SHA256 (hwloc-2.0.4.tar.gz) = efadca880f5a59c6d5d6f7bc354546aa6f780d77cc2e139634c3de9564e7ce1f

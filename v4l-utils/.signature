@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFLT7Urojo3cdpTXOUW1QmGPZgr9RaYOFamWk4Itk0KXJXAjltbRK+YYaGn9rAsTFQmhwzcvmyhdV5Uc5I2AAaw4=
-SHA256 (Pkgfile) = bd21b86cb795d7854eed19c6b9dc2c82ec9eaec6ea62131eb929b6adea387169
+RWS6XVhk44XbFBL9Jbx27jm3oLGJiY4PcnrdyoGr5CXMfSVNtAcUzp3msOWOVOlBSnZEUXdln3D9w3A13J5X/qzP1ScJI/VaFwI=
+SHA256 (Pkgfile) = b653a793b965611fbf692c316917c9509dd8cb2e440269283624ebead9e287c7
 SHA256 (.footprint) = 665b9517df9839579fee5f646e6e651c4f4f66a20d17d67c11bc7e007da76190
 SHA256 (v4l-utils-1.16.7.tar.bz2) = ee917a7e1af72c60c0532d9fdb9e48baf641d427aa7b009a9b2ca821f9e8e0d9

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFKWbdqRx0K/OoxLJo5Exxmo06MxV7tkmcBcpxA8eibhLV6FpM0sMZavHoxvJPLvj46RbAOmwjFWWQ4DNJ1jGuQ0=
-SHA256 (Pkgfile) = f9cc165945377d146f6606e13b4cf90594fef3a54143d12fa4d6a25dd44816a8
+RWS6XVhk44XbFFT/34JcQJa0vmyK7Pm5jjFm84PfHxBAdZ4fXB6TxA+ydSiq/wuQ8adGHlXDB54zMsaAV6/T5o+pnJpA47IVeg4=
+SHA256 (Pkgfile) = fed402316bc84c8ce38daf4627f325c60407ca0f399f9de17cb883f67fb946f9
 SHA256 (.footprint) = 05fdd81be4c6f2daeda295bad58267cabd790e637b9b11785e16422f6641e5f2
 SHA256 (toxcore-0.2.10.tar.gz) = 5ccc4ecd79b95c367efe8341b06bf2a81f853032e6fcd7cb2bc0ad0ef7419d40
