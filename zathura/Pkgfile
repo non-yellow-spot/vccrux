@@ -1,0 +1,38 @@
+# Description:  Highly customizable and functional document viewer
+# URL:          https://pwmt.org/projects/zathura
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   girara python-sphinx sqlite3
+# Optional:     texlive
+
+name=zathura
+version=0.4.3
+release=1
+source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	meson build \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--buildtype=release \
+		--backend=ninja
+
+	cd build
+	ninja
+	DESTDIR=$PKG ninja install
+
+	rm -rf $PKG/usr/share/locale
+
+	# bash completion
+	if ! pkginfo -i | grep '^bash-completion '; then
+		rm -rf $PKG/usr/share/bash-completion
+	fi
+
+	# zsh completion
+	if ! pkginfo -i | grep '^zsh '; then
+		rm -rf $PKG/usr/share/zsh
+	fi
+
+	find $PKG -perm /go+w -exec chmod go-w {} \;
+}
