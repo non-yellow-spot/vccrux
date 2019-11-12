@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFFkYht2qwOm8HWbbXIuqFyzZg6dp4GPUJaSqk/K8SEzbssbgaZqVfGIYmDsMfOqlqc2Q+gptYEEGN3tiwIzX8QE=
+SHA256 (Pkgfile) = d4429010bdeac90f31b0182b0d381fd9912ad8059af079725d3726e9ef510a10
+SHA256 (.footprint) = 0c5711400270d3642743b33d9703f4d58b3d014ea596e26667e9d8d9b22a638c
+SHA256 (ExtUtils-Depends-0.8000.tar.gz) = 780ff72128c04c2a22e6801187aa9c58cab298407f6e9d062706af1c250bbe98
