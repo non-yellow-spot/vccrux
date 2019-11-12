@@ -1,0 +1,25 @@
+# Description:  PDF support for zathura using poppler rendering library
+# URL:          https://pwmt.org/projects/zathura-pdf-poppler
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   poppler-glib zathura
+
+name=zathura-pdf-poppler
+version=0.2.9
+release=1
+source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	meson build \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--buildtype=release \
+		--backend=ninja
+
+	cd build
+	ninja
+	DESTDIR=$PKG ninja install
+
+	find $PKG -perm /go+w -exec chmod go-w {} \;
+}
