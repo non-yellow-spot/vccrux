@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFJxHGCpzbhBmYYev/B2brNlYctkAFLXRXmLYdAf5tkkvAIL2ob0RnKgSniva2QVypOK1g7qefZpJzTioJJ6UbQw=
+SHA256 (Pkgfile) = ce31b2039a279033dd0c4f01dc9a0ce3488f6745ab014e173fbbb5035f3bfdc5
+SHA256 (.footprint) = 19aeff70f2f5f81fd1b1858fb451f977d8934fedb4fd5ff2a7f2e29820ee395d
+SHA256 (nmap-7.80.tar.bz2) = fcfa5a0e42099e12e4bf7a68ebe6fde05553383a682e816a7ec9256ab4773faa

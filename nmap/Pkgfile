@@ -1,0 +1,30 @@
+# Description:  Utility for network exploration or security auditing
+# URL:          http://nmap.org
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   libpcap libpcre lua
+
+name=nmap
+version=7.80
+release=1
+source=(http://nmap.org/dist/$name-$version.tar.bz2)
+
+
+build () {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--without-zenmap \
+		--without-ndiff \
+		--without-nping \
+		--without-ncat \
+		--without-nmap-update \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -f $PKG/usr/share/nmap/nselib/data/psexec/README
+	rm -f $PKG/usr/share/nmap/nselib/data/jdwp-class/README.txt
+}
