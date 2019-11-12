@@ -1,0 +1,8 @@
+#
+# /etc/ports/chruxzzz.httpup port collection of chinarulezzz
+#
+
+ROOT_DIR=/usr/ports/chruxzzz
+URL=https://raw.githubusercontent.com/chinarulezzz/chruxzzz/3.5/
+
+# End of file
