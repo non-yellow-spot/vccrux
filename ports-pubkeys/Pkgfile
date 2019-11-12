@@ -1,0 +1,22 @@
+# Description: CRUX ports public keys
+# URL:         http://crux.nu
+# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+
+name=ports-pubkeys
+version=3.5
+release=1
+
+source=(https://crux.nu/ports/crux-$version/core/ports/core.pub
+	https://crux.nu/ports/crux-$version/core/ports/opt.pub
+	https://crux.nu/ports/crux-$version/core/ports/xorg.pub
+	https://crux.nu/ports/crux-$version/core/ports/compat-32.pub
+	https://crux.nu/ports/crux-$version/core/ports/contrib.pub)
+
+build () {
+	install -d $PKG/etc/ports
+	install -m 0644 $SRC/core.pub       $PKG/etc/ports
+	install -m 0644 $SRC/opt.pub        $PKG/etc/ports
+	install -m 0644 $SRC/xorg.pub       $PKG/etc/ports
+	install -m 0644 $SRC/compat-32.pub  $PKG/etc/ports
+	install -m 0644 $SRC/contrib.pub    $PKG/etc/ports
+}
