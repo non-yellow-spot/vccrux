@@ -1,0 +1,20 @@
+# Description:  Library implementation of the Media Transfer Protocol (MTP)
+# URL:          http://sourceforge.net/projects/libmtp/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+
+name=libmtp
+version=1.1.16
+release=1
+source=(http://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--with-udev=/etc/udev/ \
+		--disable-dependency-tracking
+
+	make
+	make DESTDIR=$PKG install
+}
