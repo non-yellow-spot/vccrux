@@ -1,0 +1,23 @@
+# Description:  GPL'ed reader of DjVu format
+# URL:          http://djvu.sourceforge.net/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   libjpeg-turbo
+
+name=djvulibre
+version=3.5.27
+release=1
+source=(http://download.sourceforge.net/djvu/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--disable-i18n \
+		--disable-djview
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/djvu/osi/{cs,de,fr,ja,zh}
+}
