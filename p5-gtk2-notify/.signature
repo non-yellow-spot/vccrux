@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFK3dW0TE5kTCG2Xocc8LKQTw5lBBkqgbL7FWgCHFxtaFLldATEFICuDhUc3I6sKvn3kE7S7l/XzPN9YeTRlrtQk=
+SHA256 (Pkgfile) = 6784118e1397624df618e158b961a5467f8ea2b4c23c5cfaff802e3513b166d8
+SHA256 (.footprint) = 1addbbcb03e7b336e6c5a6607d6860eb876a6c77ecd66a159d3164e2c9208284
+SHA256 (Gtk2-Notify-0.05.tar.gz) = 88189ae68dfbd54615ad133df07e2ec8048d06d8b9586add1227d74eb2ebb047
+SHA256 (libnotify.patch.gz) = 23b27df89d00fe9345bcfc7acb19b853baa289762e5a9cdecb88d8cdc71dff2e
