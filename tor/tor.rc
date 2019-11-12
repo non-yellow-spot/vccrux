@@ -1,0 +1,43 @@
+#!/bin/sh
+#
+# /etc/rc.d/tor: start/stop tor daemon
+#
+
+# User settings here
+DAEMON=tor
+RUN_AS_USER=tor
+
+# Check for configuration files
+[ -f /etc/tor/torrc ] || exit 1
+
+# If you have to edit this section for this or any other 
+# port useage let me know, with a patch or added lines, 
+# or simplely e-mail me the altered file and I'll include the changes.
+
+case $1 in
+start)
+	echo "Starting $DAEMON ..."
+	su $RUN_AS_USER -c "/usr/bin/$DAEMON"
+	[ $? = 0 ] && echo "Done."
+	;;
+stop)
+	echo "Shutting down $DAEMON ..."
+	killall -qv "/usr/bin/$DAEMON" && echo "Done."
+	;;
+restart)
+	$0 stop
+	sleep 5
+	$0 start
+	;;
+check-config)
+	su $RUN_AS_USER -c "/usr/bin/$DAEMON --verify-config"
+	;;
+*)
+	echo "usage: $0 [start|stop|restart|check-config]"
+	exit 1
+	;;
+esac
+
+exit $RETVAL
+
+# End of file

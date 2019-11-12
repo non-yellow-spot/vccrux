@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFBUC/IJffoiRYVmS7R3EIeLZaUy3fAzZMXisnagR+fY1JPgbY/3n0emALLkW0vLDnBZctwvz4QSwfyJPh28jAAE=
+SHA256 (Pkgfile) = 971c27cb05cb07d4f308ac420169899dea8751ddc2452a549821f2e2fc829cc1
+SHA256 (.footprint) = 27c535ef0687650f831351643902322a449c441b01bcfb811a2521509fecb800
+SHA256 (tor-0.4.0.5.tar.gz) = b5a2cbf0dcd3f1df2675dbd5ec10bbe6f8ae995c41b68cebe2bc95bffc90696e
+SHA256 (tor.rc) = 4faa73305bda94b517e56a1b0421a28ff306ce64536bf47423ba6777000d9be9
