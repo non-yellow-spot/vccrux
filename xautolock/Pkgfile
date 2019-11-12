@@ -1,0 +1,21 @@
+# Description:  An automatic X screen-locker/screen-saver
+# URL:          https://ibiblio.org/pub/Linux/X11/screensavers/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   xorg-imake xorg-libxscrnsaver
+
+name=xautolock
+version=2.2
+release=1
+source=(http://ibiblio.org/pub/Linux/X11/screensavers/$name-$version.tgz
+	union-wait.patch)
+
+build() {
+	cd "$name-$version"
+
+	patch -p1 -i ../union-wait.patch
+
+	xmkmf
+	make
+	make DESTDIR=$PKG PREFIX=/usr install
+	make DESTDIR=$PKG PREFIX=/usr MANPATH=/usr/share/man install.man
+}
