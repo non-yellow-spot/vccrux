@@ -1,0 +1,33 @@
+# Description:  User interface library focusing on simplicity and minimalism
+# URL:          https://pwmt.org/projects/girara
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   gtk3 libnotify meson ninja
+# Optional:     json-c
+
+name=girara
+version=0.3.2
+release=1
+source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	meson build \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--buildtype=release \
+		--backend=ninja \
+		-Denable-json=false \
+		-Denable-docs=false
+
+	cd build
+	ninja
+	DESTDIR=$PKG ninja install
+
+	rm -rf $PKG/usr/share/locale
+
+	find $PKG -perm -g+w | xargs chmod g-w
+
+	# Remove empty directories
+	find $PKG -depth -empty -exec rm -rf {} \;
+}
