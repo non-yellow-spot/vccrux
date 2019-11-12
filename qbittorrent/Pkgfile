@@ -1,0 +1,20 @@
+# Description:  Bittorrent client programmed in C++ / Qt that uses libtorrent
+# URL:          http://www.qbittorrent.org/
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   qt5 libtorrent-rasterbar1 xdg-utils
+
+name=qbittorrent
+version=4.1.9.1
+release=1
+
+source=("http://sourceforge.net/projects/qbittorrent/files/${name}/${name}-${version}/${name}-${version}.tar.xz")
+
+build() {
+	cd qbittorrent-${version}
+
+	PKG_CONFIG_PATH="/usr/lib/libtorrent-rasterbar1/pkgconfig" \
+	./configure --prefix=/usr
+	make
+
+	make INSTALL_ROOT=${PKG} install
+}
