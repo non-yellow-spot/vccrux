@@ -1,0 +1,27 @@
+# Description:  Build and install Perl modules
+# URL:          https://metacpan.org/release/Module-Build
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+
+name=p5-module-build
+version=0.4229
+release=1
+source=(https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-$version.tar.gz)
+
+build() {
+	cd Module-Build-$version
+
+	yes n | perl Makefile.PL
+
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR=$PKG install
+
+	# Remove perlcrap
+	find $PKG  -name perllocal.pod  \
+		-o -name "*.bs"         \
+		-o -name .packlist      \
+		-o -name autosplit.ix   \
+	| xargs rm -f
+
+	# Remove empty directories
+	find $PKG -depth -type d -empty -delete
+}
