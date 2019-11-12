@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/chruxzzz.pub
+RWS6XVhk44XbFHI+cU1oL/V4eSc2kZt3YTqog0eCZoSV83i4lJVfCtjTfv74kNCikCzu0kvQ7iO2IX8i8TdTOaAnWtL+aI5cngo=
+SHA256 (Pkgfile) = 8ad2523e4bfa41205f1825d7a6e11c234792332f911bbd1251b3bd69783eeb09
+SHA256 (.footprint) = 4e777bc2b3cc93ba75b7a2c36431d09464f071b14e7d90b1ad9c2c1d98b242aa
+SHA256 (core.git) = 3208f455ab8e0c79019e9ade8ce14250fc3ecbb5bbaa8e14f7be03545723a5ad
+SHA256 (opt.git) = c1732f0b9ae46346f11957103345b4661fe28835724567eea6c15e5400de2979
+SHA256 (xorg.git) = cf0a6eac4c1147a8ddd69753a9ef924ef1ee888ae928523bf41af544e52bc615
+SHA256 (compat-32.git.inactive) = 589a9900043250fc73a1cce56164ea0c5cc2143f13a045af5f8c1e6b0441df8f
+SHA256 (contrib.git.inactive) = f0504574c83a4f08f490c799d9388184d76dadf9078dbeb26fb7f6b93e030c15

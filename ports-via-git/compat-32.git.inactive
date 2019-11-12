@@ -1,0 +1,4 @@
+URL=git://crux.nu/ports/compat-32.git
+NAME=compat-32
+BRANCH=3.5
+PORTS_DIR=/usr/src/ports

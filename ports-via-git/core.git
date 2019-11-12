@@ -1,0 +1,4 @@
+URL=git://crux.nu/ports/core.git
+NAME=core
+BRANCH=3.5
+PORTS_DIR=/usr/src/ports
