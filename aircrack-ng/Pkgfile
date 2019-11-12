@@ -1,0 +1,19 @@
+# Description: A suite of tools to assess WiFi network security
+# URL:         https://github.com/aircrack-ng/aircrack-ng
+# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:  ethtool libnl libpcre sqlite3 hwloc libpcap
+
+name=aircrack-ng
+version=1.5.2
+release=1
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	NOCONFIGURE=1 ./autogen.sh
+
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}
