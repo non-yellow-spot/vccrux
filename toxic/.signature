@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFKVwUVuquIP7VIp3CT31BR/CIxW5lh5HP1UvV+dsfcd89nau3Dj2dekzw1ZOvSYt0cT1r9cYIpBVqq5zKUOrNQU=
-SHA256 (Pkgfile) = b01a4de5216cecf9a51605bb15f7cf4d757009650f31d7a90286467d8e1e46e3
+RWS6XVhk44XbFDI9tO8D4bsuYRTxlVL1m1sBysymllyklc8WcY9pd4L3cU/Eq0jsTXkrCxyOiqMQmDq4fuCdyAqLaxZl8c3ChAs=
+SHA256 (Pkgfile) = b7870be446dbed37e21c4c0c3d986dd86ca5980c9baa98b8da62ac22c9dfc310
 SHA256 (.footprint) = b6465ce35755bda10da5b8b845bc810560c8afd5e944bb5ea7d19dc881dc8fa1
 SHA256 (toxic-0.8.3.tar.gz) = 97f26ba2c257c10439fd2ff280ca90c37ed225d86f46740a08f02ff2e4459e0e
