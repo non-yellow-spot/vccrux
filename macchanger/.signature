@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFFl0b6FJj4+QYz/UieWCRUkRvaXIu8GAJWAv/00dzfsCkj0qFdkB3J0nOYwfoAUBtSHrArZKqRx3ftJpSTCD8wo=
+RWS6XVhk44XbFOqw6/9v97dwSeb6pC1wwzuTYbTjJGF0J79rAgIKnx7ii3I1q//8PMY4mB55urAS+2qtIrCmBNMoO3orPHvV3w8=
 SHA256 (Pkgfile) = 56ce60792802b491ee2e7d03222d978291561a3c7b2ec72cb461bbc6d37b7b87
 SHA256 (.footprint) = f21f745c9b7b902500438b68aee91de7417d88484bee43d4ae67d510da122e40
 SHA256 (macchanger-1.7.0.tar.gz) = 1d75c07a626321e07b48a5fe2dbefbdb98c3038bb8230923ba8d32bda5726e4f
-SHA256 (macchanger.rc) = 8c3ac6c8b1889beb4b3203a7ab0abe12e365c96328a61dba8ceb93e17d2add73
+SHA256 (macchanger.rc) = a015aee57b8b89c0ac3be92bc7c68e919f9d4937903812aea247cd62c1f24798
