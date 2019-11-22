@@ -14,11 +14,11 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/bcmail-jdk15on-1.64.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/bcpkix-jdk15on-1.64.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/bcprov-jdk15on-1.64.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-beanutils-1.9.3.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-codec-1.12.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-beanutils-1.9.4.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-codec-1.13.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-collections-3.2.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-configuration-1.10.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-csv-1.6.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-csv-1.7.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-digester-1.8.1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-httpclient-3.1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-io-2.6.jar
@@ -26,10 +26,9 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-lang-2.6.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-lang3-3.9.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-logging-1.2.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-text-1.6.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-text-1.8.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-validator-1.6.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/delight-nashorn-sandbox-0.1.25.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/diffutils-1.2.1.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/delight-nashorn-sandbox-0.1.26.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ezmorph-1.0.6.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/harlib-1.1.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/hsqldb-2.5.0.jar
@@ -38,7 +37,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/java-semver-0.9.0.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/javahelp-2.0.05.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/jcommon-1.0.23.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/jdom-1.1.3.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/jericho-html-3.4.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/jfreechart-1.0.19.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/jgrapht-core-0.9.0.jar
@@ -47,7 +45,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/log4j-1.2.17.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/rsyntaxtextarea-3.0.4.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/slf4j-api-1.7.25.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/sqlite-jdbc-3.27.2.1.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/sqlite-jdbc-3.28.0.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/swingx-all-1.6.5-1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/xom-1.2.10.jar
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
@@ -103,6 +101,9 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/templates/passive/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/passive/Passive default template.js
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/templates/proxy/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/proxy/Proxy default template.js
+drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/templates/session/
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/session/Juice Shop Session Management.js
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/session/Session Management default template.js
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/templates/standalone/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/standalone/Loop through history table.js
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/standalone/Standalone default template.js
@@ -121,6 +122,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2019-11-04.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2019-11-18.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
