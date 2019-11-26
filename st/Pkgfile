@@ -9,7 +9,9 @@ release=1
 source=(https://dl.suckless.org/st/$name-$version.tar.gz
 	st-clipboard-0.8.2.diff
 	st-copyurl-20190202-3be4cf1.diff
-	st-solarized-light-20190306-ed68fe7.diff)
+	st-solarized-light-20190306-ed68fe7.diff
+	st-scrollback-0.8.2.diff
+	st-scrollback-mouse-0.8.2.diff)
 
 build () {
 	cd "$name-$version"
@@ -21,7 +23,9 @@ build () {
 	patch -p1 < $SRC/st-copyurl-20190202-3be4cf1.diff
 	patch -p1 < $SRC/st-clipboard-0.8.2.diff
 	patch -p1 < $SRC/st-solarized-light-20190306-ed68fe7.diff
-	
+	patch -p1 < $SRC/st-scrollback-0.8.2.diff
+	patch -p1 < $SRC/st-scrollback-mouse-0.8.2.diff
+
 	make CC=gcc
 	make DESTDIR=$PKG PREFIX=/usr TERMINFO=$PKG/usr/share/terminfo install
 
