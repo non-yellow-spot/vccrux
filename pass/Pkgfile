@@ -13,4 +13,8 @@ build() {
 	cd password-store-$version
 
 	make DESTDIR=$PKG PREFIX=/usr install
+	install -Dm0755 contrib/dmenu/passmenu $PKG/usr/bin
+
+	# remove zsh stuff
+	rm -rf $PKG/usr/share/zsh
 }

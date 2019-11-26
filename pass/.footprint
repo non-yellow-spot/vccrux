@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pass
+-rwxr-xr-x	root/root	usr/bin/passmenu
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/password-store/
 drwxr-xr-x	root/root	usr/lib/password-store/extensions/
