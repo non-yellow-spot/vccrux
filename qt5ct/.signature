@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFEWy69/I4lTtikess7fKW0v/LDyxDwiOo6Skbdri92rbWWAWisRDoy5ze3cimvXor0Tacm0lX/WSavrbqDv21w4=
-SHA256 (Pkgfile) = 3fdb0dff49dfdaf0fcc5e58ef9e606a1c3c02655e18425d3c5363984f9c2143f
+RWS6XVhk44XbFPlJtPJd3FwVcM7NoHAeWgXJWaDzsCh4BLlJ8E2Zv1Gy+GNoV2aEkv5YiXCzy4Z7TXMg8ZSPrSiDEd5qfrE4mQ8=
+SHA256 (Pkgfile) = c372740e34fd75e10ae70f0ec158a945fa6e779df50aa69f48b093ecec2324a0
 SHA256 (.footprint) = e9a99fb905db1a0242904b20c847b295edbee21cfb46ad44d4121dff03dc9f5f
-SHA256 (qt5ct-0.39.tar.bz2) = 3769ecdcbdf821d52f7f1e013531a9692c28bab0bae5f133d22cba7702333e19
+SHA256 (qt5ct-0.41.tar.bz2) = f24030e90d8b923b60c320b2db5b4c0fcc47f9f35ac4c52060ab3c6e423057dc
