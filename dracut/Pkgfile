@@ -1,9 +1,9 @@
 # Description:  An event-driven initramfs infrastructure
 # URL:          https://dracut.wiki.kernel.org/index.php/Main_Page
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=dracut
-version=048
+version=049
 release=1
 source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$version.tar.xz
 	$name-bash5.patch
