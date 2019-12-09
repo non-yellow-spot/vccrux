@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFN4xx+7YiN2HJMNZujUVUqLe20WuPlNYvxn3MrrG4D2V5Hac9/a3X+TM4UjWaK9XKTQWEXU7FMqL+ytGWUdUHQc=
-SHA256 (Pkgfile) = a88e3d40294c08a76a3e3d09885f14b124f7f7e065ea83439a38ac31f913add4
+RWS6XVhk44XbFOT7Z8/PZZgyvbabQEY+V4Hrh7OqxaLS2NlN1sNOsqA5hWV0TypwigZfFrOnX56ryF/lKXLRxtIqy9W0RQzTewU=
+SHA256 (Pkgfile) = 68177a19ffabd7b94a80dabc077055ec7beef6afc55e89383bea8e92365151be
 SHA256 (.footprint) = 1171d114ae7ec562c7641b889f40b2baf18ad70b8e87e121eddc3a0a8b918fff
-SHA256 (adwaita-qt-1.1.0.zip) = 4d43ec41d8722af3b1ff38d2ac38543231e53b56b0be2ac6a4568feebcd55cf8
+SHA256 (adwaita-qt-1.1.1.zip) = e1c892563482c7b5430f7598dbdcb4a6d22da80c95a54576c318c4faa40edaaf

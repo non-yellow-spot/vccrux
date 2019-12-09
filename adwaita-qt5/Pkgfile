@@ -1,10 +1,10 @@
 # Description: A style to bend Qt applications to look like they belong into GNOME Shell
-# URL:         https://github.com/MartinBriza/adwaita-qt
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# URL:         https://github.com/FedoraQt/adwaita-qt
+# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:  qt5
 
 name=adwaita-qt5
-version=1.1.0
+version=1.1.1
 release=1
 source=(https://github.com/FedoraQt/${name%5}/archive/${version}/${name%5}-$version.zip)
 
