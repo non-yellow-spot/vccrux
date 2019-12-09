@@ -1,9 +1,9 @@
 # Description:  DNS Enum, Attack Surface Mapping and External Asset Discovery
 # URL:          https://github.com/OWASP/Amass
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=amass-bin
-version=3.1.10
+version=3.4.1
 release=1
 source=(https://github.com/OWASP/Amass/releases/download/v${version}/amass_v${version}_linux_amd64.zip)
 

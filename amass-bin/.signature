@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFB+UY8OlYuFFarIzuNZ2DCvyf+kDWk/1GC5q6krD6eRNPmvNlKofXlVqdMsSAT1ZrxqOXvpt5oX2l8LLGFn4/A8=
-SHA256 (Pkgfile) = 576a4e856acaed991895794e2f44c51c2b2fcc3e1df339400bbf2d799a9b91c5
+RWS6XVhk44XbFKo4ASq9JXHc3z/ZnwdNG6l7h5kJUHqhgP9x4br85IrzIqpzHLrHvd0LRpiI2Lj7x1ApackN1bJJQS4x31TIKAw=
+SHA256 (Pkgfile) = 10aacbc441108607f82ffd792d1ba2794d35dd3df4d2fcd06cfcc0f8ea3545a5
 SHA256 (.footprint) = f29781d6dd83a7fd5ad2e8d25b20322bdb70759401eaf19f5921901156001163
-SHA256 (amass_v3.1.10_linux_amd64.zip) = 7b9b9c83a54b9b10ffacc9c89ca006b1006a5a80a5c91d7317e9c4ca3650d703
+SHA256 (amass_v3.4.1_linux_amd64.zip) = 961a51f9dc01a43f87424514d08846d71ff866ef532b08e4b86ca62a7f6b62f8
