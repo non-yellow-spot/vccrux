@@ -179,7 +179,6 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Lang/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Qualcomm.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/QuickTime.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/QuickTimeStream.pl
--r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/README
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/RIFF.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/RSRC.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/RTF.pm
