@@ -1,11 +1,11 @@
-# chruxzzz -- ports collection
+# vccrux -- ports collection
 -------------------------------------------------------------------------------
 
 ## Some ports for the [CRUX](http://crux.nu/).
 
 See git branches for more info.
 
-Download `chruxzzz.git` and `chruxzzz.pub` into `/etc/ports`.
+Download `vccrux.git` and `vccrux.pub` into `/etc/ports`.
 
 `Note`:
 Make sure the `git` package is installed, or you won't be able to clone the
