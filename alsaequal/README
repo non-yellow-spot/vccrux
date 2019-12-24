@@ -2,11 +2,12 @@ README for alsaequal
 
 POST-INSTALL
 
-    After installing the package, add the following to your ALSA configuration
-    file:
+    1. Add '/usr/lib/ladspa' to LD_LIBRARY_PATH.
+
+    2. Add the following to your ALSA configuration file:
 
     /etc/asound.conf
-
+    --------------------------------------------------------------------------
     ctl.equal {
         type equal;
     }
@@ -30,3 +31,16 @@ POST-INSTALL
         type plug;
         slave.pcm plugequal;
     }
+    --------------------------------------------------------------------------
+
+    And you are ready to change your equalizer using command
+    $ alsamixer -D equal
+
+    Note that configuration file is different for each user (until not
+    specified else) it is saved in ~/.alsaequal.bin. So if you want to use
+    ALSAEqual with mpd or another software running under different user, you
+    can configure it using
+
+    $ su mpd -c 'alsamixer -D equal'
+
+    or for example, you can make a symlink to your .alsaequal.bin in his home.
