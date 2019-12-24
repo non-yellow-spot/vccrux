@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	lib/
+drwxr-xr-x	root/root	lib/ladspa/
+-rw-r--r--	root/root	lib/ladspa/caps.so
+drwxr-xr-x	root/root	share/
+drwxr-xr-x	root/root	share/ladspa/
+drwxr-xr-x	root/root	share/ladspa/rdf/
+-rw-r--r--	root/root	share/ladspa/rdf/caps.rdf

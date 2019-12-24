@@ -1,0 +1,19 @@
+# Description:  The LADSPA C* Audio Plugin Suite
+# URL:          http://quitte.de/dsp/caps.html
+# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
+# Depends on:   ladspa
+
+name=caps
+version=0.9.26
+release=1
+source=(http://quitte.de/dsp/${name}_${version}.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	# Remove overriding -Oflag 
+	sed -i 's/OPTS = -O. /OPTS = /' Makefile
+
+	make
+	make PREFIX=$PKG install
+}
