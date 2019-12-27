@@ -1,7 +1,9 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7R0+RLC23bGuFtx+d8dul9x+morPQoWimD7/DOM236WZnrdW/dTe+IrH7VEWoCcU/I/Iet/qC/QrDU9/6s1RQ8=
-SHA256 (Pkgfile) = 5b75a58fdf03069c3de732278c5497ffb07908d55dfdfcaa8f992eaf6ff5fe94
-SHA256 (.footprint) = 50f396fafa219bb5ef8742c93305d08046fa672b1e6e22394cfe5e96c0e0ac90
+RWT2I5SomoNUjyvSJzdwk79qjI8BGOrllcqTyoEjDRV/XAPlknllQjlEopTFa+sriMwoWfhjQPGKpan04HKm/ggrGw+RQTW1Zg0=
+SHA256 (Pkgfile) = 6ea502966363923bbf1806909871c0e409078582679fd7bf177a43d8ecc18ed0
+SHA256 (.footprint) = b0a039446f73299a807c438a4e9c138f35715c70c9a7fae2d9750c170000e620
 SHA256 (dracut-049.tar.xz) = 6ce2f8c16b393606b504c7722fd6845d2e0ed0f543f3cc83784c31171498b89a
 SHA256 (dracut-bash5.patch) = b63b67eaf3f03a69e7ed73a40b72aa6caf98c5f4703a74e30bf5dafed62c2798
 SHA256 (10-crux.conf) = 3d7c58d401903f7b87406435f7a1b4681e35e96106dd2f3aaecb0becdec3db44
+SHA256 (installkernel) = 2264c5eafe6d95ab11349e3befde993ed72e41cce66e037925f397af90c82c45
+SHA256 (arch) = db2f5dbc1ca742555994cca21318fb0bdc19e7874e2f103458915cc2233d8c24

@@ -17,30 +17,33 @@ REQUIREMENTS
          Multiple devices driver support (RAID and LVM) --->
            [*] Device mapper support
            [*] Crypt target support
-    
-       Note: you also have to include the desired
 
-         Block modes
-         Hash modes
-         Digest
-         Ciphers
-
-       in Cryptographic API --->
-
-       to be able to decrypt your partitions later.
-
-
+       Cryptographic API --->
+         <*> XTS support
+         <*> SHA224 and SHA256 digest algorithm
+         <*> AES cipher algorithms
+         <*> AES cipher algorithms (x86_64)
+         <*> User-space interface for hash algorithms
+         <*> User-space interface for symmetric key cipher algorithms    
+       
 POST-INSTALL
+
+    Install grub2 into the ESP (if it's not already installed):
+
+        grub-install --efi-directory=/boot --recheck
 
     Generate an init ramdisk:
 
         dracut -q --kver 5.2.17 /boot/initrd-5.2.17.img
 
-    Install grub2 into the ESP:
-
-        grub-install --efi-directory=/boot --recheck
-
     Generate a grub2 configuration file:
 
         grub-mkconfig -o /boot/grub/grub.cfg
 
+NOTES
+
+    The port also provides the installkernel script, that can be used by
+    'make install' in the kernel tree. It copies the kernel to the /boot,
+    makes a backup, generates and init ramdisk, and generates a grub2
+    configuration file. So it's not necessary to do manually postinstall
+    actions after every kernel update. See /sbin/installkernel for info.

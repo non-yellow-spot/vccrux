@@ -4,10 +4,12 @@
 
 name=dracut
 version=049
-release=1
+release=2
 source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$version.tar.xz
 	$name-bash5.patch
-	10-crux.conf)
+	10-crux.conf
+	installkernel
+	arch)
 
 build() {
 	cd $name-$version
@@ -22,6 +24,10 @@ build() {
 
 	# initrd config
 	cp $SRC/10-crux.conf $PKG/etc/dracut.conf.d/
+	# kernel install script
+	install -Dm 0755 $SRC/installkernel $PKG/sbin/installkernel
+	# fix "/usr/lib/dracut/modules.d/90crypt/module-setup.sh: line 28: arch: command not found"
+	install -Dm 0755 $SRC/arch $PKG/bin/arch
 
 	rm $PKG/usr/lib/$name/modules.d/*/README*
 }
