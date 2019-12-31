@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj9H02rY68YSkiTI1dCxfB+ZuqX33Hnocv97xFjzfpWeO0C30OEG6VETRbAay4OS7NKYGXADjb0frDWksSSyOcAY=
+SHA256 (Pkgfile) = bd7b67cdf43146254af551c3c77cbf1b17248e01a9520974a9bb33ae38674621
+SHA256 (.footprint) = a8be38650b3d7db74d5f4a7ea7c52d3b513d4f9402449d0e2026d60aaf12b364
+SHA256 (platform-tools_r29.0.5-linux.zip) = f9be9fb873fbdc70d84e4346d7a9d17aa8356c2ffa8c8bd22177f5e5031d0cc2
+SHA256 (adb.rc) = 6183e8890bd6566ff4851c0572aa0c3598c1cb5928941fd071635b4b80f57838
