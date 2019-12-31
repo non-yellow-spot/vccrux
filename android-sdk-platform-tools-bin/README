@@ -1,0 +1,5 @@
+README for android-sdk-platform-tools
+
+POST-INSTALL
+
+    Don't forget to add "/opt/android-sdk/platform-tools" to your PATH env.

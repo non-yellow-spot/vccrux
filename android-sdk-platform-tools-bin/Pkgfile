@@ -1,0 +1,20 @@
+# Description:  Platform-Tools for Google Android SDK (adb, fastboot and systrace)
+# URL:          http://developer.android.com/sdk/index.html
+# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
+
+name=android-sdk-platform-tools-bin
+version=29.0.5
+release=1
+_sdk=android-sdk
+_tools="opt/${_sdk}/tools"
+_ptools="opt/${_sdk}/platform-tools"
+source=(https://dl.google.com/android/repository/platform-tools_r${version}-linux.zip
+	adb.rc)
+
+build() {
+	install -Dm755 $SRC/adb.rc $PKG/etc/rc.d/adb
+
+	mkdir -p $PKG/opt/$_sdk
+	cp -a $SRC/platform-tools $PKG/opt/$_sdk/platform-tools
+	chmod +Xr -R $PKG/opt/$_sdk/platform-tools
+}
