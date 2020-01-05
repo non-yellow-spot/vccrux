@@ -4,7 +4,7 @@
 # Depends on:   jdk
 
 name=zaproxy-weekly-bin
-version=2019-11-18
+version=2019-12-23
 release=1
 source=(https://github.com/zaproxy/zaproxy/releases/download/w${version}/ZAP_WEEKLY_D-${version}.zip
 	zaproxy-weekly.sh)

@@ -1,6 +1,6 @@
-untrusted comment: verify with /etc/ports/chruxzzz.pub
-RWS6XVhk44XbFBa7q6p2NMnbXAHBOp0dBtx3UhD9BlFUhU50O1lZfzR8w+elBHvCH3ha/7RZcImMoR20k8Ft83J9D6xOPyPkYQk=
-SHA256 (Pkgfile) = 2b1c3d5a2101c03f18eda2e9c0227b01415aded293f2d1b92ad00b01cc108cde
-SHA256 (.footprint) = e54fd0723636210f2bb2d9d9e9e863f7241a34639929b09b91233dff38009815
-SHA256 (ZAP_WEEKLY_D-2019-11-18.zip) = 2e05d01e6b0d8023a4a581e313f86eea8fe06521949baeb0663caf8136d62eb9
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUjwq5MU1xj9hFsdUIum4UgPDRZnYVxjO8WY4EEPcayPCFez8hPkwDui+2KeF5xPph9aGidieWxtooFn8Dyfh0iQA=
+SHA256 (Pkgfile) = 19844bf5ea43056283125012af8ef59f6daaeb8b40d39edfdd7cb95a371968be
+SHA256 (.footprint) = 5aec8a73e20bc52ebff81c694b64839b1970213af8930194c3e8d272f3baaeb3
+SHA256 (ZAP_WEEKLY_D-2019-12-23.zip) = 725969e6043a67dfce1529691edd170a561cdb29321f026fc8aeb2bf85377c15
 SHA256 (zaproxy-weekly.sh) = 56bba56d60ae819ee75f041f7368a8de89a320bcecff0f45312a1a9d19c90f40
