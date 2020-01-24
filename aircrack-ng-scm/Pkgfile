@@ -4,9 +4,8 @@
 # Depends on:  ethtool libnl libpcre sqlite3 hwloc libpcap
 
 name=aircrack-ng-scm
-version=git
-release=$(date +%Y%m%d)
-source=()
+version=$(date +%Y%m%d)
+release=1
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
