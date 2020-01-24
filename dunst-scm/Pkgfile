@@ -4,8 +4,8 @@
 # Depends on:   dbus gdk-pixbuf pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver libxdg-basedir
 
 name=dunst-scm
-version=git
-release=$(date +%Y%m%d)
+version=$(date +%Y%m%d)
+release=1
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
