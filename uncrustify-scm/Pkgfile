@@ -4,8 +4,8 @@
 # Depends on:   cmake
 
 name=uncrustify
-version=git
-release=$(date +%Y%m%d)
+version=$(date +%Y%m%d)
+release=1
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
