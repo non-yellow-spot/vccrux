@@ -1,0 +1,19 @@
+README for pulseaudio
+
+NOTES
+
+    1.
+
+    If you are not running a fully fledged DE you might have trouble
+    with pulseaudio shutting down after being idle for a while.
+
+    You can work around this by starting pulseaudio like this:
+
+    pulseaudio --start --exit-idle-time=-1 --log-target=syslog &
+
+    2.
+
+    For using bluetooth headsets, add the following command after
+    starting the pulseaudio:
+
+    pactl load-module module-bluetooth-discover &
