@@ -1,10 +1,11 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj1liShf2UUsqclxKnG/fUr8YDCOdeAEYpaHEjTXmW8/8NCNKd9ArVl85Qafwr/G1+PZhgUVUANK1dE8Bw3UmSgQ=
-SHA256 (Pkgfile) = 4c9644c82aa3c115b6e259a7dbba41e1c1b0f3c17711829ce9a5eb72afb4f8cd
+RWT2I5SomoNUj2Usoa/Bc107UC5qpquo6sKoVMWiZJBV1hx8YwxArRMZ82KJXM8fIbWeHkuyWtPkWzmYNa9CPvleKyqZLKJ41wc=
+SHA256 (Pkgfile) = 6b22a6784d5d53a7bb418160ecff8540f2a51a9eff98349cdb7649603e75c748
 SHA256 (.footprint) = bbc6b84ad135a3a88e3c2e77813191bca889a3d4c0b50c8c9747f113acb5ca67
 SHA256 (st-0.8.2.tar.gz) = aeb74e10aa11ed364e1bcc635a81a523119093e63befd2f231f8b0705b15bf35
 SHA256 (st-clipboard-0.8.2.diff) = 7be1a09831f13361f5659aaad55110bde99b25c8ba826c11d1d7fcec21f32945
 SHA256 (st-copyurl-20190202-3be4cf1.diff) = 7f63ccbf0452fea52642496568a3ceceeb2ff433d8fed47ba8a05f669fa14dcc
 SHA256 (st-nordtheme-0.8.2.diff) = 01de8a6d0d855c31496c7963e78edb7565a81b60dcb9e9f00dd3eab1f43b526b
+SHA256 (st-gruvboxtheme-0.8.2.diff) = 46b223debf0e2736d33a00267a5f5da5b8c61e12d7a92fc188ec2dc3673a7fcb
 SHA256 (st-scrollback-0.8.2.diff) = 9c5aedce2ff191437bdb78aa70894c3c91a47e1be48465286f42d046677fd166
 SHA256 (st-scrollback-mouse-0.8.2.diff) = 6103a650f62b5d07672eee9e01e3f4062525083da6ba063e139ca7d9fd58a1ba
