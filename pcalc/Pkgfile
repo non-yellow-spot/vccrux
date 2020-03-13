@@ -1,0 +1,14 @@
+# Description:	The programmer's calculator
+# URL:		https://github.com/vapier/pcalc	
+# Maintainer:	Stamatin Cristina, dear dot volgk at gmail dot com
+
+name=pcalc
+version=4
+release=1
+source=(https://github.com/vapier/pcalc/archive/v4/$name-v${version}.tar.gz)
+
+build() {
+	cd $name-$version
+	make -j1
+	make install DESTDIR=$PKG	
+}
