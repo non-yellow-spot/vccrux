@@ -9,6 +9,6 @@ source=(https://github.com/vapier/pcalc/archive/v4/$name-v${version}.tar.gz)
 
 build() {
 	cd $name-$version
-	make -j1
+	make -j1	# Compilation with multiple threads crashes.
 	make install DESTDIR=$PKG	
 }
