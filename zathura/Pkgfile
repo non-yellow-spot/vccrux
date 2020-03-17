@@ -5,7 +5,7 @@
 # Optional:     texlive
 
 name=zathura
-version=0.4.3
+version=0.4.5
 release=1
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
@@ -32,6 +32,11 @@ build() {
 	# zsh completion
 	if ! pkginfo -i | grep '^zsh '; then
 		rm -rf $PKG/usr/share/zsh
+	fi
+
+	# fish completion
+	if ! pkginfo -i | grep '^fish '; then
+		rm -rf $PKG/usr/share/fish
 	fi
 
 	find $PKG -perm /go+w -exec chmod go-w {} \;
