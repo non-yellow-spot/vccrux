@@ -5,7 +5,7 @@
 # Optional:     json-c
 
 name=girara
-version=0.3.3
+version=0.3.4
 release=1
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
