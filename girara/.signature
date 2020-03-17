@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj0o1zqQWwjWln8W1viO/JQv1vCV0r/czZpMrb8Y4vN2HV9lda0fWpdhc7giIpKnftj0QczLZomc4sGSP97G9qgY=
-SHA256 (Pkgfile) = 006efa0f7a9b571c8527b8947cb49ed248a7852ea87ecf8521711e6b9f95d13c
+RWT2I5SomoNUjykbk29vmb5fBZ0gsdHGAGf3ILijgRcC91MXpHmrZzkCtMV5sBEEaXguInUnOeaTV3LGTm90OL9jvkT03rdmmAw=
+SHA256 (Pkgfile) = a2ce80d8ba762adb9cb2a625db52d4fd9f077835cd9efd54cbb42bbb8f3ae464
 SHA256 (.footprint) = 49749363f34fc608d80cf78c9818154963354150fab67e5e76c0141c0a6f5682
-SHA256 (girara-0.3.2.tar.xz) = 1700353a101f3c520f9b22e79d71ea5b268a9ec324796cf9e64775d96bb086cd
+SHA256 (girara-0.3.3.tar.xz) = 7d53ad5866700dbd7f5ca2329b292a72b6cb78cb08e6216af298ec90f699a360
