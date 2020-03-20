@@ -40,4 +40,3 @@ drwxr-xr-x	root/root	usr/lib64/cmake/KF5Completion/
 lrwxrwxrwx	root/root	usr/lib64/libKF5Completion.so -> libKF5Completion.so.5
 lrwxrwxrwx	root/root	usr/lib64/libKF5Completion.so.5 -> libKF5Completion.so.5.65.0
 -rwxr-xr-x	root/root	usr/lib64/libKF5Completion.so.5.65.0
-drwxr-xr-x	root/root	usr/share/
