@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj4wA51YsT1yW0UE2tj+YL59ASyqgfcFB1ffo9GNSJK7kvF/030ALlkndrFhGYn/KCy3LeVtSImeNfim4n+gSWg0=
+SHA256 (Pkgfile) = fbddc2c251760df2be710c2a50452ba446da51149be1c1a0442ffb96532b6a1a
+SHA256 (.footprint) = 27d0b5b75910b6ab81255858e5ed87d77d381ced21b2156393490a584005c62e
+SHA256 (kcompletion-5.65.0.tar.xz) = bdd7201940fa47ac1b62f6fcf7a12883abed44876ff729cb430c11d3868eb8ae
