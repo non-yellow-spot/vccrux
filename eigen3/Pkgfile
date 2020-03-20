@@ -1,0 +1,18 @@
+# Description: A C++ template library for linear algebra.
+# URL:         http://eigen.tuxfamily.org/
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  cmake
+
+name=eigen3
+version=3.3.7
+release=1
+source=(http://bitbucket.org/eigen/eigen/get/$version.tar.bz2)
+
+build() {
+	cd eigen-eigen-*
+	mkdir build
+	cd build
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+	make
+	make DESTDIR=$PKG install
+}
