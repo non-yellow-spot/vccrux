@@ -74,21 +74,21 @@ drwxr-xr-x	root/root	usr/include/aircrack-ng/utf8/
 -rw-r--r--	root/root	usr/include/aircrack-ng/utf8/verifyssid.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/version.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-1.5.2.so
--rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-avx-1.5.2.so
+-rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-1.6.0.so
+-rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-avx-1.6.0.so
 -rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-avx.la
-lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa-x86-avx.so -> libaircrack-ce-wpa-x86-avx-1.5.2.so
--rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-avx2-1.5.2.so
+lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa-x86-avx.so -> libaircrack-ce-wpa-x86-avx-1.6.0.so
+-rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-avx2-1.6.0.so
 -rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-avx2.la
-lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa-x86-avx2.so -> libaircrack-ce-wpa-x86-avx2-1.5.2.so
--rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-sse2-1.5.2.so
+lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa-x86-avx2.so -> libaircrack-ce-wpa-x86-avx2-1.6.0.so
+-rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-sse2-1.6.0.so
 -rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa-x86-sse2.la
-lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa-x86-sse2.so -> libaircrack-ce-wpa-x86-sse2-1.5.2.so
+lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa-x86-sse2.so -> libaircrack-ce-wpa-x86-sse2-1.6.0.so
 -rwxr-xr-x	root/root	usr/lib/libaircrack-ce-wpa.la
-lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa.so -> libaircrack-ce-wpa-1.5.2.so
--rwxr-xr-x	root/root	usr/lib/libaircrack-osdep-1.5.2.so
+lrwxrwxrwx	root/root	usr/lib/libaircrack-ce-wpa.so -> libaircrack-ce-wpa-1.6.0.so
+-rwxr-xr-x	root/root	usr/lib/libaircrack-osdep-1.6.0.so
 -rwxr-xr-x	root/root	usr/lib/libaircrack-osdep.la
-lrwxrwxrwx	root/root	usr/lib/libaircrack-osdep.so -> libaircrack-osdep-1.5.2.so
+lrwxrwxrwx	root/root	usr/lib/libaircrack-osdep.so -> libaircrack-osdep-1.6.0.so
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/airbase-ng
 -rwxr-xr-x	root/root	usr/sbin/aireplay-ng
