@@ -154,6 +154,7 @@ drwxr-xr-x	root/root	usr/share/nmap/nselib/data/psexec/
 -rw-r--r--	root/root	usr/share/nmap/nselib/oops.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/openssl.luadoc
 -rw-r--r--	root/root	usr/share/nmap/nselib/ospf.lua
+-rw-r--r--	root/root	usr/share/nmap/nselib/outlib.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/packet.lua
 -rw-r--r--	root/root	usr/share/nmap/nselib/pcre.luadoc
 -rw-r--r--	root/root	usr/share/nmap/nselib/pgsql.lua
@@ -790,6 +791,7 @@ drwxr-xr-x	root/root	usr/share/nmap/scripts/
 -rw-r--r--	root/root	usr/share/nmap/scripts/unittest.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/unusual-port.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/upnp-info.nse
+-rw-r--r--	root/root	usr/share/nmap/scripts/uptime-agent-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/url-snarf.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/ventrilo-info.nse
 -rw-r--r--	root/root	usr/share/nmap/scripts/versant-info.nse
