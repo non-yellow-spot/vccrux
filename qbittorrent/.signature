@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj8t9wSaFO1GlzEoyHcU/Iz6Wtw4fowc4XU8r6aMSmPOzICdufDP2L+n/GWnrtihfhX/mH+198ZbgDd9lbnVANQI=
-SHA256 (Pkgfile) = 344e1413c6440a81d722ae199a3ffb8ba1db8ce932e9ce49df630795e9931c9f
+RWT2I5SomoNUj1ZfHMSxN3WqNDsI6vxDdWMPhbv66mIaorj0ydSsWTv8FxSvV65uPOr5ZI/MqJS5onRDloy8ZbZTrKzs9oXHIwQ=
+SHA256 (Pkgfile) = 1fc966d6cc7a731d67f353e5f5962ce754976c5f7fa44d2d3b03d693f366e293
 SHA256 (.footprint) = 99438f0c6f14e2db489719162ea67727050b80816a3f9de76c610a6e8e283d68
-SHA256 (qbittorrent-4.2.1.tar.xz) = a43466b4415a7a220584e0faabdaba60545f11a0be34040c64c2747c04bb3209
+SHA256 (qbittorrent-4.2.5.tar.gz) = 1dac52d6fe4b0c44dba04fcfc41f519c57a69cb30580255edca95c87053a4324
