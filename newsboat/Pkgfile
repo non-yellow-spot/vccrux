@@ -11,6 +11,9 @@ source=(https://newsboat.org/releases/$version/$name-$version.tar.xz
 
 build () {
 	cd $name-$version
+	
+	# fix build with json-c 0.14
+	sed -e 's/TRUE/1/' -e 's/FALSE/0/' -i src/newsblur_api.cpp
 
 	# remove unwanted flags
 	sed -i '23s/-O2 -ggdb//' Makefile
