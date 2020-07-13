@@ -6,11 +6,14 @@
 name=qt5-styleplugins
 commit=335dbece103e2cbf6c7cf819ab6672c2956b17b3
 version=5.0.0-20170311
-release=1
-source=(https://github.com/qt/qtstyleplugins/archive/$commit.tar.gz)
+release=2
+source=(https://github.com/qt/qtstyleplugins/archive/$commit.tar.gz
+	qt5.15.patch)
 
-build(){
+build() {
 	cd qtstyleplugins-$commit
+
+	patch -p1 < $SRC/qt5.15.patch
 
 	qmake-qt5 \
 		PREFIX="/usr" \
