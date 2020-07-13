@@ -5,7 +5,7 @@
 # Optional:     libvpx opus
 
 name=toxcore
-version=0.2.10
+version=0.2.12
 release=1
 source=(https://github.com/TokTok/c-$name/archive/v$version/$name-$version.tar.gz)
 
@@ -17,7 +17,7 @@ build() {
 
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
 		-DCMAKE_INSTALL_LIBDIR=/usr/lib \
-		-DBUILD_TOXAV=on \
+		-DBUILD_TOXAV=off \
 		-DDHT_BOOTSTRAP=off \
 		-DBOOTSTRAP_DAEMON=off \
 		-DBUILD_AV_TEST=off \
