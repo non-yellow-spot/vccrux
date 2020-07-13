@@ -88,6 +88,7 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/pulse-13.0/
 drwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/libalsa-util.so
+-rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/libbluez5-util.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/libcli.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/liboss-util.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/libprotocol-cli.so
@@ -103,6 +104,10 @@ drwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-always-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-always-source.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-augment-properties.so
+-rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-bluetooth-discover.so
+-rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-bluetooth-policy.so
+-rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-bluez5-device.so
+-rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-bluez5-discover.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-card-restore.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-cli-protocol-tcp.so
 -rwxr-xr-x	root/root	usr/lib/pulse-13.0/modules/module-cli-protocol-unix.so
