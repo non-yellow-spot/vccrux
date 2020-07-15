@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj7zMOJPRVcfm4pSf1C1K5jCn9+nvWLOFXbUzz1kWdTT4iZ185BU+Fb3htW3FXlwjS5576s7TXodQyYEplpxP1gk=
+SHA256 (Pkgfile) = b0ba9cc6d7269bd9e31a48786dbc73b8b7133ebf7c0141987e7c0f2d6f8de6de
+SHA256 (.footprint) = 6d1f5fcca5b121e981420ecfdc57a14bad8f39b42506fb1f711c74b70101bc1c
+SHA256 (cflags_fix.patch) = c0b089accf3ebc02311c14b4f1743ab8945a73a3e1de616938b0d86cd1c5a38b

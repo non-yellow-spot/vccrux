@@ -1,0 +1,21 @@
+diff --git a/src/Makefile b/src/Makefile
+index 85d9154..9eddaa7 100644
+--- a/src/Makefile
++++ b/src/Makefile
+@@ -1,7 +1,6 @@
+ MDK_ROOT = ..
+ include $(MDK_ROOT)/common.mak
+ 
+-CFLAGS		+= -g -O3 -Wall -Wextra 
+ LINKFLAGS	= -lpthread -lpcap $(LDFLAGS)
+ 
+ SBINDIR		= $(PREFIX)/sbin
+diff --git a/src/attacks/Makefile b/src/attacks/Makefile
+index 23c1d58..49d5a22 100644
+--- a/src/attacks/Makefile
++++ b/src/attacks/Makefile
+@@ -1,4 +1,3 @@
+-CFLAGS		+= -g -O3 -Wall -Wextra
+ LINKFLAGS	= -lpthread $(LDFLAGS)
+ 
+ OBJS		= $(shell ls *.h | sed s/"\.h"/"\.o"/g)
