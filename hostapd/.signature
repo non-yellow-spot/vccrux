@@ -1,0 +1,14 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUjzh1jLAwjOewk2W69Q//T4uNaVDvgGs/Uh7RGK2Ea5dr9RP3xFfvPpt57cVGlaDe8JXaGNwRi3FVYO/gC0WuYQA=
+SHA256 (Pkgfile) = ab9a71ed008bad46b5457521dd6887339eef0ff6bd23743c7383bc9b41fbc9a1
+SHA256 (.footprint) = eee36820d762b26f1ad06384ae725a3ea371e74abd22f58efdec3781141d14e4
+SHA256 (hostapd-2.6.tar.gz) = 01526b90c1d23bec4b0f052039cc4456c2fd19347b4d830d1d58a0a6aea7117d
+SHA256 (hostapd.rc) = e6de25453181f4291366e7298bf0f4f8031e779273b67c8fbef0b1a7997343db
+SHA256 (0001-hostapd-Avoid-key-reinstallation-in-FT-handshake.patch) = 529113cc81256c6178f3c1cf25dd8d3f33e6d770e4a180bd31c6ab7e4917f40b
+SHA256 (0002-Prevent-reinstallation-of-an-already-in-use-group-ke.patch) = d86d47ab74170f3648b45b91bce780949ca92b09ab43df065178850ec0c335d7
+SHA256 (0003-Extend-protection-of-GTK-IGTK-reinstallation-of-WNM-.patch) = d4535e36739a0cc7f3585e6bcba3c0bb8fc67cb3e729844e448c5dc751f47e81
+SHA256 (0004-Prevent-installation-of-an-all-zero-TK.patch) = 793a54748161b5af430dd9de4a1988d19cb8e85ab29bc2340f886b0297cee20b
+SHA256 (0005-Fix-PTK-rekeying-to-generate-a-new-ANonce.patch) = 147c8abe07606905d16404fb2d2c8849796ca7c85ed8673c09bb50038bcdeb9e
+SHA256 (0006-TDLS-Reject-TPK-TK-reconfiguration.patch) = 596d4d3b63ea859ed7ea9791b3a21cb11b6173b04c0a14a2afa47edf1666afa6
+SHA256 (0008-FT-Do-not-allow-multiple-Reassociation-Response-fram.patch) = c8840d857b9432f3b488113c85c1ff5d4a4b8d81078b7033388dae1e990843b1
+SHA256 (hostapd-2.3-noscan.patch) = c15b4310f21b41254e4d4485bc04e36926572f213e7c4d3a17038fdff19529b5
