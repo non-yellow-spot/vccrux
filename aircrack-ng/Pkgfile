@@ -5,15 +5,20 @@
 
 name=aircrack-ng
 version=1.6
-release=1
-source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz)
+release=2
+source=(https://github.com/$name/$name/archive/$version/$name-$version.tar.gz
+	add-manufacturer-col-to-client-list.patch)
 
 build() {
 	cd $name-$version
 
-	NOCONFIGURE=1 ./autogen.sh
+	patch -p1 < $SRC/add-manufacturer-col-to-client-list.patch
 
-	./configure --prefix=/usr
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib
+
 	make
 	make DESTDIR=$PKG install
 }
