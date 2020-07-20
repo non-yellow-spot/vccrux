@@ -1,0 +1,23 @@
+# Description:  Comprehensive suite for man in the middle attacks
+# URL:          https://www.ettercap-project.org/
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   libnet libgeoip geoip-database cmake ghostscript libpcap
+
+name=ettercap
+version=0.8.3
+release=1
+source=(https://github.com/Ettercap/$name/archive/v$version/$name-v$version.tar.gz
+	cmake-harfbuzz.patch)
+
+build() {
+	patch -d$name-$version -p1 < $SRC/cmake-harfbuzz.patch
+
+	cmake -S$name-$version -Bbuild -GNinja \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
+		-DENABLE_IPV6=ON \
+		-DENABLE_GTK=ON
+
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}
