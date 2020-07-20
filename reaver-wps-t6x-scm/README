@@ -1,0 +1,7 @@
+README for reaver-wps-t6x-scm
+
+REQUIREMENTS
+
+    Runtime-dependencies:
+        - pixiewps    (optional, required for pixiedust attack)
+        - aircrack-ng (optional, though recommended)
