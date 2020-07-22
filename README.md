@@ -1,8 +1,13 @@
-# vccrux -- ports collection
--------------------------------------------------------------------------------
+<p align="center">
+ <img alt="vccrux logo" src="https://raw.githubusercontent.com/non-yellow-spot/vccrux/master/cruxsheet.jpg"/>
+ <p align="center">© http://libbythornton.blogspot.com/2009/03/crux-logo.html</p>
+</p>
 
-## Some ports for the [CRUX](http://crux.nu/).
+---
 
+#### crux ports collection
+
+Some ports for the [CRUX](http://crux.nu/).
 See git branches for more info.
 
 Download `vccrux.git` and `vccrux.pub` into `/etc/ports`.
@@ -11,7 +16,7 @@ Download `vccrux.git` and `vccrux.pub` into `/etc/ports`.
 Make sure the `git` package is installed, or you won't be able to clone the
 repository.
 
--------------------------------------------------------------------------------
+---
 
 ### LICENSE
 
