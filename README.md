@@ -5,7 +5,7 @@
 
 ---
 
-#### crux ports collection
+#### CRUX PORTS COLLECTION
 
 Some ports for the [CRUX](http://crux.nu/).
 See git branches for more info.
