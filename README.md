@@ -12,12 +12,13 @@ See git branches for more info.
 
 Download `vccrux.git` and `vccrux.pub` into `/etc/ports`.
 
-`Note`:
+#### NOTE
+
 Make sure the `git` package is installed, or you won't be able to clone the
 repository.
 
 ---
 
-### LICENSE
+#### LICENSE
 
 [WTFPL](http://www.wtfpl.net/txt/copying/)
