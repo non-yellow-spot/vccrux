@@ -1,0 +1,17 @@
+# Description:  High-speed network authentication cracking tool
+# URL:          https://nmap.org/ncrack/
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+
+name=ncrack
+version=0.7
+release=1
+source=(https://github.com/nmap/ncrack/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+}
