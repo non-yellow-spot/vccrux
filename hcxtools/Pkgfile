@@ -3,7 +3,7 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=hcxtools
-version=6.0.2
+version=6.0.3
 release=1
 source=(https://github.com/ZerBea/$name/archive/$version/$name-$version.tar.gz)
 
@@ -11,5 +11,5 @@ build() {
 	cd $name-$version
 
 	make
-	make INSTALLDIR=$PKG/usr/bin install
+	make PREFIX=/usr DESTDIR=$PKG install
 }
