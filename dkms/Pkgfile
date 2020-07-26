@@ -1,0 +1,21 @@
+# Description:  Dynamic Kernel Modules System
+# URL:          https://github.com/dell/dkms
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+
+name=dkms
+version=2.8.2
+release=1
+source=(https://github.com/dell/$name/archive/v$version/$name-$version.tar.gz
+	dkms-remove)
+
+build() {
+	cd $name-$version
+
+	make install \
+		DESTDIR=$PKG \
+		SBIN=$PKG/usr/sbin \
+		BASHDIR=$PKG/usr/share/bash-completion/completions \
+		KCONF=$SRC/kconf
+
+	install -m755 $SRC/dkms-remove $PKG/usr/sbin/dkms-remove
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUjzbDSF3bSFE1vDgI/vWoYOWP05r5VO4d1fXMGkWFUmsddKEZMCh7S6YG4MHAIPW/oSMQVzw5dbXSHyQIA7Tqpgs=
+SHA256 (Pkgfile) = 6d72d1ba9a35a70b44ba59904d7718276ed08df01255d854574a629cadb081fd
+SHA256 (dkms-2.8.2.tar.gz) = 0259375991acd0c5a844f43bd62cd29989a79bce9ab81bc91cac2cb3a3308c4c
+SHA256 (dkms-remove) = 751f7b8baabc214bc340f5149fb1b7f2317ee7b2f36e783969124584db297857
