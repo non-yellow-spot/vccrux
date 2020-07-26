@@ -1,0 +1,42 @@
+# Description:  Configuration tools for Linux networking
+# URL:          https://github.com/ecki/net-tools
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   git
+
+name=net-tools-scm
+version=$(date +%Y%m%d)
+release=1
+
+download_git() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
+
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+}
+
+build() {
+	download_git https://github.com/ecki/${name/-scm} master
+	cd $name
+
+	yes "" | make -j1
+	make \
+		HAVE_ARP_TOOLS=0 \
+		HAVE_HOSTNAME_TOOLS=0 \
+		HAVE_IP_TOOLS=0 \
+		HAVE_MII=0 \
+		HAVE_PLIP_TOOLS=0 \
+		HAVE_SERIAL_TOOLS=0 \
+		DESTDIR=$PKG BINDIR=/usr/bin SBINDIR=/usr/sbin update
+
+	# provided by inetutils
+	rm -f "$PKG"/usr/bin/ifconfig
+	rm -f "$PKG"/usr/share/man/man8/ifconfig*
+
+	# unused
+	rm -rf "$PKG"/usr/share/man/man1
+}
