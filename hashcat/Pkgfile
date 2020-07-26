@@ -1,0 +1,20 @@
+# Description:  Password cracker for GPU
+# URL:          https://hashcat.net/
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+
+name=hashcat
+version=6.0.0
+release=1
+source=(https://github.com/$name/$name/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	export PREFIX="/usr"
+	PATH="/usr/lib/ccache/:/bin:/sbin:/usr/bin:/usr/sbin"
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf ${PKG}/usr/share/doc
+}
