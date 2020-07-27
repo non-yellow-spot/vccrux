@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj0FEMilU8yTp/kJoP2WzA3yjEV0WhGNRZ8SGngF7TFtj4p7WiIj2SV5E8Dnj9bUQFm7tBH0zxLf0sMtA3FuPaQE=
-SHA256 (Pkgfile) = 48a04b27637da01d89516f5dc37c3a33d467db03314ea07adfffbd2e038621d7
+RWT2I5SomoNUj9pXqdcueVxdbya+18Ltiiet/LT445uMUIc9kkjHVDFVQwEzSvUeCj3ROzJHJSEhO6QKDoFZQyF8nwOKAS75RQs=
+SHA256 (Pkgfile) = c48918b478e65fb2eadc6bc78a7d2c89fe371d4d0fa0a6ebbd18197462b1d8db
+SHA256 (.footprint) = 9c1cca27c205e6891977176f65cc1c945b5d5996747dede55524fa5b089cbced
 SHA256 (Oracle_VM_VirtualBox_Extension_Pack-6.1.12-139181.vbox-extpack) = 8c43fc6ab19fc83ed3c73c6e62f7f02886503cc800d27198e8bee89586b18eda
