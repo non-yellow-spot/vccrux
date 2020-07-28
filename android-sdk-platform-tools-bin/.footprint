@@ -32,7 +32,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/bin
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/bin/update_chrome_reference_binaries
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/eslint/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/eslint/LICENSE
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/eslint/README.md
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/eslint/bin/
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/eslint/bin/run_eslint
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/eslint/bin/run_tests
@@ -49,7 +48,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/lab
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/lab/keychain_unlock.sh
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/README.md
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/__init__.py
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/minify
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/minifyjs
@@ -58,7 +56,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/nod
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/package-lock.json
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/package.json
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/README.txt
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/bin/
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/bin/run_tests
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/
@@ -83,7 +80,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/py_trace_event/trace_time_unittest.py
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/third_party/
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/third_party/protobuf/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/third_party/protobuf/README.chromium
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/third_party/protobuf/encoder.py
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/third_party/protobuf/wire_format.py
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_utils/
@@ -153,7 +149,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_utils/py_utils/test_data/foo.txt
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_utils/py_utils/xvfb.py
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/README.chromium
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/bin/
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/bin/run_py_tests
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/py_vulcanize/
@@ -184,8 +179,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/LICENSE
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/MANIFEST
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/PKG-INFO
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/README.chromium
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/README.rst
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/LICENSE.cssmin
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/bench/__init__.py
@@ -333,7 +326,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_08.css
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/main/url_09.css
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/README
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/background-position.css
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/background-position.css.min
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/border-none.css
@@ -523,8 +515,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/LICENSE
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/MANIFEST
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/PKG-INFO
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/README.chromium
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/README.rst
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/DateTimeShortcuts.js
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/bench/__init__.py
@@ -588,7 +578,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/dependency
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/BUILD.gn
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/PRESUBMIT.py
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/README.md
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/bin/
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/bin/generate_md_docs
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/bin/run_py_devicetests
@@ -746,9 +735,7 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/docs
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/devil/pylintrc
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/PRESUBMIT.py
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/README.md
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/atrace_helper/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/atrace_helper/README.md
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/atrace_helper/jni/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/atrace_helper/jni/Application.mk
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/atrace_helper/jni/atrace_process_dump.cc
@@ -789,16 +776,12 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/p
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/profiler_unittest.py
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/run_tests
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/COPYING
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/README.chromium
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/perf_to_tracing.py
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/ui.py
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/util.py
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/pylintrc
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/AUTHORS
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/LICENSE
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/README.md
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/__init__.py
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/decorators.py
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/monitor_unittest.py
@@ -841,7 +824,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/systrace/s
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/LICENSE.txt
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/README.chromium
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/linux-product_info.patch
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/serial/
 -rwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/serial/__init__.py
@@ -869,7 +851,6 @@ drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_part
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/serial/win32.py
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/zipfile/
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/zipfile/LICENSE
--rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/zipfile/README.chromium
 -rw-rw-r--	root/root	opt/android-sdk/platform-tools/systrace/catapult/third_party/zipfile/zipfile_2_7_13.py
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/tracing/
 drwxrwxr-x	root/root	opt/android-sdk/platform-tools/systrace/catapult/tracing/tracing/
