@@ -4,7 +4,7 @@
 
 name=android-sdk-platform-tools-bin
 version=29.0.6
-release=2
+release=3
 _sdk=android-sdk
 _tools="opt/${_sdk}/tools"
 _ptools="opt/${_sdk}/platform-tools"
@@ -18,24 +18,13 @@ build() {
 	cp -a $SRC/platform-tools $PKG/opt/$_sdk/platform-tools
 	chmod +Xr -R $PKG/opt/$_sdk/platform-tools
 
-	# remove junk files
-        rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/eslint/README.md
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/node_runner/node_runner/README.md
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/README.txt
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_trace_event/third_party/protobuf/README.chromium
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/README.chromium
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/README.chromium
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/README.rst
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rcssmin/tests/yui/README
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/README.chromium
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/common/py_vulcanize/third_party/rjsmin/README.rst
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/devil/README.md
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/systrace/README.md
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/systrace/atrace_helper/README.md
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/COPYING
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/systrace/profile_chrome/third_party/README.chromium
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/AUTHORS
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/systrace/systrace/README.md
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/third_party/pyserial/README.chromium
-	rm $PKG/opt/android-sdk/platform-tools/systrace/catapult/third_party/zipfile/README.chromium
+	# find and remove junk files
+	find $PKG/opt/$_sdk                 \
+	                    -name "README*" \
+	                 -o -name COPYING   \
+	                 -o -name AUTHORS   \
+	| xargs rm -f
+
+	# find and delete empty directories
+	find $PKG/opt/$_sdk -depth -type d -empty -delete
 }
