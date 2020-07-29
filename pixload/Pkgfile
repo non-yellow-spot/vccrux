@@ -1,0 +1,19 @@
+# Description: Creating/injecting payload into images
+# URL:         https://github.com/chinarulezzz/pixload
+# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:  p5-gd p5-exiftool p5-string-crc32
+
+name=pixload
+version=0.1
+release=1
+source=(https://github.com/chinarulezzz/pixload/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	install -Dm755 bmp.pl  $PKG/opt/bin/pixload-bmp
+	install -Dm755 gif.pl  $PKG/opt/bin/pixload-gif
+	install -Dm755 jpg.pl  $PKG/opt/bin/pixload-jpg
+	install -Dm755 png.pl  $PKG/opt/bin/pixload-png
+	install -Dm755 webp.pl $PKG/opt/bin/pixload-webp
+}
