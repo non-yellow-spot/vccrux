@@ -18,4 +18,7 @@ build() {
 
 	# Create an indirect launcher in /opt/bin
 	install -Dm755 $SRC/sslyze $PKG/opt/bin/sslyze
+
+	# Remove junk files
+	rm -rf $PKG/opt/sslyze/*.dist-info
 }

@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+j/3zrZNORn6Lm6tZruQl6Ei9UUg/AL/7NN0xi2VhF15sFOU9HLpQaIQrp2yUcW1Z2dOQnYhP1lKX3Nh9LaNwI=
-SHA256 (Pkgfile) = 506cfc2e2849b1868dcfa698ba3dc223f3d12f8455b15761a74f12da0af3d5bd
-SHA256 (.footprint) = 207f1e198ace6c48308fce801a6ff0f6a435366aaec84c176f3e10fc05d4718b
+RWT2I5SomoNUj6sx77nBw46a5UTyhgMxWClUvEkfYcLcXWpx2qxnTkT+DB18sePqXFGTl+OyxHE3khofYFouzX3bPjPtnZNB4wE=
+SHA256 (Pkgfile) = 4c707011315bca1dc2fabaf70879adfa765b740dab0d1a51df4acb4b67b9edc3
+SHA256 (.footprint) = b232807df7c0162e1b04c898a82b45997fa8e765e33f65b9734c65ee4f155e2e
 SHA256 (sslyze-3.0.8.tar.gz) = 9a4d2354a0db53a70a4329e63af9ecc4639c74f9048811c2a3f03a41695c3cbe
 SHA256 (sslyze) = 73d68a36e1cb24239dd7cd59868162a0a2947b0ad2a0a1de76d94ef494490a32
