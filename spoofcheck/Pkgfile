@@ -1,0 +1,30 @@
+# Description: Check if a domain can be spoofed from
+# URL:         https://github.com/chinarulezzz/spoofcheck
+# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:  python3 python3-pip
+
+name=spoofcheck
+version=0.1
+release=1
+source=(https://github.com/chinarulezzz/spoofcheck/archive/$version/$name-$version.tar.gz
+	spoofcheck)
+
+build() {
+	cd $name-$version
+
+	# Install files in /opt
+	install -dm755 $PKG/opt/$name
+
+	# Install requirements
+	/usr/bin/pip3 install -r requirements.txt --target $PKG/opt/$name/
+
+	# Install sources
+	install -m644 spoofcheck.py -t $PKG/opt/$name
+	cp -r libs $PKG/opt/$name
+
+	# Create an indirect launcher in /opt/bin
+	install -Dm755 $SRC/$name $PKG/opt/bin/$name
+
+	# Remove junk files
+	rm -rf $PKG/opt/$name/*.dist-info
+}
