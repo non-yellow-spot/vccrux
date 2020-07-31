@@ -1,10 +1,10 @@
 # Description:  PDF support for zathura using poppler rendering library
 # URL:          https://pwmt.org/projects/zathura-pdf-poppler
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:   poppler-glib zathura
 
 name=zathura-pdf-poppler
-version=0.2.9
+version=0.3.0
 release=1
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 

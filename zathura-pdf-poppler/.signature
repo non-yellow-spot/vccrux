@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjxSdE9wmXJ/s2a6zuAz2rKPB3ox1yMpO0sKEM9Frb7xElQQZaNXpynU3MSmQ2ZesjjoowlVYKhA2n72xKoIE+AE=
-SHA256 (Pkgfile) = 48b5a9868ee5c6aa1af4957c21d7124256842cd4c235d186d67db74857598745
+RWT2I5SomoNUj3prO61VJQp0w1yxXeZQjcQXkLA+PZDRTLb/NRG9uam6pP2A4+d4YMhSqP+qlSZl6WBCKn3UDSrh9Xw7Qym69AM=
+SHA256 (Pkgfile) = 208a7b5c7495e57fa60db4ece517dfad987db10549d9b523eeedef34376af961
 SHA256 (.footprint) = 3fc833d7743a07d724b190b1273c2f4446bbb2c81718a10a4c112f1b7ea91e4f
-SHA256 (zathura-pdf-poppler-0.2.9.tar.xz) = be0806116ea6e6c95495f5e244e0d70d2551a9058e5574b47d3e5a09bc6592dc
+SHA256 (zathura-pdf-poppler-0.3.0.tar.xz) = d5cc3a7dae49471b85b503bbb9049c6f8d10903f4a611d721a2e0fefe726d4ed
