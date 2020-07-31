@@ -1,10 +1,10 @@
-# Description:  A tool for reverse engineering Android apk files
+# Description:  Reverse engineering Android apk files
 # URL:          https://ibotpeaches.github.io/Apktool
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:   jdk
 
 name=apktool-bin
-version=2.4.0
+version=2.4.1
 release=1
 source=(https://github.com/iBotPeaches/Apktool/releases/download/v$version/apktool_$version.jar
 	apktool.sh)
