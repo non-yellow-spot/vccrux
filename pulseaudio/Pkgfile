@@ -1,10 +1,10 @@
-# Description:  A sound system for POSIX OSes
+# Description:  Sound system for POSIX OSes
 # URL:          http://www.freedesktop.org/wiki/Software/PulseAudio/
-# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:   dbus glib xorg-libsm xorg-libxtst libsndfile intltool consolekit sbc bluez
 
 name=pulseaudio
-version=13.0
+version=13.99.1
 release=1
 source=(https://freedesktop.org/software/$name/releases/$name-$version.tar.xz) 
 
@@ -22,7 +22,8 @@ build() {
 		--disable-tcpwrap \
 		--disable-hal-compat \
 		--disable-openssl
-	make
+
+	make V=1
 	make -j1 DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/locale
