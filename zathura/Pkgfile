@@ -1,11 +1,11 @@
 # Description:  Highly customizable and functional document viewer
 # URL:          https://pwmt.org/projects/zathura
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:   girara python-sphinx sqlite3
 # Optional:     texlive
 
 name=zathura
-version=0.4.5
+version=0.4.6
 release=1
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
