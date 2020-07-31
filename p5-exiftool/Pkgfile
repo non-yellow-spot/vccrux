@@ -3,8 +3,8 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=p5-exiftool
-version=11.70
-release=2
+version=12.00
+release=1
 source=(https://cpan.metacpan.org/authors/id/E/EX/EXIFTOOL/Image-ExifTool-$version.tar.gz)
 
 build() {
@@ -15,6 +15,7 @@ build() {
 	make OPTIMIZE="$CFLAGS"
 	make install DESTDIR=$PKG
 
+	# remove junk
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
@@ -22,5 +23,6 @@ build() {
 		-o -name README         \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }

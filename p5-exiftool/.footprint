@@ -36,6 +36,7 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/Arabic.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/Baltic.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/Cyrillic.pm
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/DOSCyrillic.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/DOSLatin1.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/DOSLatinUS.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Charset/Greek.pm
@@ -169,6 +170,7 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Lang/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Palm.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Panasonic.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/PanasonicRaw.pm
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Parrot.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Pentax.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/PhaseOne.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/PhotoCD.pm
@@ -201,6 +203,7 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Lang/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/TagInfoXML.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/TagLookup.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/TagNames.pod
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Text.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Theora.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Torrent.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Image/ExifTool/Unknown.pm
@@ -353,6 +356,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Palm.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Panasonic.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::PanasonicRaw.3pm.gz
+-r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Parrot.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Pentax.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::PhaseOne.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::PhotoCD.3pm.gz
@@ -385,6 +389,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::TagInfoXML.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::TagLookup.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::TagNames.3pm.gz
+-r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Text.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Theora.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Torrent.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Image::ExifTool::Unknown.3pm.gz
