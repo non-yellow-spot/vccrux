@@ -1,9 +1,9 @@
 # Description:  Library implementation of the Media Transfer Protocol (MTP)
 # URL:          http://sourceforge.net/projects/libmtp/
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=libmtp
-version=1.1.16
+version=1.1.17
 release=1
 source=(http://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
 
