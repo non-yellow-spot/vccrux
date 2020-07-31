@@ -1,14 +1,14 @@
 # Description:  Platform-Tools for Google Android SDK (adb, fastboot and systrace)
 # URL:          http://developer.android.com/sdk/index.html
-# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=android-sdk-platform-tools-bin
-version=29.0.6
-release=3
+version=30.0.3
+release=1
 _sdk=android-sdk
 _tools="opt/${_sdk}/tools"
 _ptools="opt/${_sdk}/platform-tools"
-source=(https://dl.google.com/android/repository/platform-tools_r${version}-linux.zip
+source=(http://dl-ssl.google.com/android/repository/platform-tools_r$version-linux.zip
 	adb.rc)
 
 build() {
@@ -19,10 +19,9 @@ build() {
 	chmod +Xr -R $PKG/opt/$_sdk/platform-tools
 
 	# find and remove junk files
-	find $PKG/opt/$_sdk                 \
-	                    -name "README*" \
-	                 -o -name COPYING   \
-	                 -o -name AUTHORS   \
+	find $PKG  -name "README*" \
+		-o -name COPYING   \
+		-o -name AUTHORS   \
 	| xargs rm -f
 
 	# find and delete empty directories
