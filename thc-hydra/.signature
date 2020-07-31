@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj5EYSCYM2/suIOlDFyP04/i+yKAfJZuBxgThKI/G6TSML2nddVpJMHoZbSe1gfKIiY89+yP04phDi7g+riBEBAI=
-SHA256 (Pkgfile) = ed4408b4a43af151e81832e62ef05e46bff08be52b5807668acc08b0f933e3cf
+RWT2I5SomoNUj/oAixtc+J0w4j4fMPEhuqwmNtv0AS70STvm7+J13qlVTzutL0EhOiSb6Knsj2c4RTBfMf3xLCbfuR6df7ykygg=
+SHA256 (Pkgfile) = 6d564e3a3913b622920e7fedcf0218155167d46b8a082f32746f4d853241632b
 SHA256 (.footprint) = 2a5b8ba7ba68dcd24eb47d41413bb6b6d727732b78577fd7438e246c41b3b49e
-SHA256 (thc-hydra-v9.0.tar.gz) = 56672e253c128abaa6fb19e77f6f59ba6a93762a9ba435505a009ef6d58e8d0e
+SHA256 (thc-hydra-v9.1.tar.gz) = ce08a5148c0ae5ff4b0a4af2f7f15c5946bc939a57eae1bbb6dda19f34410273
