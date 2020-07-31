@@ -1,12 +1,12 @@
 # Description: Fast network logon cracker
 # URL:         https://github.com/vanhauser-thc/thc-hydra
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:  mysql libssh libidn libssh gtk
-# Optional:    mysql libssh libidn libssh gtk
+# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:  mysql postgresql freerdp2 libssh subversion libgcrypt libidn libssh gtk
+# Optional:    mysql postgresql freerdp2 libssh subversion libgcrypt libidn libssh gtk
 
 name=thc-hydra-scm
-version=git
-release=$(date +%Y%m%d)
+version=$(date +%Y%m%d)
+release=1
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
@@ -25,6 +25,8 @@ build() {
 	cd $name
 
 	sed -i 's/dummy_ssh/dummy_sshkey/' hydra-sshkey.c
+	sed -i 's/OPTS=-I. -O3 $(CFLAGS) -fcommon/OPTS=-I. $(CFLAGS) -fcommon/' \
+                Makefile.am
 
 	./configure --prefix=$PKG/usr
 
