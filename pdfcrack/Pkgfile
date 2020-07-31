@@ -1,9 +1,9 @@
-# Description:  A tool for recovering passwords and content from PDF-files
+# Description:  Recovering passwords and content from PDF-files
 # URL:          http://pdfcrack.sourceforge.net/
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=pdfcrack
-version=0.18
+version=0.19
 release=1
 source=(https://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 
