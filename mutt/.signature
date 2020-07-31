@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzH1vJCK3CYU6vlwsWSZIP4lFBC23SSHjK5nch6IXNdA6N61QKFKzR9cRkWIbgA3fG+FJpCcCKsjJ851DZ/WSwk=
-SHA256 (Pkgfile) = dabd7248f5fe89f8cf95541cfc496f706b098eda59af89cd3f6119126157bc16
+RWT2I5SomoNUj5kLHjsoqza5AOf4yT7nXS0De3GbMsQIciJMlAHewhrLYZmWv1cNSSknwszifKR1RyieDpLdw8Xc/K1feEiueQA=
+SHA256 (Pkgfile) = 9b217511652712b2bb62a77d1220e03eef5d01733e1d9ceba8f684b9808f4f3c
 SHA256 (.footprint) = 2daff1a356ce136bce46acf163b36cd0f6ed2118d822c4a35df5b941d63ef505
-SHA256 (mutt-1.13.4.tar.gz) = b57d3f1040d8018114cf1033dab229f36e4becbcdf59c2edeb294fc044ffcd04
+SHA256 (mutt-1.14.6.tar.gz) = 47972a0152b81b9f67ff322a0a6682b914c15545bfdeac6bcc2f2c0bf9361844
