@@ -1,9 +1,9 @@
 # Description:  Build and install Perl modules
 # URL:          https://metacpan.org/release/Module-Build
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=p5-module-build
-version=0.4229
+version=0.4231
 release=1
 source=(https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-$version.tar.gz)
 
