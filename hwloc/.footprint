@@ -1,3 +1,6 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/bash_completion.d/
+-rw-r--r--	root/root	etc/bash_completion.d/hwloc-completion.bash
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/hwloc-annotate
@@ -33,7 +36,6 @@ drwxr-xr-x	root/root	usr/include/hwloc/autogen/
 -rw-r--r--	root/root	usr/include/hwloc/glibc-sched.h
 -rw-r--r--	root/root	usr/include/hwloc/helper.h
 -rw-r--r--	root/root	usr/include/hwloc/inlines.h
--rw-r--r--	root/root	usr/include/hwloc/intel-mic.h
 -rw-r--r--	root/root	usr/include/hwloc/linux-libnuma.h
 -rw-r--r--	root/root	usr/include/hwloc/linux.h
 -rw-r--r--	root/root	usr/include/hwloc/nvml.h
@@ -44,9 +46,9 @@ drwxr-xr-x	root/root	usr/include/hwloc/autogen/
 -rw-r--r--	root/root	usr/include/hwloc/shmem.h
 drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libhwloc.la
-lrwxrwxrwx	root/root	usr/lib/libhwloc.so -> libhwloc.so.15.0.3
-lrwxrwxrwx	root/root	usr/lib/libhwloc.so.15 -> libhwloc.so.15.0.3
--rwxr-xr-x	root/root	usr/lib/libhwloc.so.15.0.3
+lrwxrwxrwx	root/root	usr/lib/libhwloc.so -> libhwloc.so.15.2.0
+lrwxrwxrwx	root/root	usr/lib/libhwloc.so.15 -> libhwloc.so.15.2.0
+-rwxr-xr-x	root/root	usr/lib/libhwloc.so.15.2.0
 -rwxr-xr-x	root/root	usr/lib/libnetloc.la
 lrwxrwxrwx	root/root	usr/lib/libnetloc.so -> libnetloc.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libnetloc.so.0 -> libnetloc.so.0.0.0
@@ -59,7 +61,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/lstopo.desktop
 drwxr-xr-x	root/root	usr/share/hwloc/
--rw-r--r--	root/root	usr/share/hwloc/hwloc-dump-hwdata.service
 -rw-r--r--	root/root	usr/share/hwloc/hwloc-valgrind.supp
 -rw-r--r--	root/root	usr/share/hwloc/hwloc.dtd
 -rw-r--r--	root/root	usr/share/hwloc/hwloc2-diff.dtd
@@ -86,6 +87,9 @@ lrwxrwxrwx	root/root	usr/share/man/man1/hwloc-ls.1.gz -> lstopo-no-graphics.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/lstopo-no-graphics.1.gz
 lrwxrwxrwx	root/root	usr/share/man/man1/lstopo.1.gz -> lstopo-no-graphics.1.gz
 drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_ALLOW_FLAG_ALL.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_ALLOW_FLAG_CUSTOM.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_ALLOW_FLAG_LOCAL_RESTRICTIONS.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_API_VERSION.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_CPUBIND_NOMEMBIND.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_CPUBIND_PROCESS.3.gz
@@ -141,16 +145,19 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_OBJ_PU.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_RESTRICT_FLAG_ADAPT_IO.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_RESTRICT_FLAG_ADAPT_MISC.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_RESTRICT_FLAG_BYNODESET.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_RESTRICT_FLAG_REMOVE_CPULESS.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_RESTRICT_FLAG_REMOVE_MEMLESS.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_COMPONENTS_FLAG_BLACKLIST.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_DIFF_APPLY_REVERSE.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_DIFF_OBJ_ATTR.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_DIFF_OBJ_ATTR_INFO.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_DIFF_OBJ_ATTR_NAME.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_DIFF_OBJ_ATTR_SIZE.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_DIFF_TOO_COMPLEX.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_FLAG_INCLUDE_DISALLOWED.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_FLAG_IS_THISSYSTEM.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_FLAG_THISSYSTEM_ALLOWED_RESOURCES.3.gz
--rw-r--r--	root/root	usr/share/man/man3/HWLOC_TOPOLOGY_FLAG_WHOLE_SYSTEM.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TYPE_DEPTH_BRIDGE.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TYPE_DEPTH_MULTIPLE.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/HWLOC_TYPE_DEPTH_OS_DEVICE.3.gz
@@ -164,6 +171,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_alloc.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_alloc_membind.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_alloc_membind_policy.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_allow_flags_e.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_allbut.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_alloc.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_alloc_full.3.gz
@@ -183,6 +191,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_free.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_from_ith_ulong.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_from_ulong.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_from_ulongs.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_intersects.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_isequal.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_isfull.3.gz
@@ -195,12 +204,14 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_list_sscanf.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_next.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_not.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_nr_ulongs.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_only.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_or.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_set.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_set_ith_ulong.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_set_range.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_singlify.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_singlify_per_core.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_snprintf.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_sscanf.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_t.3.gz
@@ -209,12 +220,12 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_taskset_sscanf.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_to_ith_ulong.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_to_ulong.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_to_ulongs.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_weight.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_xor.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bitmap_zero.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_bridge_covers_pcibus.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_compare_types.3.gz
--rw-r--r--	root/root	usr/share/man/man3/hwloc_compare_types_e.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_const_bitmap_t.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_const_cpuset_t.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_const_nodeset_t.3.gz
@@ -241,11 +252,14 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_add_flag_e.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_get.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_get_by_depth.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_get_by_name.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_get_by_type.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_get_name.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_kind_e.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_obj_index.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_obj_pair_values.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_release.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_release_remove.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_remove.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_remove_by_depth.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_distances_remove_by_type.3.gz
@@ -316,8 +330,6 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_ibv_get_device_osdev.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_ibv_get_device_osdev_by_name.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_info_s.3.gz
--rw-r--r--	root/root	usr/share/man/man3/hwloc_intel_mic_get_device_cpuset.3.gz
--rw-r--r--	root/root	usr/share/man/man3/hwloc_intel_mic_get_device_osdev_by_index.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_linux_get_tid_cpubind.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_linux_get_tid_last_cpu_location.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_linux_read_path_as_cpumask.3.gz
@@ -365,6 +377,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_opencl_get_device_cpuset.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_opencl_get_device_osdev.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_opencl_get_device_osdev_by_index.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_opencl_get_device_pci_busid.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_restrict_flags_e.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_set_area_membind.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_set_cpubind.3.gz
@@ -377,7 +390,9 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_shmem_topology_write.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_abi_check.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_alloc_group_object.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_allow.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_check.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_components_flag_e.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_cpubind_support.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_destroy.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_diff_apply.3.gz
@@ -417,6 +432,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_restrict.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_set_all_types_filter.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_set_cache_types_filter.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_set_components.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_set_flags.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_set_icache_types_filter.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwloc_topology_set_io_types_filter.3.gz
@@ -457,7 +473,6 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -rw-r--r--	root/root	usr/share/man/man3/hwlocality_helper_topology_sets.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwlocality_helper_types.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwlocality_info_attr.3.gz
--rw-r--r--	root/root	usr/share/man/man3/hwlocality_intel_mic.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwlocality_levels.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwlocality_linux.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/hwlocality_linux_libnuma_bitmask.3.gz

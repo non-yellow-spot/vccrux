@@ -1,9 +1,9 @@
 # Description: The Portable Hardware Locality 
 # URL:         http://www.multiprecision.org/
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
 
 name=hwloc
-version=2.0.4
+version=2.2.0
 release=1
 source=(https://download.open-mpi.org/release/$name/v${version%.*}/$name-$version.tar.gz)
 
@@ -12,9 +12,14 @@ build() {
 
 	./configure \
 		--prefix=/usr \
+		--sysconfdir=/etc \
 		--enable-netloc
-	make
+	make V=1
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/hwloc/hwloc-ps.www
+
+	# remove unused systemd service file
+	rm -f  $PKG/usr/share/hwloc/hwloc-dump-hwdata.service
 }

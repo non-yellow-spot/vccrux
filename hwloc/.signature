@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj/DV/KOSqr0zQvdAdlhqQRPI3UD8OvJMh3UcjFljou38vadBDHMFpn8bQ2WwMAlsCVSNX8ZwHihyQHMSAeMyZgk=
-SHA256 (Pkgfile) = be3abd9aadc0592db16aae9c3f9d72f026e2af03b6817f9be9a042997d82fa6f
-SHA256 (.footprint) = dfa0289f4fab0d1be7acc5dbddcbedd0510322d825c922035f483be09467424c
-SHA256 (hwloc-2.0.4.tar.gz) = efadca880f5a59c6d5d6f7bc354546aa6f780d77cc2e139634c3de9564e7ce1f
+RWT2I5SomoNUj+giJaCDt1yyw09Bb7ZG8ZRlAyjS+49Kq06/xiJ63w3iiOAszT47YrDZJD+mMu7osKkrXbTNImdbs9U6qKqlPg8=
+SHA256 (Pkgfile) = 87d0878cf8f6c0e2a05b88af9cc3d4207b8c1cc7ba29daea098efc907fe703bc
+SHA256 (.footprint) = a92cfb4761e517cf54f563388a435b5e070e31dd3cc0a6e4c54a9a7a77db1c24
+SHA256 (hwloc-2.2.0.tar.gz) = 2defba03ddd91761b858cbbdc2e3a6e27b44e94696dbfa21380191328485a433
