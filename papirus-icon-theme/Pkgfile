@@ -4,9 +4,9 @@
 # Depends on:   adwaita-icon-theme
 
 name=papirus-icon-theme
-version=20191201
+version=20200702
 release=1
-source=(https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/archive/$version/$name-$version.tar.gz)
+source=(https://github.com/PapirusDevelopmentTeam/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
