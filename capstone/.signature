@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj6Yvg1l2Oxg+EOm2MY1eelrwthtk3YKg+gpVOj3r3YP5TkUgPtDjEJx2DI3qCBb9r/utN7xAOqebOPSqvXAIvwo=
+SHA256 (Pkgfile) = 3038f0895a4096ce410768adfc4dbe58b48502daf5a0188a8d9e8738d3c81e2e
+SHA256 (.footprint) = 1c785ca4018560c96290e6530e3ec3b5a826aed9e4ed74afd822c2b32fb405b4
+SHA256 (capstone-4.0.2.tar.gz) = 7c81d798022f81e7507f1a60d6817f63aa76e489aa4e7055255f21a22f5e526a
