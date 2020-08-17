@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj4PCTS0GXgL+MKVIBOWQ/2HRWGnb/8jVzaR9Kl9igWiT2aCBG5+bexQY9sgYltgDjAMEBjcatUUJDm5bjoc7tA4=
+SHA256 (Pkgfile) = 99b37624bf260ca95a4f95879eb75c3ca346a6f3b55a9a6db1d6fc695d75f726
+SHA256 (.footprint) = 54ddb5b7e4049418dcd6c1ca674945c6abc793f65644c602860122d2d377b361
+SHA256 (grub-2.04.tar.xz) = e5292496995ad42dabe843a0192cf2a2c502e7ffcc7479398232b10a472df77d
+SHA256 (unifont-9.0.06.pcf.gz) = 6d23e82ea3fd3d79849d675c0c30129b62a3973a83b4cdc05f9994efef773b86
+SHA256 (grub2-00_header.diff) = e4b30c60aa0fa37d48cad2c4e5a53278f1cd5f4ae2df075f55f7be5fa931f8a7
+SHA256 (grub2-10_linux.diff) = 5621b312a199647909a09e94e710bb4fca1a2be687d61e2ce7a3cf529f09d1ef
+SHA256 (grub.cfg.sample) = c2e72228c1dd150f727e8d611d6f14956080ce078651b03eb14fcf65b0917dda
