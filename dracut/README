@@ -28,13 +28,19 @@ REQUIREMENTS
        
 POST-INSTALL
 
-    Install grub2 into the ESP (if it's not already installed):
+    1. Install grub2 into the ESP (if it's not already installed):
 
         grub-install --efi-directory=/boot --recheck
 
-    Generate an init ramdisk:
+    2. Generate an init ramdisk:
 
         dracut -q --kver 5.2.17 /boot/initrd-5.2.17.img
+
+       or if you have a swap partition and want to use it for
+      `resume from hibernate` try this:
+
+        dracut -q --kver 5.2.17 --add-device /dev/mapper/crux-swap \
+        /boot/initrd-5.2.17.img
 
     Generate a grub2 configuration file:
 
