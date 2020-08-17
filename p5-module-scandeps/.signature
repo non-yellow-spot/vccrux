@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj3qKZKxYa1McxrPcLTastZK1hsHsR73LFKMqX6wlqZgZUu+RjMy4ueW/7rHMD9ORn6pRuLvVAi6R362Gl1RXOg4=
-SHA256 (Pkgfile) = 29b9417101c1d32d9a6db5ffcdd8dc89620caf08fe77eba01dfa2945c721ca3d
+RWT2I5SomoNUj6FhFxhbZ5S1vRjufL1wbkDwLBHLcj7z4fkfGrDJ+XyvZOlg79Wu8xL2UztoFblgC5erehCz3nklB4glNeBbxQA=
+SHA256 (Pkgfile) = ec162357e3cc6a169d3dd8cf8f8db50c5c5ddbc4fcdf7d7f746688c0e537bcca
 SHA256 (.footprint) = 08cbb3e9a9aab6e3f803e9f68a40b293cb401c45b43a005b143ffca294311c0d
-SHA256 (Module-ScanDeps-1.27.tar.gz) = ee4ce19c04485e5caf71384e599518b2cbad2f27241ab09d89e0969e524ed948
+SHA256 (Module-ScanDeps-1.29.tar.gz) = eeb0ce91353a2f6267a64af17b20d8de8f7acff62e95b608dea2480300b8884e

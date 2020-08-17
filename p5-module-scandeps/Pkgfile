@@ -1,9 +1,9 @@
 # Description:  Recursively scan Perl code for dependencies
 # URL:          https://metacpan.org/pod/Module::ScanDeps
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=p5-module-scandeps
-version=1.27
+version=1.29
 release=1
 source=(https://cpan.metacpan.org/authors/id/R/RS/RSCHUPP/Module-ScanDeps-${version}.tar.gz)
 
