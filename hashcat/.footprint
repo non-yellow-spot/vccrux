@@ -33,6 +33,8 @@ drwxr-xr-x	root/root	usr/share/hashcat/OpenCL/
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_diskcryptor_xts.h
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_ecc_secp256k1.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_ecc_secp256k1.h
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_hash_blake2b.cl
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_hash_blake2b.h
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_hash_md4.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_hash_md4.h
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/inc_hash_md5.cl
@@ -186,8 +188,11 @@ drwxr-xr-x	root/root	usr/share/hashcat/OpenCL/
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00500-optimized.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00500-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00600_a0-optimized.cl
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00600_a0-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00600_a1-optimized.cl
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00600_a1-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00600_a3-optimized.cl
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00600_a3-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00900_a0-optimized.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00900_a0-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m00900_a1-optimized.cl
@@ -977,6 +982,8 @@ drwxr-xr-x	root/root	usr/share/hashcat/OpenCL/
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m23003_a1-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m23003_a3-optimized.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/m23003_a3-pure.cl
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/m23100-pure.cl
+-rw-r--r--	root/root	usr/share/hashcat/OpenCL/m23200-pure.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/markov_be.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/markov_le.cl
 -rw-r--r--	root/root	usr/share/hashcat/OpenCL/shared.cl
@@ -1304,4 +1311,6 @@ drwxr-xr-x	root/root	usr/share/hashcat/modules/
 -rw-r--r--	root/root	usr/share/hashcat/modules/module_23001.so
 -rw-r--r--	root/root	usr/share/hashcat/modules/module_23002.so
 -rw-r--r--	root/root	usr/share/hashcat/modules/module_23003.so
+-rw-r--r--	root/root	usr/share/hashcat/modules/module_23100.so
+-rw-r--r--	root/root	usr/share/hashcat/modules/module_23200.so
 -rw-r--r--	root/root	usr/share/hashcat/modules/module_99999.so

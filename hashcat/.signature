@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj2nXEyJYrO0dDObWrjxks+Adv1OSC0S/wttqOhJFtAik1zt+sEePpGmOFxkDRYmhbTxm7yNczcnGslu0v7Kd9AQ=
-SHA256 (Pkgfile) = e153b832cc6fcac0380fa97d33e337b2b53c4796254bd2cca7360879bec8033e
-SHA256 (.footprint) = d99e837299b315ca4279a6dd6f604f461413baec497c03f93aa15cc5681a6251
-SHA256 (hashcat-6.0.0.tar.gz) = e8e70f2a5a608a4e224ccf847ad2b8e4d68286900296afe00eb514d8c9ec1285
+RWT2I5SomoNUj0NoXTzkQBiatUzsknrnglqZneNGGBOmqFmCfx8adqQMUGYEIINiH87g0JJ2/uCVPZKKhp5XTldL7kKH12XSgA4=
+SHA256 (Pkgfile) = db2274cfb6ae102601591c2171382b5168f6e8c31746d623c64936aa3f372a52
+SHA256 (.footprint) = 53577c2a344e468691e22fc45dc1e94d262598c8ea9ff789493592536fad0a17
+SHA256 (hashcat-6.1.1.tar.gz) = 39c140bbb3c0bdb1564bfa9b9a1cff49115a42f4c9c19e9b066b617aea309f80
