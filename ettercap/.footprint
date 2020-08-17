@@ -47,19 +47,16 @@ drwxr-xr-x	root/root	usr/lib/ettercap/
 -rwxr-xr-x	root/root	usr/lib/ettercap/ec_sslstrip.so
 -rwxr-xr-x	root/root	usr/lib/ettercap/ec_stp_mangler.so
 lrwxrwxrwx	root/root	usr/lib/libettercap-ui.so -> libettercap-ui.so.0
-lrwxrwxrwx	root/root	usr/lib/libettercap-ui.so.0 -> libettercap-ui.so.0.8.2
--rwxr-xr-x	root/root	usr/lib/libettercap-ui.so.0.8.2
+lrwxrwxrwx	root/root	usr/lib/libettercap-ui.so.0 -> libettercap-ui.so.0.8.3.1
+-rwxr-xr-x	root/root	usr/lib/libettercap-ui.so.0.8.3.1
 lrwxrwxrwx	root/root	usr/lib/libettercap.so -> libettercap.so.0
-lrwxrwxrwx	root/root	usr/lib/libettercap.so.0 -> libettercap.so.0.8.2
--rwxr-xr-x	root/root	usr/lib/libettercap.so.0.8.2
+lrwxrwxrwx	root/root	usr/lib/libettercap.so.0 -> libettercap.so.0.8.3.1
+-rwxr-xr-x	root/root	usr/lib/libettercap.so.0.8.3.1
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/appdata/
--rw-r--r--	root/root	usr/share/appdata/ettercap.appdata.xml
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/ettercap.desktop
 drwxr-xr-x	root/root	usr/share/ettercap/
--rw-r--r--	root/root	usr/share/ettercap/AUTHORS
--rw-r--r--	root/root	usr/share/ettercap/LICENSE
+-rw-r--r--	root/root	usr/share/ettercap/etter.dns.examples
 -rw-r--r--	root/root	usr/share/ettercap/etter.fields
 -rw-r--r--	root/root	usr/share/ettercap/etter.filter
 -rw-r--r--	root/root	usr/share/ettercap/etter.filter.examples
@@ -68,6 +65,7 @@ drwxr-xr-x	root/root	usr/share/ettercap/
 -rw-r--r--	root/root	usr/share/ettercap/etter.filter.ssh
 -rw-r--r--	root/root	usr/share/ettercap/etter.finger.mac
 -rw-r--r--	root/root	usr/share/ettercap/etter.finger.os
+-rw-r--r--	root/root	usr/share/ettercap/etter.mdns.examples
 -rw-r--r--	root/root	usr/share/ettercap/etter.mime
 -rw-r--r--	root/root	usr/share/ettercap/etter.services
 -rw-r--r--	root/root	usr/share/ettercap/etter.ssl.crt
@@ -87,6 +85,8 @@ drwxr-xr-x	root/root	usr/share/man/man8/
 -rw-r--r--	root/root	usr/share/man/man8/ettercap_plugins.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/etterfilter.8.gz
 -rw-r--r--	root/root	usr/share/man/man8/etterlog.8.gz
+drwxr-xr-x	root/root	usr/share/metainfo/
+-rw-r--r--	root/root	usr/share/metainfo/ettercap.metainfo.xml
 drwxr-xr-x	root/root	usr/share/pixmaps/
 -rw-r--r--	root/root	usr/share/pixmaps/ettercap.svg
 drwxr-xr-x	root/root	usr/share/polkit-1/

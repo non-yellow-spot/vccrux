@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7SjKJYg5SiIi9yrxAoChFR76aK8W5J3TUCkgWXgEbEvEFtdJcqKw3SEn6e3fOan28AbXOqiSkbP9e4OZ6foqQY=
-SHA256 (Pkgfile) = 6a3fdb4e9a3a94926bb33e07b6432e44ef1db5bd76659098bf9fe782e41fc456
-SHA256 (.footprint) = 84f0e656b86c7bfc4f682b899fbd5ad0a55e533bd191a9b321b26c7c71de6c04
-SHA256 (ettercap-v0.8.3.tar.gz) = d561a554562e447f4d7387a9878ba745e1aa8c4690cc4e9faaa779cfdaa61fbb
+RWT2I5SomoNUjzOLGQHPU96u/+//nSvUfP2DoFH/bzUMyeKe7fkoIHGp1aDCyqD09bZhV1NpzAVPjLKaI96/HQC7dzBe1FP9UQA=
+SHA256 (Pkgfile) = 5368c4437d19c5bf274e6cd5b7f43067a7dbfb00868f0b402a31864a8d7992a0
+SHA256 (.footprint) = 5b8ee2a92adc5eab98d500ab5fafa7ce8f9228949bee8936f7b257490d5c7358
+SHA256 (ettercap-v0.8.3.1.tar.gz) = d0c3ef88dfc284b61d3d5b64d946c1160fd04276b448519c1ae4438a9cdffaf3
 SHA256 (cmake-harfbuzz.patch) = 1ebf0fa46eaf105c3c5b1ee55090cb7723a0c949d95dec5714b742c9b96c07b3
