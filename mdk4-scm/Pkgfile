@@ -6,7 +6,6 @@
 name=mdk4-scm
 version=$(date +%Y%m%d)
 release=1
-source=(cflags_fix.patch)
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
@@ -24,9 +23,9 @@ build() {
 	download_git https://github.com/aircrack-ng/${name/-scm} master
 	cd $name
 
-	patch -p1 < $SRC/cflags_fix.patch
+	make \
+	-j1 CFLAGS="${CFLAGS} -I.. -I/usr/include/libnl3 -DCONFIG_LIBNL30 -DCONFIG_LIBNL"
 
-	make -j1 CFLAGS="${CFLAGS} -I.. -I/usr/include/libnl3 -DCONFIG_LIBNL30 -DCONFIG_LIBNL"
 	make -C src install PREFIX=$PKG/usr
 
 	install -Dm0644 man/mdk4.1 $PKG/usr/share/man/man8/mdk4.8
