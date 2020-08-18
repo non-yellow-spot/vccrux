@@ -1706,6 +1706,7 @@ drwxr-xr-x	root/root	opt/routersploit/bcrypt/__pycache__/
 -rw-r--r--	root/root	opt/routersploit/bcrypt/__pycache__/__about__.cpython-37.pyc
 -rw-r--r--	root/root	opt/routersploit/bcrypt/__pycache__/__init__.cpython-37.pyc
 -rwxr-xr-x	root/root	opt/routersploit/bcrypt/_bcrypt.abi3.so
+-rw-r--r--	root/root	opt/routersploit/bcrypt/py.typed (EMPTY)
 drwxr-xr-x	root/root	opt/routersploit/bin/
 drwxr-xr-x	root/root	opt/routersploit/bin/__pycache__/
 -rw-r--r--	root/root	opt/routersploit/bin/__pycache__/mibcopy.cpython-37.pyc
