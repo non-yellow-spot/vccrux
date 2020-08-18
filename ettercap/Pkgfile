@@ -5,9 +5,8 @@
 
 name=ettercap
 version=0.8.3.1
-release=1
-source=(https://github.com/Ettercap/$name/archive/v$version/$name-v$version.tar.gz
-	cmake-harfbuzz.patch)
+release=2
+source=(https://github.com/Ettercap/$name/archive/v$version/$name-v$version.tar.gz)
 
 build() {
 	cmake -S$name-$version -Bbuild -GNinja \
