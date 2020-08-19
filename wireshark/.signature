@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj8DBn9hqmzrHBvco6deYKLSwn/nFbBxtoXDOw7v77qWvBdaS7GvMFYLIQhP//A/Settkfl/qyi2yeZt5z+ch0QI=
-SHA256 (Pkgfile) = bd2e65b19696cec317a090881859ee96c829f56fa0dfab8916ab79125acf79d7
-SHA256 (.footprint) = 5f6933f223ddc27b9489715e6fb720e0b8c38fe25067def475c5c992e20e0d3a
-SHA256 (wireshark-3.2.5.tar.xz) = bd89052a5766cce08b1090df49628567e48cdd24bbaa47667c851bac6aaac940
+RWT2I5SomoNUjzB2IPN3Q3ybth2vVMoelDXDoYft0cCHH9QJ6CLGoCCsWhkDAiQadr1X9IlkWpZTV0ymVlSF92ya5JFkeS0wDgA=
+SHA256 (Pkgfile) = a0fa8802783d3d5aa9994ff7f9670752803e4dfda983a1671e3a09e204ff1991
+SHA256 (.footprint) = 49b8f8eb20c86dac826a570161d7f82e9f592d59b844ba9e1feeac69a55cdba9
+SHA256 (wireshark-3.2.6.tar.xz) = ebb1eebe39bcecee02195dc328dd25f6862fc9e9dea4c2e29eae50537d5eb4f2

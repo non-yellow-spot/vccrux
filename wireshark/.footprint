@@ -616,11 +616,11 @@ drwxr-xr-x	root/root	usr/include/wireshark/wsutil/
 -rw-r--r--	root/root	usr/include/wireshark/wsutil/xtea.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libwireshark.so -> libwireshark.so.13
-lrwxrwxrwx	root/root	usr/lib/libwireshark.so.13 -> libwireshark.so.13.0.5
--rwxr-xr-x	root/root	usr/lib/libwireshark.so.13.0.5
+lrwxrwxrwx	root/root	usr/lib/libwireshark.so.13 -> libwireshark.so.13.0.6
+-rwxr-xr-x	root/root	usr/lib/libwireshark.so.13.0.6
 lrwxrwxrwx	root/root	usr/lib/libwiretap.so -> libwiretap.so.10
-lrwxrwxrwx	root/root	usr/lib/libwiretap.so.10 -> libwiretap.so.10.0.5
--rwxr-xr-x	root/root	usr/lib/libwiretap.so.10.0.5
+lrwxrwxrwx	root/root	usr/lib/libwiretap.so.10 -> libwiretap.so.10.0.6
+-rwxr-xr-x	root/root	usr/lib/libwiretap.so.10.0.6
 lrwxrwxrwx	root/root	usr/lib/libwsutil.so -> libwsutil.so.11
 lrwxrwxrwx	root/root	usr/lib/libwsutil.so.11 -> libwsutil.so.11.0.0
 -rwxr-xr-x	root/root	usr/lib/libwsutil.so.11.0.0
@@ -640,8 +640,10 @@ drwxr-xr-x	root/root	usr/lib/wireshark/cmake/
 -rw-r--r--	root/root	usr/lib/wireshark/cmake/WiresharkTargets.cmake
 drwxr-xr-x	root/root	usr/lib/wireshark/extcap/
 -rwxr-xr-x	root/root	usr/lib/wireshark/extcap/androiddump
+-rwxr-xr-x	root/root	usr/lib/wireshark/extcap/ciscodump
 -rwxr-xr-x	root/root	usr/lib/wireshark/extcap/dpauxmon
 -rwxr-xr-x	root/root	usr/lib/wireshark/extcap/randpktdump
+-rwxr-xr-x	root/root	usr/lib/wireshark/extcap/sshdump
 -rwxr-xr-x	root/root	usr/lib/wireshark/extcap/udpdump
 drwxr-xr-x	root/root	usr/lib/wireshark/plugins/
 drwxr-xr-x	root/root	usr/lib/wireshark/plugins/3.2/
