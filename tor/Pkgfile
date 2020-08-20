@@ -1,10 +1,10 @@
 # Description:  Tor is a anonymous network and proxy
 # URL:          http://www.torproject.org/
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:   libevent openssl zlib
 
 name=tor
-version=0.4.0.5
+version=0.4.2.8
 release=1
 source=(https://www.torproject.org/dist/tor-$version.tar.gz
         tor.rc)
@@ -25,7 +25,7 @@ build() {
             --disable-libfuzzer     \
             --disable-rust
 
-        make
+        make V=1
         make DESTDIR=$PKG install
 
         # data
