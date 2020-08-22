@@ -1,10 +1,10 @@
 # Description:  Papirus Icon Theme
 # URL:          https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:   adwaita-icon-theme
 
 name=papirus-icon-theme
-version=20200702
+version=20200801
 release=1
 source=(https://github.com/PapirusDevelopmentTeam/$name/archive/$version/$name-$version.tar.gz)
 
