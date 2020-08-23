@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUjyIXxsPJPCqfr3C17LwmiHK74XMacByFs4iiKclt9N89GGzbgeaofsbF3HDZui3WcI4fGseGApkvEzCE6bzv2gI=
+SHA256 (Pkgfile) = c303873540db63ba3c46020f07a4b22f4c2a81d58dec2e608c6b354f54614003
+SHA256 (.footprint) = 93a4d9aa73e18e184b227d21ad07808d83d6168d773d77c088508987056c636a
+SHA256 (Net-DBus-1.2.0.tar.gz) = e7a1ac9ef4a1235b3fdbd5888f86c347182306467bd79abc9b0756a64b441cbc
