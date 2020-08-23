@@ -1,0 +1,24 @@
+# Description:  Customizable open-source jukebox for large collections
+# URL:          https://github.com/chinarulezzz-de/jukebox
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   p5-gtk2 p5-gstreamer1 p5-gtk2-trayicon p5-gtk2-notify
+
+name=jukebox
+version=1.1.15.3
+release=1
+source=(https://github.com/chinarulezzz-de/jukebox/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make DESTDIR=$PKG install
+
+	find $PKG  -name perllocal.pod   \
+		-o -name .packlist       \
+		-o -name README          \
+		-o -name LICENSE         \
+		-o -name '*.bs'          \
+	| xargs rm -f
+
+	rm -rf $PKG/usr/share/{doc,appdata,locale}
+}

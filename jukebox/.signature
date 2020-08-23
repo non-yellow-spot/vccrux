@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj7h+cYvc1z2RQjMdznCYIK8J2LJfa+NJlcLOn1fbNBzHPsKAHNvurUXF9YZDdEnzi4foVnSaIgcaD5MJaOTIKgU=
+SHA256 (Pkgfile) = a82ac11e54c3abdd137afa7c5d8dcac39e7bbdc960ddb30545aa4dec86e502bb
+SHA256 (.footprint) = bda2e1dac5a020dc38b0a580e1858b84c31c8878893ddb4a240a2baa30e3b4cb
+SHA256 (jukebox-1.1.15.3.tar.gz) = c26bea8172f989ac5dba1635d7421784f7ed2e5376ce939fe5999ce9a653198a
