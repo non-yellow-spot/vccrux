@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=5.8.3.1
-release=2
+release=3
 source=(https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz)
 
 build() {
@@ -12,6 +12,8 @@ build() {
 
 	if [ -f $PKGMK_ROOT/config ]]; then
 		cp $PKGMK_ROOT/config .config
+	else
+		cp $PKGMK_ROOT/defconfig .config
 	fi
 
 	mkdir firmware
