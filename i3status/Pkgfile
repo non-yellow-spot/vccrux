@@ -1,0 +1,16 @@
+# Description: generate a status bar for i3 bar
+# URL: https://i3wm.org/i3status
+# Maintainer: Cristina Stamatin, dear dot volgk at gmail dot com
+# Depends on: i3 libconfuse wireless-tools
+
+name=i3status
+version=2.12
+release=1
+source=(http://i3wm.org/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	make
+	sed -e '/setcap/d' -i Makefile 
+	make DESTDIR=$PKG install
+}
