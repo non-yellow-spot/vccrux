@@ -1,7 +1,7 @@
 # Description: generate a status bar for i3 bar
 # URL: https://i3wm.org/i3status
 # Maintainer: Cristina Stamatin, dear dot volgk at gmail dot com
-# Depends on: i3 libconfuse wireless-tools
+# Depends on: i3 libconfuse wireless-tools yajl
 
 name=i3status
 version=2.12
