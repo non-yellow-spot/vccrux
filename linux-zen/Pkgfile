@@ -5,7 +5,7 @@
 name=linux-zen
 version=5.8.3.1
 release=3
-source=(https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz)
+source=(https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}/$name-${version%.*}-zen${version##*.}.tar.gz)
 
 build() {
 	cd "zen-kernel-${version%.*}-zen${version##*.}"
