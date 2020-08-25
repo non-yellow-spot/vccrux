@@ -1,0 +1,22 @@
+# Description:  GTK theme based on GTK2 theme trinity green (personal fork)
+# URL:          https://github.com/chinarulezzz-de/Trinity
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   gtk-engines gtk-engine-murrine
+
+name=trinity-theme
+version=1.1
+release=1
+source=(https://github.com/chinarulezzz-de/Trinity/archive/v${version}/$name-v${version}.tar.gz)
+
+build() {
+	cd Trinity-$version
+
+	install -d $PKG/usr/share/themes/Trinity
+	install -d $PKG/usr/share/vim/colors
+	install -d $PKG/usr/share/icons
+
+	cp -r gtk-2.0 $PKG/usr/share/themes/Trinity/
+	cp -r gtk-3.0 $PKG/usr/share/themes/Trinity/
+	cp contrib/calmar256trinity.vim $PKG/usr/share/vim/colors/Trinity.vim
+	cp -r contrib/trinity-cursor-theme $PKG/usr/share/icons/
+}
