@@ -4,7 +4,7 @@
 
 name=linux-zen
 version=5.8.3.1
-release=1
+release=2
 source=(https://github.com/zen-kernel/zen-kernel/archive/v${version%.*}-zen${version##*.}.tar.gz)
 
 build() {
@@ -29,7 +29,7 @@ build() {
 	make olddefconfig
 	make all
 
-	grep -q 'CONFIG_MODULES=y' .config && make DESTDIR=$PKG modules_install
+	grep -q 'CONFIG_MODULES=y' .config && make INSTALL_MOD_PATH=$PKG modules_install
 
 	install -Dm644 System.map $PKG/boot/System.map-$version
 	install -Dm644 arch/x86_64/boot/bzImage $PKG/boot/vmlinuz-$version
