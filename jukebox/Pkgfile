@@ -4,7 +4,7 @@
 # Depends on:   p5-gtk2 p5-gstreamer1 p5-gtk2-trayicon p5-gtk2-notify
 
 name=jukebox
-version=1.1.15.3
+version=1.1.15.4
 release=1
 source=(https://github.com/chinarulezzz-de/jukebox/archive/v$version/$name-$version.tar.gz)
 
