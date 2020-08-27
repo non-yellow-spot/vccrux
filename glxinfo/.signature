@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj+aF8zwt2SswewAYF2fcf8vy27LTbAVJumNen4Zte0kXn3Tb5Wrx5ce4ChDQaNNhHO9tParbG7c73GwKpvSeLwY=
+SHA256 (Pkgfile) = cc17a51b568b31315e445ef6fb2c7bf281ec31be777967c2873e509b851dcd43
+SHA256 (.footprint) = a328423b6004ca0d68a4ede62c70b950fc7e488a771c89630cf8f10a868bd341
+SHA256 (mesa-demos-8.4.0.tar.bz2) = 01e99c94a0184e63e796728af89bfac559795fb2a0d6f506fa900455ca5fff7d
