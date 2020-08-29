@@ -4,7 +4,7 @@
 # Depends on:  cmake boost exiv2 fftw graphite2 gsl icu libbsd openexr qt5 quazip zstd extra-cmake-modules kconfig kwidgetsaddons karchive kcompletion kcoreaddons kguiaddons ki18n kitemmodels kitemviews kwindowsystem eigen3
 
 name=krita
-version=4.2.9
+version=4.3.0
 release=2
 source=(https://download.kde.org/stable/krita/${version:0:5}/krita-$version.tar.gz
 	krita-4.2.4-tests-optional.patch)

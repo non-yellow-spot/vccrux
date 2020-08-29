@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+kASpCeDuwyXWRDrGAYK0LbelWzb6gZm8IoNfQvJRohd4CM6WpbK08jOJOWVWxk7PZEHBChvynGfsByJ5OHEAY=
-SHA256 (Pkgfile) = 1e15a371819efee6a9220832708537cd070352db5c7fdc7346e1e0fd293738fb
-SHA256 (.footprint) = bf3e3fb4db5ba060629fbc186018be515f1f0411228ec20296a310311e1bc616
-SHA256 (krita-4.2.9.tar.gz) = 9f85bb81eaf4976af57352a482af1fdb86f338051a991f6f43976e0b65956da8
+RWT2I5SomoNUj7EWTVFcR17tsmBrd8Z3Drku+KRNhL2S4SEFjFTlLoJG92/1LVRKJuZksqlNAAB48Z1Nx7KLSM0hBUNofLiYZAA=
+SHA256 (Pkgfile) = d4d0fc8e68d26893567f91e641ef6f610a0c4f110babade78ef40208f147f6a8
+SHA256 (.footprint) = bdf9e3a436a5d357f0688f3c1c96747bf0daaac52d32e0cb61eb58b14fd5323a
+SHA256 (krita-4.3.0.tar.gz) = d071887c73bffbdc179054826b9752f5e5ab43fdcd9ffdd0402e9ab2ceee4bda
 SHA256 (krita-4.2.4-tests-optional.patch) = 005089934dabbd31b13da0fadfd900bab214d5bc0dbf014612e20fb615b9bbb2
