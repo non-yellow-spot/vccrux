@@ -1,0 +1,34 @@
+# Description:  PHP interpreter, extension modules and support stuff
+# URL:          http://www.php.net
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   libpcre2 libxml2 curl db gdbm xz libzip
+
+name=php-cgi
+version=7.3.10
+release=1
+source=(http://php.net/distributions/php-$version.tar.xz)
+
+build(){
+	cd php-$version
+
+	local PHP_CONFIG="
+	--prefix=/usr \
+	--sysconfdir=/etc/php \
+	--localstatedir=/var \
+	--mandir=/usr/share/man \
+	--with-config-file-path=/etc/php \
+	--with-config-file-scan-dir=/etc/php/conf.d \
+	--with-pcre-regex=/usr \
+	--disable-static --disable-debug \
+	--without-sqlite3 --without-pdo-sqlite --enable-zip \
+	--without-pear \
+	--disable-opcache"
+
+	./configure \
+		$PHP_CONFIG \
+		--enable-cli
+
+	make
+	#install -D -m 644 $SRC/php.ini $PKG/etc/php/php.ini
+	install -D -m 755 sapi/cgi/php-cgi $PKG/usr/bin/php-cgi
+}
