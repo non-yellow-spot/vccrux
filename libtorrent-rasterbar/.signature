@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj2N6XBmk+SB7PrFlexDTNzzv1yGyLeqoddOqA81vm/B/55KYIy35PryLSqbcPmffkLnr5/3fAq3OeS+3S7GYUQg=
-SHA256 (Pkgfile) = ca9da60117a732fa8a4e593878cacd0bcf1e5a803a071a9c1dc2b8dec921905f
-SHA256 (.footprint) = 6de0142f95e92f402efa2127db7c46b3a4f3f2456f150edfabc384c8699eb96a
-SHA256 (libtorrent-rasterbar-1.2.9.tar.gz) = 6c986225a1c2d9eb23c5b1ac0692d83208b721a05c968102a17ee3fde01bd709
+RWT2I5SomoNUj2YVhBMhHN59yqnn6t2KuPFz1u9/q5U+UPu/qHGQxv106RMMwoOU4eHt3xvtiuWoO98makuyaCtU9SeJAKbVbgY=
+SHA256 (Pkgfile) = b1ddae6b5d892075ca1b3eec36d55422cd37b8f45627c32b26593323704d0677
+SHA256 (.footprint) = 31877c8f352b34ea5b069ff2256b8d2a834b810699c0d802af1a8790788f31fd
+SHA256 (libtorrent-rasterbar-1.2.8.tar.gz) = 0600d6b1fdbc90764226daf8bbe30314c99eb3bdc69457768bfbbbfde92416de
