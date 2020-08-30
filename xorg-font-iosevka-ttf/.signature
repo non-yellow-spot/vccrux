@@ -1,0 +1,19 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj0VMnPIUM2/CVWKv210e3VK+qLpIwdt02SpCY8EzrTFB5Vxcl1koJgrSnx92o8OtTIcazkVuxmJQXaUgLo4v1Qw=
+SHA256 (Pkgfile) = 1797af12481f0834069262b37f221fb734903a871cf21fcb41f9f722aa8ae541
+SHA256 (.footprint) = a494e0f51fc405ad34289b73ddc99fd02b594e17db366beca9d5be55552e1398
+SHA256 (ttf-iosevka-3.4.6.zip) = 68ae195f27be844e9edecc2dfafd10ebc6378eb07ce27a1d6a467dc74486743e
+SHA256 (ttf-iosevka-aile-3.4.6.zip) = aa4467f9f35da867ff99847f31c3ddf56f709920f921ac410996e3329b29ea59
+SHA256 (ttf-iosevka-curly-3.4.6.zip) = 882491771f6715bf2159942dc1ff51819bef98ffc1cd5ad321c7650077db3cbd
+SHA256 (ttf-iosevka-curly-slab-3.4.6.zip) = a60b2659470a2552cacc8cef348b48b9845bfd9786628f04b238a47f27d697b4
+SHA256 (ttf-iosevka-etoile-3.4.6.zip) = 1474be6bca1bda52a30786956ba43ab85bdfa04c45362ab8cda7482b281f1968
+SHA256 (ttf-iosevka-fixed-3.4.6.zip) = f698f0c520b04261931eead344cab6f5d041c368e2ab28bc884c1a0c97c005df
+SHA256 (ttf-iosevka-fixed-curly-3.4.6.zip) = 6c6928500c887d7df3f5691f842d95bf5d21139e9a6e083861ab5169f14a2348
+SHA256 (ttf-iosevka-fixed-curly-slab-3.4.6.zip) = 78193ad7ca1cabfb6d6705c846b00187be1451449c028c47baab6a961519118e
+SHA256 (ttf-iosevka-fixed-slab-3.4.6.zip) = 06c99476116a21a7fdcdcb4598bfb87542a301345476274bdb5ea0ba55cb2eb3
+SHA256 (ttf-iosevka-slab-3.4.6.zip) = 9d57db6ab78227260e963e68e851fff245b2e8a712ef96755f34b0f3f6959c1a
+SHA256 (ttf-iosevka-sparkle-3.4.6.zip) = 44dca9342130950d35fdce75ec28b0e9bc4c59595a6e66bd765a36511cd64ff4
+SHA256 (ttf-iosevka-term-3.4.6.zip) = ae4d87e9d9227463b7020f004d3bb215bd0ba3ad4eb60935d601635eb666ed7f
+SHA256 (ttf-iosevka-term-curly-3.4.6.zip) = e08efa15dfc9d58aecbfc5638c8573ba0268924bbf4512a1cc5e11e7c1d2b803
+SHA256 (ttf-iosevka-term-curly-slab-3.4.6.zip) = 3972f13bdf675fdd646f6f8c40954155346f90383909981c9a9628f121cfbe26
+SHA256 (ttf-iosevka-term-slab-3.4.6.zip) = 25f4f2581f5c2b1be5ae89b3db408b3ed70eb14794fb3aee42bb8d7a00872f29
