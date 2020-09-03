@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj9V9/neKTXI6XO4tgvBfBVkOpLJ1xw2bHh4CQzuwpwKl/T1wvfGOwSPdEVH2+4ZA8HmjeMz0ZAOtuGv4L34XmQA=
+SHA256 (Pkgfile) = 2711ce3d204d489b6d58e5cc83833843fd0b70f75c9f4499c1f1edbb70435968
+SHA256 (.footprint) = 6ca18ded2df01017812241766001af126b0e7f7de4febd4777eae31018c20a9c
+SHA256 (pycryptodome-3.9.8.tar.gz) = 0e24171cf01021bc5dc17d6a9d4f33a048f09d62cc3f62541e95ef104588bda4
