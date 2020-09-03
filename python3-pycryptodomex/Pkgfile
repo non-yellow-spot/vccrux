@@ -1,0 +1,18 @@
+# Description:  Self-contained Python package of low-level cryptographic primitives
+# URL:          https://github.com/Legrandin/pycryptodome
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   python3-setuptools
+
+name=python3-pycryptodomex
+version=3.9.8
+release=1
+source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${name#*-}/${name#*-}-$version.tar.gz)
+
+build() {
+	cd ${name#*-}-$version
+	/usr/bin/python3 setup.py build
+	/usr/bin/python3 setup.py install --root=$PKG --optimize=1
+
+	find $PKG -name README.txt -delete
+	rm -rf $PKG/usr/lib/python*/site-packages/pycryptodome-*.egg-info
+}
