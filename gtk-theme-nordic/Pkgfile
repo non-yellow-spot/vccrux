@@ -1,7 +1,7 @@
 # Description:  Dark Gtk3.20+ theme created using the awesome Nord color pallete
 # URL:          https://github.com/EliverLara/Nordic
 # Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
-# Depends on:   gtk3
+# Depends on:   gtk3 gtk-theme-adwaita gtk-engine-murrine
 
 name=gtk-theme-nordic
 version=1.6.5
