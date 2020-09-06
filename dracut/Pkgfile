@@ -3,10 +3,10 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=dracut
-version=049
-release=2
+version=050
+release=1
 source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$version.tar.xz
-	$name-bash5.patch
+	0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch
 	10-crux.conf
 	installkernel
 	arch)
@@ -14,7 +14,7 @@ source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$versio
 build() {
 	cd $name-$version
 
-	patch -p1 -i $SRC/$name-bash5.patch
+	patch -p0 < $SRC/0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch
 
 	./configure \
 		--prefix=/usr \
@@ -22,10 +22,12 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	# initrd config
+	# CRUX' initramfs config
 	cp $SRC/10-crux.conf $PKG/etc/dracut.conf.d/
+
 	# kernel install script
 	install -Dm 0755 $SRC/installkernel $PKG/sbin/installkernel
+
 	# fix "/usr/lib/dracut/modules.d/90crypt/module-setup.sh: line 28: arch: command not found"
 	install -Dm 0755 $SRC/arch $PKG/bin/arch
 

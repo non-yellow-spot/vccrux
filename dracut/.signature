@@ -1,9 +1,9 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjyvSJzdwk79qjI8BGOrllcqTyoEjDRV/XAPlknllQjlEopTFa+sriMwoWfhjQPGKpan04HKm/ggrGw+RQTW1Zg0=
-SHA256 (Pkgfile) = 6ea502966363923bbf1806909871c0e409078582679fd7bf177a43d8ecc18ed0
-SHA256 (.footprint) = b0a039446f73299a807c438a4e9c138f35715c70c9a7fae2d9750c170000e620
-SHA256 (dracut-049.tar.xz) = 6ce2f8c16b393606b504c7722fd6845d2e0ed0f543f3cc83784c31171498b89a
-SHA256 (dracut-bash5.patch) = b63b67eaf3f03a69e7ed73a40b72aa6caf98c5f4703a74e30bf5dafed62c2798
+RWT2I5SomoNUj637ljI608/UWSQm6xNA2zq6FrQNLg2wRUAweq1w1hzIIhFsfTgY0YnJ8kw2jhKvlpcy+hptTew6dZdz2XfNFwA=
+SHA256 (Pkgfile) = ea13494bcde1342e59d0aec84d68a9b55288cc64a23e85ff2a0837c403ddac07
+SHA256 (.footprint) = 43588940500f0dbe828106416c17cf3100a80cf00ffa9945a08edac48e45da2e
+SHA256 (dracut-050.tar.xz) = 0d6c9451b15314ca96e358a40bacd40f1fb0333ae01c386ed84c3b4b49e1cd27
+SHA256 (0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch) = 6afa3c636c68c67d0369fe26befc9555286112705b4772e153ea23d76fbcee87
 SHA256 (10-crux.conf) = 3d7c58d401903f7b87406435f7a1b4681e35e96106dd2f3aaecb0becdec3db44
-SHA256 (installkernel) = 2264c5eafe6d95ab11349e3befde993ed72e41cce66e037925f397af90c82c45
+SHA256 (installkernel) = a17830483b52c5e78c248928148e70516fb53cc93b30868d40bcf4f03457b2cc
 SHA256 (arch) = db2f5dbc1ca742555994cca21318fb0bdc19e7874e2f103458915cc2233d8c24

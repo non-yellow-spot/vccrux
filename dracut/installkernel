@@ -7,14 +7,14 @@
 #   $4 - default install path
 
 # create backup
-[ -f $4/vmlinuz-$1 ]    && mv $4/vmlinuz-$1    $4/vmlinuz-$1.old
-[ -f $4/System.map-$1 ] && mv $4/System.map-$1 $4/System.map-$1.old
-[ -f $4/initrd-$1.img ] && mv $4/initrd-$1.img $4/initrd-$1.old.img
+[ -f $4/vmlinuz-$1 ]       && mv $4/vmlinuz-$1       $4/vmlinuz-$1.old
+[ -f $4/System.map-$1 ]    && mv $4/System.map-$1    $4/System.map-$1.old
+[ -f $4/initramfs-$1.img ] && mv $4/initramfs-$1.img $4/initramfs-$1.old.img
 
 # install
 cp $PWD/$2 $4/vmlinuz-$1
 cp $PWD/$3 $4/System.map-$1
-dracut -q --force --kver $1 /boot/initrd-$1.img
+dracut -q --force --kver $1 /boot/initramfs-$1.img
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # End of File

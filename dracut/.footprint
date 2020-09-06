@@ -29,6 +29,8 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/00bootchart/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/00bootchart/module-setup.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/00dash/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/00dash/module-setup.sh
+drwxrwxr-x	root/root	usr/lib/dracut/modules.d/00mksh/
+-rwxrwxr-x	root/root	usr/lib/dracut/modules.d/00mksh/module-setup.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/00systemd/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/00systemd/module-setup.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/00warpclock/
@@ -36,6 +38,7 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/00warpclock/
 -rw-rw-r--	root/root	usr/lib/dracut/modules.d/00warpclock/warpclock.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/01fips/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/01fips/fips-boot.sh
+-rw-rw-r--	root/root	usr/lib/dracut/modules.d/01fips/fips-load-crypto.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/01fips/fips-noboot.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/01fips/fips.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/01fips/module-setup.sh
@@ -57,6 +60,9 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/04watchdog/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/04watchdog/watchdog.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/05busybox/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/05busybox/module-setup.sh
+drwxrwxr-x	root/root	usr/lib/dracut/modules.d/06rngd/
+-rw-rw-r--	root/root	usr/lib/dracut/modules.d/06rngd/module-setup.sh
+-rw-rw-r--	root/root	usr/lib/dracut/modules.d/06rngd/rngd.service
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/10i18n/
 -rw-rw-r--	root/root	usr/lib/dracut/modules.d/10i18n/10-console.rules
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/10i18n/console_init.sh
@@ -69,7 +75,6 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/30convertfs/
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-legacy/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-legacy/dhclient-script.sh
 -rw-rw-r--	root/root	usr/lib/dracut/modules.d/35network-legacy/dhclient.conf
--rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-legacy/dhcp-root.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-legacy/ifup.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-legacy/kill-dhclient.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-legacy/module-setup.sh
@@ -86,6 +91,7 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-manager/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-manager/nm-config.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/35network-manager/nm-run.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/40network/
+-rwxrwxr-x	root/root	usr/lib/dracut/modules.d/40network/dhcp-root.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/40network/ifname-genrules.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/40network/module-setup.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/40network/net-lib.sh
@@ -199,6 +205,9 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/90multipath/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/90multipath/multipathd-stop.sh
 -rw-rw-r--	root/root	usr/lib/dracut/modules.d/90multipath/multipathd.service
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/90multipath/multipathd.sh
+drwxrwxr-x	root/root	usr/lib/dracut/modules.d/90ppcmac/
+-rw-rw-r--	root/root	usr/lib/dracut/modules.d/90ppcmac/load-thermal.sh
+-rw-rw-r--	root/root	usr/lib/dracut/modules.d/90ppcmac/module-setup.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/90qemu-net/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/90qemu-net/module-setup.sh
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/90qemu/
@@ -405,7 +414,6 @@ drwxrwxr-x	root/root	usr/lib/dracut/modules.d/99squash/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/99squash/init.sh
 -rw-rw-r--	root/root	usr/lib/dracut/modules.d/99squash/module-setup.sh
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/99squash/setup-squash.sh
--rwxrwxr-x	root/root	usr/lib/dracut/modules.d/99squash/shutdown.sh
 -rw-rw-r--	root/root	usr/lib/dracut/modules.d/99squash/squash-mnt-clear.service
 drwxrwxr-x	root/root	usr/lib/dracut/modules.d/99uefi-lib/
 -rwxrwxr-x	root/root	usr/lib/dracut/modules.d/99uefi-lib/module-setup.sh

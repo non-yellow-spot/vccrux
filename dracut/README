@@ -32,15 +32,15 @@ POST-INSTALL
 
         grub-install --efi-directory=/boot --recheck
 
-    2. Generate an init ramdisk:
+    2. Generate an initramfs image:
 
-        dracut -q --kver 5.2.17 /boot/initrd-5.2.17.img
+        dracut -q --kver 5.2.17 /boot/initramfs-5.2.17.img
 
        or if you have a swap partition and want to use it for
       `resume from hibernate` try this:
 
         dracut -q --kver 5.2.17 --add-device /dev/mapper/crux-swap \
-        /boot/initrd-5.2.17.img
+        /boot/initramfs-5.2.17.img
 
     Generate a grub2 configuration file:
 
