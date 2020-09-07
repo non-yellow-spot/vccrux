@@ -1,0 +1,15 @@
+# Description:  Convert the IP to different obfuscated forms
+# URL:          https://github.com/chinarulezzz/IPObfuscator
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+
+name=ipobfuscator
+version=1.1
+release=1
+source=(https://github.com/chinarulezzz/IPObfuscator/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd IPObfuscator-$version
+
+	cc ip.c -o $name ${CFLAGS/-O?/}
+	install -Dm755 $name -t $PKG/usr/bin
+}
