@@ -1,0 +1,37 @@
+# Description:  Gathering e-mail accounts and subdomain names from different public sources
+# URL:          https://github.com/laramies/theHarvester
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   libffi libxslt libxml2
+
+name=theharvester-scm
+version=$(date +%Y%m%d)
+release=1
+source=(theharvester)
+
+download_git() {
+        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+                git -C $PKGMK_SOURCE_DIR/$name clean -f
+                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+        else
+                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+        fi
+
+        cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+}
+
+build() {
+	download_git https://github.com/laramies/theHarvester master
+	cd $name
+
+	# Install files in /opt
+	install -dm755 $PKG/opt/theHarvester/app
+	cp -a ./* $PKG/opt/theHarvester/app/
+	/usr/bin/pip3 install -r requirements.txt --target $PKG/opt/theHarvester
+
+	# Install an indirect launcher in /opt/bin
+	install -Dm755 $SRC/theharvester $PKG/opt/bin/theharvester
+
+	# Remove junk files
+	rm -rf $PKG/opt/theHarvester/*.dist-info
+}
