@@ -4,12 +4,13 @@
 # Depends on:   go git
 
 name=amass
-version=3.10.2
+version=3.10.3
 release=1
 source=(https://github.com/OWASP/Amass/archive/v3.10.2/$name-$version.tar.gz)
 
 build() {
-	cd Amass-$version
+	# the dev forget to change the version
+	cd Amass-3.10.2
 
 	mkdir bin
 	go build \
