@@ -1,4 +1,4 @@
-#!/bin/sh
-cd /usr/share/zaproxy
-./zap.sh
-cd -
+#!/bin/bash
+. ~/.bash_profile
+. ~/.bashrc
+/usr/share/zaproxy/zap.sh
