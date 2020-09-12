@@ -4,7 +4,7 @@
 # Depends on:   ruby libxslt libyaml curl libxml2
 
 name=wpscan
-version=3.8.6
+version=3.8.7
 release=1
 source=(https://github.com/wpscanteam/wpscan/archive/v$version/$name-$version.tar.gz)
 
