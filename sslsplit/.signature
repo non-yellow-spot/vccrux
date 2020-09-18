@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj7NLVoSs7CJRgzrerOI+TAjPqfYCFLRtVhZWLB72a6uyS3pZJ6voYapBMaSUyHsBLO1/jVQISR/eits0n2CZrQk=
+SHA256 (Pkgfile) = 78c0d61a5c520252eab59856b32fac455b0b83ef48b9e0869fb12e5dc2dd4308
+SHA256 (.footprint) = 16c554c1f78815aff31b412df89ac4afeea8fef1cb5a25feade5f50c71b0c57b
+SHA256 (sslsplit-0.5.5.tar.gz) = 3a6b9caa3552c9139ea5c9841d4bf24d47764f14b1b04b7aae7fa2697641080b
