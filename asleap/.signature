@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj58w1hW1oRq2udAZcJYa8sg3VdjmejfWyd9xj8iVoXBHOssAi6R41Mx/TvepE0a30Upfs6skXa1L0Jx4wvZ2Fgc=
+SHA256 (Pkgfile) = 9d62fb1f13e0e39a40cfff24e5aa1e2ae2844703514d5133674dfbcb75d71c81
+SHA256 (.footprint) = b31157fba0cda15600581075a0517c0b713a65e09a1aa1adbd0dbfea51c0414f
+SHA256 (asleap-2.2.tgz) = 92beb6495a856884ca343787ab2f7c9d4b9d3aba21526c2e1f6ba38736c67a23
+SHA256 (0001-fix-build-for-CRUX.patch) = 7617fad2050550b6f1b015f49b5a53208e0a695786ab58e3689d78e632d502df
