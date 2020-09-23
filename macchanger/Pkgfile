@@ -4,7 +4,7 @@
 
 name=macchanger
 version=1.7.0
-release=1
+release=2
 source=(https://github.com/alobbs/macchanger/archive/$version/$name-$version.tar.gz
 	macchanger.rc)
 

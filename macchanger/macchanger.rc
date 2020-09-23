@@ -4,11 +4,15 @@
 #
 
 DEV=wlp2s0
+MAC=
 
 case $1 in
 	start)
 		/sbin/ip link set $DEV down
-		/usr/bin/macchanger --random $DEV
+		case $MAC in
+		"") /usr/bin/macchanger --random   $DEV ;;
+		*)  /usr/bin/macchanger --mac=$MAC $DEV ;;
+		esac
 		/sbin/ip link set $DEV up
 		;;
 	stop)
