@@ -1,0 +1,18 @@
+# Description:  Poison hosts via arp-requests as well as arp-replies
+# URL:          https://github.com/byt3bl33d3r/arpspoof
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   python3-setuptools
+
+name=arpspoof
+version=8359467133
+release=1
+source=(https://github.com/byt3bl33d3r/arpspoof/archive/83594671338218dd80d6328485179cf62f943c9d.zip)
+
+build() {
+	cd $name-83594671338218dd80d6328485179cf62f943c9d
+
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG
+
+	rm -rf $PKG/usr/lib/python3.7/site-packages/*.egg-info
+}
