@@ -1,0 +1,30 @@
+From d8e8f30fc6d2d9169c07c53a70959c30ffca87b8 Mon Sep 17 00:00:00 2001
+From: Funtastix <funtastix@users.noreply.github.com>
+Date: Tue, 11 Aug 2020 12:34:51 +1000
+Subject: [PATCH 5/5] Update utils.c
+
+---
+ utils.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/utils.c b/utils.c
+index d33b02e..ae6d5c8 100644
+--- a/utils.c
++++ b/utils.c
+@@ -169,12 +169,11 @@ void Collapse(unsigned char *in, unsigned char *out)
+ 
+ static DES_key_schedule	key_schedule;
+ 
+-bool DesSetkey(u_char *key)
++void DesSetkey(u_char *key)
+ {
+ 	DES_cblock des_key;
+ 	MakeKey(key, des_key);
+ 	DES_set_key(&des_key, &key_schedule);
+-	return (1);
+ }
+ 
+ void DesEncrypt(unsigned char *clear, unsigned char *key, unsigned char *cipher)
+-- 
+2.28.0
+

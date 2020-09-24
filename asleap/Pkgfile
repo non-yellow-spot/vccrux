@@ -1,19 +1,29 @@
 # Description: Recover LEAP/PPTP passwords
 # URL:         https://www.willhackforsushi.com/?page_id=41
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  libxcrypt2.4 libpcap
+# Depends on:  libpcap
 
 name=asleap
 version=2.2
-release=1
+release=2
 source=(http://www.willhackforsushi.com/code/$name/$version/$name-$version.tgz
-	0001-fix-build-for-CRUX.patch)
+	0001-Update-Makefile.patch
+	0002-Update-utils.c.patch
+	0003-Update-utils.c.patch
+	0004-Update-utils.h.patch
+	0005-Update-utils.c.patch
+	0006-Update-Makefile.patch)
 
 build() {
 	cd $name-$version
-	
-	patch -p1 < $SRC/0001-fix-build-for-CRUX.patch
-	
+
+	patch -p1 < $SRC/0001-Update-Makefile.patch
+	patch -p1 < $SRC/0002-Update-utils.c.patch
+	patch -p1 < $SRC/0003-Update-utils.c.patch
+	patch -p1 < $SRC/0004-Update-utils.h.patch
+	patch -p1 < $SRC/0005-Update-utils.c.patch
+	patch -p1 < $SRC/0006-Update-Makefile.patch
+
 	sed -i  -e "s/#define VER \"\(.*\)\"/#define VER \"${version}\"/" \
 		version.h
 

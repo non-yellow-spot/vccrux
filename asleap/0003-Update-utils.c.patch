@@ -1,0 +1,25 @@
+From 0d0e056bbe47bc0f21e151baddb4cfa2c2e01d6c Mon Sep 17 00:00:00 2001
+From: Funtastix <funtastix@users.noreply.github.com>
+Date: Tue, 11 Aug 2020 12:32:09 +1000
+Subject: [PATCH 3/5] Update utils.c
+
+---
+ utils.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/utils.c b/utils.c
+index b541047..d33b02e 100644
+--- a/utils.c
++++ b/utils.c
+@@ -179,7 +179,7 @@ bool DesSetkey(u_char *key)
+ 
+ void DesEncrypt(unsigned char *clear, unsigned char *key, unsigned char *cipher)
+ {
+-	DesSetKey(key);
++	DesSetkey(key);
+ 
+ 	DES_ecb_encrypt((DES_cblock *)clear, (DES_cblock *)cipher,
+ 	    &key_schedule, 1);
+-- 
+2.28.0
+
