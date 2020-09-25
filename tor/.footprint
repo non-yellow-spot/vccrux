@@ -1,7 +1,9 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/rc.d/
 -rwxr-x---	root/root	etc/rc.d/tor
+-rwxr-x---	root/root	etc/rc.d/torify
 drwxr-xr-x	root/root	etc/tor/
+-rw-r-----	root/tor	etc/tor/torifyrc
 -rw-r-----	root/tor	etc/tor/torrc
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/

@@ -6,6 +6,7 @@ PRECAUTION
 
     UPGRADE         ^var/lib/tor/.*$    NO
     UPGRADE         ^etc/tor/torrc$     NO
+    UPGRADE         ^etc/tor/torifyrc$  NO
 
     Failure to do so will result in the loss of your tor data and
     configuration upon update!
@@ -25,3 +26,9 @@ NOTES
     dont forget to allow non-root process to bind a privileged port:
 
     sudo setcap 'cap_net_bind_service=+ep' /usr/bin/tor
+
+
+    torify
+    ------
+    See /etc/rc.d/torify if you want to redirect all traffic
+    through tor network.
