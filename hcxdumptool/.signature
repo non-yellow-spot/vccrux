@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj05V9IQtwejY2rUmWmBvA2IsGHFrhvXdHvYueLSzjdiCJ6UwpvL66vnll/0A4EeNT3nw95EweBSblcwMfi0+uA0=
-SHA256 (Pkgfile) = 3a90ad8fa7bed2717a94ca2ceda96d88f039ec8e7c979714ca1b316a7213311a
+RWT2I5SomoNUj0tHgGg89GNZeguTsS0FCVEKwEFhEEKQ+t1ixAXIu8Ilp/8Cd3oqaoPBaZ18Ha926jezgBu9u///vlBv2U3pAg8=
+SHA256 (Pkgfile) = fe0130ece7829a0623cc97414aea3a3ccde2da93337c4293f6190488e1bc112e
 SHA256 (.footprint) = 034985052d2f62e103f8ad599a4e77bbed6ce6ed095849eb01139e8aa97d3118
-SHA256 (hcxdumptool-6.1.1.tar.gz) = f23b49422f2917982a232ccca3debca26727a80cebd0f9484700d0a382123a47
+SHA256 (hcxdumptool-6.1.2.tar.gz) = 8bda0840784089e29e65e324116e324126271cfcb8d4085e6d39c8597bbba350
