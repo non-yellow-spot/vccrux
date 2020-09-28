@@ -1,0 +1,16 @@
+# Description:  WPS brute force attack tool, similar to reaver
+# URL:          https://github.com/aanarchy/bully
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   libpcap pixiewps aircrack-ng
+
+name=bully
+version=3ab3bc8
+_commit=3ab3bc830738f447dce112e8551e3ac8193bf521
+release=1
+source=(https://github.com/aanarchyy/$name/archive/$_commit/$name-$_commit.zip)
+
+build() {
+	cd $name-$_commit
+
+	make -C src DESTDIR=$PKG prefix=/usr install
+}
