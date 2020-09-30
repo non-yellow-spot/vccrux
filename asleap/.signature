@@ -1,11 +1,9 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj8ZQjkX6zZ1kpLfLxHfv0DMuPVokG+eYyQNGUtf5tKf4Hbo7LcqsXEzC7EDEXPoqzuqiDFj08g1+BcGb3SuzMAc=
-SHA256 (Pkgfile) = 3b643bb56bc3770b70bec53191c23233df21de5392684379cf85b80597204fc4
+RWT2I5SomoNUjwGNw7YrRj+MMAAnAFl0xNWUVPqL+q++aGaPsHKP6Cvjq2+7KlcNor2BNwomTtK03V0lSQ/4Pn0hBIbC5dMEDws=
+SHA256 (Pkgfile) = 88f2ad8d7294fe5d03323e19421cb4f02a5ba49634e14994969a5b51b50dfba7
 SHA256 (.footprint) = b31157fba0cda15600581075a0517c0b713a65e09a1aa1adbd0dbfea51c0414f
 SHA256 (asleap-2.2.tgz) = 92beb6495a856884ca343787ab2f7c9d4b9d3aba21526c2e1f6ba38736c67a23
-SHA256 (0001-Update-Makefile.patch) = 1a7c18f4a2ad9b9769df4a6368ee4690e2c96afaa28cf8da55c48e632054a5a8
-SHA256 (0002-Update-utils.c.patch) = 88d2ad1e7eb694646ab4d923ead7b5bd92828290cf49986175b1c1e91206ee1c
-SHA256 (0003-Update-utils.c.patch) = d15b1f86172b28e42480eaa0d81b9d78fb0cfe0eec30636dbb7a5a6174a5ac70
-SHA256 (0004-Update-utils.h.patch) = 3399e1e4e3303839f95998cb15c18708df99eb582326ed92579d1e94db4f25ee
-SHA256 (0005-Update-utils.c.patch) = b4c4d412b76d11a8c665fee0704a01535e94ceb6fc572d9e2ecee2d865f8e402
-SHA256 (0006-Update-Makefile.patch) = 5c4e42c6bfba883b15255cb4c4df97ed368c406d643caa387eb8713144c7419c
+SHA256 (0001-fix-build-for-CRUX.patch) = 8f3aa419a503a72c2efa941ac0c90d466e045f3c48672a282e60bd1cbc5ee9cc
+SHA256 (001_add_simple_password_bruteforcing_option.patch) = 9842820e414927993ddce29964ac351d5662cb627d3690fb6e2acd937166eb1e
+SHA256 (002_added_the_possibility_to_verify_MSCHAP-V2_authentication.patch) = 3470f6cdabe99642368e1d221c8cfd33ca0bfdf902ce9f16149aa39248d1835e
+SHA256 (003_fix_and_improve_bruteforce_option.patch) = 5923f8a90be632d257243aa9c31de7ba9b8865b7fd772748dfd42397b1b8c024
