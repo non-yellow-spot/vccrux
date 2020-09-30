@@ -1,0 +1,26 @@
+# Description:  Distribution of modules interfacing to the RADIUS protocol
+# URL:          https://metacpan.org/release/Net-Radius
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   
+
+name=p5-net-radius
+version=2.103
+release=1
+source=(https://cpan.metacpan.org/authors/id/L/LU/LUISMUNOZ/Net-Radius-$version.tar.gz)
+
+build() {
+	cd Net-Radius-$version
+
+	perl Makefile.PL
+
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR=$PKG install
+
+	find $PKG  -name perllocal.pod  \
+		-o -name "*.bs"         \
+		-o -name .packlist      \
+		-o -name autosplit.ix   \
+	| xargs rm -f
+
+	find $PKG -depth -type d -empty -delete
+}
