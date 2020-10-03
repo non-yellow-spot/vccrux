@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjyX5j/31XXnJRO1HYctanIDVUBXgjZY4dKeg8NhrPBhtmrNtOqJPzheqR5MyFUbZZKnh0WOIeSPeYSO/ImmJzQo=
-SHA256 (Pkgfile) = c32cb8a0df51888c18a2b0759e0870ccde3b9a17fff3af65da6419652588c4e9
+RWT2I5SomoNUj7CCYafnkIU2uIz2aOE5IdADL0bC4RBDl/9SJU8JDEab8F5VcSTMV7sn4ARivsqmGzufEjNr/WSjGd5N2JTjQgc=
+SHA256 (Pkgfile) = 82b4baaa93e7a706b2097cc03f35199a6ffee5d7cd12a52053072bbc2b09e697
 SHA256 (.footprint) = 9d8bc9a10100a2bf09d547afe4f17b186cc73bc729c7c0fd9214a9a2a4a8ad0e
 SHA256 (cowpatty-4.8.tar.gz) = 8aae67f4823edb76dff036808137888d2479477ec1e52aa86d6cecd26d58aa23
+SHA256 (fix_parallel_build.patch) = 9cfa7c1448166b5c82f6ed000a3632d53224a39cb44208de15ad28debc5fbc6d
