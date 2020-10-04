@@ -46,23 +46,24 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/log4j-1.2.17.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/rsyntaxtextarea-3.0.4.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/slf4j-api-1.7.25.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/sqlite-jdbc-3.28.0.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/sqlite-jdbc-3.32.3.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/swingx-all-1.6.5-1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/xom-1.2.10.jar
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/accessControl-alpha-6.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/alertFilters-release-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/ascanrules-release-37.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/ascanrulesBeta-beta-31.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/ascanrulesBeta-beta-32.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/bruteforce-beta-10.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/commonlib-release-1.2.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/coreLang-release-14.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/diff-beta-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/directorylistv1-release-5.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/encoder-alpha-0.3.0.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/encoder-beta-0.4.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/formhandler-alpha-3.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/fuzz-beta-13.1.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/gettingStarted-release-12.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/graphql-alpha-0.2.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/help-release-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/hud-beta-0.12.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/importurls-beta-8.zap
@@ -84,9 +85,9 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/sequence-alpha-6.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/spiderAjax-release-23.2.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/tips-beta-8.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-20.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdrivermacos-release-19.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverwindows-release-20.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-21.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdrivermacos-release-20.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverwindows-release-21.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/websocket-release-23.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/zest-beta-33.zap
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/
@@ -117,6 +118,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/templates/targeted/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/targeted/Targeted default template.js
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/templates/variant/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/variant/Input Vector default template.js
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/scripts/templates/variant/Site modifying JSON example.js
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/common-user-agents.txt
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/config.xml
@@ -126,6 +128,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-09-08.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-09-29.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
