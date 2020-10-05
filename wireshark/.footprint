@@ -766,6 +766,7 @@ drwxr-xr-x	root/root	usr/share/wireshark/diameter/
 -rw-r--r--	root/root	usr/share/wireshark/diameter/Huawei.xml
 -rw-r--r--	root/root	usr/share/wireshark/diameter/Inovar.xml
 -rw-r--r--	root/root	usr/share/wireshark/diameter/Juniper.xml
+-rw-r--r--	root/root	usr/share/wireshark/diameter/Metaswitch.xml
 -rw-r--r--	root/root	usr/share/wireshark/diameter/Microsoft.xml
 -rw-r--r--	root/root	usr/share/wireshark/diameter/Nokia.xml
 -rw-r--r--	root/root	usr/share/wireshark/diameter/NokiaSolutionsAndNetworks.xml
