@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjwC5Xv8/w8AEzHn5W0w/L9C7YfYcuW3yIbLLXz1oJ69vf8L5P+JAPAm9/qM/YOOnQReWhjzvCUXws+wZRkGeLgc=
-SHA256 (Pkgfile) = 5b05c32326afb7c78d4127c6b37e165e0cd84bceac4c6da9b182f9e5a3ca8aeb
+RWT2I5SomoNUjy+hBa9CK0hmpXgzb5ZT/nz+POcxi8WquueUHdz69jxoCgo/09sDIWydLNEnUVs00DyDoHgFiv5hArOJLxUirAM=
+SHA256 (Pkgfile) = 3579b7f5b4948ed7d3bbad1ba32f6a46819414c85fbb14fc2e9cda08cc404a7d
 SHA256 (.footprint) = 81e9e359b606b4c9bc03610f158fb216206d702cacdbfe2a7be4061e78a76242
-SHA256 (zathura-0.4.6.tar.xz) = f9b2b3c3d2b4b612206b93e49df21c01ee184dc0a4eca956383d000a98836f0c
+SHA256 (zathura-0.4.7.tar.xz) = e012dbfe2b981b826553a9af8420d42a9c5d3387fbe14a5399ce94a2d374a1e7

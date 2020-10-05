@@ -5,7 +5,7 @@
 # Optional:     texlive
 
 name=zathura
-version=0.4.6
+version=0.4.7
 release=1
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
