@@ -23,9 +23,10 @@ build() {
 	download_git https://github.com/ecki/${name/-scm} master
 	cd $name
 
+	# fix parallel build (-j1)
 	yes "" | make -j1
-	make \
-		HAVE_ARP_TOOLS=0 \
+	make -j1 \
+		HAVE_ARP_TOOLS=1 \
 		HAVE_HOSTNAME_TOOLS=0 \
 		HAVE_IP_TOOLS=0 \
 		HAVE_MII=0 \
