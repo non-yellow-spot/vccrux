@@ -1,0 +1,18 @@
+# Description:  Nmap scripts that are not merged to upstream
+# URL:          https://github.com/chinarulezzz/nmap-extra-scripts
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   nmap-scm
+
+name=nmap-extra-scripts
+version=6d39232
+_commit=6d39232db08fd6fa866fb4f6047517dc4b6ea2cc
+release=1
+source=(https://github.com/chinarulezzz/$name/archive/$_commit/$name-$_commit.zip)
+
+build() {
+	cd $name-$_commit
+
+	for nse in *.nse; do
+		install -Dm644 $nse $PKG/usr/share/nmap/scripts/${nse#*-}
+	done
+}
