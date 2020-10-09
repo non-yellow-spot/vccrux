@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj1ZkJk6/VfIioJt1Fi+hFKvOK2nWh1S6FKnPWyq4Xv+Hvf5bOlfmvXIj6+wLQs49m+Vcy701ngGuvJDtc4ZX3wc=
-SHA256 (Pkgfile) = 958594fd3d47d7dc9438cb576c5379891702810d2b0d5d0c26ad00dbcdcdd000
+RWT2I5SomoNUjyJwfnrdo2jg+vQjlJumtXyQtU8zo3CJnqmTR/ZLmYRzgwbgTNq1vJ06JYixZnPRBdVdJzbM47k03LAZTdMfWAA=
+SHA256 (Pkgfile) = 73e3196875476c313c59e55fad6b3865fa6864d5325c5bb89d2ed69564bf3c50
 SHA256 (.footprint) = 8796aff0dd034a9144dc3994244057dd6bbb6496960c67c006772554cb92fbc1
-SHA256 (captal-0.2.tar.gz) = 3114c7327e6857f927593235113d73e039e5011d9d9b867ea9904ffbe5c7c295
+SHA256 (captal-0.3.tar.gz) = c2f9b80b4ef4c15efd2c50e8c2b7f91b6e1c6ea664ab51acb35006771d9fad02
