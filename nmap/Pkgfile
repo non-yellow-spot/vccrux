@@ -4,7 +4,7 @@
 # Depends on:   libpcap libpcre lua
 
 name=nmap
-version=7.80
+version=7.90
 release=1
 source=(http://nmap.org/dist/$name-$version.tar.bz2)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj/r1pmOsBRoCje8LNni8cx42sEgOvnXZ4CASKRpo0BtPA8XkdL50H3zCIp3lIMTUhaiUZzDgA+cEx8XH91Wocwg=
-SHA256 (Pkgfile) = ed9e9dacc60ede1d5c27ba95aa9844cb855e61a9903f97a7387e36475473cd3c
-SHA256 (.footprint) = 19aeff70f2f5f81fd1b1858fb451f977d8934fedb4fd5ff2a7f2e29820ee395d
-SHA256 (nmap-7.80.tar.bz2) = fcfa5a0e42099e12e4bf7a68ebe6fde05553383a682e816a7ec9256ab4773faa
+RWT2I5SomoNUjxIXHvLERYp2EWka7/J701PJbE9reeybbeKg/PEFU5WhunIjOQoh4Vl5iNgAX8ilIkESPgVTf2flvllWD5u1LgE=
+SHA256 (Pkgfile) = 9689fb64d3c9a12ae22fa804b5ec0857874f216cc7baadae5a374bf68a65e5ca
+SHA256 (.footprint) = eb2cecfb2340f74461b3ace34537da557441286015d39a5a326422592a0143ba
+SHA256 (nmap-7.90.tar.bz2) = 5557c3458275e8c43e1d0cfa5dad4e71dd39e091e2029a293891ad54098a40e8
