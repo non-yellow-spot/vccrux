@@ -1,11 +1,11 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/theHarvester/
+-rw-r--r--	root/root	etc/theHarvester/api-keys.yaml
+-rw-r--r--	root/root	etc/theHarvester/proxies.yaml
 drwxr-xr-x	root/root	opt/
 drwxr-xr-x	root/root	opt/bin/
 -rwxr-xr-x	root/root	opt/bin/theharvester
 drwxr-xr-x	root/root	opt/theHarvester/
--rw-r--r--	root/root	opt/theHarvester/CHANGES.md
--rw-r--r--	root/root	opt/theHarvester/LICENSE
--rw-r--r--	root/root	opt/theHarvester/Makefile
--rw-r--r--	root/root	opt/theHarvester/README.md
 drwxr-xr-x	root/root	opt/theHarvester/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/__pycache__/appdirs.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/__pycache__/retrying.cpython-37.pyc
@@ -252,39 +252,8 @@ drwxr-xr-x	root/root	opt/theHarvester/aiosqlite/tests/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/tests/perf.py
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/tests/smoke.py
 drwxr-xr-x	root/root	opt/theHarvester/app/
--rw-r--r--	root/root	opt/theHarvester/app/Dockerfile
--rw-r--r--	root/root	opt/theHarvester/app/Pipfile
--rw-r--r--	root/root	opt/theHarvester/app/Pipfile.lock
--rw-r--r--	root/root	opt/theHarvester/app/README.md
-drwxr-xr-x	root/root	opt/theHarvester/app/README/
--rw-r--r--	root/root	opt/theHarvester/app/README/CONTRIBUTING.md
--rw-r--r--	root/root	opt/theHarvester/app/README/COPYING
--rw-r--r--	root/root	opt/theHarvester/app/README/LICENSES
--rw-r--r--	root/root	opt/theHarvester/app/api-keys.yaml
 drwxr-xr-x	root/root	opt/theHarvester/app/bin/
 -rwxr-xr-x	root/root	opt/theHarvester/app/bin/theHarvester
--rw-r--r--	root/root	opt/theHarvester/app/mypy.ini
--rw-r--r--	root/root	opt/theHarvester/app/proxies.yaml
--rw-r--r--	root/root	opt/theHarvester/app/requirements.txt
-drwxr-xr-x	root/root	opt/theHarvester/app/requirements/
--rw-r--r--	root/root	opt/theHarvester/app/requirements/base.txt
--rw-r--r--	root/root	opt/theHarvester/app/requirements/dev.txt
--rw-r--r--	root/root	opt/theHarvester/app/setup.cfg
--rwxr-xr-x	root/root	opt/theHarvester/app/setup.py
-drwxr-xr-x	root/root	opt/theHarvester/app/tests/
--rw-r--r--	root/root	opt/theHarvester/app/tests/__init__.py (EMPTY)
-drwxr-xr-x	root/root	opt/theHarvester/app/tests/discovery/
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/__init__.py (EMPTY)
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_certspotter.py
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_githubcode.py
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_linkedin_links.py
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_linkedin_links.txt
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_otx.py
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_qwantsearch.py
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_sublist3r.py
--rw-r--r--	root/root	opt/theHarvester/app/tests/discovery/test_threatminer.py
--rwxr-xr-x	root/root	opt/theHarvester/app/tests/test_myparser.py
--rw-r--r--	root/root	opt/theHarvester/app/theHarvester-logo.png
 -rwxr-xr-x	root/root	opt/theHarvester/app/theHarvester.py
 drwxr-xr-x	root/root	opt/theHarvester/app/theHarvester/
 -rw-r--r--	root/root	opt/theHarvester/app/theHarvester/__init__.py (EMPTY)
@@ -4694,11 +4663,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_ycalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_alignmentgroup.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_base.py
@@ -4759,11 +4734,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/bar/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_yaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_ycalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/_ysrc.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/bar/error_x/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/error_x/__init__.py
@@ -4930,6 +4911,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -4971,6 +4953,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/bar/marker/colorbar/_outlinewidth.py
@@ -5334,6 +5317,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -5375,6 +5359,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/barpolar/marker/colorbar/_outlinewidth.py
@@ -5601,11 +5586,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/box/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_ycalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_alignmentgroup.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_boxmean.py
@@ -5671,11 +5662,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/box/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_yaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_ycalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/_ysrc.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/box/hoverlabel/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/box/hoverlabel/__init__.py
@@ -5832,6 +5829,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_x.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_close.py
@@ -5871,6 +5871,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/candlestick/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_x.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/candlestick/_yaxis.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/candlestick/decreasing/
@@ -6052,6 +6055,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_labelsuffix.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_minorgridcolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_minorgridcount.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__/_minorgridwidth.cpython-37.pyc
@@ -6105,6 +6109,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_labelsuffix.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_minorgridcolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_minorgridcount.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/aaxis/_minorgridwidth.py
@@ -6206,6 +6211,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_labelsuffix.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_minorgridcolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_minorgridcount.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__/_minorgridwidth.cpython-37.pyc
@@ -6259,6 +6265,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/carpet/baxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_labelsuffix.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_minorgridcolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_minorgridcount.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/carpet/baxis/_minorgridwidth.py
@@ -6456,6 +6463,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -6497,6 +6505,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choropleth/colorbar/_outlinewidth.py
@@ -6770,6 +6779,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -6811,6 +6821,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/choroplethmapbox/colorbar/_outlinewidth.py
@@ -7098,6 +7109,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -7139,6 +7151,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/cone/colorbar/__pycache_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/cone/colorbar/_outlinewidth.py
@@ -7338,12 +7351,18 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_xtype.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_ycalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_ytype.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/_z.cpython-37.pyc
@@ -7396,12 +7415,18 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/contour/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_xtype.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_yaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_ycalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_ysrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_ytype.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/_z.py
@@ -7422,6 +7447,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycac
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -7463,6 +7489,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/contour/colorbar/__pycac
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contour/colorbar/_outlinewidth.py
@@ -7748,6 +7775,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -7789,6 +7817,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/contourcarpet/colorbar/_outlinewidth.py
@@ -8024,6 +8053,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -8065,6 +8095,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/densitymapbox/colorbar/_outlinewidth.py
@@ -8257,10 +8288,16 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_x.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_xaxis.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_yaxis.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_alignmentgroup.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_cliponaxis.py
@@ -8310,10 +8347,16 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/funnel/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_x.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_xaxis.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_yaxis.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/_ysrc.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/funnel/connector/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/connector/__init__.py
@@ -8434,6 +8477,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -8475,6 +8519,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/funnel/marker/colorbar/_outlinewidth.py
@@ -8890,6 +8935,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xcalendar.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xgap.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_xtype.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_y.cpython-37.pyc
@@ -8897,6 +8945,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_ycalendar.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_ygap.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_ytype.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/_z.cpython-37.pyc
@@ -8946,6 +8997,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xcalendar.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xgap.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_xtype.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_y.py
@@ -8953,6 +9007,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmap/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_yaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_ycalendar.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_ygap.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_ysrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_ytype.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/_z.py
@@ -8974,6 +9031,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycac
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -9015,6 +9073,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/__pycac
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmap/colorbar/_outlinewidth.py
@@ -9240,6 +9299,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -9281,6 +9341,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/heatmapgl/colorbar/_outlinewidth.py
@@ -9668,6 +9729,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -9709,6 +9771,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram/marker/colorbar/_outlinewidth.py
@@ -10012,6 +10075,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -10053,6 +10117,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2d/colorbar/_outlinewidth.py
@@ -10332,6 +10397,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/color
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -10373,6 +10439,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/color
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/histogram2dcontour/colorbar/_outlinewidth.py
@@ -10815,6 +10882,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/__init__.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_dtick.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_exponentformat.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_range.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_separatethousands.cpython-37.pyc
@@ -10842,6 +10910,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/__pycache__/_visible.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/_dtick.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/_exponentformat.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/_range.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/indicator/gauge/axis/_separatethousands.py
@@ -11154,6 +11223,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -11195,6 +11265,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/isosurface/colorbar/_outlinewidth.py
@@ -11778,6 +11849,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -11819,6 +11891,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/coloraxis/colorbar/_outlinewidth.py
@@ -12450,6 +12523,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_layer.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_period.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/__pycache__/_rotation.cpython-37.pyc
@@ -12494,6 +12568,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_layer.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_period.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/angularaxis/_rotation.py
@@ -12580,6 +12655,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_layer.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_range.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/__pycache__/_rangemode.cpython-37.pyc
@@ -12627,6 +12703,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_layer.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_range.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/polar/radialaxis/_rangemode.py
@@ -12953,6 +13030,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_hoverformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_mirror.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pycache__/_range.cpython-37.pyc
@@ -13007,6 +13085,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_hoverformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_mirror.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/xaxis/_range.py
@@ -13107,6 +13186,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_hoverformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_mirror.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pycache__/_range.cpython-37.pyc
@@ -13161,6 +13241,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_hoverformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_mirror.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/yaxis/_range.py
@@ -13261,6 +13342,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_hoverformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_linewidth.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_mirror.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pycache__/_range.cpython-37.pyc
@@ -13315,6 +13397,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/__pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_hoverformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_linewidth.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_mirror.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/scene/zaxis/_range.py
@@ -13719,6 +13802,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_linewidth.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_min.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_separatethousands.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__pycache__/_showexponent.cpython-37.pyc
@@ -13756,6 +13840,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_linewidth.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_min.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_separatethousands.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/aaxis/_showexponent.py
@@ -13839,6 +13924,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_linewidth.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_min.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_separatethousands.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__pycache__/_showexponent.cpython-37.pyc
@@ -13876,6 +13962,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_linewidth.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_min.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_separatethousands.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/baxis/_showexponent.py
@@ -13959,6 +14046,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_linewidth.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_min.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_separatethousands.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__pycache__/_showexponent.cpython-37.pyc
@@ -13996,6 +14084,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/__p
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_linewidth.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_min.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_separatethousands.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/ternary/caxis/_showexponent.py
@@ -14248,6 +14337,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_linewidth.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_matches.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_mirror.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__/_overlaying.cpython-37.pyc
@@ -14324,6 +14414,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/xaxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_linewidth.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_matches.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_mirror.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/xaxis/_overlaying.py
@@ -14550,6 +14641,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_linecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_linewidth.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_matches.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_mirror.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__/_overlaying.cpython-37.pyc
@@ -14624,6 +14716,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/yaxis/__pycache__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_linecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_linewidth.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_matches.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_mirror.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/yaxis/_overlaying.py
@@ -14878,6 +14971,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycach
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -14919,6 +15013,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/__pycach
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/mesh3d/colorbar/_outlinewidth.py
@@ -15122,6 +15217,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_x.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_close.py
@@ -15161,6 +15259,9 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/ohlc/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_x.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/ohlc/_yaxis.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/ohlc/decreasing/
@@ -15386,6 +15487,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -15427,6 +15529,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcats/line/colorbar/_outlinewidth.py
@@ -15660,6 +15763,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -15701,6 +15805,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/parcoords/line/colorbar/_outlinewidth.py
@@ -16578,11 +16683,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_ycalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_cliponaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_connectgaps.py
@@ -16639,11 +16750,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_yaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_ycalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/_ysrc.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter/error_x/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/error_x/__init__.py
@@ -16828,6 +16945,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -16869,6 +16987,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter/marker/colorbar/_outlinewidth.py
@@ -17340,6 +17459,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -17381,6 +17501,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/line/colorbar/_outlinewidth.py
@@ -17516,6 +17637,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -17557,6 +17679,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatter3d/marker/colorbar/_outlinewidth.py
@@ -17932,6 +18055,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/col
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -17973,6 +18097,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/col
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattercarpet/marker/colorbar/_outlinewidth.py
@@ -18370,6 +18495,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorb
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -18411,6 +18537,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorb
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergeo/marker/colorbar/_outlinewidth.py
@@ -18650,11 +18777,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_xaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_xcalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_yaxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_ycalendar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_connectgaps.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_customdata.py
@@ -18701,11 +18834,17 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergl/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_xaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_xcalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_yaxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_ycalendar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/_ysrc.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergl/error_x/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/error_x/__init__.py
@@ -18882,6 +19021,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -18923,6 +19063,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorba
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattergl/marker/colorbar/_outlinewidth.py
@@ -19298,6 +19439,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/col
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -19339,6 +19481,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/col
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scattermapbox/marker/colorbar/_outlinewidth.py
@@ -19684,6 +19827,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colo
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -19725,6 +19869,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colo
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolar/marker/colorbar/_outlinewidth.py
@@ -20122,6 +20267,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/co
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -20163,6 +20309,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/co
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterpolargl/marker/colorbar/_outlinewidth.py
@@ -20554,6 +20701,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/co
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -20595,6 +20743,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/co
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/scatterternary/marker/colorbar/_outlinewidth.py
@@ -20986,6 +21135,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -21027,6 +21177,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/__
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/splom/marker/colorbar/_outlinewidth.py
@@ -21286,6 +21437,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -21327,6 +21479,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/__py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/streamtube/colorbar/_outlinewidth.py
@@ -21528,6 +21681,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_outsidetextfont.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_parents.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_parentssrc.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_sort.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_stream.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_text.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_textfont.cpython-37.pyc
@@ -21569,6 +21723,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_outsidetextfont.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_parents.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_parentssrc.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_sort.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_stream.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_text.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_textfont.py
@@ -21694,6 +21849,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -21735,6 +21891,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/marker/colorbar/_outlinewidth.py
@@ -21982,6 +22139,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycac
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -22023,6 +22181,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/surface/colorbar/__pycac
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/surface/colorbar/_outlinewidth.py
@@ -22561,6 +22720,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_parents.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_parentssrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_pathbar.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_sort.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_stream.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_text.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/_textfont.cpython-37.pyc
@@ -22603,6 +22763,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/treemap/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_parents.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_parentssrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_pathbar.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_sort.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_stream.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_text.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/_textfont.py
@@ -22728,6 +22889,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -22769,6 +22931,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/treemap/marker/colorbar/_outlinewidth.py
@@ -23362,6 +23525,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycach
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_exponentformat.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_len.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_lenmode.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_minexponent.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_nticks.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_outlinecolor.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycache__/_outlinewidth.cpython-37.pyc
@@ -23403,6 +23567,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/volume/colorbar/__pycach
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_exponentformat.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_len.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_lenmode.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_minexponent.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_nticks.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_outlinecolor.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/volume/colorbar/_outlinewidth.py
@@ -23690,10 +23855,16 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_x.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_x0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_xaxis.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_xperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_xperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_xperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_xsrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_y.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_y0.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_yaxis.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_yperiod.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_yperiod0.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_yperiodalignment.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/_ysrc.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_alignmentgroup.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_base.py
@@ -23750,10 +23921,16 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/waterfall/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_x.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_x0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_xaxis.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_xperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_xperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_xperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_xsrc.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_y.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_y0.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_yaxis.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_yperiod.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_yperiod0.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_yperiodalignment.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/_ysrc.py
 drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/waterfall/connector/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/waterfall/connector/__init__.py
@@ -24178,62 +24355,6 @@ drwxr-xr-x	root/root	opt/theHarvester/soupsieve/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/soupsieve/css_parser.py
 -rw-r--r--	root/root	opt/theHarvester/soupsieve/css_types.py
 -rw-r--r--	root/root	opt/theHarvester/soupsieve/util.py
-drwxr-xr-x	root/root	opt/theHarvester/tests/
--rw-r--r--	root/root	opt/theHarvester/tests/__init__.py (EMPTY)
-drwxr-xr-x	root/root	opt/theHarvester/tests/__pycache__/
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/__init__.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/base.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/closeme.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/dumpio.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/frame_utils.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/server.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_abnormal_crash.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_browser.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_browser_context.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_connection.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_coverage.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_dialog.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_element_handle.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_execution_context.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_frame.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_input.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_launcher.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_misc.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_network.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_page.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_pyppeteer.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_screenshot.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_target.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_tracing.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/test_worker.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/__pycache__/utils.cpython-37.pyc
--rw-r--r--	root/root	opt/theHarvester/tests/base.py
--rw-r--r--	root/root	opt/theHarvester/tests/blank_800x600.png
--rw-r--r--	root/root	opt/theHarvester/tests/closeme.py
--rw-r--r--	root/root	opt/theHarvester/tests/dumpio.py
--rw-r--r--	root/root	opt/theHarvester/tests/file-to-upload.txt
--rw-r--r--	root/root	opt/theHarvester/tests/frame_utils.py
--rwxr-xr-x	root/root	opt/theHarvester/tests/server.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_abnormal_crash.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_browser.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_browser_context.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_connection.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_coverage.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_dialog.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_element_handle.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_execution_context.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_frame.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_input.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_launcher.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_misc.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_network.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_page.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_pyppeteer.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_screenshot.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_target.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_tracing.py
--rw-r--r--	root/root	opt/theHarvester/tests/test_worker.py
--rw-r--r--	root/root	opt/theHarvester/tests/utils.py
 -rw-r--r--	root/root	opt/theHarvester/texttable.py
 drwxr-xr-x	root/root	opt/theHarvester/tqdm/
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__init__.py

@@ -32,7 +32,20 @@ build() {
 	# Install an indirect launcher in /opt/bin
 	install -Dm755 $SRC/theharvester $PKG/opt/bin/theharvester
 
+	# Install /etc/theHarvester configs
+	install -Dm644 $PKG/opt/theHarvester/app/api-keys.yaml -t $PKG/etc/theHarvester
+	install -Dm644 $PKG/opt/theHarvester/app/proxies.yaml  -t $PKG/etc/theHarvester
+
 	# Remove junk files
-	rm -rf $PKG/opt/theHarvester/*.dist-info
-	rm -rf $PKG/opt/theHarvester/*.egg-info
+	rm -rf  $PKG/opt/theHarvester/*.dist-info \
+		$PKG/opt/theHarvester/*.egg-info \
+		$PKG/opt/theHarvester/{CHANGES.md,README.md,LICENSE,Makefile} \
+		$PKG/opt/theHarvester/app/{Dockerfile,Pipfile,Pipfile.lock} \
+		$PKG/opt/theHarvester/app/{README.md,README} \
+		$PKG/opt/theHarvester/app/{api-keys.yaml,mypy.ini,proxies.yaml} \
+		$PKG/opt/theHarvester/app/{requirements.txt,requirements} \
+		$PKG/opt/theHarvester/app/setup.{cfg,py} \
+		$PKG/opt/theHarvester/app/tests \
+		$PKG/opt/theHarvester/app/theHarvester-logo.png \
+		$PKG/opt/theHarvester/tests
 }
