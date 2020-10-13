@@ -29,5 +29,5 @@ build() {
 	patch -p1 < $SRC/0001-print-action-message-instead-of-url-like-something-i.patch
 	
 	python3 setup.py build
-	python3 setup.py install --prefix=/usr --root=$PKG
+	python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
 }
