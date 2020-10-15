@@ -1,4 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj6CctkA2E0g8VbHMCzsl5gaK4UK2qluR10VOoT0suk9grF9bhZd679PiVTuJn6n0qFwwwznKM6RawJ8MpI50GgQ=
-SHA256 (Pkgfile) = 93a65ce2b8a881b619f88373e3abe6c92d77c81119b1406263b9748d1f478ece
-SHA256 (.footprint) = e60a5f6a46d8bb1c463283ced6c3b39bcea4a1faeee68982be615fc7dc7653c7
+RWT2I5SomoNUjxIaWzXMJjXvkab/tOcYih/cemSOkimcgiUHeSyxVmcVZO9qnrPwMmP2igxjtONmkum5PbleyVaTy2NGVroY3Q0=
+SHA256 (Pkgfile) = 43f08407e996152546eb3a1c4307c6a0d206d1fd27373fa70a014c1cd759a7d6
+SHA256 (.footprint) = 29eb6bd8ab32767af7704d1bc1d4c1c57a2543119e00b20c2caf5b05cdcd5358
+SHA256 (DiffCompare.patch) = ca271ef3cde6e7923fde6c2e69f062fbaa2d8a9b54123a772b19f6fbd04111fd
+SHA256 (NmapOutputViewer.patch) = d6a79873559d9b67c094967d4ae16d1b5b87c3b49045966c759558561a661462

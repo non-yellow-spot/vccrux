@@ -6,6 +6,8 @@
 name=nmap-scm
 version=$(date +%Y%m%d)
 release=1
+source=(DiffCompare.patch
+	NmapOutputViewer.patch)
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$3 ]]; then
@@ -20,11 +22,17 @@ download_git() {
 }
 
 build() {
-	download_git https://github.com/${name/-scm}/${name/-scm} master $name
-	download_git https://github.com/chinarulezzz/nmap-extra-scripts master \
-		nmap-extra-scripts-scm
+	download_git https://github.com/${name/-scm}/${name/-scm} \
+		master $name
+	download_git https://github.com/chinarulezzz/nmap-extra-scripts \
+		master nmap-extra-scripts-scm
 
 	cd $name
+
+	# Zenmap fix: Respect system font settings
+	patch ./zenmap/zenmapGUI/DiffCompare.py      $SRC/DiffCompare.patch
+	patch ./zenmap/zenmapGUI/NmapOutputViewer.py $SRC/NmapOutputViewer.patch
+
 	./configure \
 		--prefix=/usr \
 		--libexecdir=/usr/lib \
@@ -36,24 +44,22 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	# Remove junk
 	rm -f  $PKG/usr/share/nmap/nselib/data/psexec/README
 	rm -f  $PKG/usr/share/nmap/nselib/data/jdwp-class/README.txt
-	rm -rf $PKG/usr/share/zenmap/docs
 	rm -rf $PKG/usr/share/zenmap/locale
 	rm -f  $PKG/usr/bin/uninstall_zenmap
+	rm -f  $PKG/usr/bin/uninstall_ndiff
+	rm -rf $PKG/usr/share/zenmap/docs
 
-	# prepare extra scripts
-	(
-	cd $PKGMK_SOURCE_DIR/nmap-extra-scripts-scm
+	# Prepare extra scripts
+	(cd $PKGMK_SOURCE_DIR/nmap-extra-scripts-scm
 	for nse in *.nse; do
 		install -Dm644 $nse $PKG/usr/share/nmap/scripts/${nse#*-}
 	done
-	/bin/sh ./update-scriptdb.sh $PKG/usr/share/nmap/scripts/script.db
-	)
+	/bin/sh ./update-scriptdb.sh $PKG/usr/share/nmap/scripts/script.db)
 
-	# Fix /usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.py:68:
-	# PangoWarning: No modules found: No builtin or dynamically loaded modules were found.
-	# PangoFc will not work correctly.
+	# Fix "PangoFc will not work correctly"
 	mkdir -p $PKG/usr/etc/pango
 	pango-querymodules > $PKG/usr/etc/pango/pango.modules
 }
