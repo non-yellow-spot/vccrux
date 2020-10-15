@@ -1,0 +1,17 @@
+174c174
+<         self.txg_tag.set_property("family", "Monospace")
+---
+>         #self.txg_tag.set_property("family", "Monospace")
+415,418c415,421
+<         buff.create_tag("=", font="Monospace")
+<         buff.create_tag(
+<             "-", font="Monospace", background=self.REMOVE_COLOR)
+<         buff.create_tag("+", font="Monospace", background=self.ADD_COLOR)
+---
+>         #buff.create_tag("=", font="Monospace")
+>         #buff.create_tag(
+>         #    "-", font="Monospace", background=self.REMOVE_COLOR)
+>         #buff.create_tag("+", font="Monospace", background=self.ADD_COLOR)
+>         buff.create_tag("=")
+>         buff.create_tag("-", foreground=gtk.gdk.color_parse('dark red'))
+>         buff.create_tag("+", foreground=gtk.gdk.color_parse('dark green'))

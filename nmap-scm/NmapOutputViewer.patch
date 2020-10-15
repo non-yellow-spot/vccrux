@@ -1,0 +1,4 @@
+122c122
+<         self.tag_font.set_property("family", "Monospace")
+---
+>         #self.tag_font.set_property("family", "Monospace")
