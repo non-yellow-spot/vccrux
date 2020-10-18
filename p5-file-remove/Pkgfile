@@ -1,7 +1,6 @@
 # Description:  Remove files and directories
 # URL:          https://metacpan.org/pod/File::Remove
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   perl
 
 name=p5-file-remove
 version=1.59
