@@ -70,17 +70,17 @@ drwxr-xr-x	root/root	usr/lib/cmake/PulseAudio/
 -rw-r--r--	root/root	usr/lib/cmake/PulseAudio/PulseAudioConfig.cmake
 -rw-r--r--	root/root	usr/lib/cmake/PulseAudio/PulseAudioConfigVersion.cmake
 -rwxr-xr-x	root/root	usr/lib/libpulse-mainloop-glib.la
-lrwxrwxrwx	root/root	usr/lib/libpulse-mainloop-glib.so -> libpulse-mainloop-glib.so.0.0.5
-lrwxrwxrwx	root/root	usr/lib/libpulse-mainloop-glib.so.0 -> libpulse-mainloop-glib.so.0.0.5
--rwxr-xr-x	root/root	usr/lib/libpulse-mainloop-glib.so.0.0.5
+lrwxrwxrwx	root/root	usr/lib/libpulse-mainloop-glib.so -> libpulse-mainloop-glib.so.0.0.6
+lrwxrwxrwx	root/root	usr/lib/libpulse-mainloop-glib.so.0 -> libpulse-mainloop-glib.so.0.0.6
+-rwxr-xr-x	root/root	usr/lib/libpulse-mainloop-glib.so.0.0.6
 -rwxr-xr-x	root/root	usr/lib/libpulse-simple.la
 lrwxrwxrwx	root/root	usr/lib/libpulse-simple.so -> libpulse-simple.so.0.1.1
 lrwxrwxrwx	root/root	usr/lib/libpulse-simple.so.0 -> libpulse-simple.so.0.1.1
 -rwxr-xr-x	root/root	usr/lib/libpulse-simple.so.0.1.1
 -rwxr-xr-x	root/root	usr/lib/libpulse.la
-lrwxrwxrwx	root/root	usr/lib/libpulse.so -> libpulse.so.0.21.2
-lrwxrwxrwx	root/root	usr/lib/libpulse.so.0 -> libpulse.so.0.21.2
--rwxr-xr-x	root/root	usr/lib/libpulse.so.0.21.2
+lrwxrwxrwx	root/root	usr/lib/libpulse.so -> libpulse.so.0.22.0
+lrwxrwxrwx	root/root	usr/lib/libpulse.so.0 -> libpulse.so.0.22.0
+-rwxr-xr-x	root/root	usr/lib/libpulse.so.0.22.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libpulse-mainloop-glib.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libpulse-simple.pc
@@ -265,6 +265,7 @@ drwxr-xr-x	root/root	usr/share/pulseaudio/alsa-mixer/paths/
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-mono.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/paths/usb-gaming-headset-output-stereo.conf
 drwxr-xr-x	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/
+-rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/audigy.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/cmedia-high-speed-true-hdaudio.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/default.conf
 -rw-r--r--	root/root	usr/share/pulseaudio/alsa-mixer/profile-sets/dell-dock-tb16-usb-audio.conf
