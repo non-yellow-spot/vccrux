@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUjyRWI35i7g2RkGNkU9+tgTqBQDWckGvNR3dgUAIEBx87hVpugmCZCtHn7LlYrcnzN6k5AX4cTl22rPzL99mgQQc=
+SHA256 (Pkgfile) = 8672323b55661a063c2e7edb1ad80e602102783b8ea5db526678e1dd698c9f78
+SHA256 (.footprint) = d0d253e4af6eb14bab05716833f0bc9f79e06b33db78c5d1add40cf9a9f83c84
+SHA256 (Net-RawIP-0.25.tar.gz) = 6d104b2f0e453eff7a1b479c528798670b15729ed6ecf41430405ff6d7e1ee58
