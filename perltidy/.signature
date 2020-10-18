@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj4pinSMznkNgA+tmOIbObwSxtSBvIAT7ydTn9tDiZ78hs7zXgQwWta3cja3yoevqwNtwra5KMM/5/8bzBxoy3A0=
-SHA256 (Pkgfile) = 4e7f3cdc4561ec17859eeb2e506b8f8c20196284d6df2b18f72efc846fd0f7f0
+RWT2I5SomoNUj0vqoNBa/j+ZXiwN741mGwlg4njfH/JJg0ihKrNTiVfg7pyzmgyH+ftdCVTSEbOK+iw1TCNrPFpMk2h3tOnC6Q4=
+SHA256 (Pkgfile) = 9178d792b8959dd945e99643e99cc44cc79a56f8077b7e9eddd1331cff0783ab
 SHA256 (.footprint) = d778bccc138bcfb39051e16e6c48f33ab08b381cfc972fb2b3a439a9cddfb720
-SHA256 (Perl-Tidy-20200907.tar.gz) = 72c9324a188ecf7c9cd4ed8b7718be993ad77d4d9bc770b284caa17278467c18
+SHA256 (Perl-Tidy-20201001.tar.gz) = 0873ebb300239d792fb8e67164b0e04bb8fb1ff153659630d321c0b4a1dc9a12
