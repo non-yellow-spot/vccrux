@@ -3,7 +3,7 @@
 # Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
 
 name=hwloc
-version=2.2.0
+version=2.3.0
 release=1
 source=(https://download.open-mpi.org/release/$name/v${version%.*}/$name-$version.tar.gz)
 
