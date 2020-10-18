@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj651iCRWvGKUimRBULn6/qsBPdyrUv3SMMrAXf9+J4f5/CEmlSocpU+uiBqGNUrSub7ET/fua7J0MSctqQXR6AI=
-SHA256 (Pkgfile) = 1f2a7608a98d921d973f9b541007d4b79cc3813f8e5c1f7491875648e3188c79
+RWT2I5SomoNUj2eoD2GMa7sjEA24hq3x+pnQR48d6lMrNc/x8nAYnwEpwtVo8jfeXPZj8UQtrPbhlCw+2ri6IGt6XdYUBnttugo=
+SHA256 (Pkgfile) = 669c723df74eac35336ce713a437b3e5640f63f30d7d462e8639d2da418b465b
 SHA256 (.footprint) = 2838683e34ae88745d4ea9a2b604db614645982b63aeaaff8e7aa68a81165b04
-SHA256 (libmtp-1.1.17.tar.gz) = f8a34cf52d9f9b9cb8c7f26b12da347d4af7eb904c13189602e4c6b62d1a79dc
+SHA256 (libmtp-1.1.18.tar.gz) = 7280fe50c044c818a06667f45eabca884deab3193caa8682e0b581e847a281f0

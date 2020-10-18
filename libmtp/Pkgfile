@@ -3,7 +3,7 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=libmtp
-version=1.1.17
+version=1.1.18
 release=1
 source=(http://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
 
