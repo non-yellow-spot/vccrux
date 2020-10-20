@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libtorrent/
+-rw-r--r--	root/root	usr/include/libtorrent/ConvertUTF.h
 -rw-r--r--	root/root	usr/include/libtorrent/add_torrent_params.hpp
 -rw-r--r--	root/root	usr/include/libtorrent/address.hpp
 -rw-r--r--	root/root	usr/include/libtorrent/alert.hpp
@@ -259,8 +260,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libtorrent-rasterbar.pc
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
--rwxrwxr-x	root/root	usr/lib/python2.7/site-packages/libtorrent.so
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/python_libtorrent-1.2.9-py2.7.egg-info
+-rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/libtorrent.so
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/python_libtorrent-1.2.8-py2.7.egg-info
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/cmake/
 drwxr-xr-x	root/root	usr/share/cmake/Modules/
