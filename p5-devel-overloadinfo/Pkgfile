@@ -1,0 +1,26 @@
+# Description:  HigIntrospect overloaded operators
+# URL:          https://metacpan.org/pod/Devel::OverloadInfo
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   p5-glib
+
+name=p5-devel-overloadinfo
+version=0.005
+release=1
+source=(https://cpan.metacpan.org/authors/id/I/IL/ILMARI/Devel-OverloadInfo-${version}.tar.gz)
+
+build() {
+	cd Devel-OverloadInfo-$version
+
+	perl Makefile.PL
+
+	make OPTIMIZE="$CFLAGS"
+	make install DESTDIR=$PKG
+
+	find $PKG  -name perllocal.pod  \
+		-o -name "*.bs"         \
+		-o -name .packlist      \
+		-o -name autosplit.ix   \
+	| xargs rm -f
+
+	find $PKG -depth -type d -empty -delete
+}
