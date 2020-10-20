@@ -1,0 +1,26 @@
+# Description:  Lightweight RTSP implementation
+# URL:          https://metacpan.org/pod/RTSP::Lite
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   p5-glib
+
+name=p5-rtsp-lite
+version=0.1
+release=1
+source=(https://cpan.metacpan.org/authors/id/N/NA/NABESHIMA/RTSP-Lite-${version}.tar.gz)
+
+build() {
+	cd RTSP-Lite-$version
+
+	perl Makefile.PL
+
+	make OPTIMIZE="$CFLAGS"
+	make install DESTDIR=$PKG
+
+	find $PKG  -name perllocal.pod  \
+		-o -name "*.bs"         \
+		-o -name .packlist      \
+		-o -name autosplit.ix   \
+	| xargs rm -f
+
+	find $PKG -depth -type d -empty -delete
+}
