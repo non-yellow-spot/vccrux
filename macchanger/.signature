@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj0RpvPJffVQKNH1ZhRre79Ilsi6ZVLIuKuqHE/u/NQmk87B/OW3CHjQbawgw5nMDsMvk8XpuAjUw7efL+GIx/QA=
-SHA256 (Pkgfile) = 56ce60792802b491ee2e7d03222d978291561a3c7b2ec72cb461bbc6d37b7b87
+RWT2I5SomoNUj8a5y+Ndcrh6PsS9pX2f/oNPUbSMpvp0mON6ctfb1siRx5On9UnZrlf4zJf7GRz0XEtVNpyaWN19Wsu/aPNukA4=
+SHA256 (Pkgfile) = cca488fb1adc45072a40db39817f514e9a14d486646f6d6627856bb9aae939c1
 SHA256 (.footprint) = f21f745c9b7b902500438b68aee91de7417d88484bee43d4ae67d510da122e40
 SHA256 (macchanger-1.7.0.tar.gz) = 1d75c07a626321e07b48a5fe2dbefbdb98c3038bb8230923ba8d32bda5726e4f
-SHA256 (macchanger.rc) = a015aee57b8b89c0ac3be92bc7c68e919f9d4937903812aea247cd62c1f24798
+SHA256 (macchanger.rc) = 263e7ea84bcca84eff4532d04a7e81d74698d319a1a804c07eb9402428d0d25a
