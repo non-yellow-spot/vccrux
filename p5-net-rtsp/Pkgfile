@@ -1,0 +1,26 @@
+# Description:  High-level client for the Real-Time Streaming Protocol
+# URL:          https://metacpan.org/pod/RTSP::Client
+# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Depends on:   p5-glib
+
+name=p5-net-rtsp
+version=0.4
+release=1
+source=(https://cpan.metacpan.org/authors/id/R/RE/REVMISCHA/RTSP-Client-${version}.tar.gz)
+
+build() {
+	cd RTSP-Client-$version
+
+	perl Makefile.PL
+
+	make OPTIMIZE="$CFLAGS"
+	make install DESTDIR=$PKG
+
+	find $PKG  -name perllocal.pod  \
+		-o -name "*.bs"         \
+		-o -name .packlist      \
+		-o -name autosplit.ix   \
+	| xargs rm -f
+
+	find $PKG -depth -type d -empty -delete
+}
