@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj7SLWRB6sjs9TFkqmttSClaP9kF38+0obGAOwNJeI6EcdOOG9ZSjK6lA0pVWDUZSP1DxaVWe+tonKLsIoqrgEAM=
+SHA256 (Pkgfile) = cc9d1042be7e0510d9c1c443bcf25ef63c2c7b2f6436b96e52cf623092858e90
+SHA256 (.footprint) = ec0e0d306c5038c1608eaf398dd0963971227fef76199e829ca527d680ee87a7
+SHA256 (Moose-2.2013.tar.gz) = df74dc78088921178edf72d827017d6c92737c986659f2dadc533ae24675e77c
