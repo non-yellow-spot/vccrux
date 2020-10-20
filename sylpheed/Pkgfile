@@ -5,13 +5,22 @@
 
 name=sylpheed
 version=3.7.0
-release=1
-source=(https://sylpheed.sraoss.jp/sylpheed/v3.7/$name-$version.tar.xz)
+release=2
+source=(https://sylpheed.sraoss.jp/sylpheed/v3.7/$name-$version.tar.xz
+	sylpheed-3.7.0-textview.c.patch)
 
 build () {
 	cd $name-$version
 
-	./configure --prefix=/usr
+	# fix widget style for dark themes
+	patch src/textview.c $SRC/sylpheed-3.7.0-textview.c.patch
+
+	./configure \
+		--prefix=/usr \
+		--disable-glibtest \
+		--disable-gtktest \
+		--disable-updatecheck \
+		--disable-updatecheckplugin
 
 	make
 	make DESTDIR=$PKG install
