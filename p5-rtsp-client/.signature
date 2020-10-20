@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj9sWVfUKspfel5eyHBisRw8ZvcgQwtyx2ACZVliaPO2CQi/17lcP3I95DdCTljKxgRnsPnCQJybeuVxSxyAZ0gM=
+SHA256 (Pkgfile) = cdbd7bb44df75cfa891b6ed3af28f1b82291b4605eb525c355eb163b71d0821b
+SHA256 (.footprint) = 85f3f07672a4929eadaf82b4c7c6074e3647fb8e6d20f20afa5802d4d25d9a0a
+SHA256 (RTSP-Client-0.4.tar.gz) = de4277794b36b54cd797293c7e2ffcaae66db3d75945a0040d7cb09d319b7f34
