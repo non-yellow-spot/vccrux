@@ -1,11 +1,11 @@
-# Description:	Network exploration of security auditing + extra scripts
-# URL:		https://nmap.org	
-# Maintainer:	Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:	libpcap python pygtk git
+# Description:  Network exploration of security auditing + extra scripts
+# URL:          https://nmap.org
+# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Depends on:   libpcap python pygtk git pango-compat
 
 name=nmap-scm
 version=$(date +%Y%m%d)
-release=1
+release=2
 source=(DiffCompare.patch
 	NmapOutputViewer.patch)
 
