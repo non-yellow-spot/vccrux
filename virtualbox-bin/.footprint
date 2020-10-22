@@ -400,6 +400,8 @@ drwxr-xr-x	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/heap.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/initterm.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/latin1.h
+drwxr-xr-x	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/linux/
+-rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/linux/version.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/list.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/lockvalidator.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxdrv/include/iprt/log.h
@@ -523,6 +525,8 @@ drwxr-xr-x	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/heap.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/initterm.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/latin1.h
+drwxr-xr-x	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/linux/
+-rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/linux/version.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/log.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/mangling.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetadp/include/iprt/mem.h
@@ -606,6 +610,8 @@ drwxr-xr-x	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/heap.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/initterm.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/latin1.h
+drwxr-xr-x	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/linux/
+-rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/linux/version.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/log.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/mangling.h
 -rw-r--r--	root/root	opt/VirtualBox/src/vboxhost/vboxnetflt/include/iprt/mem.h
