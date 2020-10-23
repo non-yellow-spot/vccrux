@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7EDjBdl9CkNBkP9e3mieYy+g8YCA9DvUHzqqEQt1qgX0FgKZaJgn7sLsoGAvG/ZUVw57O18xAnS6ARTBLbDgAI=
-SHA256 (Pkgfile) = c4c3960667efa97800de61e7fed875d4626186439f43e7d76b48fa53e429d2b8
+RWT2I5SomoNUj2OwkOozY5XIQrDVruBVbYMgIAJIR7u9oXavqYBIhXg7D1wVVjRMqDnitT7yGgrrznwDpY1f1AJlnHg4nQazLQg=
+SHA256 (Pkgfile) = 961f38dba765d340886350f21367f8790484ce9af4c5d3a67615d632aec63213
 SHA256 (.footprint) = 92d4cce3f8befa6bf69ecfb46f66f03cc87781558a09d53494e92cf65b70bf68
-SHA256 (File-Remove-1.59.tar.gz) = ef1593761eb3b7a2887d13dceaf71832d87e639824d29fce1dbef2f6bbf9039d
+SHA256 (File-Remove-1.60.tar.gz) = e86e2a40ffedc6d5697d071503fd6ba14a5f9b8220af3af022110d8e724f8ca6

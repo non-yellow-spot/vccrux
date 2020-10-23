@@ -3,7 +3,7 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=p5-file-remove
-version=1.59
+version=1.60
 release=1
 source=(https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/File-Remove-$version.tar.gz)
 
