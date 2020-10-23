@@ -5,7 +5,7 @@
 # Optional:     libnotify qrencode openal freealut python3 asciidoc
 
 name=toxic
-version=0.8.3
+version=0.8.4
 release=1
 source=(https://github.com/JFreegman/$name/archive/v$version/$name-$version.tar.gz)
 
