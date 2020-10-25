@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj1XZ+FeHEvn74NovHxGq+j/eVFNjEmJdeVupVzR3GItpuF6w1BuXtZIcPrL3ePDELV5Os/snq5NCSmGONCcWhgc=
-SHA256 (Pkgfile) = f62977a66b449967b7838c0375c9836b80cf64b18f094068e3d789a2fd51ad8f
-SHA256 (.footprint) = c213181aae6310abe7ec96d66d20fa7ca5d416668a0ef07f17111a1d13df3c0f
-SHA256 (kitemmodels-5.65.0.tar.xz) = 01980a8b518cdb442ace10f7a61dacec1cb61ff708d86edf83ee079cb6451d41
+RWT2I5SomoNUjwe+zfBQEtyB9+Xm+AslmNdXuvkzC+9pab3mY6MChF7W4TdQCpw8J1tje8gtWAmK5Nr+WVMGDrtqR85fHNyw8AE=
+SHA256 (Pkgfile) = cef912cb371e64f2007bdbcf32b93e7f76b0817f2ef515401c7ef44611fab2f5
+SHA256 (.footprint) = 1217fbd375a3f0853b374cb52d1e0139a8561f3a127707e37b7a27cf1e9edd83
+SHA256 (kitemmodels-5.75.0.tar.xz) = fb3f4caa2e55ffb5e21ea8f65bcb6ea9b074c54f9dbbce458ba7320d6c50fdb6
