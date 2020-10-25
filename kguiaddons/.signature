@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+WM60BvmZxsQgw/EeUS76IMqBAbm/SATTc7cw/gfGCqj4QmQ0wbxNBtrutvemVoWwT2kk9s8OKtwmUB8xyo4Aw=
-SHA256 (Pkgfile) = 43a4747b6c84af8b9d3a4e56107dbee287ce712cf711c721dc7773e47193fd80
-SHA256 (.footprint) = f02d948b21da6a9445e8772468cf31ced0d8417e1b8512a8e8990f53c1648b4d
-SHA256 (kguiaddons-5.65.0.tar.xz) = f6b34db7c21ced8179351f2bf38c7c073fa4e0f6de2f9d03986aedba4f87488d
+RWT2I5SomoNUj9WL/U2U6CElwPE4deXPC5Ql+ERVS3mm5fdeXTt3vNeIAZlxsJx2At2rb85wJ9pw1SlSUJXCswSB0P1wnjMwTQ0=
+SHA256 (Pkgfile) = fa341af02f0e9dac3944e04d5b8860b4e1ece73ca23f9dc4d544f70d646055f9
+SHA256 (.footprint) = f8d76e4a90a37638c0b4c013f5c6d0b6cf984420b3061a1e8dd0a94a29d983ea
+SHA256 (kguiaddons-5.75.0.tar.xz) = 58aba1bd986020f7b4bde0d35a7b09730716cbdffde734e6d29cc9d18500253b

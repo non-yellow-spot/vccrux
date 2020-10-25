@@ -4,7 +4,7 @@
 # Depends on:  extra-cmake-modules qt5
 
 name=kguiaddons
-version=5.65.0
+version=5.75.0
 release=1
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
@@ -12,8 +12,10 @@ build(){
     cd $name-$version
     mkdir build
     cd build
+
     cmake .. -DCMAKE_INSTALL_PREFIX=/usr
     make
     make DESTDIR=$PKG install
-    rm -Rf $PKG/usr/share/locale/
+
+rm -Rf $PKG/usr/share/locale/
 }
