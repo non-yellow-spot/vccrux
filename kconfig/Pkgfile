@@ -1,7 +1,7 @@
 # Description: Framework for reading and writing configuration
 # URL:         https://www.kde.org/
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  extra-cmake-modules
+# Depends on:  qt5 icu zstd glib dbus
 
 name=kconfig
 version=5.75.0
