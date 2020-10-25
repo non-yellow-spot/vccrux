@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj6UC7g2GJdsz+9asY1wN/5QQ1QUE5TqWjzgPMYBzV3tO2mVnHQRLCjXHJ/oLDl03WUkVkpYxSfI6/F8f+0tBlwU=
-SHA256 (Pkgfile) = 36bf655105465f67035a8c0ab9a64a02cbf49a2b10294d814b366c9e7d322f58
-SHA256 (.footprint) = 574e542c9966b04a4e4ba0e46274ce7e6b181b7568c23d9c8f8cbc967106593b
-SHA256 (kwidgetsaddons-5.65.0.tar.xz) = f5124ae8beb1da1ec5cca979b862c398635ee84e87283a7f528978df928a971d
+RWT2I5SomoNUjwoW+blJAduOAYRcohnhCDz8xe4CnXhjeX0hHLdUK+ggX4WpObUrUALvEyq2yE/ygkI7Izlo+ToHWa0/A77SwQA=
+SHA256 (Pkgfile) = f44ef8e62344c0370670adcccba867ba14799bea5fb67632c9741a35d1a9d997
+SHA256 (.footprint) = e5fa0e92d035c2e3a638346bffce522773c9fc3dc5fd82da24c2a4cb068c0d96
+SHA256 (kwidgetsaddons-5.75.0.tar.xz) = 9e46a967e7f98f570ab97d231e648770b0c6056a34d8efe0b3201a14f0e17bc0

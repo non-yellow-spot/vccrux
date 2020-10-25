@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KEditListWidget
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontAction
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontChooser
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontChooserDialog
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontRequester
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KFontSizeAction
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KGradientSelector
@@ -56,6 +57,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KPopupFrame
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KRatingPainter
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KRatingWidget
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KRecentFilesMenu
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KRuler
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KSelectAction
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/KSelector
@@ -98,6 +100,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/keditlistwidget.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kfontaction.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kfontchooser.h
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kfontchooserdialog.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kfontrequester.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kfontsizeaction.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kguiitem.h
@@ -126,6 +129,7 @@ drwxr-xr-x	root/root	usr/include/KF5/KWidgetsAddons/
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kpopupframe.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kratingpainter.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kratingwidget.h
+-rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/krecentfilesmenu.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kruler.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kselectaction.h
 -rw-r--r--	root/root	usr/include/KF5/KWidgetsAddons/kselector.h
@@ -165,9 +169,11 @@ drwxr-xr-x	root/root	usr/lib64/cmake/KF5WidgetsAddons/
 -rw-r--r--	root/root	usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake
 lrwxrwxrwx	root/root	usr/lib64/libKF5WidgetsAddons.so -> libKF5WidgetsAddons.so.5
-lrwxrwxrwx	root/root	usr/lib64/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.65.0
--rwxr-xr-x	root/root	usr/lib64/libKF5WidgetsAddons.so.5.65.0
+lrwxrwxrwx	root/root	usr/lib64/libKF5WidgetsAddons.so.5 -> libKF5WidgetsAddons.so.5.75.0
+-rwxr-xr-x	root/root	usr/lib64/libKF5WidgetsAddons.so.5.75.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/kf5/
 drwxr-xr-x	root/root	usr/share/kf5/kcharselect/
 -rw-r--r--	root/root	usr/share/kf5/kcharselect/kcharselect-data
+drwxr-xr-x	root/root	usr/share/qlogging-categories5/
+-rw-r--r--	root/root	usr/share/qlogging-categories5/kwidgetsaddons.categories
