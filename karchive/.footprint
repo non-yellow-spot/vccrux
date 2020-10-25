@@ -43,8 +43,9 @@ drwxr-xr-x	root/root	usr/lib64/cmake/KF5Archive/
 -rw-r--r--	root/root	usr/lib64/cmake/KF5Archive/KF5ArchiveTargets-noconfig.cmake
 -rw-r--r--	root/root	usr/lib64/cmake/KF5Archive/KF5ArchiveTargets.cmake
 lrwxrwxrwx	root/root	usr/lib64/libKF5Archive.so -> libKF5Archive.so.5
-lrwxrwxrwx	root/root	usr/lib64/libKF5Archive.so.5 -> libKF5Archive.so.5.65.0
--rwxr-xr-x	root/root	usr/lib64/libKF5Archive.so.5.65.0
+lrwxrwxrwx	root/root	usr/lib64/libKF5Archive.so.5 -> libKF5Archive.so.5.75.0
+-rwxr-xr-x	root/root	usr/lib64/libKF5Archive.so.5.75.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/qlogging-categories5/
 -rw-r--r--	root/root	usr/share/qlogging-categories5/karchive.categories
+-rw-r--r--	root/root	usr/share/qlogging-categories5/karchive.renamecategories
