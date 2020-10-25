@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj0raqj4J6jhgwKfSNbm9bHqWzKXBM6yHy0QdAC2t2WnB3fVrWpcEpMBDxe0iEEVHgpLrhW+vDdTvmqDatCC44gs=
-SHA256 (Pkgfile) = 4b0e495497bb6a79159628fb83e4e9996c1305a933a5788b3fd68b9b0c360298
-SHA256 (.footprint) = ec9923afceec9d4bf1464c48f3f237151aa25f8dbb90b17fa54bb4b75c07a061
-SHA256 (kwindowsystem-5.65.0.tar.xz) = 9745aebe1d0fdcdede623b9a7cd55b86520e3122278a6c4f82ebb83e0cf514c2
+RWT2I5SomoNUj6kXag4KmapZT6QJZ880ZwhRSnc1mV7WQNIJwAipYA0T+ItRLn5Kb2E39FfHxiSQJCxmAi0VfCnH9tLWc83fnQA=
+SHA256 (Pkgfile) = fd3b3020f8a742dbf40a8ba9f4300c3d1cc5d22ed60be24e199ea70680ddfea8
+SHA256 (.footprint) = 2679281288b3ce68261557a63a9b9d2fde79c5ff6a4d7f45bf30e729f98ccbc2
+SHA256 (kwindowsystem-5.75.0.tar.xz) = 4c180ec41aad90ed83e97db72216913e650b2719946803eec0d6e4cee7aab743
