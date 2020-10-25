@@ -1,10 +1,10 @@
 # Description: KDE Framework - kcoreaddons
 # URL:         https://api.kde.org/frameworks/kcoreaddons/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  extra-cmake-modules qt5
+# Depends on:  extra-cmake-modules qt5 icu zstd glib
 
 name=kcoreaddons
-version=5.65.0
+version=5.75.0
 release=2
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
@@ -13,6 +13,7 @@ build(){
 
 	mkdir build
 	cd build
+
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 	make
 	make DESTDIR=$PKG install
