@@ -3,18 +3,20 @@
 # Maintainer:  Cristina Stamatin, dear dot volgk at gmail dot com
 
 name=extra-cmake-modules
-version=5.67.0
-release=2
-source=(https://github.com/KDE/$name/archive/v$version/$name-$version.tar.gz)
+version=5.75.0
+release=1
+source=(https://github.com/KDE/${name}/archive/v${version}/${name}-${version}.tar.gz)
 
 build() {
 	mkdir build
 	cd build
 
-	cmake ../$name-$version \
+	cmake ../${name}-${version}    \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr
+
 	make
 	make DESTDIR=$PKG install
+
 	rm -rf $PKG/usr/share/doc
 }
