@@ -5,7 +5,7 @@
 
 name=python3-vlc
 version=3.0.11115
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/p/python-${name#*-}/python-${name#*-}-$version.tar.gz)
 
 build() {
@@ -13,5 +13,7 @@ build() {
 
 	/usr/bin/python3 setup.py build
 	/usr/bin/python3 setup.py install \
-                   --prefix=/usr --root=$PKG --optimize=1
+		--prefix=/usr                 \
+		--root=$PKG                   \
+		--optimize=1
 }
