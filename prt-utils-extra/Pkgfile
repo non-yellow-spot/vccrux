@@ -3,8 +3,8 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=prt-utils-extra
-version=7205d1c
-_commit=7205d1cf40a0694c96c2001a83bffc636e56a920
+version=e9c1674
+_commit=e9c1674dcf48a8a18b4396fdc1e20047bcb73535
 release=1
 source=(https://github.com/non-yellow-spot/$name/archive/$_commit/$name-$_commit.zip)
 
@@ -15,4 +15,5 @@ build() {
 	install -Dm644 pkgdisown.conf  -t $PKG/etc
 
 	install -Dm755 prtchkmdep      -t $PKG/usr/bin
+	install -Dm755 prtchkrevdep    -t $PKG/usr/bin
 }
