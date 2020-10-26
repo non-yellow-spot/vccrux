@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj1f99uAg3pm352mb3YGYMGchGVTWVKVxUoc9WOcDn8vOU38XWpXFweuFH1HIf8IlzXQXvPKkxAO/ELxBo4kOVg0=
+SHA256 (Pkgfile) = 4a00531beb088e2bf0b3afb27ad6a84c9af61ae3824c14eb7ed40ffb0209ac30
+SHA256 (.footprint) = ce51170355177578702c8b98f178d70eb6ead90fae1f608f2655b50908c52af4
+SHA256 (autogen-5.11.1.tar.bz2) = 8ea6de8c9e146defff5dd5883631d2a9baf2559486532f8cb7a9d819ff8122d8
