@@ -1,7 +1,7 @@
-# Description:  Interface to the pcap(3) LBL packet capture library
-# URL:          https://metacpan.org/pod/Net::Pcap
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libpcap
+# Description: Interface to the pcap(3) LBL packet capture library
+# URL:         https://metacpan.org/pod/Net::Pcap
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap
 
 name=p5-net-pcap
 version=0.18
@@ -22,15 +22,20 @@ build() {
 	# patch -Np1 -b -z .orig <$SRC/pcapapi2.patch
 	patch -Np2 -b -z .orig < $SRC/newapi.patch
 
-	PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
+	export PERL_MM_USE_DEFAULT=1
+
+	perl Makefile.PL INSTALLDIRS=vendor
+
 	make OPTIMIZE="$CFLAGS"
 	make DESTDIR=$PKG install
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
