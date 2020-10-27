@@ -1,8 +1,8 @@
-# Description:  Standard unix password manager
-# URL:          https://www.passwordstore.org
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   gnupg tree xclip
-# Optional:     git xclip qrencode
+# Description: Standard unix password manager
+# URL:         https://www.passwordstore.org
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  gnupg tree xclip
+# Optional:    git xclip qrencode
 
 name=pass
 version=1.7.3
