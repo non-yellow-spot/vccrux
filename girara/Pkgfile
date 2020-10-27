@@ -1,8 +1,8 @@
-# Description:  User interface library focusing on simplicity and minimalism
-# URL:          https://pwmt.org/projects/girara
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   gtk3 libnotify meson ninja
-# Optional:     json-c
+# Description: User interface library focusing on simplicity and minimalism
+# URL:         https://pwmt.org/projects/girara
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  gtk3 libnotify meson ninja
+# Optional:    json-c
 
 name=girara
 version=0.3.5
