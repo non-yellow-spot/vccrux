@@ -1,7 +1,7 @@
-# Description:  Layer Four Traceroute
-# URL:          http://pwhois.org/lft/
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libpcap
+# Description: Layer Four Traceroute
+# URL:         http://pwhois.org/lft/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap
 
 name=lft
 version=3.8
@@ -12,6 +12,7 @@ build() {
 	cd $name-$version
 
 	./configure --prefix=/usr
+
 	make
 	make DESTDIR=$PKG install
 }
