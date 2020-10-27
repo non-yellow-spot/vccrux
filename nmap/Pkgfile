@@ -1,10 +1,10 @@
-# Description:  Utility for network exploration or security auditing
-# URL:          http://nmap.org
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libpcap libpcre lua
+# Description: Network exploration or security auditing
+# URL:         http://nmap.org
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap libpcre lua
 
 name=nmap
-version=7.90
+version=7.91
 release=1
 source=(http://nmap.org/dist/$name-$version.tar.bz2)
 
