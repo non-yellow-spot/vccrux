@@ -1,7 +1,7 @@
-# Description:  GNU GRUB2 (EFI version)
-# URL:          http://www.gnu.org/software/grub/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   grub2
+# Description: GNU GRUB2 (EFI version)
+# URL:         http://www.gnu.org/software/grub/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  grub2
 
 name=grub2-efi
 version=2.04
@@ -18,12 +18,16 @@ build() {
 	do
 		mkdir $ARCH
 		cd $ARCH
-		../grub-$version/configure \
-			--prefix=/usr \
-			--with-platform=efi --target=$ARCH \
+
+		../grub-$version/configure   \
+			--prefix=/usr        \
+			--with-platform=efi  \
+			--target=$ARCH       \
 			--program-prefix=""
+
 		make
 		make DESTDIR=$PKG install
+
 		cd grub-core
 		../grub-mkimage -O $ARCH-efi -d . -o grub2-$ARCH.efi -p "" $MODLIST
 		cp grub2-$ARCH.efi $PKG/usr/lib/grub/
