@@ -1,27 +1,31 @@
-# Description:  Joomla vulnerability scanner
-# URL:          https://github.com/rezasp/joomscan
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   dos2unix p5-libwww p5-lwp-protocol-https
+# Description: Joomla vulnerability scanner
+# URL:         https://github.com/rezasp/joomscan
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  dos2unix p5-libwww p5-lwp-protocol-https
 
 name=joomscan-scm
 version=$(date +%Y%m%d)
-release=1
+release=2
+source=(joomscan.sh
+	0001-joomscan.pl-skip-clear-screen-at-startup.patch)
 
 download_git() {
-        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
-                git -C $PKGMK_SOURCE_DIR/$name clean -f
-                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
-        else
-                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
-        fi
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
 
-        cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
 }
 
 build() {
 	download_git https://github.com/rezasp/${name/-scm} master
 	cd $name
+
+	patch -p1 < $SRC/0001-joomscan.pl-skip-clear-screen-at-startup.patch
 
 	# fix encoding
 	dos2unix joomscan.pl
@@ -29,11 +33,5 @@ build() {
 	install -Dm755 joomscan.pl -t $PKG/usr/lib/joomscan/
 	rsync -rpt core exploit modules $PKG/usr/lib/joomscan/
 
-	install -dm755 $PKG/usr/bin
-	cat >$PKG/usr/bin/joomscan <<EOF
-#!/bin/sh
-
-/usr/lib/joomscan/joomscan.pl \$@
-EOF
-	chmod 755 $PKG/usr/bin/joomscan
+	install -Dm755 $SRC/joomscan.sh $PKG/usr/bin/joomscan
 }
