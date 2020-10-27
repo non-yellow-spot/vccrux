@@ -1,7 +1,7 @@
-# Description:  Mass IP port scanner
-# URL:          https://github.com/robertdavidgraham/masscan
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libpcap
+# Description: Mass IP port scanner
+# URL:         https://github.com/robertdavidgraham/masscan
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap
 
 name=masscan
 version=1.0.5
@@ -12,11 +12,11 @@ build() {
 	cd $name-$version
 
 	sed -i \
-		-e '/$(CC)/s!$(CFLAGS)!$(LDFLAGS) $(CFLAGS)!g' \
-		-e '/^GITVER :=/s!= .(.*!=!g' \
-		-e '/^SYS/s|gcc|$(CC)|g' \
+		-e '/$(CC)/s!$(CFLAGS)!$(LDFLAGS) $(CFLAGS)!g'  \
+		-e '/^GITVER :=/s!= .(.*!=!g'                   \
+		-e '/^SYS/s|gcc|$(CC)|g'                        \
 		-e '/^CFLAGS =/{s,=,+=,;s,-g -ggdb,,;s,-O.,,;}' \
-		-e '/^CC =/d' \
+		-e '/^CC =/d'                                   \
 		Makefile
 
 	make
