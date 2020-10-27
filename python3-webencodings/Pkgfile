@@ -1,17 +1,17 @@
-# Description:  Character encoding aliases for legacy web content
-# URL:          https://github.com/SimonSapin/python-webencodings
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3-setuptools
+# Description: Character encoding aliases for legacy web content
+# URL:         https://github.com/SimonSapin/python-webencodings
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3-setuptools
 
 name=python3-webencodings
 version=0.5.1
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${name#*3-}/${name#*3-}-$version.tar.gz)
 
 build() {
 	cd ${name#*3-}-$version
 
 	/usr/bin/python3 setup.py build
-	/usr/bin/python3 setup.py install --prefix=/usr --root=$PKG
+	/usr/bin/python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
 }
 
