@@ -1,7 +1,7 @@
-# Description:  Dex to Java decompiler
-# URL:          https://github.com/skylot/jadx
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   jdk
+# Description: Dex to Java decompiler
+# URL:         https://github.com/skylot/jadx
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  jdk
 
 name=jadx-bin
 version=1.1.0
