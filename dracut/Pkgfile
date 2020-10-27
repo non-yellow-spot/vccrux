@@ -1,6 +1,6 @@
-# Description:  An event-driven initramfs infrastructure
-# URL:          https://dracut.wiki.kernel.org/index.php/Main_Page
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Event-driven initramfs infrastructure
+# URL:         https://dracut.wiki.kernel.org/index.php/Main_Page
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=dracut
 version=050
