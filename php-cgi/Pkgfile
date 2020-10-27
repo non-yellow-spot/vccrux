@@ -1,7 +1,7 @@
-# Description:  PHP interpreter, extension modules and support stuff
-# URL:          http://www.php.net
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libpcre2 libxml2 curl db gdbm xz libzip
+# Description: PHP interpreter, extension modules and support stuff
+# URL:         http://www.php.net
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcre2 libxml2 curl db gdbm xz libzip
 
 name=php-cgi
 version=7.3.10
@@ -24,11 +24,10 @@ build(){
 	--without-pear \
 	--disable-opcache"
 
-	./configure \
-		$PHP_CONFIG \
-		--enable-cli
+	./configure $PHP_CONFIG --enable-cli
 
 	make
-	#install -D -m 644 $SRC/php.ini $PKG/etc/php/php.ini
-	install -D -m 755 sapi/cgi/php-cgi $PKG/usr/bin/php-cgi
+
+	#install -Dm644 $SRC/php.ini $PKG/etc/php/php.ini
+	install -Dm755 sapi/cgi/php-cgi $PKG/usr/bin/php-cgi
 }
