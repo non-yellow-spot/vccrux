@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj5dEJbe1sIMnR4P3J+GE+eLt2ULJqFiXaP2P/9xVVVqRRjagCE0dxokmzmanODoLfFxzOl/T4ztTcwP6sn1+TgI=
-SHA256 (Pkgfile) = af13e1f8333ab1b0474eb9975229f32c0f1df425bf0598672099d4d7c92b745a
+RWT2I5SomoNUj4RZh9kvXJZgumlUiP//PdCY7qbqbIKbcBD9kPx8/xj6NxFQ7vrJvAS6tQfZV9nQN8tdp9YEUGt1taYpNTDkAAc=
+SHA256 (Pkgfile) = c6b75cfe324b71288a3a241107536e39562c73bcea3ec13f0ce655255352234e
 SHA256 (.footprint) = 5b8ee2a92adc5eab98d500ab5fafa7ce8f9228949bee8936f7b257490d5c7358
 SHA256 (ettercap-v0.8.3.1.tar.gz) = d0c3ef88dfc284b61d3d5b64d946c1160fd04276b448519c1ae4438a9cdffaf3

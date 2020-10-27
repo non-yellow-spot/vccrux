@@ -1,7 +1,7 @@
-# Description:  Comprehensive suite for man in the middle attacks
-# URL:          https://www.ettercap-project.org/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libnet libgeoip geoip-database cmake ghostscript libpcap
+# Description: Comprehensive suite for man in the middle attacks
+# URL:         https://www.ettercap-project.org/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libnet libgeoip geoip-database cmake ghostscript libpcap
 
 name=ettercap
 version=0.8.3.1
