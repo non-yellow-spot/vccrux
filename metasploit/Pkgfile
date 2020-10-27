@@ -1,10 +1,10 @@
-# Description:  Penetration testing framework
-# URL:          https://www.metasploit.com/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   ruby libpcap postgresql sqlite3 libxslt libxml2 git
+# Description: Penetration testing framework
+# URL:         https://www.metasploit.com/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  ruby libpcap postgresql sqlite3 libxslt libxml2 git
 
 name=metasploit
-version=6.0.11
+version=6.0.13
 release=1
 source=(https://github.com/rapid7/$name-framework/archive/$version/$name-$version.tar.gz)
 
