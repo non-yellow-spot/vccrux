@@ -1,6 +1,6 @@
-# Description:  Password cracker for GPU
-# URL:          https://hashcat.net/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Password cracker for GPU
+# URL:         https://hashcat.net/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=hashcat
 version=6.1.1
