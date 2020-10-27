@@ -1,7 +1,7 @@
-# Description:  Web browser by Google (Stable)
-# URL:          https://www.google.com/chrome
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   alsa-lib gtk3 xorg-libxtst nss cups
+# Description: Web browser by Google (Stable)
+# URL:         https://www.google.com/chrome
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  alsa-lib gtk3 xorg-libxtst nss cups
 
 name=google-chrome-bin
 version=73.0.3683.86
