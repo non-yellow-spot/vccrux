@@ -1,7 +1,7 @@
-# Description:  Network exploration of security auditing + extra scripts
-# URL:          https://nmap.org
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libpcap python pygtk git pango-compat
+# Description: Network exploration of security auditing + extra scripts
+# URL:         https://nmap.org
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  git libpcap pango-compat python pygtk
 
 name=nmap-scm
 version=$(date +%Y%m%d)
