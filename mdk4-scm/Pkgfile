@@ -1,6 +1,6 @@
-# Description: A tool to exploit common IEEE 802.11 protocol weaknesses
+# Description: Exploit common IEEE 802.11 protocol weaknesses
 # URL:         https://github.com/charlesxsh/mdk3-master
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  libnl libpcap
 
 name=mdk4-scm
@@ -23,8 +23,8 @@ build() {
 	download_git https://github.com/aircrack-ng/${name/-scm} master
 	cd $name
 
-	make \
-	-j1 CFLAGS="${CFLAGS} -I.. -I/usr/include/libnl3 -DCONFIG_LIBNL30 -DCONFIG_LIBNL"
+	make -j1 \
+	CFLAGS="${CFLAGS} -I.. -I/usr/include/libnl3 -DCONFIG_LIBNL30 -DCONFIG_LIBNL"
 
 	make -C src install PREFIX=$PKG/usr
 
