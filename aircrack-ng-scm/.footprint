@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/include/aircrack-ng/ce-wpa/
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/simd-intrinsics-load-flags.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/simd-intrinsics.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/wpapsk.h
+-rw-r--r--	root/root	usr/include/aircrack-ng/compat.h
 drwxr-xr-x	root/root	usr/include/aircrack-ng/cowpatty/
 -rw-r--r--	root/root	usr/include/aircrack-ng/cowpatty/cowpatty.h
 drwxr-xr-x	root/root	usr/include/aircrack-ng/cpu/
