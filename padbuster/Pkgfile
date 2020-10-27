@@ -1,7 +1,7 @@
-# Description:  Performing Padding Oracle attacks
-# URL:          https://github.com/gw0/PadBuster.git
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   p5-uri 5-libwww p5-lwp-protocol-https
+# Description: Performing Padding Oracle attacks
+# URL:         https://github.com/gw0/PadBuster.git
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-uri 5-libwww p5-lwp-protocol-https
 
 name=padbuster
 version=94460ff
