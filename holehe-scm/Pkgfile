@@ -1,7 +1,7 @@
-# Description:  Check if the email is used on different sites
-# URL:          https://github.com/megadose/holehe
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3-requests python3-tqdm python3-mechanize python3-lxml python3-beautifulsoup4
+# Description: Check if the email is used on different sites
+# URL:         https://github.com/megadose/holehe
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  git python3-requests python3-tqdm python3-mechanize python3-lxml python3-beautifulsoup4
 
 name=holehe-scm
 version=$(date +%Y%m%d)
@@ -10,15 +10,15 @@ source=(0001-remove-termcolor-dep.patch
 	0001-print-action-message-instead-of-url-like-something-i.patch)
 
 download_git() {
-        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
-                git -C $PKGMK_SOURCE_DIR/$name clean -f
-                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
-        else
-                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
-        fi
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
 
-        cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
 }
 
 build() {

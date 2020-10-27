@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+9XcINq0gTNUe2NUKOq6dRrbC3o7rpqO9eBuebsn4gypHyfSgVsA6e5YtR4n5ThUpNm/R+/fEoeTuLZqgLa6A8=
-SHA256 (Pkgfile) = c680950080951b29eab89868f56480e52278c71e22c6679ca21c11742cf8c5aa
-SHA256 (.footprint) = 6e0d396ff7babc1dceecda502e4dfd9444a62ae4a3f585f931814619cdafe8d5
+RWT2I5SomoNUj7vQjJafYYBXehG9wee+TfbtS63oEqa9oTO//6gg1cQqSnSbr59Sz4WXchOykQCFAVg9ljLcqsTKhC6rkXMikgU=
+SHA256 (Pkgfile) = 4d553592ce501145f89feaa466b2c658e38cd1717766bdfad35b3dfb038110d3
+SHA256 (.footprint) = 5b2bf2437847fdc169c43b466eb435973903cb59607cc559ebbff7d6afcfe56a
 SHA256 (0001-remove-termcolor-dep.patch) = d1026ba535d1b68b0e0122735bec78b9d59f3d10c4550002d73921124a228aea
 SHA256 (0001-print-action-message-instead-of-url-like-something-i.patch) = bc14603287ddce5c47527b23e9b846a83b20ff19b06ac084b2bd63c8d65f6c5a
