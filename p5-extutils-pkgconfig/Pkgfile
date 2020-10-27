@@ -1,7 +1,7 @@
-# Description:  Perl bindings for pkgconfig
-# URL:          https://metacpan.org/pod/ExtUtils::PkgConfig
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   p5-xml-parser
+# Description: Perl bindings for pkgconfig
+# URL:         https://metacpan.org/pod/ExtUtils::PkgConfig
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-xml-parser
 
 name=p5-extutils-pkgconfig
 version=1.16
@@ -22,5 +22,6 @@ build() {
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
