@@ -1,6 +1,6 @@
-# Description:  Recursively scan Perl code for dependencies
-# URL:          https://metacpan.org/pod/Module::ScanDeps
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Recursively scan Perl code for dependencies
+# URL:         https://metacpan.org/pod/Module::ScanDeps
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=p5-module-scandeps
 version=1.29
@@ -15,11 +15,13 @@ build() {
 	make
 	make install DESTDIR=$PKG
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
