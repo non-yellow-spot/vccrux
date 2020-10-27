@@ -1,6 +1,6 @@
-# Description:  Convert captured packets for hashcat or John the Ripper
-# URL:          https://github.com/ZerBea/hcxtools
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Convert captured packets for hashcat or John the Ripper
+# URL:         https://github.com/ZerBea/hcxtools
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=hcxtools
 version=6.1.3
