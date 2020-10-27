@@ -1,7 +1,7 @@
-# Description:  Russian dictionary for aspell
-# URL:          http://aspell.net
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   aspell
+# Description: Russian dictionary for aspell
+# URL:         http://aspell.net
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  aspell
 
 name=aspell-ru
 version=0.99f7-1
