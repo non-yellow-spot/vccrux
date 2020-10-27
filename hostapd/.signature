@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzh1jLAwjOewk2W69Q//T4uNaVDvgGs/Uh7RGK2Ea5dr9RP3xFfvPpt57cVGlaDe8JXaGNwRi3FVYO/gC0WuYQA=
-SHA256 (Pkgfile) = ab9a71ed008bad46b5457521dd6887339eef0ff6bd23743c7383bc9b41fbc9a1
+RWT2I5SomoNUj1hvVPKvE/O+5nrVcr57DIyn7zEFL+EhxAZ9L4M6ISNiuUERbAuH5DGksJaEslUJXy6sNL5oNOIApkI8/ajgQgo=
+SHA256 (Pkgfile) = 5e36a0dc72edfa3ef091dcbe51deac94534e3353fc85811d853698e2eb542f25
 SHA256 (.footprint) = eee36820d762b26f1ad06384ae725a3ea371e74abd22f58efdec3781141d14e4
 SHA256 (hostapd-2.6.tar.gz) = 01526b90c1d23bec4b0f052039cc4456c2fd19347b4d830d1d58a0a6aea7117d
 SHA256 (hostapd.rc) = e6de25453181f4291366e7298bf0f4f8031e779273b67c8fbef0b1a7997343db
