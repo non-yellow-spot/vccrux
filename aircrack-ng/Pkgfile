@@ -1,4 +1,4 @@
-# Description: A suite of tools to assess WiFi network security
+# Description: Tools to assess WiFi network security
 # URL:         https://github.com/aircrack-ng/aircrack-ng
 # Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
 # Depends on:  ethtool libnl libpcre sqlite3 hwloc libpcap
@@ -19,6 +19,6 @@ build() {
 		--prefix=/usr \
 		--libexecdir=/usr/lib
 
-	make
+	make V=1
 	make DESTDIR=$PKG install
 }

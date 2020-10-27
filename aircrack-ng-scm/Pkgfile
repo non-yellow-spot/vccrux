@@ -1,11 +1,12 @@
-# Description: A suite of tools to assess WiFi network security (master branch)
+# Description: Tools to assess WiFi network security (branch:master)
 # URL:         https://github.com/aircrack-ng/aircrack-ng
 # Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
 # Depends on:  ethtool libnl libpcre sqlite3 hwloc libpcap
 
 name=aircrack-ng-scm
 version=$(date +%Y%m%d)
-release=1
+release=2
+source=(0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch)
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
@@ -23,9 +24,13 @@ build() {
 	download_git https://github.com/${name/-scm}/${name/-scm} master
 	cd $name
 
-	NOCONFIGURE=1 ./autogen.sh
+	patch -p1 < $SRC/0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch
 
-	./configure --prefix=/usr
-	make
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib
+
+	make V=1
 	make DESTDIR=$PKG install
 }

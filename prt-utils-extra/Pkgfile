@@ -3,8 +3,8 @@
 # Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
 
 name=prt-utils-extra
-version=e9c1674
-_commit=e9c1674dcf48a8a18b4396fdc1e20047bcb73535
+version=1756ef0
+_commit=1756ef0f455d111a628595dfbb75cff637436b93
 release=1
 source=(https://github.com/non-yellow-spot/$name/archive/$_commit/$name-$_commit.zip)
 
