@@ -1,6 +1,6 @@
-# Description:  Capture packets from wlan devices
-# URL:          https://github.com/ZerBea/hcxdumptool
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Capture packets from wlan devices
+# URL:         https://github.com/ZerBea/hcxdumptool
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=hcxdumptool
 version=6.1.3
