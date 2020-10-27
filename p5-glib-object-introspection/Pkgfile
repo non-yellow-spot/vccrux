@@ -1,7 +1,7 @@
-# Description:  Dynamically create Perl language bindings
-# URL:          https://metacpan.org/pod/Glib::Object::Introspection
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   p5-glib
+# Description: Dynamically create Perl language bindings
+# URL:         https://metacpan.org/pod/Glib::Object::Introspection
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-glib
 
 name=p5-glib-object-introspection
 version=0.049
@@ -16,11 +16,13 @@ build() {
 	make OPTIMIZE="$CFLAGS"
 	make install DESTDIR=$PKG
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
