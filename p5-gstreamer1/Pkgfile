@@ -1,7 +1,7 @@
-# Description:  Bindings for GStreamer 1.0, the open source multimedia framework
-# URL:          https://metacpan.org/pod/GStreamer1
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   p5-glib-object-introspection
+# Description: Bindings for GStreamer 1.0, the open source multimedia framework
+# URL:         https://metacpan.org/pod/GStreamer1
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-glib-object-introspection
 
 name=p5-gstreamer1
 version=0.003
@@ -11,7 +11,7 @@ source=(https://cpan.metacpan.org/authors/id/T/TM/TMURRAY/GStreamer1-$version.ta
 build() {
 	cd GStreamer1-$version
 
-	# Remove Devel::CheckLib dependency
+	# remove Devel::CheckLib dependency
 	sed -i -e '6,10d' Makefile.PL
 
 	perl Makefile.PL
@@ -19,11 +19,13 @@ build() {
 	make
 	make install DESTDIR=$PKG
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
