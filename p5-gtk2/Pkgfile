@@ -1,7 +1,7 @@
-# Description:  Perl bindings for GTK2
-# URL:          https://metacpan.org/pod/Gtk2
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   gtk xorg-libxdamage p5-pango
+# Description: Perl bindings for GTK2
+# URL:         https://metacpan.org/pod/Gtk2
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  gtk xorg-libxdamage p5-pango
 
 name=p5-gtk2
 version=1.24993
