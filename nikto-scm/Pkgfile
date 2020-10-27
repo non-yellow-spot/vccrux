@@ -1,7 +1,7 @@
-# Description:  Web server scanner
-# URL:          http://www.cirt.net/nikto/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   p5-net-ssleay p5-json
+# Description: Web server scanner
+# URL:         http://www.cirt.net/nikto/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-net-ssleay p5-json
 
 name=nikto-scm
 version=$(date +%Y%m%d)
@@ -9,15 +9,15 @@ release=1
 source=(nikto.sh)
 
 download_git() {
-        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
-                git -C $PKGMK_SOURCE_DIR/$name clean -f
-                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
-        else
-                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
-        fi
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
 
-        cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
 }
 
 build() {
@@ -32,7 +32,7 @@ build() {
 	install -Dm755 $SRC/nikto.sh               $PKG/usr/bin/nikto
 	install -Dm644 program/nikto.conf.default  $PKG/usr/etc/nikto.conf
 	install -Dm644 documentation/nikto.1       $PKG/usr/share/man/man1/nikto.1
-	
+
 	rm $PKG/usr/share/nikto/nikto.conf.default
 	rm $PKG/usr/share/nikto/docs/{CHANGES.txt,manual.xml,nikto.1}
 
