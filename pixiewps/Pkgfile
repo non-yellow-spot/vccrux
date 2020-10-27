@@ -1,6 +1,6 @@
-# Description:  Bruteforce offline the WPS PIN
-# URL:          https://github.com/wiire-a/pixiewps
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Bruteforce offline the WPS PIN
+# URL:         https://github.com/wiire-a/pixiewps
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=pixiewps
 version=1.4.2
@@ -12,5 +12,6 @@ build() {
 
 	make OPENSSL=1 CFLAGS="${CFLAGS}"
 	make DESTDIR=$PKG PREFIX=/usr install
+
 	install -Dm644 $name.1 -t $PKG/usr/share/man/man1
 }
