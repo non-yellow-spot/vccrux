@@ -1,6 +1,6 @@
 # Description: Recover LEAP/PPTP passwords
 # URL:         https://www.willhackforsushi.com/?page_id=41
-# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  libpcap libxcrypt
 
 name=asleap
@@ -22,7 +22,7 @@ build() {
 	patch -p1 < $SRC/003_fix_and_improve_bruteforce_option.patch
 	patch -p1 < $SRC/004_add_user_opt_and_pptp_chal_resp_cmdline_parsing.patch
 
-sed -i  -e "s/#define VER \"\(.*\)\"/#define VER \"${version}.${release}\"/" \
+	sed -i  -e "s/#define VER \"\(.*\)\"/#define VER \"${version}.${release}\"/" \
 		version.h
 
 	make
