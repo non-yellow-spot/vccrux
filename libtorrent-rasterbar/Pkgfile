@@ -1,6 +1,6 @@
 # Description:  A C++ bittorrent library.
 # URL:          https://www.rasterbar.com/products/libtorrent/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:   Stamatin Cristina, dear dot volgk at gmail dot com
 # Depends on:   boost
 
 name=libtorrent-rasterbar
@@ -11,7 +11,7 @@ source=(https://github.com/arvidn/libtorrent/releases/download/libtorrent-$versi
 build() {
 	cd $name-$version
 
-	./configure \
+	./configure           \
 		--prefix=/usr \
 		--enable-python-binding
 
