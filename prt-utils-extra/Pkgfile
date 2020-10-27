@@ -1,6 +1,6 @@
-# Description:  Extra collection of scripts for CRUX maintaining
-# URL:          https://github.com/non-yellow-spot/prt-utils-extra
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Extra collection of scripts for CRUX maintaining
+# URL:         https://github.com/non-yellow-spot/prt-utils-extra
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=prt-utils-extra
 version=1756ef0
