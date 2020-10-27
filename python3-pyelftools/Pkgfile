@@ -1,7 +1,7 @@
-# Description:  Python library for analyzing ELF files and DWARF debugging information
-# URL:          https://github.com/eliben/pyelftools
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3 python3-setuptools
+# Description: Python library for analyzing ELF files and DWARF debugging information
+# URL:         https://github.com/eliben/pyelftools
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3 python3-setuptools
 
 name=python3-pyelftools
 version=0.26
@@ -12,10 +12,7 @@ build() {
 	cd ${name#*-}-$version
 
 	python3 setup.py build
-	python3 setup.py install \
-		--prefix=/usr \
-		--root=$PKG \
-		--optimize=1
+	python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
 
 	#python3 test/run_all_unittests.py
 	#python3 test/run_examples_test.py
