@@ -1,7 +1,7 @@
-# Description:  GPL'ed reader of DjVu format
-# URL:          http://djvu.sourceforge.net/
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libjpeg-turbo
+# Description: DjVu format reader
+# URL:         http://djvu.sourceforge.net/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libjpeg-turbo
 
 name=djvulibre
 version=3.5.27
