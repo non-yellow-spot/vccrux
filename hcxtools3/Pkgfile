@@ -1,30 +1,17 @@
-# Description:  Capture packets from WLAN devices for hashcat (old version)
-# URL:          https://github.com/wi-fi-analyzer/hcxtools
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   git libpcap
+# Description: Capture packets from WLAN devices for hashcat (legacy)
+# URL:         https://github.com/wi-fi-analyzer/hcxtools
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap
 
 name=hcxtools3
-version=3.5.0-$(date +%Y%m%d)
+version=3.5.0-e4b60f4
 _commit=e4b60f45a1765c745c7acd6098145df167e13a1f
 release=1
-source=(Makefile.patch)
-
-download_git() {
-        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
-                git -C $PKGMK_SOURCE_DIR/$name clean -f
-                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
-        else
-                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
-        fi
-
-	git -C $PKGMK_SOURCE_DIR/$name checkout ${_commit}
-        cp  -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
-}
+source=(https://github.com/wi-fi-analyzer/hcxtools/archive/$_commit/hcxtools-$_commit.tar.gz
+	Makefile.patch)
 
 build() {
-	download_git https://github.com/wi-fi-analyzer/${name/3} master
-	cd $name
+	cd hcxtools-$_commit
 
 	patch -i $SRC/Makefile.patch
 
