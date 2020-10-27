@@ -1,7 +1,7 @@
-# Description:  Wireless RogueAP MITM Phishing attack framework
-# URL:          https://github.com/chinarulezzz/captal
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   lighttpd aircrack-ng perl-net-dns hostapd dhcp php-cgi
+# Description: Wireless RogueAP MITM Phishing attack framework
+# URL:         https://github.com/chinarulezzz/captal
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  lighttpd aircrack-ng perl-net-dns hostapd dhcp php-cgi
 
 name=captal
 version=0.3
