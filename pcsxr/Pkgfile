@@ -1,12 +1,12 @@
-# Description:  Crossplatform Sony Playstation emulator
-# URL:          http://pcsxr.codeplex.com
-# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
-# Depends on:   alsa-lib gtk3 libcdio xorg-libxv libsdl cmake mesa
+# Description: Crossplatform Sony Playstation emulator
+# URL:         http://pcsxr.codeplex.com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  alsa-lib gtk3 libcdio xorg-libxv libsdl cmake mesa
 
 name=pcsxr
 version=1.9.95
 release=1
-source=(https://github.com/frealgagu/PCSX-Reloaded/archive/${version}.tar.gz
+source=(https://github.com/frealgagu/PCSX-Reloaded/archive/$version.tar.gz
 	pcsxr-fix-uncompress2.patch
 	pcsxr-fix-undefined-operations.patch
 	pcsxr-remove-assertion-64bit.patch)
@@ -23,10 +23,11 @@ build() {
 	cd $name
 
 	autoreconf -fi
-	./configure --prefix=/usr \
+	./configure \
+		--prefix=/usr      \
 		--enable-sound=sdl \
-		--enable-opengl \
-		--enable-libcdio \
+		--enable-opengl    \
+		--enable-libcdio   \
 		--disable-nls
 
 	make all

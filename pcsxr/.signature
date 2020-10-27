@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+MrRjS3+Bp/xhuMwx4yfiTCcZ0kTFhiofUtZyv7Nx/gAa6D2GblOw+p5ABWNTQuZvpAJM0TkG+Teat/yoba1g0=
-SHA256 (Pkgfile) = 5a2a80e4bbb7239b5f6e8add32b9e1dc4e61a3a0361eca8a1b495e1b9b4b8b21
+RWT2I5SomoNUj8zzI2aULbjyz1QT/oNx1V0qIjf5jlh5qqjosHfMdaJ2CU+1mtg89oH+APCx0wWcnITgbj+qrW7XghFLbt/xEgw=
+SHA256 (Pkgfile) = ccc285c657ec9c885e65df25d8a2fb4acaf5fdcbb5b86d0e1befea5f1a22143d
 SHA256 (.footprint) = e4d6beb5c47c2349d325d5d569c547dc2fcf45bbbe41db06b29d06e72c197a1b
 SHA256 (1.9.95.tar.gz) = 1a132bf4d1875cd2ab90b335620659caa1af2056e7c3d622fb438a0fa90d948d
 SHA256 (pcsxr-fix-uncompress2.patch) = c4c08c7ff55045ac0fb00179e92ada201eef024db0f144970fc21544de877cf9
