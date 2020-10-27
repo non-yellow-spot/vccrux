@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # add user:group
-getent group polipo || /usr/sbin/groupadd -r polipo
+getent group polipo  || /usr/sbin/groupadd -r polipo
 getent passwd polipo || /usr/sbin/useradd -g polipo -d /var/empty -s /bin/sh polipo
 /usr/bin/passwd -l polipo
 
