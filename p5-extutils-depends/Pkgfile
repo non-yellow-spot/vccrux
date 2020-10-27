@@ -1,7 +1,7 @@
-# Description:  Perl bindings for depends
-# URL:          https://metacpan.org/release/ExtUtils-Depends
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   p5-xml-parser
+# Description: Perl bindings for depends
+# URL:         https://metacpan.org/release/ExtUtils-Depends
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-xml-parser
 
 name=p5-extutils-depends
 version=0.8000
