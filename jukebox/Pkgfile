@@ -1,12 +1,12 @@
-# Description:  Customizable open-source jukebox for large collections
-# URL:          https://github.com/chinarulezzz-de/jukebox
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   p5-gtk2 p5-gstreamer1 p5-gtk2-notify
+# Description: Customizable open-source jukebox for large collections
+# URL:         https://github.com/chinarulezzz-de/jukebox
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-gtk2 p5-gstreamer1 p5-gtk2-notify
 
 name=jukebox
 version=1.1.15.7
 release=1
-source=(https://github.com/chinarulezzz-de/jukebox/archive/v$version/$name-$version.tar.gz)
+source=(https://github.com/chinarulezzz-de/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
