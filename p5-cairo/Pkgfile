@@ -1,7 +1,7 @@
-# Description:  Perl bindings for cairo
-# URL:          https://metacpan.org/pod/Cairo
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   cairo p5-glib
+# Description: Perl bindings for cairo
+# URL:         https://metacpan.org/pod/Cairo
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  cairo p5-glib
 
 name=p5-cairo
 version=1.107
