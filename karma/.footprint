@@ -13,10 +13,15 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/karma-1.2.2-py3.7.egg-info/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/karma/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/__init__.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/__init__.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/banner.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/banner.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/core.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/core.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/formatter.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/formatter.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/version.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/__pycache__/version.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/banner.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/karma/core.py
