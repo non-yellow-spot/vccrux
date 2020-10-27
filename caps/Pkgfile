@@ -1,7 +1,7 @@
-# Description:  The LADSPA C* Audio Plugin Suite
-# URL:          http://quitte.de/dsp/caps.html
-# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
-# Depends on:   ladspa
+# Description: LADSPA C* Audio Plugin Suite
+# URL:         http://quitte.de/dsp/caps.html
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  ladspa
 
 name=caps
 version=0.9.26
