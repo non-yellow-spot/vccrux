@@ -26,7 +26,7 @@ build() {
 
 	sed -i 's/dummy_ssh/dummy_sshkey/' hydra-sshkey.c
 	sed -i 's/OPTS=-I. -O3 $(CFLAGS) -fcommon/OPTS=-I. $(CFLAGS) -fcommon/' \
-                Makefile.am
+		Makefile.am
 
 	./configure --prefix=$PKG/usr
 
