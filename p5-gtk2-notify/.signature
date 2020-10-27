@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj8+edCGGQNUFnH3zzIsGCOTmfo8RZypmZoj30qK5d30QumDplqxeME6lD2L+iwAwv3g3MHE3YEDoLP+OaZWPHQU=
-SHA256 (Pkgfile) = 5c3626bf6ccee4d10508e975123e821f748565d18c81c933c07e40392ca42e05
+RWT2I5SomoNUj66m2Vj+CW4XYd5rwelr+5CwtTtNrYrDXPWjMtqy7Nk+7fA/XMivtbKQk11cMvp00rX6aVDyuhEWt4ueBWf6GAs=
+SHA256 (Pkgfile) = feb395093cb5876eca5c16fbfba8bf7779d45b7b770b06984ee9cb21aa24006b
 SHA256 (.footprint) = 1addbbcb03e7b336e6c5a6607d6860eb876a6c77ecd66a159d3164e2c9208284
 SHA256 (Gtk2-Notify-0.05.tar.gz) = 88189ae68dfbd54615ad133df07e2ec8048d06d8b9586add1227d74eb2ebb047
 SHA256 (libnotify.patch.gz) = 23b27df89d00fe9345bcfc7acb19b853baa289762e5a9cdecb88d8cdc71dff2e

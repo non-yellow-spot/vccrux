@@ -1,7 +1,7 @@
-# Description:  Perl interface to libnotify
-# URL:          https://metacpan.org/pod/Gtk2::Notify
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   dbus libnotify p5-gtk2 p5-net-dbus
+# Description: Perl interface to libnotify
+# URL:         https://metacpan.org/pod/Gtk2::Notify
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  dbus libnotify p5-gtk2 p5-net-dbus
 
 name=p5-gtk2-notify
 version=0.05
