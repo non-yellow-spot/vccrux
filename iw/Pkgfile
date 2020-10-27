@@ -1,6 +1,6 @@
 # Description: nl80211 based CLI configuration utility for wireless devices
 # URL:         https://wireless.wiki.kernel.org/en/users/documentation/iw
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  libnl
 
 name=iw
