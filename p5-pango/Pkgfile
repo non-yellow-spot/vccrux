@@ -1,7 +1,7 @@
-# Description:  Perl bindings for pango
-# URL:          https://metacpan.org/pod/Pango
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   pango p5-cairo
+# Description: Perl bindings for pango
+# URL:         https://metacpan.org/pod/Pango
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  pango p5-cairo
 
 name=p5-pango
 version=1.227
@@ -16,11 +16,13 @@ build() {
 	make OPTIMIZE="$CFLAGS"
 	make install DESTDIR=$PKG
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
