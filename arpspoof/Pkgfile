@@ -1,7 +1,7 @@
-# Description:  Poison hosts via arp-requests as well as arp-replies
-# URL:          https://github.com/byt3bl33d3r/arpspoof
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3-setuptools python3-importlib_metadata
+# Description: Poison hosts via arp-requests as well as arp-replies
+# URL:         https://github.com/byt3bl33d3r/arpspoof
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3-setuptools python3-importlib_metadata
 
 name=arpspoof
 version=8359467133
