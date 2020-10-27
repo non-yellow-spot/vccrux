@@ -1,6 +1,6 @@
-# Description:  Convert the IP to different obfuscated forms
-# URL:          https://github.com/chinarulezzz/IPObfuscator
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Convert the IP to different obfuscated forms
+# URL:         https://github.com/chinarulezzz/IPObfuscator
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=ipobfuscator
 version=1.1
