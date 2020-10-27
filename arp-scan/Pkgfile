@@ -1,7 +1,7 @@
-# Description:  The ARP Scanner
-# URL:          https://github.com/royhills/arp-scan
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libpcap p5-lwp-protocol-http p5-http-message
+# Description: ARP Scanner
+# URL:         https://github.com/royhills/arp-scan
+# Maintainer:  Alexandr Savca, alexndrsavca89 at gmail dot com
+# Depends on:  libpcap p5-lwp-protocol-http p5-http-message
 
 name=arp-scan
 version=1.9.7
