@@ -1,18 +1,19 @@
-# Description:  A socks proxy router
-# URL:          https://github.com/rofl0r/proxychains-ng
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Description: Socks proxy router
+# URL:         https://github.com/rofl0r/proxychains-ng
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=proxychains-ng
 version=4.14
 release=1
-source=(https://github.com/rofl0r/${name}/archive/v${version}/${name}-${version}.tar.gz)
+source=(https://github.com/rofl0r/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
-	cd ${name}-${version}
+	cd $name-$version
 
 	./configure --prefix=/usr
-	make
-	make DESTDIR=${PKG} install
 
-	install -D src/proxychains.conf ${PKG}/etc/proxychains.conf
+	make
+	make DESTDIR=$PKG install
+
+	install -D src/proxychains.conf $PKG/etc/proxychains.conf
 }
