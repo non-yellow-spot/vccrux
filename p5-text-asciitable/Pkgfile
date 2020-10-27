@@ -1,7 +1,7 @@
-# Description:  Create a nice formatted table using ASCII characters
-# URL:          https://metacpan.org/pod/Text::ASCIITable
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   p5-module-build
+# Description: Create a nice formatted table using ASCII characters
+# URL:         https://metacpan.org/pod/Text::ASCIITable
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  p5-module-build
 
 name=p5-text-asciitable
 version=0.22
@@ -16,11 +16,13 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
 		-o -name autosplit.ix   \
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
