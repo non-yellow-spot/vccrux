@@ -1,7 +1,7 @@
-# Description:  Utilities for peforming security checks
-# URL:          https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libpcap libseccomp
+# Description: Peforming security checks
+# URL:         https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap libseccomp
 
 name=pax-utils
 version=1.2.3
@@ -16,9 +16,8 @@ build() {
 	make "${bins[@]}" USE_CAP=y USE_SECCOMP=y
 	make -C man -j1
 
-	for b in "${bins[@]}"
-	do
-		install -Dm755 $b $PKG/usr/bin/$b
-		install -Dm755 man/$b.1 $PKG/usr/share/man/man1/$b.1
+	for b in "${bins[@]}"; do
+		install -Dm755 $b        $PKG/usr/bin/$b
+		install -Dm755 man/$b.1  $PKG/usr/share/man/man1/$b.1
 	done
 }
