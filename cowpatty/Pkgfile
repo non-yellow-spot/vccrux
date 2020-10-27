@@ -1,6 +1,6 @@
 # Description: Brute-force dictionary attack against WPA-PSK
 # URL:         https://github.com/joswr1ght/cowpatty
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  libpcap
 
 name=cowpatty
