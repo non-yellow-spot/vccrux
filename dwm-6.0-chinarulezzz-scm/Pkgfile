@@ -1,6 +1,6 @@
 # Description: Dynamic window manager
 # URL:         https://github.com/chinarulezzz-de/dwm-6.0-chinarulezzz
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  xorg-libxft xorg-libxinerama
 
 name=dwm-6.0-chinarulezzz-scm
