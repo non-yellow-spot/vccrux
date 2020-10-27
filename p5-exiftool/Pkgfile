@@ -1,6 +1,6 @@
-# Description:  Read and write meta information in files
-# URL:          https://metacpan.org/pod/distribution/Image-ExifTool/exiftool
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Read and write meta information in files
+# URL:         https://metacpan.org/pod/distribution/Image-ExifTool/exiftool
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=p5-exiftool
 version=12.00
