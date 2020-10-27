@@ -1,7 +1,7 @@
-# Description:  DHCP spoofing attack
-# URL:          https://github.com/emanuele-f/dhcp-spoof
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libpcap
+# Description: DHCP spoofing attack
+# URL:         https://github.com/emanuele-f/dhcp-spoof
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libpcap
 
 name=dhcp-spoof
 version=a207d4c
