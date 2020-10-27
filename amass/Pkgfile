@@ -1,16 +1,18 @@
-# Description:  DNS Enum, Attack Surface Mapping and External Asset Discovery
-# URL:          https://github.com/OWASP/Amass
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   go git
+# Description: DNS Enum, Attack Surface Mapping and External Asset Discovery
+# URL:         https://github.com/OWASP/Amass
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  go git
 
 name=amass
-version=3.10.4
+version=3.10.5
 release=1
-source=(https://github.com/OWASP/Amass/archive/v3.10.2/$name-$version.tar.gz)
+source=(https://github.com/OWASP/Amass/archive/v$version/$name-$version.tar.gz)
 
 build() {
-	# the dev forget to change the version
-	cd Amass-3.10.2
+	cd Amass-$version
+
+	export HOST_EXTRA_CFLAGS=$CFLAGS
+	export HOST_EXTRA_LDFLAGS=$LDFLAGS
 
 	mkdir bin
 	go build \
