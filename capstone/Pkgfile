@@ -1,7 +1,7 @@
-# Description:  Lightweight multi-platform, multi-architecture disassembly framework
-# URL:          https://www.capstone-engine.org/index.html
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3 python3-setuptools
+# Description: Lightweight multi-platform, multi-architecture disassembly framework
+# URL:         https://www.capstone-engine.org/index.html
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3 python3-setuptools
 
 name=capstone
 version=4.0.2
@@ -16,8 +16,8 @@ build() {
 
 	cd bindings/python
 	python3 setup.py install \
-		--prefix=/usr \
-		--root=$PKG \
+		--prefix=/usr    \
+		--root=$PKG      \
 		--optimize=1
 
 	# remove sdist metadata, as wheel metadata will be used with python3-pip
