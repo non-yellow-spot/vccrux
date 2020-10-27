@@ -4,6 +4,6 @@
 jarpath="/usr/share/apktool/apktool.jar"
 javaOpts="-Xmx512M -Dfile.encoding=utf-8"
 
-java $javaOpts -jar "$jarpath" "$@"
+exec java $javaOpts -jar "$jarpath" "$@"
 
 # End of file
