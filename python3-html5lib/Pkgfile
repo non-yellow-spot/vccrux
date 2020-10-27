@@ -1,7 +1,7 @@
-# Description:  HTML parser/tokenizer based on the WHATWG HTML5 spec.
-# URL:          https://github.com/html5lib/html5lib-python
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3-setuptools python3-webencodings
+# Description: HTML parser/tokenizer based on the WHATWG HTML5 spec
+# URL:         https://github.com/html5lib/html5lib-python
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3-setuptools python3-webencodings
 
 name=python3-html5lib
 version=1.1
