@@ -1,7 +1,7 @@
-# Description:  A real-time adjustable equalizer plugin for ALSA
-# URL:          https://github.com/bassdr/alsaequal
-# Maintainer:   chinarulezzz, drop at chinarulezzz dot fun
-# Depends on:   alsa-lib caps
+# Description: Real-time adjustable equalizer plugin for ALSA
+# URL:         https://github.com/bassdr/alsaequal
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  alsa-lib caps
 
 name=alsaequal
 version=0.7.1
