@@ -1,6 +1,6 @@
-# Description:  Credit card numbers generator
-# URL:          https://github.com/chinarulezzz/gencc
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Description: Credit card numbers generator
+# URL:         https://github.com/chinarulezzz/gencc
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=gencc
 version=0.1
