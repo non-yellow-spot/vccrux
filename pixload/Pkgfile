@@ -1,6 +1,6 @@
 # Description: Creating/injecting payload into images
 # URL:         https://github.com/chinarulezzz/pixload
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  p5-gd p5-exiftool p5-string-crc32
 
 name=pixload
