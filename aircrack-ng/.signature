@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjykLBp2Am9xWOe0a+yWUlT4FvlKLvv1+Wxf9eFC6dNoOQnHQhj27/nuQVhkQAH3W/ePcxWdlEtiGJZwEDJDDVwo=
-SHA256 (Pkgfile) = 62cade48d28b7a5fa56f323284377c39e6bb7a87809c6be6e3d6df16881b1269
+RWT2I5SomoNUj5XxGpNPOf36fPrgb03QFHnqftput/FhcZhTsQxV8qN/ROVS5KPuX00e6ZIoJZIROCJ2/S80M594r1CWdvsZ8wU=
+SHA256 (Pkgfile) = ab5b28025b31783fbd9ea0dda6a79ff8c65ef68f7d0a15d129f5f23109ba261c
 SHA256 (.footprint) = 089eb88607e4d7371c8e4e379d6e7d439a0bb60c36a2fbacae67ba814a44685f
 SHA256 (aircrack-ng-1.6.tar.gz) = c9e7894ba30f5e45b8a20ec43b4599225ac739a795a5bdb98e3f1bbb854d54f7
 SHA256 (add-manufacturer-col-to-client-list.patch) = 729d2a095ad0b6c106add77a404a7f28dc3e610b8556da3b2ebe91c3b14fbcf8
