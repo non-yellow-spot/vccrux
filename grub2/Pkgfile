@@ -1,7 +1,7 @@
-# Description:  Multiboot boot loader
-# URL:          http://www.gnu.org/software/grub/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libdevmapper freetype python3
+# Description: Multiboot boot loader
+# URL:         http://www.gnu.org/software/grub/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libdevmapper freetype python3
 
 name=grub2
 version=2.04
@@ -15,20 +15,24 @@ source=(http://ftp.gnu.org/gnu/grub/grub-$version.tar.xz
 build() {
 	export CFLAGS="${CFLAGS} -Wno-error"
 	export PYTHON=python3
+
 	cd grub-$version
 
-	patch -i $SRC/$name-00_header.diff util/grub.d/00_header.in
-	patch -i $SRC/$name-10_linux.diff util/grub.d/10_linux.in
+	patch -i $SRC/$name-00_header.diff  util/grub.d/00_header.in
+	patch -i $SRC/$name-10_linux.diff   util/grub.d/10_linux.in
 
-	./configure \
-		--prefix=/usr \
-		--sysconfdir=/etc \
-		--enable-device-mapper \
-		--disable-efiemu \
+	./configure                     \
+		--prefix=/usr           \
+		--sysconfdir=/etc       \
+		--enable-device-mapper  \
+		--disable-efiemu        \
 		--disable-grub-mount
+
 	make
 	make DESTDIR=$PKG install
+
 	rm -rf $PKG/usr/share/{info,locale,grub/themes}
+
 	gzip -d $SRC/unifont-9.0.06.pcf.gz
 	install -d $PKG/usr/lib/grub/fonts
 	./grub-mkfont -o $PKG/usr/lib/grub/fonts/unifont.pf2 \
