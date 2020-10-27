@@ -1,7 +1,7 @@
-# Description:  Perl module for processing huge XML documents in tree mode
-# URL:          https://metacpan.org/pod/XML::Twig
-# Maintainer:   Savca Alexandr, drop at chinarulezzz dot fun
-# Depends on:   p5-xml-parser
+# Description: Perl module for processing huge XML documents in tree mode
+# URL:         https://metacpan.org/pod/XML::Twig
+# Maintainer:  Savca Alexandr, alexandrsavca89 at gmail dot com
+# Depends on:  p5-xml-parser
 
 name=p5-xml-twig
 version=3.52
@@ -16,11 +16,13 @@ build() {
 	make OPTIMIZE="$CFLAGS"
 	make DESTDIR=$PKG install
 
+	# remove perlcrap
 	find $PKG  -name perllocal.pod	\
 		-o -name "*.bs"		\
 		-o -name .packlist	\
 		-o -name autosplit.ix	\
 	| xargs rm -f
 
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
