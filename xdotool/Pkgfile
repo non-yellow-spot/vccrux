@@ -1,30 +1,36 @@
 # Description: Fake keyboard/mouse input
 # URL:         http://www.semicomplete.com/projects/xdotool
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  xorg-libxtst xorg-libxinerama libxkbcommon
 
 name=xdotool
 version=3.20160805.1
-release=1
+release=2
 source=(https://github.com/jordansissel/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	# Fix man path
+	# fix man path
 	sed -i 's@INSTALLMAN?=$(PREFIX)/man@INSTALLMAN?=$(PREFIX)/share/man@' Makefile
 
-	# Build
+	# remove debug flag
+	sed -i '/CFLAGS+=-g #/d' Makefile
+
 	make PREFIX=/usr DESTDIR=$PKG
 
-	# Install - Call the make targets individually.
+	# install - call the make targets individually.
+	#
 	# This is because 'make install' calls ldconfig in the post-install target.
 	# We don't want this since it requires root, plus the package manager does
 	# that for us after install.
+	#
 	make PREFIX=/usr DESTDIR=$PKG \
 		pre-install \
 		installlib \
 		installprog \
 		installman \
 		installheader
+
+	chmod -x $PKG/usr/include/xdo.h
 }
