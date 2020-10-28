@@ -1,8 +1,7 @@
 # Description: User interface library focusing on simplicity and minimalism
 # URL:         https://pwmt.org/projects/girara
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  gtk3 libnotify meson ninja
-# Optional:    json-c
+# Depends on:  gtk3 json-c xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=girara
 version=0.3.5
@@ -13,11 +12,11 @@ build() {
 	cd $name-$version
 
 	meson build \
-		--prefix=/usr \
-		--sysconfdir=/etc \
+		--prefix=/usr       \
+		--sysconfdir=/etc   \
 		--buildtype=release \
-		--backend=ninja \
-		-Denable-json=false \
+		--backend=ninja     \
+		-Denable-json=true  \
 		-Denable-docs=false
 
 	cd build
