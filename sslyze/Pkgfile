@@ -1,24 +1,24 @@
-# Description: Fast and full-featured SSL scanner
+# Description: SSL scanner
 # URL:         https://github.com/nabla-c0d3/sslyze
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  python3 python3-pip
 
 name=sslyze
 version=3.0.8
 release=1
-source=(https://github.com/nabla-c0d3/sslyze/archive/$version/$name-$version.tar.gz
-	sslyze)
+source=(https://github.com/nabla-c0d3/$name/archive/$version/$name-$version.tar.gz
+	$name.sh)
 
 build() {
 	cd $name-$version
 
 	# Install files in /opt
-	install -dm755 $PKG/opt/sslyze
-	/usr/bin/pip3 install . --target $PKG/opt/sslyze/
+	install -dm755 $PKG/opt/$name
+	/usr/bin/pip3 install . --target $PKG/opt/$name/
 
 	# Create an indirect launcher in /opt/bin
-	install -Dm755 $SRC/sslyze $PKG/opt/bin/sslyze
+	install -Dm755 $SRC/$name.sh $PKG/opt/bin/$name
 
 	# Remove junk files
-	rm -rf $PKG/opt/sslyze/*.dist-info
+	rm -rf $PKG/opt/$name/*.dist-info
 }
