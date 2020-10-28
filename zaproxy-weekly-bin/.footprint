@@ -30,7 +30,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-validator-1.7.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/delight-nashorn-sandbox-0.1.28.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ezmorph-1.0.6.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/flatlaf-0.42.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/flatlaf-0.43.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/harlib-1.1.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/hsqldb-2.5.1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ice4j-1.0.jar
@@ -60,13 +60,14 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/coreLang-release-14.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/diff-beta-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/directorylistv1-release-5.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/domxss-beta-10.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/encoder-beta-0.4.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/formhandler-alpha-3.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/fuzz-beta-13.1.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/gettingStarted-release-12.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/graphql-alpha-0.2.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/help-release-11.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/hud-beta-0.12.0.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/hud-beta-0.13.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/importurls-beta-8.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/invoke-beta-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/onlineMenu-release-8.zap
@@ -128,6 +129,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-10-13.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-10-26.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
