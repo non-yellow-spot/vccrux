@@ -1,7 +1,7 @@
 # Description: DjVu format reader
 # URL:         http://djvu.sourceforge.net/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  xz zlib libjpeg-turbo libtiff zstd
+# Depends on:  libtiff zstd
 
 name=djvulibre
 version=3.5.27
