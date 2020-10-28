@@ -1,7 +1,7 @@
 # Description: Anonymous network and proxy
 # URL:         http://www.torproject.org/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libevent openssl zlib netcat
+# Depends on:  libcap libevent libseccomp netcat zstd
 # Optional:    netcat
 
 name=tor
