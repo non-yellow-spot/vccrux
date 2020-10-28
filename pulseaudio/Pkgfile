@@ -1,7 +1,7 @@
 # Description: Sound system for POSIX OSes
 # URL:         http://www.freedesktop.org/wiki/Software/PulseAudio/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  dbus glib xorg-libsm xorg-libxtst libsndfile intltool consolekit sbc bluez
+# Depends on:  bluez consolekit gst-plugins-base intltool libsndfile libtool sbc xorg-libxtst
 
 name=pulseaudio
 version=13.99.2
