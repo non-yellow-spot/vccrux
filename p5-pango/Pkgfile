@@ -1,7 +1,7 @@
 # Description: Perl bindings for pango
 # URL:         https://metacpan.org/pod/Pango
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  pango p5-cairo
+# Depends on:  p5-cairo pango
 
 name=p5-pango
 version=1.227
