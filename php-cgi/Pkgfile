@@ -1,7 +1,7 @@
 # Description: PHP interpreter, extension modules and support stuff
 # URL:         http://www.php.net
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libpcre2 libxml2 curl db gdbm xz libzip
+# Depends on:  db gdbm libpcre2 libxml2 libzip
 
 name=php-cgi
 version=7.3.10
