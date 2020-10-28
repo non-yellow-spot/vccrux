@@ -1,14 +1,14 @@
 # Description: Static analysis tool for shell scripts
 # URL:         https://github.com/koalaman/shellcheck
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
-name=shellcheck
+name=shellcheck-bin
 version=0.7.1
-release=1
-source=(https://github.com/koalaman/$name/releases/download/v$version/$name-v${version}.linux.x86_64.tar.xz)
+release=2
+source=(https://github.com/koalaman/${name/-bin}/releases/download/v$version/${name/-bin}-v$version.linux.x86_64.tar.xz)
 
 build() {
-	cd $name-v$version
+	cd ${name/-bin}-v$version
 
-	install -Dm755 $name -t $PKG/usr/bin
+	install -Dm755 ${name/-bin} -t $PKG/usr/bin
 }

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzhDM8S4+4z0Tcre7ukNR9Ug6VGJGVC9rx1IwfWWiEBoZekw3cblSWwXawYGzzqV6l22mnz6Rr4GhC//oXCBrAQ=
-SHA256 (Pkgfile) = b5ac8927a769c6f505c39101d8cf5243d4a88ad0319cb725367f95a4c2e7dc04
+RWT2I5SomoNUj/MB717lQN65PcndMFJ4wcSKa/yEOaS23dZ51ztOPwyXeBkV0Xx0zqDOqH4gRkIXu/wU9uXQaMOS3ptyFrcJlwU=
+SHA256 (Pkgfile) = 49002efd562fc73b70bee5f1f977a0a85877c12caf5e8f32b5065ef3ed6bc820
 SHA256 (.footprint) = 07c5051f3e9101103e33fbb08e7b9e3da799b9ed1a226b971b2ac28e4d91df76
 SHA256 (shellcheck-v0.7.1.linux.x86_64.tar.xz) = 64f17152d96d7ec261ad3086ed42d18232fcb65148b44571b564d688269d36c8
