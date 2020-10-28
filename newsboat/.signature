@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj724fLiH2dIpu9DzjbYI6RQvHIcTyQpkfX1VG9bvddhpmq5BeFxfnsnNsOJ8hQoPShTv0wWFcJ4oPX/dVrvxew8=
-SHA256 (Pkgfile) = 82ca5892a6fd24e2746e842d4f004f3ebcc9e8943b9258e47b72a2f4964e7e83
+RWT2I5SomoNUj0vLn6zTCEqMJbnkjEyPL/403gM/eM7wOgUmqnUdzC5kvtIfl+cTfDw2GEOu1GsolMnoMqTox2kzAfjMZk3zVwk=
+SHA256 (Pkgfile) = bf299b673ed8c9d38df5d81c9cae2502e23c85633915ab067da80a5c3b38d2a4
 SHA256 (.footprint) = 06b39e043d56a32e79bc658c4ff55db7bd7766762838a1983998f9dd2a93bb3c
 SHA256 (newsboat-2.13.tar.xz) = c73613b4f08c875bae2c4e7828e67291e7599e9cabed528089f8378f520b335e
 SHA256 (newsboat.1.gz) = fa2e1e0152f03516523ec7aa9a22d31a71ee1524180c1b25ff3711e4ed82cd6d
