@@ -1,12 +1,12 @@
-# Description:  X11 keyboard layout index switcher
-# URL:          https://github.com/chinarulezzz-de/xkbswitch
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   xorg-libx11
+# Description: X11 keyboard layout index switcher
+# URL:         https://github.com/chinarulezzz-de/xkbswitch
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  xorg-libx11
 
 name=xkbswitch
 version=0.1
 release=1
-source=(https://github.com/chinarulezzz-de/xkbswitch/archive/v$version/$name-$version.tar.gz)
+source=(https://github.com/chinarulezzz-de/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
