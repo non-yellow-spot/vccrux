@@ -1,7 +1,7 @@
 # Description: Virtualisation software for x86 hardware (binary version, non-GPL)
 # URL:         http://www.virtualbox.org
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libidl libxslt xorg-libxinerama xorg-libxcursor
+# Depends on:  libidl libxslt xorg-libxcursor xorg-libxinerama
 
 name=virtualbox-bin
 version=6.1.16
