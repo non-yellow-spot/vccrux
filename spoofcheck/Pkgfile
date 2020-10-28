@@ -1,7 +1,7 @@
 # Description: Check if a domain can be spoofed from
 # URL:         https://github.com/chinarulezzz/spoofcheck
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  python3 python3-pip
+# Depends on:  python3-pip
 
 name=spoofcheck
 version=0.1
