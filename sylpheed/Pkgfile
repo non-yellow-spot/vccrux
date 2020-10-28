@@ -1,35 +1,35 @@
-# Description:  GTK+ email client and news reader
-# URL:          http://sylpheed.sraoss.jp/en/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   gtk
+# Description: GTK+ email client and news reader
+# URL:         http://sylpheed.sraoss.jp/en/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  gtk gpgme
 
 name=sylpheed
 version=3.7.0
-release=2
-source=(https://sylpheed.sraoss.jp/sylpheed/v3.7/$name-$version.tar.xz
-	sylpheed-3.7.0-textview.c.patch)
+release=3
+source=(https://sylpheed.sraoss.jp/$name/v${version%.*}/$name-$version.tar.xz
+	$name-$version-textview.c.patch)
 
 build () {
 	cd $name-$version
 
 	# fix widget style for dark themes
-	patch src/textview.c $SRC/sylpheed-3.7.0-textview.c.patch
+	patch src/textview.c $SRC/$name-$version-textview.c.patch
 
 	./configure \
-		--prefix=/usr \
-		--disable-glibtest \
-		--disable-gtktest \
-		--disable-updatecheck \
+		--prefix=/usr             \
+		--disable-glibtest        \
+		--disable-gtktest         \
+		--disable-updatecheck     \
 		--disable-updatecheckplugin
 
 	make
 	make DESTDIR=$PKG install
 
-	sed -ri '/\[.+\]=/d' sylpheed.desktop
+	sed -ri '/\[.+\]=/d' $name.desktop
 
 	install -d $PKG/usr/share/{applications,pixmaps}
-	install -m 0644 sylpheed.desktop $PKG/usr/share/applications
-	install -m 0644 sylpheed.png $PKG/usr/share/pixmaps
+	install -m 0644 $name.desktop  $PKG/usr/share/applications
+	install -m 0644 $name.png      $PKG/usr/share/pixmaps
 
 	rm -r $PKG/usr/share/{locale,sylpheed}
 }

@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj8YLFYuQHlBzLKjwOgfAOQkVtKPRA2TL+XUvsi5ruttPbLc1gejeCVH97zUefpDCkiFkTDAZYJHpSrt6Yj3IlQ0=
-SHA256 (Pkgfile) = ddbb4363bd4f0ca0fbf49ab8c70eac1e181b8832dd469cf6af5cf1195e549f51
+RWT2I5SomoNUj5/RxEvDcEkSjRG6CwPEWXZJotE9z0FGl9XyjsjLrgCzstoiEswfN47X9OmLaA9GCKjOnScD1x3E03XT6hlPRQQ=
+SHA256 (Pkgfile) = ec678ecc38555d151098c983bd7129fea7a74ff99ebfaa6caf0965ca5347252a
 SHA256 (.footprint) = 84bb6c474dfc59b15db032cb57e4925186f2912127cb208a718de89adbc7126c
 SHA256 (sylpheed-3.7.0.tar.xz) = 0d6bc5eb46f5d0a463757c62bc80b00d219b294b3c3662840e4540f6db2e3e49
 SHA256 (sylpheed-3.7.0-textview.c.patch) = 28d76f16c4e38b7f5daa318d9953e526d2ddb584a65963067f86f38b1df91f7c
