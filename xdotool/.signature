@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+cFcAO2TjtEQRcUt9HU7hS5ASxMe0rgZ2osQ4r5sYQNxrky2xoGnGZVlvQ5zgdirgaTR2BQ9tDjbaKrGIbd3QM=
-SHA256 (Pkgfile) = 1587dc011550ebcfd039ed319da8899526da88de149bb18816f27bb100afd7a2
+RWT2I5SomoNUj9XT1O9Ztpg3X7toSCkHtXr2xToo4MdmJ8XK0VxBOECtslmkM8FGAcob4FajPxuzQrmIfatLNta5Cwkft0MyjwM=
+SHA256 (Pkgfile) = d38fdee5884d44c0b38f28fde8b7a20ddefecd1e7a7e575897fea678cae8c405
 SHA256 (.footprint) = 43bfec3025e8f45a278b478019d315ee0b0182d4d8244ad03d0dbaf8df5cf927
 SHA256 (xdotool-3.20160805.1.tar.gz) = ddafca1239075c203769c17a5a184587731e56fbe0438c09d08f8af1704e117a

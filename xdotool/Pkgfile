@@ -1,7 +1,7 @@
 # Description: Fake keyboard/mouse input
 # URL:         http://www.semicomplete.com/projects/xdotool
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  xorg-libxtst xorg-libxinerama libxkbcommon
+# Depends on:  libxkbcommon xorg-libxinerama xorg-libxtst
 
 name=xdotool
 version=3.20160805.1
