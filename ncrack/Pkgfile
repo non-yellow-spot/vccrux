@@ -1,6 +1,7 @@
 # Description: High-speed network authentication cracking tool
 # URL:         https://nmap.org/ncrack/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  openssl
 
 name=ncrack
 version=0.7
