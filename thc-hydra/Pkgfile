@@ -1,13 +1,13 @@
-# Description:  Fast network logon cracker
-# URL:          https://github.com/vanhauser-thc/thc-hydra
-# Maintainer:   Alexandr Savca, drop at chinarulezzz
-# Depends on:   mysql postgresql freerdp2 libssh subversion libgcrypt libidn libssh gtk
-# Optional:     mysql postgresql freerdp2 libssh subversion libgcrypt libidn libssh gtk
+# Description: Network logon cracker
+# URL:         https://github.com/vanhauser-thc/thc-hydra
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  mysql postgresql freerdp2 libssh subversion libgcrypt libidn libssh gtk
+# Optional:    mysql postgresql freerdp2 libssh subversion libgcrypt libidn libssh gtk
 
 name=thc-hydra
 version=9.1
 release=1
-source=(https://github.com/vanhauser-thc/thc-hydra/archive/v$version/$name-v$version.tar.gz)
+source=(https://github.com/vanhauser-thc/$name/archive/v$version/$name-v$version.tar.gz)
 
 build() {
 	cd $name-$version
