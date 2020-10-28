@@ -1,7 +1,7 @@
-# Description:  GTK theme based on GTK2 theme trinity green (personal fork)
-# URL:          https://github.com/chinarulezzz-de/Trinity
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   gtk-engines gtk-engine-murrine
+# Description: Trinity GTK theme (chinarulezzz fork)
+# URL:         https://github.com/chinarulezzz-de/Trinity
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  gtk-engines gtk-engine-murrine
 
 name=trinity-theme
 version=1.1
