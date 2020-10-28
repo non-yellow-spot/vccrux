@@ -1,7 +1,7 @@
 # Description: Check if the email is used on different sites
 # URL:         https://github.com/megadose/holehe
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  git python3-requests python3-tqdm python3-mechanize python3-lxml python3-beautifulsoup4
+# Depends on:  git python3-lxml python3-mechanize python3-requests python3-tqdm
 
 name=holehe-scm
 version=$(date +%Y%m%d)
