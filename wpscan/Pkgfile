@@ -1,7 +1,7 @@
 # Description: Black box WordPress vulnerability scanner
 # URL:         https://wpscan.org
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  ruby libxslt libyaml curl libxml2
+# Depends on:  curl libxslt ruby
 
 name=wpscan
 version=3.8.9
