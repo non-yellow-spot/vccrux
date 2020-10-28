@@ -1,23 +1,23 @@
 # Description: Exploitation Framework for Embedded Devices
 # URL:         https://github.com/threat9/routersploit
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  python3 python3-pip
 
 name=routersploit-scm
 version=$(date +%Y%m%d)
-release=1
-source=(routersploit)
+release=2
+source=(routersploit.sh)
 
 download_git() {
-        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
-                git -C $PKGMK_SOURCE_DIR/$name clean -f
-                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
-        else
-                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
-        fi
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
 
-        cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
 }
 
 build() {
@@ -29,8 +29,8 @@ build() {
 	/usr/bin/pip3 install . --target $PKG/opt/routersploit/
 
 	# Create an indirect launcher in /opt/bin
-	install -m644 rsf.py $PKG/opt/routersploit/rsf.py
-	install -Dm755 $SRC/routersploit $PKG/opt/bin/routersploit
+	install -m644  rsf.py               $PKG/opt/routersploit/rsf.py
+	install -Dm755 $SRC/routersploit.sh $PKG/opt/bin/routersploit
 
 	# Remove junk files
 	rm -rf $PKG/opt/routersploit/*.dist-info

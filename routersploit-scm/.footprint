@@ -2011,9 +2011,11 @@ drwxr-xr-x	root/root	opt/routersploit/cryptography/hazmat/primitives/serializati
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/__pycache__/__init__.cpython-37.pyc
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/__pycache__/base.cpython-37.pyc
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/__pycache__/pkcs12.cpython-37.pyc
+-rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/__pycache__/pkcs7.cpython-37.pyc
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/__pycache__/ssh.cpython-37.pyc
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/base.py
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/pkcs12.py
+-rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/pkcs7.py
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/serialization/ssh.py
 drwxr-xr-x	root/root	opt/routersploit/cryptography/hazmat/primitives/twofactor/
 -rw-r--r--	root/root	opt/routersploit/cryptography/hazmat/primitives/twofactor/__init__.py
