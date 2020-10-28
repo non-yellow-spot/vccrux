@@ -1,7 +1,7 @@
-# Description:  Network Sniffer
-# URL:          http://www.wireshark.org
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   hicolor-icon-theme libgcrypt libpcap qt5 c-ares
+# Description: Network Sniffer
+# URL:         http://www.wireshark.org
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  hicolor-icon-theme libgcrypt libpcap qt5 c-ares
 
 name=wireshark
 version=3.3.1
