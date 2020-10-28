@@ -1,7 +1,7 @@
 # Description: Access point and authentication daemon
 # URL:         http://hostap.epitest.fi/hostapd/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libnl
+# Depends on:  openssl libnl
 
 name=hostapd
 version=2.6
