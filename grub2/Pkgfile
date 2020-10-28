@@ -1,7 +1,7 @@
 # Description: Multiboot boot loader
 # URL:         http://www.gnu.org/software/grub/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libdevmapper freetype python3
+# Depends on:  freetype libdevmapper
 
 name=grub2
 version=2.04
