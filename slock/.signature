@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7rMpVmEgociyUm+09KkyKBBXFBJCQM0f6+vD9B0L2cxLxZQ9ragEMuP9bPenTca3sXdyRO/QIonITU8Ihtrhwg=
-SHA256 (Pkgfile) = a6c07e3332a39235c4b7100d18d47821ffff467a29cdb6226f515c8cdb751fb8
+RWT2I5SomoNUj12acpTINx9QkbltiPR3urzL6wUx3JbsRrN9TwBEwThNULvEUZZTNjTvOKxXWx8LpTeDlNd7J4Nz3gJRO+ue4AM=
+SHA256 (Pkgfile) = 01fd1e2daad3e0f0da9e6e8928a11536504689f32df2e3681a26d28db375974d
 SHA256 (.footprint) = 5f7d8bfedcbf7f060a1997b9b8798c28e8fc6cc2ed9457566989e12a15d831ad
 SHA256 (slock-1.4.tar.gz) = b53849dbc60109a987d7a49b8da197305c29307fd74c12dc18af0d3044392e6a
 SHA256 (slock-unlock_screen-1.4.diff) = 4eb0c6ce33f722f8e0c19a1915fb0f0c750fb6c0dd516af984436f2e1a2cca86

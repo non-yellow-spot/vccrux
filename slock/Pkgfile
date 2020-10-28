@@ -1,6 +1,6 @@
-# Description: Simple X display locker
+# Description: X display locker
 # URL:         http://tools.suckless.org/slock
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  xorg-libxrandr
 
 name=slock
