@@ -1,8 +1,8 @@
-# Description:  CLI Tox client
-# URL:          https://github.com/JFreegman/toxic
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   libconfig toxcore libnotify
-# Optional:     libnotify qrencode openal freealut python3 asciidoc
+# Description: CLI Tox client
+# URL:         https://github.com/JFreegman/toxic
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libconfig toxcore libnotify
+# Optional:    libnotify qrencode openal freealut python3 asciidoc
 
 name=toxic
 version=0.8.4
