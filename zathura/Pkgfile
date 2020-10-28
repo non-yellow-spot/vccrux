@@ -1,8 +1,8 @@
-# Description:  Highly customizable and functional document viewer
-# URL:          https://pwmt.org/projects/zathura
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   girara python-sphinx sqlite3
-# Optional:     texlive
+# Description: Highly customizable and functional document viewer
+# URL:         https://pwmt.org/projects/zathura
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  girara python-sphinx sqlite3
+# Optional:    texlive
 
 name=zathura
 version=0.4.7
@@ -13,8 +13,8 @@ build() {
 	cd $name-$version
 
 	meson build \
-		--prefix=/usr \
-		--sysconfdir=/etc \
+		--prefix=/usr       \
+		--sysconfdir=/etc   \
 		--buildtype=release \
 		--backend=ninja
 
