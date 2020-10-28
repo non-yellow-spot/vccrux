@@ -1,7 +1,7 @@
-# Description:  Powerful interactive packet manipulation program written in Python
-# URL:          https://github.com/secdev/scapy
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   tcpdump python3-setuptools
+# Description: Interactive packet manipulation
+# URL:         https://github.com/secdev/scapy
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3-setuptools tcpdump
 
 name=scapy
 version=2.4.4
@@ -12,10 +12,7 @@ build() {
 	cd $name-$version
 
 	python3 setup.py build
-	python3 setup.py install \
-		--prefix=/usr \
-		--root=$PKG \
-		--optimize=1
+	python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
 
 	rm -rf $PKG/usr/lib/python3.7/site-packages/scapy-*-py3.7.egg-info
 }
