@@ -1,7 +1,7 @@
 # Description: Dynamically create Perl language bindings
 # URL:         https://metacpan.org/pod/Glib::Object::Introspection
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  p5-glib
+# Depends on:  gobject-introspection p5-glib util-linux
 
 name=p5-glib-object-introspection
 version=0.049
