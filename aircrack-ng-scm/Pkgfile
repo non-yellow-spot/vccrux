@@ -1,7 +1,7 @@
 # Description: Assess WiFi network security (branch:master)
 # URL:         https://github.com/aircrack-ng/aircrack-ng
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  ethtool eudev libpcap libpcre libnl libxml2 openssl xz zlib sqlite3 hwloc xorg-libpciaccess
+# Depends on:  ethtool hwloc libnl libpcap libpcre libxml2 openssl sqlite3 xorg-libpciaccess
 
 name=aircrack-ng-scm
 version=$(date +%Y%m%d)
