@@ -5,7 +5,7 @@
 
 name=wireshark
 version=3.3.1
-release=1
+release=2
 source=(https://1.eu.dl.$name.org/src/all-versions/$name-$version.tar.xz)
 
 build() {
@@ -20,4 +20,5 @@ build() {
 	#rm -f $PKG/usr/share/$name/{AUTHORS-SHORT,COPYING}
 
 	rm -r $PKG/usr/share/doc
+	rm -r $PKG/usr/share/wireshark/radius/README.radius_dictionary
 }

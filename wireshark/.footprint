@@ -818,7 +818,6 @@ drwxr-xr-x	root/root	usr/share/wireshark/profiles/Classic/
 drwxr-xr-x	root/root	usr/share/wireshark/profiles/No Reassembly/
 -rw-r--r--	root/root	usr/share/wireshark/profiles/No Reassembly/preferences
 drwxr-xr-x	root/root	usr/share/wireshark/radius/
--rw-r--r--	root/root	usr/share/wireshark/radius/README.radius_dictionary
 -rw-r--r--	root/root	usr/share/wireshark/radius/custom.includes
 -rw-r--r--	root/root	usr/share/wireshark/radius/dictionary
 -rw-r--r--	root/root	usr/share/wireshark/radius/dictionary.3com
