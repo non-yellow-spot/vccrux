@@ -1136,6 +1136,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/presentation_objs.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/serializers.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/session.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/shapeannotation.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/subplots.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/tools.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/__pycache__/utils.cpython-37.pyc
@@ -4378,6 +4379,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/plotly/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/presentation_objs.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/serializers.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/session.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/shapeannotation.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/subplots.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/tools.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/utils.py
@@ -11515,6 +11517,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_coloraxis.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_colorscale.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_colorway.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_computed.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_datarevision.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_direction.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/_dragmode.cpython-37.pyc
@@ -11598,6 +11601,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/layout/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_coloraxis.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_colorscale.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_colorway.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_computed.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_datarevision.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_direction.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/layout/_dragmode.py
@@ -21681,6 +21685,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_outsidetextfont.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_parents.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_parentssrc.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_rotation.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_sort.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_stream.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/_text.cpython-37.pyc
@@ -21723,6 +21728,7 @@ drwxr-xr-x	root/root	opt/theHarvester/plotly/validators/sunburst/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_outsidetextfont.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_parents.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_parentssrc.py
+-rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_rotation.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_sort.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_stream.py
 -rw-r--r--	root/root	opt/theHarvester/plotly/validators/sunburst/_text.py

@@ -1,23 +1,23 @@
-# Description:  Gathering e-mail accounts and subdomain names from different public sources
-# URL:          https://github.com/laramies/theHarvester
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libffi libxslt libxml2
+# Description: Gathering e-mail accounts and subdomain names from different public sources
+# URL:         https://github.com/laramies/theHarvester
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libffi libxslt libxml2
 
 name=theharvester-scm
 version=$(date +%Y%m%d)
 release=2
-source=(theharvester)
+source=(theharvester.sh)
 
 download_git() {
-        if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
-                git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
-                git -C $PKGMK_SOURCE_DIR/$name clean -f
-                git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
-        else
-                git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
-        fi
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
 
-        cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
 }
 
 build() {
@@ -30,7 +30,7 @@ build() {
 	/usr/bin/pip3 install -r requirements.txt --target $PKG/opt/theHarvester
 
 	# Install an indirect launcher in /opt/bin
-	install -Dm755 $SRC/theharvester $PKG/opt/bin/theharvester
+	install -Dm755 $SRC/theharvester.sh $PKG/opt/bin/theharvester
 
 	# Install /etc/theHarvester configs
 	install -Dm644 $PKG/opt/theHarvester/app/api-keys.yaml -t $PKG/etc/theHarvester
