@@ -1,7 +1,7 @@
 # Description: Capture packets from WLAN devices for hashcat (legacy)
 # URL:         https://github.com/wi-fi-analyzer/hcxtools
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libpcap
+# Depends on:  curl libidn2 libpcap openldap rtmpdump zstd
 
 name=hcxtools3
 version=3.5.0-e4b60f4
