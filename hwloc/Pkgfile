@@ -1,6 +1,7 @@
 # Description: Portable Hardware Locality
 # URL:         http://www.multiprecision.org/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  cairo libxml2 xorg-libpciaccess xorg-libsm
 
 name=hwloc
 version=2.3.0
