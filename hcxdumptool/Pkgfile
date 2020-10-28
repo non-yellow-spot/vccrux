@@ -1,6 +1,7 @@
 # Description: Capture packets from wlan devices
 # URL:         https://github.com/ZerBea/hcxdumptool
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  openssl
 
 name=hcxdumptool
 version=6.1.3
