@@ -1,1 +1,4 @@
-[ -e /etc/ssl/certs/ca-certificates.crt ] || ln -s /etc/ssl/cert.pem /etc/ssl/certs/ca-certificates.crt
+#!/bin/sh
+if [ -e /etc/ssl/certs/ca-certificates.crt ]; then
+	ln -s /etc/ssl/cert.pem /etc/ssl/certs/ca-certificates.crt
+fi

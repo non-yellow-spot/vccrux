@@ -1,7 +1,7 @@
-# Description:  Fetch, install and search wordlist archives from websites
-# URL:          https://github.com/BlackArch/wordlistctl
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   python3-requests
+# Description: Fetch, install and search wordlist archives from websites
+# URL:         https://github.com/BlackArch/wordlistctl
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3-requests
 
 name=wordlistctl
 version=0.8.9
