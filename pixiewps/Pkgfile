@@ -1,6 +1,7 @@
 # Description: Bruteforce offline the WPS PIN
 # URL:         https://github.com/wiire-a/pixiewps
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  openssl
 
 name=pixiewps
 version=1.4.2
