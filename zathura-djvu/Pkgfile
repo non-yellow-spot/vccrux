@@ -1,7 +1,7 @@
-# Description:  DJVU plugin for zathura
-# URL:          https://pwmt.org/projects/zathura-djvu
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   djvulibre zathura
+# Description: DJVU plugin for zathura
+# URL:         https://pwmt.org/projects/zathura-djvu
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  djvulibre zathura
 
 name=zathura-djvu
 version=0.2.9
@@ -12,8 +12,8 @@ build() {
 	cd $name-$version
 
 	meson build \
-		--prefix=/usr \
-		--sysconfdir=/etc \
+		--prefix=/usr       \
+		--sysconfdir=/etc   \
 		--buildtype=release \
 		--backend=ninja
 
