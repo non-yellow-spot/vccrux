@@ -1,14 +1,14 @@
-# Description:  User space IEEE 802.1X/WPA supplicant (wireless client)
-# URL:          http://hostap.epitest.fi/wpa_supplicant/
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends on:   openssl readline libnl
-# Optional:     dbus
+# Description: User space IEEE 802.1X/WPA supplicant (wireless client)
+# URL:         http://hostap.epitest.fi/wpa_supplicant/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  openssl readline libnl
+# Optional:    dbus
 
 name=wpa_supplicant
 version=2.9
 release=1
 source=(https://w1.fi/releases/$name-$version.tar.gz
-	wlan)
+	wlan.rc)
 
 build () {
 	cd $name-$version/$name
@@ -36,7 +36,7 @@ EOF
 	chmod 0600 $PKG/etc/wpa_supplicant.conf
 
 	# rc script
-	install -D -m 0755 $SRC/wlan $PKG/etc/rc.d/wlan
+	install -D -m 0755 $SRC/wlan.rc $PKG/etc/rc.d/wlan
 
 	# dbus
 	if [ $dbus = y ]; then
