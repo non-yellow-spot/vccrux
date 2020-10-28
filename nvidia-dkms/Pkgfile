@@ -1,7 +1,7 @@
 # Description: NVIDIA Linux Display Driver (long lived branch, DKMS)
 # URL:         http://www.nvidia.com/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  dkms gtk gtk3 libglvnd
+# Depends on:  dkms gtk gtk3
 
 name=nvidia-dkms
 version=440.100
