@@ -1,12 +1,12 @@
-# Description:  MITM attacks against SSL/TLS encrypted network connections
-# URL:          https://github.com/droe/sslsplit
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libevent libnet libpcap 
+# Description: MITM attacks against SSL/TLS encrypted network connections
+# URL:         https://github.com/droe/sslsplit
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libevent libnet libpcap
 
 name=sslsplit
 version=0.5.5
 release=1
-source=(https://github.com/droe/sslsplit/archive/$version/$name-$version.tar.gz)
+source=(https://github.com/droe/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
