@@ -1,8 +1,7 @@
 # Description: User space IEEE 802.1X/WPA supplicant (wireless client)
 # URL:         http://hostap.epitest.fi/wpa_supplicant/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  openssl readline libnl
-# Optional:    dbus
+# Depends on:  dbus libnl openssl readline
 
 name=wpa_supplicant
 version=2.9
@@ -13,14 +12,11 @@ source=(https://w1.fi/releases/$name-$version.tar.gz
 build () {
 	cd $name-$version/$name
 
-	# Check optional dependency: dbus
-	pkginfo -i | grep -q '^dbus ' && dbus=y || dbus=
-
 	cp defconfig .config
 	cat >> .config <<EOF
 CONFIG_READLINE=y
 CONFIG_LIBNL32=y
-CONFIG_CTRL_IFACE_DBUS_NEW=$dbus
+CONFIG_CTRL_IFACE_DBUS_NEW=y
 CFLAGS+=-I/usr/include/libnl3
 EOF
 
@@ -38,10 +34,7 @@ EOF
 	# rc script
 	install -D -m 0755 $SRC/wlan.rc $PKG/etc/rc.d/wlan
 
-	# dbus
-	if [ $dbus = y ]; then
-		install -d $PKG/{usr/share/dbus-1/system-services,etc/dbus-1/system.d}
-		install -m 0644 dbus/fi.w1.wpa_supplicant1.service $PKG/usr/share/dbus-1/system-services/
-		install -m 0644 dbus/dbus-wpa_supplicant.conf $PKG/etc/dbus-1/system.d/wpa_supplicant.conf
-	fi
+	install -d $PKG/{usr/share/dbus-1/system-services,etc/dbus-1/system.d}
+	install -m 0644 dbus/fi.w1.wpa_supplicant1.service $PKG/usr/share/dbus-1/system-services/
+	install -m 0644 dbus/dbus-wpa_supplicant.conf $PKG/etc/dbus-1/system.d/wpa_supplicant.conf
 }
