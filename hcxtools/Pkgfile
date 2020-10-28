@@ -1,6 +1,7 @@
 # Description: Convert captured packets for hashcat or John the Ripper
 # URL:         https://github.com/ZerBea/hcxtools
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  curl libidn2 openldap rtmpdump zstd
 
 name=hcxtools
 version=6.1.3
