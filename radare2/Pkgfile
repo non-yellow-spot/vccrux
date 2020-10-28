@@ -1,7 +1,7 @@
 # Description: Framework for reversing binaries
 # URL:         http://radare.org/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  capstone libzip xxhash libuv
+# Depends on:  capstone file libuv libzip xxhash
 
 name=radare2
 version=4.5.1
