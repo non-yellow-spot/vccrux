@@ -1,12 +1,12 @@
-# Description:  Anonymous network and proxy
-# URL:          http://www.torproject.org/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libevent openssl zlib netcat
-# Optional:     netcat
+# Description: Anonymous network and proxy
+# URL:         http://www.torproject.org/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  libevent openssl zlib netcat
+# Optional:    netcat
 
 name=tor
-version=0.4.2.8
-release=2
+version=0.4.4.5
+release=1
 source=(https://www.torproject.org/dist/tor-$version.tar.gz
 	tor.rc
 	torify.rc
@@ -45,10 +45,10 @@ build() {
 
 	# configuration
 	mv $PKG/etc/tor/torrc.sample $PKG/etc/tor/torrc
-	sed -i -e 's|^#RunAsDaemon 1$|RunAsDaemon 1|'           \
-	       -e 's|^#Log notice file /|Log notice file /|'    \
-	       -e 's|^#DataDirectory /|DataDirectory /|'        \
-	       $PKG/etc/tor/torrc
+	sed -i  -e 's|^#RunAsDaemon 1$|RunAsDaemon 1|'           \
+		-e 's|^#Log notice file /|Log notice file /|'    \
+		-e 's|^#DataDirectory /|DataDirectory /|'        \
+		$PKG/etc/tor/torrc
 
 	install -m 0644 $SRC/torify.config $PKG/etc/tor/torifyrc
 
