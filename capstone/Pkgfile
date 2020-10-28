@@ -1,7 +1,7 @@
 # Description: Lightweight multi-platform, multi-architecture disassembly framework
 # URL:         https://www.capstone-engine.org/index.html
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  python3 python3-setuptools
+# Depends on:  python3-setuptools
 
 name=capstone
 version=4.0.2
