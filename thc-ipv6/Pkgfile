@@ -1,7 +1,7 @@
 # Description: IPv6 attack toolkit
 # URL:         https://github.com/vanhauser-thc/thc-ipv6
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libpcap libnetfilter_queue bindutils
+# Depends on:  bindutils libnetfilter_queue libpcap
 
 name=thc-ipv6
 version=3.6.ba9fe25
