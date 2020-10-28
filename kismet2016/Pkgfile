@@ -1,7 +1,7 @@
 # Description: Wireless network sniffer (ncurses-based)
 # URL:         https://www.kismetwireless.net/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libpcap libnl libusb-compat bluez
+# Depends on:  bluez libcap libnl libpcap libusb-compat openssl
 # Optional:    sox
 
 name=kismet2016
@@ -25,9 +25,7 @@ build() {
 
 	mkdir -p $PKG/usr/lib/{kismet,kismet_client}
 
-	./configure \
-		--prefix=/usr \
-		--with-suidgroup=kismet 
+	./configure --prefix=/usr --with-suidgroup=kismet
 
 	sed -e '/LIB_LOC/ s|:/usr/local/lib|/usr/lib|g' -i config.h
 
