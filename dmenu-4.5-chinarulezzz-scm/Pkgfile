@@ -1,7 +1,7 @@
 # Description: Dynamic menu
 # URL:         https://github.com/chinarulezzz-de/dmenu-4.5-chinarulezzz
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  bzip2 util-linux zlib expat fontconfig freetype libpng xorg-libx11 xorg-libxau xorg-libxcb xorg-libxdmcp xorg-libxext xorg-libxft xorg-libxinerama xorg-libxrender
+# Depends on:  xorg-libxft xorg-libxinerama
 
 name=dmenu-4.5-chinarulezzz-scm
 version=$(date +%Y%m%d)
