@@ -1,7 +1,7 @@
 # Description: Gathering e-mail accounts and subdomain names from different public sources
 # URL:         https://github.com/laramies/theHarvester
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libffi libxslt libxml2
+# Depends on:  libffi libxslt
 
 name=theharvester-scm
 version=$(date +%Y%m%d)
