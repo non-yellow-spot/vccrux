@@ -1,7 +1,7 @@
 # Description: GTK+ email client and news reader
 # URL:         http://sylpheed.sraoss.jp/en/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  gtk gpgme
+# Depends on:  gpgme gtk xorg-libxdamage
 
 name=sylpheed
 version=3.7.0
