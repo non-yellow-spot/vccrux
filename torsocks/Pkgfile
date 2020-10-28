@@ -1,8 +1,8 @@
-# Description:  Wrapper to safely torify applications
-# URL:          https://gitweb.torproject.org/torsocks.git
-# Maintainer:   Alexandr Savca, alexandr dot savca89 at gmail dot com
-# Depends:      tor
-# Optional:     tor
+# Description: Wrapper to safely torify applications
+# URL:         https://gitweb.torproject.org/torsocks.git
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends:     tor
+# Optional:    tor
 
 name=torsocks
 version=2.3.0
@@ -19,7 +19,6 @@ build() {
 	done
 
 	autoreconf -f -i
-
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc
