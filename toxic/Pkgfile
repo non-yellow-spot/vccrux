@@ -1,7 +1,7 @@
 # Description: CLI Tox client
 # URL:         https://github.com/JFreegman/toxic
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libconfig toxcore libnotify
+# Depends on:  libconfig libidn2 libnotify openldap rtmpdump toxcore zstd
 # Optional:    libnotify qrencode openal freealut python3 asciidoc
 
 name=toxic
