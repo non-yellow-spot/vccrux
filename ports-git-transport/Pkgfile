@@ -1,9 +1,9 @@
-# Description: CRUX ports collections (via git transport)
+# Description: Git transport for CRUX ports
 # URL:         http://crux.nu
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  git
 
-name=ports-via-git
+name=ports-git-transport
 version=3.5
 release=1
 
@@ -14,10 +14,8 @@ source=(core.git
 	contrib.git.inactive)
 
 build () {
-	install -d $PKG/etc/ports
-	install -m 0644 $SRC/core.git                $PKG/etc/ports
-	install -m 0644 $SRC/opt.git                 $PKG/etc/ports
-	install -m 0644 $SRC/xorg.git                $PKG/etc/ports
-	install -m 0644 $SRC/compat-32.git.inactive  $PKG/etc/ports
-	install -m 0644 $SRC/contrib.git.inactive    $PKG/etc/ports
+	for cfg in core.git opt.git xorg.git compat-32.git.inactive contrib.git.inactive
+	do
+		install -Dm0644 $SRC/$cfg -t $PKG/etc/ports
+	done
 }
