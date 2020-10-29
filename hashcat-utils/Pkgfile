@@ -10,7 +10,7 @@ source=(https://github.com/hashcat/$name/archive/v$version/$name-$version.tar.gz
 build() {
 	cd $name-$version/src
 
-	# Remove hardcoded optimization flags
+	# remove hardcoded optimization flag
 	sed -i 's/CFLAGS += -Wall -W -pipe -O2 -std=gnu99/CFLAGS += -Wall -W -std=gnu99/' \
 		Makefile
 
