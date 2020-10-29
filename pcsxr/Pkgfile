@@ -1,7 +1,7 @@
 # Description: Crossplatform Sony Playstation emulator
 # URL:         http://pcsxr.codeplex.com
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  gtk3 libcdio libsdl mesa xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Depends on:  gtk3 libcdio libsdl mesa3d xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=pcsxr
 version=1.9.95
