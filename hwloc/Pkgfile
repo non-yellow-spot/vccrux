@@ -11,10 +11,7 @@ source=(https://download.open-mpi.org/release/$name/v${version%.*}/$name-$versio
 build() {
 	cd $name-$version
 
-	./configure                \
-		--prefix=/usr      \
-		--sysconfdir=/etc  \
-		--enable-netloc
+	./configure --prefix=/usr --sysconfdir=/etc --enable-netloc
 
 	make V=1
 	make DESTDIR=$PKG install
