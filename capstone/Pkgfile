@@ -15,10 +15,7 @@ build() {
 	make DESTDIR=$PKG install
 
 	cd bindings/python
-	python3 setup.py install \
-		--prefix=/usr    \
-		--root=$PKG      \
-		--optimize=1
+	python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
 
 	# remove sdist metadata, as wheel metadata will be used with python3-pip
 	rm -r $PKG/usr/lib/python*/site-packages/$name-$version-py*.egg-info
