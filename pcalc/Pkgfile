@@ -1,16 +1,16 @@
 # Description: The programmer's calculator
 # URL:         https://github.com/vapier/pcalc
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  flex
 
 name=pcalc
 version=4
-release=1
-source=(https://github.com/vapier/pcalc/archive/v4/${name}-v${version}.tar.gz)
+release=2
+source=(https://github.com/vapier/$name/archive/v$version/$name-v$version.tar.gz)
 
 build() {
-	cd ${name}-${version}
+	cd $name-$version
 
-	# Compilation with multiple threads crashes.
-	make -j1
+	make V=1 -j1		# compilation with multiple threads crashes
 	make install DESTDIR=$PKG
 }
