@@ -1,6 +1,7 @@
 # Description: Distribution of modules interfacing to the RADIUS protocol
 # URL:         https://metacpan.org/release/Net-Radius
-# Maintainer:  Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  perl
 
 name=p5-net-radius
 version=2.103
