@@ -1,9 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj3Z9NKPxM5f5I/+z3O3T5Ks0yr47Qn7c7posNc99RbcehhHE5AQsitHg+sw/oBZRJVLM4LJ3334leueUbUx8ngc=
-SHA256 (Pkgfile) = 1c71f651660edfbc842d81a833721234c5314c50b5ed1170b15fe3be72901c95
-SHA256 (.footprint) = 20ae4585b189f4966ba2a29512e34e400a16d5c246cf39e9da199f1152de15bd
-SHA256 (core.rsync) = f9d588766b402f92aa50de43c158fe7301572ada245ec23180f92c6578302002
-SHA256 (opt.rsync) = 85b603f678736ff8bf323b82c490ec14756d9e2c55ba9aaf4d468a252e0d3620
-SHA256 (xorg.rsync) = 9d2fa28c6ce1ea8e930b67d2219daacf75670accd6450640b382a24d68b6cc74
-SHA256 (compat-32.rsync.inactive) = 9e7b38199c4cbdeea1fc9498bbdd6754120574bef1b34128f668ee4eb854af09
-SHA256 (contrib.rsync.inactive) = dc765a391cc77b2f843701d514501358f5ad5ce15b5de6d135f0677f2f0f6f6d
