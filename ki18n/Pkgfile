@@ -1,11 +1,11 @@
 # Description: KDE Framework - ki18n
 # URL:         https://api.kde.org/frameworks/ki18n/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  extra-cmake-modules qt5 gettext python3
+# Depends on:  icu keyutils krb5 qt5 zstd
 
 name=ki18n
 version=5.75.0
-release=1
+release=2
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
@@ -15,7 +15,7 @@ build(){
 	cd build
 
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-	make
+	make V=1
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
