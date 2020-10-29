@@ -12,6 +12,7 @@ build () {
 	cd aspell6-ru-$version
 
 	./configure
+
 	make
 	make DESTDIR=$PKG install
 }
