@@ -5,13 +5,13 @@
 
 name=pixload
 version=0.1
-release=1
+release=2
 source=(https://github.com/chinarulezzz/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
 	for tool in bmp gif jpg png webp; do
-		install -Dm755 $tool.pl $PKG/opt/bin/$name-$tool
+		install -Dm755 $tool.pl $PKG/opt/bin/${name}2${tool}
 	done
 }
