@@ -1,6 +1,6 @@
 # Description: PulseAudio emulation for ALSA
 # URL:         https://github.com/i-rinat/apulse
-# Maintainer:  Alexandr Savca, alexandr dot savca89 at gmail dot com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  cmake glib alsa-lib
 
 name=apulse
