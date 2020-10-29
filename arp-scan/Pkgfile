@@ -1,4 +1,4 @@
-# Description: ARP Scanner
+# Description: Tool that uses ARP to discover IP hosts on the local network
 # URL:         https://github.com/royhills/arp-scan
 # Maintainer:  Alexandr Savca, alexndrsavca89 at gmail dot com
 # Depends on:  libpcap p5-lwp-protocol-https p5-http-message
