@@ -12,6 +12,5 @@ build() {
 	cd $name-$version
 
 	/usr/bin/python3 setup.py build
-	/usr/bin/python3 setup.py install \
-		--root=$PKG --prefix=/usr --optimize=1
+	/usr/bin/python3 setup.py install --root=$PKG --prefix=/usr --optimize=1
 }
