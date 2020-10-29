@@ -12,10 +12,10 @@ build() {
 	cd $name-$version
 
 	make install \
-		DESTDIR=$PKG \
-		SBIN=$PKG/usr/sbin \
-		BASHDIR=$PKG/usr/share/bash-completion/completions \
-		KCONF=$SRC/kconf
+		DESTDIR=$PKG        \
+		SBIN=$PKG/usr/sbin  \
+		KCONF=$SRC/kconf    \
+		BASHDIR=$PKG/usr/share/bash-completion/completions
 
 	install -m755 $SRC/dkms-remove $PKG/usr/sbin/dkms-remove
 }
