@@ -1,4 +1,4 @@
-# Description: Joomla vulnerability scanner
+# Description: Joomla vulnerability scanner (branch:master)
 # URL:         https://github.com/rezasp/joomscan
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  dos2unix git p5-lwp-protocol-https
