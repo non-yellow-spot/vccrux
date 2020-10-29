@@ -1,4 +1,4 @@
-# Description: Mass IP port scanner
+# Description: Fast scan of the Internet
 # URL:         https://github.com/robertdavidgraham/masscan
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  libpcap
@@ -22,5 +22,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	install -Dm 644 doc/masscan.8 -t "$PKG/usr/share/man/man8"
+	install -Dm644 doc/masscan.8 -t "$PKG/usr/share/man/man8"
 }
