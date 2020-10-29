@@ -6,14 +6,12 @@
 name=pixload
 version=0.1
 release=1
-source=(https://github.com/chinarulezzz/pixload/archive/$version/$name-$version.tar.gz)
+source=(https://github.com/chinarulezzz/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	install -Dm755 bmp.pl  $PKG/opt/bin/pixload-bmp
-	install -Dm755 gif.pl  $PKG/opt/bin/pixload-gif
-	install -Dm755 jpg.pl  $PKG/opt/bin/pixload-jpg
-	install -Dm755 png.pl  $PKG/opt/bin/pixload-png
-	install -Dm755 webp.pl $PKG/opt/bin/pixload-webp
+	for tool in bmp gif jpg png webp; do
+		install -Dm755 $tool.pl $PKG/opt/bin/$name-$tool
+	done
 }
