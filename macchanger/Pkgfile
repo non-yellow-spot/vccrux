@@ -19,7 +19,7 @@ build() {
 	# Don't build unnecessary docs with unnecessary dependencies
 	sed -i 's/SUBDIRS = src data doc/SUBDIRS = src data/' Makefile.in
 
-	./configure                        \
+	./configure \
 		--prefix=/usr              \
 		--mandir=/usr/share/man    \
 		--infodir=/usr/share/info
