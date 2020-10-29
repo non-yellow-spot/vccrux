@@ -1,7 +1,7 @@
 # Description: Customizable and lightweight notification-daemon (branch:master)
 # URL:         https://github.com/knopwob/dunst
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  dbus gdk-pixbuf libxdg-basedir pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
+# Depends on:  dbus gdk-pixbuf git libxdg-basedir pango xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver
 
 name=dunst-scm
 version=$(date +%Y%m%d)
