@@ -1,21 +1,22 @@
 # Description: KDE Framework - kguiaddons
 # URL:         https://api.kde.org/frameworks/kguiaddons/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  extra-cmake-modules qt5
+# Depends on:  brotli graphite2 icu qt5 zstd
 
 name=kguiaddons
 version=5.75.0
-release=1
+release=2
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
-    cd $name-$version
-    mkdir build
-    cd build
+	cd $name-$version
 
-    cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-    make
-    make DESTDIR=$PKG install
+	mkdir build
+	cd build
 
-rm -Rf $PKG/usr/share/locale/
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+	make V=1
+	make DESTDIR=$PKG install
+
+	rm -Rf $PKG/usr/share/locale/
 }
