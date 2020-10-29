@@ -1,6 +1,7 @@
 # Description: Indents and reformat Perl scripts
 # URL:         https://metacpan.org/release/Perl-Tidy
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  perl
 
 name=perltidy
 version=20201001
