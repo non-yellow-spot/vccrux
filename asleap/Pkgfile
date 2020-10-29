@@ -1,4 +1,4 @@
-# Description: Recover LEAP/PPTP passwords
+# Description: Actively recover LEAP/PPTP passwords
 # URL:         https://www.willhackforsushi.com/?page_id=41
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  openssl libpcap libxcrypt2.4
