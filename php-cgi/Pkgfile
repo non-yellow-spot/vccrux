@@ -1,4 +1,4 @@
-# Description: PHP interpreter, extension modules and support stuff
+# Description: CGI version of the PHP interpreter
 # URL:         http://www.php.net
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  db gdbm libpcre2 libxml2 libzip
@@ -12,16 +12,19 @@ build(){
 	cd php-$version
 
 	local PHP_CONFIG="
-	--prefix=/usr \
-	--sysconfdir=/etc/php \
-	--localstatedir=/var \
-	--mandir=/usr/share/man \
-	--with-config-file-path=/etc/php \
+	--prefix=/usr                               \
+	--sysconfdir=/etc/php                       \
+	--localstatedir=/var                        \
+	--mandir=/usr/share/man                     \
+	--with-config-file-path=/etc/php            \
 	--with-config-file-scan-dir=/etc/php/conf.d \
-	--with-pcre-regex=/usr \
-	--disable-static --disable-debug \
-	--without-sqlite3 --without-pdo-sqlite --enable-zip \
-	--without-pear \
+	--with-pcre-regex=/usr                      \
+	--disable-static                            \
+	--disable-debug                             \
+	--without-sqlite3                           \
+	--without-pdo-sqlite                        \
+	--enable-zip                                \
+	--without-pear                              \
 	--disable-opcache"
 
 	./configure $PHP_CONFIG --enable-cli
