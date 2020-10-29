@@ -12,7 +12,7 @@ build() {
 	cd qBittorrent-release-$version
 
 	./configure --prefix=/usr
-	make
 
+	make V=1
 	make INSTALL_ROOT=$PKG install
 }
