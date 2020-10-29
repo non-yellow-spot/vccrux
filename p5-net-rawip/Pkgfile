@@ -1,7 +1,7 @@
 # Description:  Manipulate raw IP packets with interface to libpcap
 # URL:          https://metacpan.org/pod/Net::RawIP
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
-# Depends on:   libpcap
+# Maintainer:   Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:   libpcap perl
 
 name=p5-net-rawip
 version=0.25
