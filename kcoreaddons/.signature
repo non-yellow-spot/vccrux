@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7247aYSMpwMNGyGvQBTih8tuzn5HUC99kShGyoHanMGPms3burmauY4H3wydhsk3Do5xiyhcYNx500OXHtGkgA=
-SHA256 (Pkgfile) = 5cfbbd1b346edd52e06e2a5eb8a32239227710d94c3520550dca7a5f8624f659
+RWT2I5SomoNUj+VItq+YU5oXZDDaPQ3HOzw/TpLdvbMlDkLUk+GS0TFS+4jWFIKjBjgdAo5Cfd2EezjlxEbjKKW5xHUPrw47bQM=
+SHA256 (Pkgfile) = 5fcceb22987c796f2649b9b3790537d3e329e78178dce0695a689b003f4c3706
 SHA256 (.footprint) = 212ca436891a2c11a5f30e6c883cc776c65142e7993d327cbf88860f00d44c93
 SHA256 (kcoreaddons-5.75.0.tar.xz) = 9ca2cf82ddc12e27ff73aaefdf616c3eb6552a3a5531f014b5bf52a34a4c73f9
