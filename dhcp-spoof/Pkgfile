@@ -1,4 +1,4 @@
-# Description: DHCP spoofing attack
+# Description: DHCP spoofing attack tool
 # URL:         https://github.com/emanuele-f/dhcp-spoof
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  libpcap
