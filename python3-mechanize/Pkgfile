@@ -1,7 +1,7 @@
 # Description: Stateful programmatic web browsing
 # URL:         https://pypi.python.org/pypi/mechanize/
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  python3-setuptools python3-htm5lib
+# Depends on:  python3-setuptools python3-html5lib
 
 name=python3-mechanize
 version=0.4.5
