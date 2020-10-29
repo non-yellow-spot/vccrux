@@ -27,9 +27,7 @@ build() {
 	patch -p1 < $SRC/0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch
 
 	NOCONFIGURE=1 ./autogen.sh
-	./configure \
-		--prefix=/usr \
-		--libexecdir=/usr/lib
+	./configure --prefix=/usr --libexecdir=/usr/lib
 
 	make V=1
 	make DESTDIR=$PKG install
