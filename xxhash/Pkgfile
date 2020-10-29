@@ -1,6 +1,6 @@
 # Description:  Extremely fast non-cryptographic hash algorithm
 # URL:          https://cyan4973.github.io/xxHash/
-# Maintainer:   Alexandr Savca, drop at chinarulezzz dot fun
+# Maintainer:   Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=xxhash
 version=0.8.0
