@@ -1,4 +1,4 @@
-# Description: Event-driven initramfs infrastructure
+# Description: Low-level tool for generating an initramfs/initrd image
 # URL:         https://dracut.wiki.kernel.org/index.php/Main_Page
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  kmod
@@ -17,9 +17,8 @@ build() {
 
 	patch -p0 < $SRC/0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch
 
-	./configure \
-		--prefix=/usr \
-		--sysconfdir=/etc
+	./configure --prefix=/usr --sysconfdir=/etc
+
 	make
 	make DESTDIR=$PKG install
 
