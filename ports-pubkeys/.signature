@@ -1,9 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjwq2w4MCXrfwkPS8hB8gtTDQmli1yjZnoIrA9/Mqv7cC/VWlh2F9eVMfrBADZOu5JjIg6TYeagiOn+HEO8bvjwA=
-SHA256 (Pkgfile) = 10ceeb1a76d3fc5da11f17a2a44acbab45e901d4ce98fbfa911a98fb5cee69b2
-SHA256 (.footprint) = b9c0f42a17ffe09931c14ada02f119dbff29f2cbd0d1ede1ada2ec84ff7d5465
-SHA256 (core.pub) = 5a08b7f21fb1768b9e639da0b768edb536de0590b75e663dab6d185617613791
-SHA256 (opt.pub) = 4711f488546c38cdec792c1f16b3bf7c4db0c7dc0c3cdab0ecdd85e2c7247ae5
-SHA256 (xorg.pub) = 5db27d455f658ea8a6c7ae9aac601d66e74cedff5dd497910fd1ffead08e5237
-SHA256 (compat-32.pub) = 851ed73c303213daf1ab73ec0dabf0312296b11af4b70dcd1b7ae37282b446c8
-SHA256 (contrib.pub) = cae797c624547b5ffb643f4cdf60d83a7cc28081f5929b882d48085085d76190
