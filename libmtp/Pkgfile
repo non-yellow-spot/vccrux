@@ -12,8 +12,8 @@ build() {
 	cd $name-$version
 
 	./configure \
-		--prefix=/usr \
-		--with-udev=/etc/udev/ \
+		--prefix=/usr               \
+		--with-udev=/etc/udev/      \
 		--disable-dependency-tracking
 
 	make
