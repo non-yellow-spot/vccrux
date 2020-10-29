@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj0mYP1H1fa9kEd5wiSbiKdmy3820YQYTTpNvInWuC5FFYRfWXsg+iWnsUhbYgsPc9dBvJkf5csIfDZLEIooBwQQ=
-SHA256 (Pkgfile) = 70054f0198b23a29a054bbbd8f75c6b7645c7df5fa261c18f30e9c14f5e973ef
+RWT2I5SomoNUjxFlixyNa1UcsIhk5mAhrS/MozQyyViBVdNC6nMlS5Mrqow0Bkgl0o0gbXX65ChGv/o03kZJgRFuIDrRSXrzRQo=
+SHA256 (Pkgfile) = 1a759f7199ea8b5c2b70d42e9a9c1fbb249975e7c04217165190073dd53a31e4
 SHA256 (.footprint) = 7158edb32268b6afa4c85f7f225f68a0e9a84a6c8ba3dae29adb1fdcd7f5e711
 SHA256 (toxcore-0.2.12.tar.gz) = 30ae3263c9b68d3bef06f799ba9d7a67e3fad447030625f0ffa4bb22684228b0
