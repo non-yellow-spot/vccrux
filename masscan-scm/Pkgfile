@@ -1,11 +1,11 @@
-# Description: Mass IP port scanner (master branch)
+# Description: Fast scan of the Internet (branch:master)
 # URL:         https://github.com/robertdavidgraham/masscan
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  libpcap
+# Depends on:  git libpcap
 
 name=masscan-scm
 version=$(date +%Y%m%d)
-release=1
+release=2
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
@@ -34,5 +34,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	install -Dm 644 doc/masscan.8 -t "$PKG/usr/share/man/man8"
+	install -Dm644 doc/masscan.8 -t "$PKG/usr/share/man/man8"
 }
