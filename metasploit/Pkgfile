@@ -58,5 +58,7 @@ EOF
 	#install -Dm 644 external/zsh/_* -t "$PKG/usr/share/zsh/site-functions"
 	rm $PKG/usr/bin/msfupdate
 	rm -r $PKG/opt/metasploit/vendor/bundle/ruby/*/cache
+
+	# remove empty dirs
 	find $PKG -depth -type d -empty -delete
 }
