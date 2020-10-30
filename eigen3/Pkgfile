@@ -1,4 +1,4 @@
-# Description: A C++ template library for linear algebra.
+# Description: A C++ template library for linear algebra
 # URL:         http://eigen.tuxfamily.org/
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
 # Depends on:  cmake
@@ -15,6 +15,6 @@ build() {
 	cd build
 
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-	make
+	make V=1
 	make DESTDIR=$PKG install
 }
