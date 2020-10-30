@@ -23,6 +23,10 @@ build() {
 	download_git https://github.com/knopwob/${name/-scm} master
 	cd $name
 
+	# replace predefined CFLAGS
+	sed -i '/^DEFAULT_CFLAGS/d' config.mk
+	export CFLAGS="$CFLAGS --std=gnu99 -pedantic -Wall -Wno-overlength-strings"
+
 	make VERSION=$(git -C $PKGMK_SOURCE_DIR/$name rev-parse --short HEAD)
 	make DESTDIR=$PKG PREFIX=/usr install
 
