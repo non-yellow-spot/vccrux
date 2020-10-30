@@ -13,4 +13,7 @@ NOTES
       * Execute command when new messages arrive
         xdotool search --class Sylpheed set_window -urgency 1
 
+    If the last command not working, try this:
+    xdotool search --name Sylpheed set_window --urgency 1
+
     Remember to install xdotool, and enjoy tag notifications ;-)
