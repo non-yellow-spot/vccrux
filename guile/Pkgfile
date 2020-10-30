@@ -1,25 +1,28 @@
 # Description: Guile is an interpreter and compiler for the Scheme programming language
 # URL:         http://www.gnu.org/software/guile/guile.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  boehm-gc libunistring libffi
+# Depends on:  boehm-gc libffi libgmp libtool libunistring readline
 
 name=guile
-version=1.8.8
+version=2.0.13
 release=1
 source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	./configure       \
+	./configure           \
 		--prefix=/usr \
 		--disable-nls
 
 	sed -i -e 's/-Werror//g' libguile/Makefile
 	sed -i -e 's/-Werror//g' libtool
 
-	make
+	make VERBOSE=1
 	make DESTDIR=$PKG install
 
+	# Remove junk files
+	rm -rf $PKG/usr/lib/guile/2.0/ccache/scripts/summarize-guile-TODO.go
+	rm -rf $PKG/usr/share/guile/2.0/scripts/summarize-guile-TODO.scm
 	rm -rf $PKG/usr/share/info $PKG/usr/share/guile/1.8/scripts/summarize-guile-TODO
 }
