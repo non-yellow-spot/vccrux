@@ -1,0 +1,20 @@
+# Description: Qt/C++ wrapper for Minizip
+# URL:         https://stachenov.github.io/quazip/
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  icu qt5 zstd
+
+name=quazip
+version=1.1
+release=1
+source=(https://github.com/stachenov/$name/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	mkdir build
+	cd build
+
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+	make VERBOSE=1
+	make DESTDIR=$PKG install
+}
