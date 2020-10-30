@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj9EMn81o8O1iRA/ywvl8W2Mro7i/qSQyT2qdTI6CcqhOMtEuBbtltrLTOjlmhO8zwGgsuOfpCQaKxWGSr0T68Qw=
+RWT2I5SomoNUj2nmodM2hUX/OeYVcxb36fq8wuT/8BgBmIwqO2+LnhvuQgVBel3YZJ2nJuqCNJ2y+wWqU4DO6A2l1UTfFcaPRQw=
 SHA256 (Pkgfile) = 1c68981a12589392ba5694a6f6fff0b33963024eae2dda5f9f7bc7ee5d53dc99
 SHA256 (.footprint) = e4a7b927a75c373ca7d22b19ebd4a75b347801509ba539e0d86ae77672951ffb
 SHA256 (arpspoof-83594671338218dd80d6328485179cf62f943c9d.zip) = 591e9447394db3d24ce77ef4d6cb40b7f4dc3dcd6e212815b93f20f3b10a8503
-SHA256 (0001-arpspoof.py-show-help-without-root-privileges.patch) = 74068a06b544dea681d92ce841647e2b24230b6de30a5c904d954086c891ff65
+SHA256 (0001-arpspoof.py-show-help-without-root-privileges.patch) = c1cf0f365e88bd41ff9e8632fde68f74dafd15c812dff81cceb7e6c53e518252
