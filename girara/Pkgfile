@@ -14,13 +14,13 @@ build() {
 	meson build \
 		--prefix=/usr       \
 		--sysconfdir=/etc   \
-		--buildtype=release \
+		--buildtype=plain   \
 		--backend=ninja     \
 		-Denable-json=true  \
 		-Denable-docs=false
 
 	cd build
-	ninja
+	ninja -v
 	DESTDIR=$PKG ninja install
 
 	rm -rf $PKG/usr/share/locale
