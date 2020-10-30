@@ -9,13 +9,17 @@ release=2
 source=(https://github.com/Ettercap/$name/archive/v$version/$name-v$version.tar.gz)
 
 build() {
-	cmake -S$name-$version -Bbuild -GNinja \
-		-DCMAKE_BUILD_TYPE=Release \
-		-DCMAKE_INSTALL_PREFIX:PATH=/usr \
-		-DENABLE_IPV6=ON \
+	# remove hardcoded optimization flag
+	sed -i -e '/CMAKE_C_FLAGS_RELEASE/s/-O2//'  \
+		$name-$version/CMakeLists.txt
+
+	cmake -S$name-$version -Bbuild -GNinja      \
+		-DCMAKE_BUILD_TYPE=Release          \
+		-DCMAKE_INSTALL_PREFIX:PATH=/usr    \
+		-DENABLE_IPV6=ON                    \
 		-DENABLE_GTK=ON
 
-	cmake --build build
+	cmake --build build -v
 	DESTDIR=$PKG cmake --install build
 
 	rm -f $PKG/usr/share/$name/{AUTHORS,LICENSE}
