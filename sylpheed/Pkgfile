@@ -5,15 +5,19 @@
 
 name=sylpheed
 version=3.7.0
-release=3
+release=4
 source=(https://sylpheed.sraoss.jp/$name/v${version%.*}/$name-$version.tar.xz
-	$name-$version-textview.c.patch)
+	$name-$version-textview.c.patch
+	$name-$version-summaryview.c.patch)
 
 build () {
 	cd $name-$version
 
 	# fix widget style for dark themes
 	patch src/textview.c $SRC/$name-$version-textview.c.patch
+
+	# fix summary font size for terminus-like fonts
+	patch src/summaryview.c $SRC/$name-$version-summaryview.c.patch
 
 	./configure \
 		--prefix=/usr             \
