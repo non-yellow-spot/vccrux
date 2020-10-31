@@ -11,15 +11,9 @@ source=(https://cpan.metacpan.org/authors/id/Y/YA/YANICK/NetPacket-$version.tar.
 build() {
 	cd NetPacket-$version
 
-	export PERL_MM_USE_DEFAULT=1 PERL5LIB=""            \
-	PERL_AUTOINSTALL=--skipdeps                         \
-	PERL_MM_OPT="INSTALLDIRS=vendor DESTDIR='$PKG'"     \
-	PERL_MB_OPT="--installdirs vendor --destdir '$PKG'" \
-	MODULEBUILDRC=/dev/null
-
 	perl Makefile.PL
 
-	make OPTIMIZE="$CFLAGS"
+	make
 	make DESTDIR=$PKG install
 
 	# remove perlcrap
