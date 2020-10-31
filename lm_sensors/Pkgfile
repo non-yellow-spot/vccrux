@@ -4,11 +4,14 @@
 
 name=lm_sensors
 version=3.6.0
-release=1
+release=2
 source=(https://github.com/groeck/lm-sensors/archive/V${version//./-}/$name-${version//./-}.tar.gz)
 
 build () {
 	cd lm-sensors-${version//./-}
+
+	# remove default optimization flag
+	sed -i -e '/ALL_CFLAGS +=/s/-O2//' Makefile
 
 	make install \
 		PREFIX=/usr            \

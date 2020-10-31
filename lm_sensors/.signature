@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj3oLErbxUzQWtrGGnTxpt+OYpJwRky6lKbMgQ6Vw7nKfOwpmsg9V9IdZSNYfmC9f3INFqA8y77zEAVYZDlSu/As=
-SHA256 (Pkgfile) = 6c6e8ad6390e45223a17b9479be3479f25c23c4b0f079f2503b7c13bb8c12304
+RWT2I5SomoNUj4A4JJ9B/NM1abEtSb9jWP8P4GYwANzpzDvv3AekXwIJ9VFh0wdCEMDL9rrDf6bqCGXiT9izIBOK7tkhnRC/LgQ=
+SHA256 (Pkgfile) = 44c9be4499abd368663a5db9b0a15ab144edf7afddb7144b741a0ed461f8d84b
 SHA256 (.footprint) = 3090b381334dd084ad353eb6a02a27ebd4c8d68a455c4740cf0c8d26db25ab0b
 SHA256 (lm_sensors-3-6-0.tar.gz) = 0591f9fa0339f0d15e75326d0365871c2d4e2ed8aa1ff759b3a55d3734b7d197
