@@ -5,13 +5,16 @@
 
 name=p5-net-dbus
 version=1.2.0
-release=1
+release=2
 source=(http://search.cpan.org/CPAN/authors/id/D/DA/DANBERR/Net-DBus-$version.tar.gz)
 
 build () {
 	cd Net-DBus-$version
 
 	perl Makefile.PL
+
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
 
 	make OPTIMIZE="$CFLAGS"
 	make DESTDIR=$PKG install
