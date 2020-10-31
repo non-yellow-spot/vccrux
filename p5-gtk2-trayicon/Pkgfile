@@ -5,7 +5,7 @@
 
 name=p5-gtk2-trayicon
 version=0.06
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/B/BO/BORUP/Gtk2-TrayIcon-$version.tar.gz)
 
 build () {
@@ -13,11 +13,15 @@ build () {
 
 	perl Makefile.PL
 
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
+
 	make OPTIMIZE="$CFLAGS"
 	make DESTDIR=$PKG install
 
 	# remove perlcrap
-	find $PKG  -name perllocal.pod  \
+	find $PKG \
+		   -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name autosplit.ix   \
 		-o -name .packlist      \
