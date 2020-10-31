@@ -4,13 +4,16 @@
 
 name=p5-string-crc32
 version=1.8
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/L/LE/LEEJO/String-CRC32-$version.tar.gz)
 
 build() {
 	cd String-CRC32-$version
 
 	perl Makefile.PL
+
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
 
 	make OPTIMIZE="$CFLAGS"
 	make install DESTDIR=$PKG
