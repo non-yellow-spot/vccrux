@@ -13,14 +13,15 @@ build() {
 
 	perl Makefile.PL -y
 
-	make OPTIMIZE="$CFLAGS"
+	make
 	make DESTDIR=$PKG install
 
 	# remove perlcrap
-	find $PKG  -name perllocal.pod	\
-		-o -name "*.bs"		\
-		-o -name .packlist	\
-		-o -name autosplit.ix	\
+	find $PKG \
+		   -name perllocal.pod  \
+		-o -name "*.bs"         \
+		-o -name .packlist      \
+		-o -name autosplit.ix   \
 	| xargs rm -f
 
 	# remove empty dirs
