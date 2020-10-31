@@ -5,7 +5,7 @@
 
 name=p5-net-pcap
 version=0.18
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/S/SA/SAPER/Net-Pcap-$version.tar.gz
 	makefile.patch
 	listdatalinks.patch
@@ -22,9 +22,10 @@ build() {
 	# patch -Np1 -b -z .orig <$SRC/pcapapi2.patch
 	patch -Np2 -b -z .orig < $SRC/newapi.patch
 
-	export PERL_MM_USE_DEFAULT=1
+	perl Makefile.PL
 
-	perl Makefile.PL INSTALLDIRS=vendor
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
 
 	make OPTIMIZE="$CFLAGS"
 	make DESTDIR=$PKG install
