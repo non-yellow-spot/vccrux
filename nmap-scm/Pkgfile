@@ -29,6 +29,21 @@ build() {
 
 	cd $name
 
+	# remove default debug and optimization flags
+	sed -i  \
+		-e '/CFLAGS\s*=\s*/s/-g//;s/-O2//'   \
+		-e '/CXXFLAGS\s*=\s*/s/-g//;s/-O2//' \
+		nping/configure                      \
+		libpcre/configure                    \
+		libssh2/configure                    \
+		ncat/configure                       \
+		nsock/src/configure                  \
+		configure                            \
+		liblua/Makefile                      \
+		nbase/configure                      \
+		libdnet-stripped/configure           \
+		libpcap/configure
+
 	# Zenmap fix: Respect system font settings
 	patch ./zenmap/zenmapGUI/DiffCompare.py      $SRC/DiffCompare.patch
 	patch ./zenmap/zenmapGUI/NmapOutputViewer.py $SRC/NmapOutputViewer.patch
