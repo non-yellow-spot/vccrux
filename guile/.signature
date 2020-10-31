@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj2ziUvTGl6cHwefCmGroTz0NrU1nS2YKhbFmv9ykeKb+TQ0ZOxdzKFGaUgnpJ4gGFPXk0Xapjt4Qngg1XNk3Tg4=
-SHA256 (Pkgfile) = 058dc85d05c7ae59a1c770d5bc8acc601847b8fe21d8212cf607b600bd58bb18
-SHA256 (.footprint) = 22339e102d5b324a32897537d59b280d0765d5daf1d042b2cab986cd176299e6
+RWT2I5SomoNUj5whuVETg4bIOFnI0FUyvlvW3gMm0njiHhDP5tb71wK5h/WuyR3fXuRZb9V2JxByy7Qi/sinQgO4hJBq1jRJjAw=
+SHA256 (Pkgfile) = fcdcf3e62903bdae49252c5fc224cc3e6405d18028833d7020465726f2861ead
+SHA256 (.footprint) = e2d90847019f7ee1f15f6bd537bad81480351e4f9220d4eb84d873b7f43360f7
 SHA256 (guile-2.0.13.tar.gz) = ee8073c4582bb4f06412452fdf5dd185aae607441f1313c824f44bdd668b0bde

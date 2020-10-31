@@ -5,7 +5,7 @@
 
 name=guile
 version=2.0.13
-release=1
+release=2
 source=(ftp://ftp.gnu.org/gnu/$name/$name-$version.tar.gz)
 
 build() {
@@ -20,6 +20,9 @@ build() {
 
 	make VERBOSE=1
 	make DESTDIR=$PKG install
+
+	# Remove bad file
+	rm -rf $PKG/usr/lib/libguile-2.0.so.*-gdb.scm
 
 	# Remove junk files
 	rm -rf $PKG/usr/lib/guile/2.0/ccache/scripts/summarize-guile-TODO.go
