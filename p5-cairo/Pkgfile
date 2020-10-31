@@ -5,13 +5,16 @@
 
 name=p5-cairo
 version=1.107
-release=1
+release=2
 source=(http://search.cpan.org/CPAN/authors/id/X/XA/XAOC/Cairo-$version.tar.gz)
 
 build() {
 	cd Cairo-$version
 
 	perl Makefile.PL
+
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
 
 	make OPTIMIZE="$CFLAGS"
 	make install DESTDIR=$PKG
