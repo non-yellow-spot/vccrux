@@ -5,7 +5,7 @@
 
 name=p5-gtk2-notify
 version=0.05
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/F/FL/FLORA/Gtk2-Notify-$version.tar.gz
 	libnotify.patch.gz)
 
@@ -16,13 +16,17 @@ build() {
 
 	perl Makefile.PL
 
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
+
 	make OPTIMIZE="$CFLAGS"
 	make DESTDIR=$PKG install
 
-	find $PKG -name perllocal.pod   \
+	find $PKG \
+		   -name perllocal.pod  \
 		-o -name "*.bs"         \
 		-o -name .packlist      \
-	    -o -name autosplit.ix       \
+		-o -name autosplit.ix   \
 	| xargs rm -f
 
 	find $PKG -depth -type d -empty -delete
