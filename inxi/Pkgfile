@@ -1,11 +1,9 @@
 # Description: System information script
-# URL: https:  //code.google.com/p/inxi/
+# URL: https:  https://code.google.com/p/inxi/
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:
-# Nice to have: xorg-xprop, xorg-xdpyinfo, xorg-xrandr, mesa-demos, hddtemp, lm_sensors
 
 name=inxi
-version=3.1.04-1
+version=3.1.08-1
 release=1
 source=(https://github.com/smxi/$name/archive/$version/$name-$version.tar.gz)
 

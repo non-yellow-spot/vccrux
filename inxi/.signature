@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj27axz2LofkVs164CjUQzjQCRNzc0dxBoHvpZbuMIh+gCENvb+N8u3K0oLcL1USVVt0Z5k8tME58ZkPIQBXnyAg=
-SHA256 (Pkgfile) = 2bba1c0d0e75e3fedd7842f5b631d6b9f9f4b7932f7b06bb19eb8f75ac6e76e7
+RWT2I5SomoNUj97lpsfwSTuiEi8hxm9TYGuNpGJkRW+elFDcOYVOm1w1ub/MUIh7Cjjgb7Ij6geyYoNzVhxU6kF0TniLofcZqwI=
+SHA256 (Pkgfile) = 44e5c34f582ecb62c3082fc97c1059497be9111b60c0bc47c6400fa79b1ec678
 SHA256 (.footprint) = 9e14b01def9b7edf3593937ef9ab8c93d822a8303e1bb1d08e1c528650095f9d
-SHA256 (inxi-3.1.04-1.tar.gz) = 9661ee7120a5bdc5b7cd0b36a56aa18924283490e5430216d2ed8dc685cfc68c
+SHA256 (inxi-3.1.08-1.tar.gz) = 3f0560d8599179143afa323ec2b9d06262d4583f283073afd1ab6c819a12327f
