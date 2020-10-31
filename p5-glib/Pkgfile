@@ -5,13 +5,16 @@
 
 name=p5-glib
 version=1.3293
-release=1
+release=2
 source=(http://www.cpan.org/modules/by-module/Glib/Glib-$version.tar.gz)
 
 build() {
 	cd Glib-$version
 
 	perl Makefile.PL
+
+	# remove default -pipe flag
+	sed -i -e '/CCFLAGS = /s/ -pipe / /' Makefile
 
 	make OPTIMIZE="$CFLAGS"
 	make install DESTDIR=$PKG
