@@ -12,7 +12,7 @@ build() {
 
 	yes n | perl Makefile.PL
 
-	make OPTIMIZE="$CFLAGS"
+	make
 	make DESTDIR=$PKG install
 
 	# remove perlcrap
