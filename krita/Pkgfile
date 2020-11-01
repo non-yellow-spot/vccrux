@@ -1,28 +1,25 @@
-# Description: The full-featured free digital painting studio.
+# Description: The full-featured free digital painting studio
 # URL:         https://krita.org/
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  cmake boost exiv2 fftw graphite2 gsl icu libbsd openexr qt5 quazip zstd extra-cmake-modules kconfig kwidgetsaddons karchive kcompletion kcoreaddons kguiaddons ki18n kitemmodels kitemviews kwindowsystem eigen3
+# Depends on:  boost eigen3 exiv2 fftw gsl karchive kcompletion kconfig kcoreaddons kguiaddons ki18n kitemmodels kitemviews kwidgetsaddons kwindowsystem libbsd openexr pulseaudio quazip
 
 name=krita
-version=4.3.0
+version=4.4.1
 release=2
-source=(https://download.kde.org/stable/krita/${version:0:5}/krita-$version.tar.gz
-	krita-4.2.4-tests-optional.patch)
+source=(https://download.kde.org/stable/$name/${version:0:5}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	patch -p1 < $SRC/krita-4.2.4-tests-optional.patch
-
 	mkdir build
 	cd build
+
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
-		 -DDEFINE_NO_DEPRECATED=1 \
-		 -DBUILD_TESTING=OFF \
-		 -DKDE4_BUILD_TESTS=OFF \
-		 -DCMAKE_BUILD_TYPE=RelWithDebInfo
-	make
-	make DESTDIR=$PKG install
+		 -DBUILD_TESTING=OFF         \
+		 -DBUILD_KRITA_QT_DESIGNER_PLUGINS=ON
+
+	make -d VERBOSE=1
+	cmake DESTDIR=$PKG install
 
 	rm $PKG/usr/share/color/icc/krita/README
 	rm $PKG/usr/share/krita/bundles/README
