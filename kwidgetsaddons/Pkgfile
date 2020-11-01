@@ -14,7 +14,8 @@ build(){
 	cd build
 
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-	make V=1
+
+	make VERBOSE=1
 	make DESTDIR=$PKG install
 
 	rm -rf $PKG/usr/share/locale
