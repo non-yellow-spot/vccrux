@@ -5,17 +5,18 @@
 
 name=heimdall
 version=1.4.2
-release=2
+release=3
 source=(https://gitlab.com/BenjaminDobell/Heimdall/-/archive/v${version}/Heimdall-v${version}.tar.bz2)
 
 build() {
 	mkdir build
 	cd build
 
-	cmake ../Heimdall-v$version        \
-		-DCMAKE_BUILD_TYPE=Release \
-		-DDISABLE_FRONTEND=ON      # set to off for GUI (requires qt5)
-	make V=1
+	export CXXFLAGS="$CXXFLAGS -DNDEBUG"
+	cmake ../Heimdall-v$version \
+		-DDISABLE_FRONTEND=ON    # set to off for GUI (requires qt5)
+
+	make VERBOSE=1
 
 	install -D -m755 bin/heimdall $PKG/usr/bin/heimdall
 }
