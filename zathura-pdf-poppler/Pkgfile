@@ -5,20 +5,20 @@
 
 name=zathura-pdf-poppler
 version=0.3.0
-release=1
+release=2
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
 	meson build \
-		--prefix=/usr       \
-		--sysconfdir=/etc   \
-		--buildtype=release \
+		--prefix=/usr      \
+		--sysconfdir=/etc  \
+		--buildtype=plain  \
 		--backend=ninja
 
 	cd build
-	ninja
+	ninja -v
 	DESTDIR=$PKG ninja install
 
 	find $PKG -perm /go+w -exec chmod go-w {} \;
