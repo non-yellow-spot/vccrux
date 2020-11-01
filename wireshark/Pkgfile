@@ -5,15 +5,18 @@
 
 name=wireshark
 version=3.3.1
-release=2
+release=3
 source=(https://1.eu.dl.$name.org/src/all-versions/$name-$version.tar.xz)
 
 build() {
 	cmake -S$name-$version -Bbuild -GNinja \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_INSTALL_LIBDIR=lib
+		-DCMAKE_INSTALL_PREFIX=/usr                  \
+		-DCMAKE_INSTALL_LIBDIR=lib                   \
+		-DCMAKE_BUILD_TYPE=Release                   \
+		-DCMAKE_C_FLAGS_RELEASE="$CFLAGS -DNDEBUG"   \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -DNDEBUG"
 
-	cmake --build build
+	cmake --build build -v
 	DESTDIR=$PKG cmake --install build
 
 	# Don't remove these files, they are read by wireshark's about box.
