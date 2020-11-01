@@ -5,13 +5,24 @@
 
 name=qt5ct
 version=1.1
-release=1
+release=2
 source=(https://downloads.sourceforge.net/project/$name/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
 
 	qmake-qt5
+
+	make qmake_all
+
+	# remove default -pipe flag
+	sed -i \
+		-e 's/^CFLAGS        = -pipe/CFLAGS = /'   \
+		-e 's/^CXXFLAGS      = -pipe/CXXFLAGS = /' \
+		-e 's/g++ -pipe / g++ /'                   \
+		src/qt5ct/Makefile                         \
+		src/qt5ct-style/Makefile                   \
+		src/qt5ct-qtplugin/Makefile
 
 	make
 	make INSTALL_ROOT=$PKG install
