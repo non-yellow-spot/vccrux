@@ -24,6 +24,6 @@ build() {
 		-DBUILD_AV_TEST=off              \
 		..
 
-	make
+	make VERBOSE=1
 	make DESTDIR=$PKG install
 }
