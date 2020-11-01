@@ -23,7 +23,7 @@ build() {
 		--prefix=/usr \
 		--sysconfdir=/etc
 
-	make
+	make V=1
 	make DESTDIR=$PKG install
 
 	rm -r $PKG/usr/share/doc
