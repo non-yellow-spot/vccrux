@@ -18,8 +18,8 @@ build() {
 		 -DBUILD_TESTING=OFF         \
 		 -DBUILD_KRITA_QT_DESIGNER_PLUGINS=ON
 
-	make -d VERBOSE=1
-	cmake DESTDIR=$PKG install
+	make VERBOSE=1
+	make DESTDIR=$PKG install
 
 	rm $PKG/usr/share/color/icc/krita/README
 	rm $PKG/usr/share/krita/bundles/README
