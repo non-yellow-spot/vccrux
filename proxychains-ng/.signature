@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzUY+FC6c9NotjHY8BGwii8BK61lJl5y7pm+CtIjQx8Wd6u0XjveyL+E343llb/aDKMlwcMoKFM0EpKhH3nRKQI=
-SHA256 (Pkgfile) = 3a108ac9bd71d39b0b31392c5d47ff3a216eab3271087416a888f8fe6fae435a
+RWT2I5SomoNUj/IqQNe+6Ty8ockYlQs/NJuQVvOczWzQXfpxeMoOwYyvHSIH3ZLrzTZFxiZndzPynfsWDhhYUs43foYU4lOxBgA=
+SHA256 (Pkgfile) = c84ba0287a04d8f06f6bd0a15978a85f718bf9760a9e516e683ea8d8299391a7
 SHA256 (.footprint) = 000b848d9207d5f614973a0d9b40b2b5b30147052efd992e80bc7f3467a28ee9
 SHA256 (proxychains-ng-4.14.tar.gz) = ab31626af7177cc2669433bb244b99a8f98c08031498233bb3df3bcc9711a9cc
+SHA256 (proxychains-ng-4.14-cflags.patch) = 3050f81e9c56e44333c996bc1618e2c461cbce85f3cc01d11ccc844eac40f8b3
