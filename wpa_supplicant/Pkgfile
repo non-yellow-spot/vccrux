@@ -20,7 +20,7 @@ CONFIG_CTRL_IFACE_DBUS_NEW=y
 CFLAGS+=-I/usr/include/libnl3
 EOF
 
-	make BINDIR=/usr/sbin LIBDIR=/usr/lib
+	make V=1 BINDIR=/usr/sbin LIBDIR=/usr/lib
 
 	install -d $PKG/{usr/sbin,usr/share/man/man{8,5},etc}
 	install -m 0755 wpa_{cli,passphrase,supplicant} $PKG/usr/sbin
