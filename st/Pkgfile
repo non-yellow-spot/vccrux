@@ -24,8 +24,8 @@ build () {
 	patch -p1 < $SRC/0.0.1-st-clipboard.diff
 	patch -p1 < $SRC/0.0.2-st-copyurl.diff
 	patch -p1 < $SRC/0.0.3-st-scrollback.diff
-	#patch -p1 < $SRC/0.0.4-st-gruvboxtheme.diff
-	patch -p1 < $SRC/0.0.4-st-dracula.diff
+	patch -p1 < $SRC/0.0.4-st-gruvboxtheme.diff
+	#patch -p1 < $SRC/0.0.4-st-dracula.diff
 	patch -p1 < $SRC/0.0.5-st-scrollback-mouse.diff
 
 	make V=1 CC=gcc

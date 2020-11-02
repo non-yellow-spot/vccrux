@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj/KiiaH+m4a+4UhvLXJbx2fvqvZNfiH0InDKixAgtxMyBMlMYqllexWORJHPPQIcrLy1mTKPb9bKNn9919l3Ww8=
-SHA256 (Pkgfile) = 201bdf65843247afcabc723fdf4a91500c5083a36ebba47900f1a95f66a68a0e
+RWT2I5SomoNUj3bq3N2ra9im2mySop8BDAa4ozidUzvrdB+z3scbdNEXLWcPTssowHBg1Z/Yp5mtIE4dgosw0wR1MSy356/aTwU=
+SHA256 (Pkgfile) = 8b5610fa10c7b5dfb0d37eb3b7192242abc288fb1b30864378cd7bb4c09662aa
 SHA256 (.footprint) = a618d1642b1e13760c409d8128517cb09af28b02e1c19c18b0260f9e59738862
 SHA256 (st-0.8.4.tar.gz) = d42d3ceceb4d6a65e32e90a5336e3d446db612c3fbd9ebc1780bc6c9a03346a6
 SHA256 (0.0.1-st-clipboard.diff) = 0f5ce33953abce74a9da3088ea35bf067a9a4cfeb9fe6ea9800268ce69e436c0
