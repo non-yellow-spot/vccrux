@@ -1,0 +1,17 @@
+# Description:  Extra color themes for Trinity
+# URL:          https://github.com/chinarulezzz-de/Trinity-Extra-Theme
+# Maintainer:   Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:
+
+name=trinity-extra-theme
+version=0.2
+release=1
+source=(https://github.com/chinarulezzz-de/Trinity-Extra-Theme/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd Trinity-Extra-Theme-$version
+
+	install -Dm644 Trinity.vim -t $PKG/usr/share/vim/colors
+	install -Dm644 hexchat     -t $PKG/usr/share/trinity
+	install -Dm644 Xresources  -t $PKG/usr/share/trinity
+}
