@@ -13,13 +13,13 @@ build() {
 
 	patch -p1 < $SRC/libxcrypt-2.4-glibc-2.16.patch
 
-	./configure                                        \
-		--prefix=/usr                              \
-		--disable-static                           \
-		--enable-hashes=strong,glibc               \
-		--enable-obsolete-api=no                   \
-		--disable-failure-tokens                   \
-		--libdir=/usr/lib/libxcrypt2.4             \
+	./configure                            \
+		--prefix=/usr                  \
+		--disable-static               \
+		--enable-hashes=strong,glibc   \
+		--enable-obsolete-api=no       \
+		--disable-failure-tokens       \
+		--libdir=/usr/lib/libxcrypt2.4 \
 		--includedir=/usr/lib/libxcrypt2.4/include
 
 	make VERBOSE=1
