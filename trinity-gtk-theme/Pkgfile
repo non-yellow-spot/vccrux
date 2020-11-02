@@ -1,22 +1,17 @@
 # Description: Trinity GTK theme (chinarulezzz fork)
-# URL:         https://github.com/chinarulezzz-de/Trinity
+# URL:         https://github.com/chinarulezzz-de/Trinity-GTK-Theme
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  gtk-engines gtk-engine-murrine
 
-name=trinity-theme
+name=trinity-gtk-theme
 version=1.1
 release=1
-source=(https://github.com/chinarulezzz-de/Trinity/archive/v${version}/$name-v${version}.tar.gz)
+source=(https://github.com/chinarulezzz-de/Trinity-GTK-Theme/archive/v${version}/$name-v${version}.tar.gz)
 
 build() {
-	cd Trinity-$version
+	cd Trinity-GTK-Theme-$version
 
 	install -d $PKG/usr/share/themes/Trinity
-	install -d $PKG/usr/share/vim/colors
-	install -d $PKG/usr/share/icons
-
-	cp -r gtk-2.0 $PKG/usr/share/themes/Trinity/
-	cp -r gtk-3.0 $PKG/usr/share/themes/Trinity/
-	cp contrib/calmar256trinity.vim $PKG/usr/share/vim/colors/Trinity.vim
-	cp -r contrib/trinity-cursor-theme $PKG/usr/share/icons/
+	cp -r gtk-2.0 $PKG/usr/share/themes/Trinity
+	cp -r gtk-3.0 $PKG/usr/share/themes/Trinity
 }
