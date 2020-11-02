@@ -5,7 +5,7 @@
 
 name=quazip
 version=1.1
-release=1
+release=2
 source=(https://github.com/stachenov/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
@@ -14,7 +14,12 @@ build() {
 	mkdir build
 	cd build
 
-	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+	cmake ..                                               \
+		-DCMAKE_INSTALL_PREFIX=/usr                    \
+		-DCMAKE_BUILD_TYPE=Release                     \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -DNDEBUG" \
+		-DCMAKE_C_FLAGS_RELEASE="$CFLAGS -DNDEBUG"     \
+
 	make VERBOSE=1
 	make DESTDIR=$PKG install
 }
