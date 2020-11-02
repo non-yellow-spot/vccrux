@@ -1,0 +1,15 @@
+# Description:  Trinity Icon Theme
+# URL:          https://github.com/chinarulezzz-de/Trinity-Icon-Theme
+# Maintainer:   Alexandr Savca, alexandrsavca89 at gmail dot com
+
+name=trinity-icon-theme
+version=0.1
+release=1
+source=(https://github.com/chinarulezzz-de/Trinity-Icon-Theme/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd Trinity-Icon-Theme-$version
+
+	install -d $PKG/usr/share/icons/Trinity
+	cp -r * $PKG/usr/share/icons/Trinity
+}
