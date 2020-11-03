@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjyJsME4TtYcZOjRv33arRFQ5yAl65R50EIrRMS82nh3fh0EzpKhwlmxxcA/s6yAPIBhxS1Jir1A5bunmFqkMTgg=
-SHA256 (Pkgfile) = 3f7c2eda647986ec41ea1099a562cbd154b1b8ea468e6fbca0755d0a2f928c6a
+RWT2I5SomoNUj8RrRIlwMb3HyLczwL8/fPNo2hKwUYBJDCjhvK4gabXFARoS6fDJsV4jJo1JPCbp+xDESnVc2SAzqbMrHC1ClAs=
+SHA256 (Pkgfile) = 082e6970a77cb0478bda71f711e4447b1a5aa02b71530d4f3c5cd8cf5e55ad72
 SHA256 (.footprint) = e386bc73c76cba1bdb9613afd6313d42f22c1fc329e18d950fd3292b6b63ec22
-SHA256 (trinity-gtk-theme-v1.1.tar.gz) = 7a751c2fd76382b54bf531a7f673a2480e7d0aa2405e9154f004d8b3d30239ce
+SHA256 (trinity-gtk-theme-v1.2.tar.gz) = 8e3da3267b7f6df4ee6d6d79707d29253a96315a9f2acbfff00056e660339ed5
