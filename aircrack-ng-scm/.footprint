@@ -24,7 +24,6 @@ drwxr-xr-x	root/root	usr/include/aircrack-ng/ce-wpa/
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/crypto_engine.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/jcommon.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/johnswap.h
--rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/memdbg.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/memory.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/misc.h
 -rw-r--r--	root/root	usr/include/aircrack-ng/ce-wpa/pseudo_intrinsics.h
