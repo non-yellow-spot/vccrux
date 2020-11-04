@@ -643,7 +643,7 @@ drwxr-xr-x	root/root	usr/lib/wireshark/cmake/
 -rw-r--r--	root/root	usr/lib/wireshark/cmake/UseMakePluginReg.cmake
 -rw-r--r--	root/root	usr/lib/wireshark/cmake/WiresharkConfig.cmake
 -rw-r--r--	root/root	usr/lib/wireshark/cmake/WiresharkConfigVersion.cmake
--rw-r--r--	root/root	usr/lib/wireshark/cmake/WiresharkTargets-relwithdebinfo.cmake
+-rw-r--r--	root/root	usr/lib/wireshark/cmake/WiresharkTargets-release.cmake
 -rw-r--r--	root/root	usr/lib/wireshark/cmake/WiresharkTargets.cmake
 drwxr-xr-x	root/root	usr/lib/wireshark/extcap/
 -rwxr-xr-x	root/root	usr/lib/wireshark/extcap/androiddump
