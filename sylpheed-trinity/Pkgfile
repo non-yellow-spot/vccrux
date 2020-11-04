@@ -1,0 +1,44 @@
+# Description: GTK+ email client and news reader with Trinity icons
+# URL:         http://sylpheed.sraoss.jp/en/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  gpgme gtk xorg-libxdamage
+
+name=sylpheed-trinity
+version=3.7.0
+release=4
+source=(https://sylpheed.sraoss.jp/sylpheed/v${version%.*}/sylpheed-$version.tar.xz
+	https://github.com/chinarulezzz-de/Trinity-Extra-Theme/raw/master/sylpheed-3.7.0-trinity-icons.tar.gz
+	sylpheed-$version-textview.c.patch
+	sylpheed-$version-summaryview.c.patch)
+
+build () {
+	cd sylpheed-$version
+
+	# fix widget style for dark themes
+	patch src/textview.c $SRC/sylpheed-$version-textview.c.patch
+
+	# fix summary font size for terminus-like fonts
+	patch src/summaryview.c $SRC/sylpheed-$version-summaryview.c.patch
+
+	# replace upstream icons
+	rm -r src/icons
+	mv -f ../icons src/
+
+	./configure \
+		--prefix=/usr             \
+		--disable-glibtest        \
+		--disable-gtktest         \
+		--disable-updatecheck     \
+		--disable-updatecheckplugin
+
+	make V=1
+	make DESTDIR=$PKG install
+
+	sed -ri '/\[.+\]=/d' sylpheed.desktop
+
+	install -d $PKG/usr/share/{applications,pixmaps}
+	install -m 0644 sylpheed.desktop  $PKG/usr/share/applications
+	install -m 0644 sylpheed.png      $PKG/usr/share/pixmaps
+
+	rm -r $PKG/usr/share/{locale,sylpheed}
+}
