@@ -1,11 +1,11 @@
 # Description: The full-featured free digital painting studio
 # URL:         https://krita.org/
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  boost eigen3 exiv2 fftw gsl karchive kcompletion kconfig kcoreaddons kguiaddons ki18n kitemmodels kitemviews kwidgetsaddons kwindowsystem libbsd openexr pulseaudio quazip
+# Depends on:  boost eigen3 exiv2 fftw gsl karchive kcompletion kconfig kcoreaddons kguiaddons ki18n kitemmodels kitemviews kwidgetsaddons kwindowsystem libbsd openexr pulseaudio quazip5
 
 name=krita
 version=4.4.1
-release=2
+release=3
 source=(https://download.kde.org/stable/$name/${version:0:5}/$name-$version.tar.gz)
 
 build() {

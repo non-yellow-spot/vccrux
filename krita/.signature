@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzhrGGWxpzHmwH9PMzcpJYUKUPkxjmqAPR2AHzCmpP+orf4fp+MRFCNkffLCJfk6FPmUtj+oN8F9acAPLb2RzQs=
-SHA256 (Pkgfile) = 2fcce22e17af6ee7c4a86ea679a392654ce1e17d0191ae10fb6a380998ddf2b0
+RWT2I5SomoNUj1OlX6lnGKvEe06mciDVCK71JE/MbzX2rSri/jNQ/GBUJAzhSoDtkgBYBdeOT1NEnaPeYnJ9AMAU1Ig7DUlJIQQ=
+SHA256 (Pkgfile) = 2feb2c7c0e73cc3fe5873a82ed3f07b7a88380a69a66a62e682f9f957511a55e
 SHA256 (.footprint) = fd3a5945d7e8687c08b421405f0b916eb48790c27c485014fa229a46186e798c
-SHA256 (krita-4.4.1.tar.gz) = eecba4470e485d5696c6927491837e83d60fcfce2fbffa018259339861032bf5
+SHA256 (krita-4.4.1.tar.gz) = defb8c8ad65e33d08603dfb2cc58b3e2249a70d4132cddfdf63bdb838a1033af
