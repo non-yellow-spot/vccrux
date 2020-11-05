@@ -5,13 +5,13 @@
 
 name=transset-df
 version=6
-release=1
+release=2
 source=(https://forchheimer.se/$name/$name-$version.tar.gz)
 
 build () {
 	cd $name-$version
 
-	make V=1
+	make CFLAGS="$CFLAGS -Wall"
 
 	install -Dm755 $name $PKG/usr/bin/$name
 }
