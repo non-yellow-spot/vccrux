@@ -4,7 +4,7 @@
 # Depends on:  python3-setuptools
 
 name=python3-pycryptodomex
-version=3.9.8
+version=3.9.9
 release=1
 source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${name#*-}/${name#*-}-$version.tar.gz)
 
@@ -15,5 +15,5 @@ build() {
 	/usr/bin/python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
 
 	find $PKG -name README.txt -delete
-	rm -rf $PKG/usr/lib/python*/site-packages/pycryptodome-*.egg-info
+	rm -rf $PKG/usr/lib/python*/site-packages/pycryptodomex-*.egg-info
 }
