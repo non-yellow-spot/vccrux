@@ -6947,6 +6947,10 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/pro
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-block/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-block/composer_file/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-block/composer_file/package.json
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-ecpay-gateway/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-ecpay-gateway/translation_file/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-ecpay-gateway/translation_file/languages/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/progress-bar-ecpay-gateway/translation_file/languages/pb_ecpay_woo-zh_TW.po
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/promociones-tap/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/promociones-tap/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/promociones-tap/translation_file/languages/
@@ -7642,6 +7646,10 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/sec
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/select-share/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/select-share/change_log/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/select-share/change_log/changelog.txt
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/self-sustaining-spam-stopper/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/self-sustaining-spam-stopper/translation_file/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/self-sustaining-spam-stopper/translation_file/languages/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/self-sustaining-spam-stopper/translation_file/languages/self-sustaining-spam-stopper.pot
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/selfhost-google-fonts/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/selfhost-google-fonts/composer_file/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/selfhost-google-fonts/composer_file/package.json
@@ -8813,6 +8821,10 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tra
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/travelogue/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/travelogue/change_log/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/travelogue/change_log/changelog.txt
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tryst-member/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tryst-member/translation_file/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tryst-member/translation_file/languages/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tryst-member/translation_file/languages/tryst-member.pot
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tumblr-crosspostr/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tumblr-crosspostr/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/tumblr-crosspostr/translation_file/languages/
@@ -9023,6 +9035,11 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/upd
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/update-order-until-hold/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/update-order-until-hold/translation_file/languages/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/update-order-until-hold/translation_file/languages/ced-update-order-onhold-en_US.po
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/upgradepath/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/upgradepath/translation_file/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/upgradepath/translation_file/assets/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/upgradepath/translation_file/assets/languages/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/upgradepath/translation_file/assets/languages/upgradepath.pot
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/uploadcare/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/uploadcare/change_log/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/uploadcare/change_log/CHANGELOG.md
@@ -9112,6 +9129,9 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/ven
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vendi-wp-markdown/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vendi-wp-markdown/translation_file/languages/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vendi-wp-markdown/translation_file/languages/vendi-wp-markdown.pot
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vercel-deploy-hooks/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vercel-deploy-hooks/composer_file/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vercel-deploy-hooks/composer_file/composer.json
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vertical-center/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vertical-center/composer_file/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vertical-center/composer_file/package.json
@@ -9165,6 +9185,10 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vid
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-destacado/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-destacado/composer_file/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-destacado/composer_file/package.json
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-player-for-wpbakery/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-player-for-wpbakery/translation_file/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-player-for-wpbakery/translation_file/languages/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-player-for-wpbakery/translation_file/languages/video-player-for-wpbakery.pot
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-popup-block/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-popup-block/composer_file/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/video-popup-block/composer_file/package.json
@@ -9203,6 +9227,9 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vis
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/visualizer/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/visualizer/translation_file/languages/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/visualizer/translation_file/languages/visualizer.pot
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vk-filter-search/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vk-filter-search/composer_file/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/vk-filter-search/composer_file/package-lock.json
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/voice-dialog-navigation/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/voice-dialog-navigation/composer_file/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/voice-dialog-navigation/composer_file/composer.json
@@ -11404,6 +11431,10 @@ drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wps
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-metadata/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-metadata/translation_file/languages/
 -rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-metadata/translation_file/languages/wpsso-wc-metadata.pot
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-shipping-delivery-time/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-shipping-delivery-time/translation_file/
+drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-shipping-delivery-time/translation_file/languages/
+-rw-rw-r--	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso-wc-shipping-delivery-time/translation_file/languages/wpsso-wc-shipping-delivery-time-fr_CA.po
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso/translation_file/
 drwxrwxr-x	root/root	opt/wpscan/spec/fixtures/dynamic_finders/plugin_version/wpsso/translation_file/languages/
