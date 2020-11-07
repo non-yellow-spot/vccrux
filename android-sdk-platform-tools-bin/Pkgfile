@@ -3,7 +3,7 @@
 # Maintainer:   Stamatin Cristina, dear dot volgk at gmail dot com
 
 name=android-sdk-platform-tools-bin
-version=30.0.4
+version=30.0.5
 release=1
 _sdk=android-sdk
 _tools="opt/${_sdk}/tools"
