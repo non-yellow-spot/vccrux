@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjw3NRAZTdvjizMAYkH6MAq1mUTtEBur+zDB5dvxp+hYt22oAQKmiLjt7nGpkcRaWXT2jLR9JsashBaKhtNRAcg8=
-SHA256 (Pkgfile) = 09bc0a10f674f2cdae248ab5faa7254332c8a28816556bc7a29e445544fd1e70
+RWT2I5SomoNUj0shVEflHJKQLARStKr4+YBgqKyfa+MjBmLUe8tONkgaXgCwjjdTnoi5Loh1Sz+ilBEV0YCaaT20XeIPTv/jigo=
+SHA256 (Pkgfile) = d2dbf4f233fc8da11c0a10426788138e8d2520e8d25a282ec19288b839ea7aa3
 SHA256 (.footprint) = b7f96c2dfe4bc63d86e3538f0678292083d0ed1d8a81f2434fa300bdb2bb645c
-SHA256 (pulseaudio-13.99.2.tar.xz) = 38a3c4f6c9450c952ce69ec4d6a2829a123b189ce8bfeeb9924a632f7149334e
+SHA256 (pulseaudio-13.99.3.tar.xz) = 60fdb5f619c85dfe3e018ad0ee1d8f6fe9041885c2e8b6ded724c855880276c8
