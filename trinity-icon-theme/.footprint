@@ -220,6 +220,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-close.svg -> w
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-copy.svg -> edit-copy.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-cut.svg -> edit-cut.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-delete.svg -> list-remove.svg
+lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-dnd-multiple.svg -> editcopy.svg
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/actions/scalable/gtk-edit.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-execute.svg -> system-run.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/actions/scalable/gtk-find-and-replace.svg -> edit-find-replace.svg

@@ -3,7 +3,7 @@
 # Maintainer:   Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=trinity-icon-theme
-version=0.1
+version=0.2
 release=1
 source=(https://github.com/chinarulezzz-de/Trinity-Icon-Theme/archive/v$version/$name-$version.tar.gz)
 
