@@ -113,6 +113,23 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/elftools/dwarf/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/dwarf/namelut.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/dwarf/ranges.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/dwarf/structs.py
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/__init__.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/__init__.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/constants.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/constants.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/decoder.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/decoder.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/ehabiinfo.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/ehabiinfo.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/structs.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/__pycache__/structs.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/constants.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/decoder.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/ehabiinfo.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/ehabi/structs.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/elftools/elf/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/elftools/elf/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/elftools/elf/__pycache__/

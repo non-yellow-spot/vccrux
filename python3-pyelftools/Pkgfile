@@ -4,7 +4,7 @@
 # Depends on:  python3-setuptools
 
 name=python3-pyelftools
-version=0.26
+version=0.27
 release=1
 source=(https://github.com/eliben/${name#*-}/archive/v$version/${name#*-}-$version.tar.gz)
 
