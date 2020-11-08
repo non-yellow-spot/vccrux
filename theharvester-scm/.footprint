@@ -232,9 +232,11 @@ drwxr-xr-x	root/root	opt/theHarvester/aiosqlite/
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/__init__.py
 drwxr-xr-x	root/root	opt/theHarvester/aiosqlite/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/__pycache__/__init__.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/aiosqlite/__pycache__/__version__.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/__pycache__/context.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/__pycache__/core.cpython-37.pyc
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/__pycache__/cursor.cpython-37.pyc
+-rw-r--r--	root/root	opt/theHarvester/aiosqlite/__version__.py
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/context.py
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/core.py
 -rw-r--r--	root/root	opt/theHarvester/aiosqlite/cursor.py
