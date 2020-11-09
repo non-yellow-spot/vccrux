@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj6jSPNeal5m/91p7BNqVTBzZEh1CnGFfiWfDenENiaRYRLFz4L9W2kaIsIARALpMdZWTnhDE9TIzIP7tkBChnQU=
-SHA256 (Pkgfile) = e8626eafdf4a05306b4cc721f706e535c26666e2de7b6b09a5943d3d37d0fd51
+RWT2I5SomoNUj2hhXehL+Vunje2c2b8HRhIQNpjshcJU51Qpz5momzpvscjNj/rOWV2ukA7e+a9q7bieWWL+IO+pV3mWxGSIJwE=
+SHA256 (Pkgfile) = 4d573138f1d1c4f94487bdba58349147511ac236d48500d2d63b86184d2f2a21
 SHA256 (.footprint) = e6665193f9a9124a577e1c0d1649208adf59cf6c9c0e17afa60e0c016e5bd777
-SHA256 (String-CRC32-1.8.tar.gz) = b65a79639c670c41d2b08d7aecc51454db04c69ff0ca6c4f0d9dfa0d8aa37c6f
+SHA256 (String-CRC32-2.tar.gz) = edb7feae50ec9fd71257d8fb21e1fed7ff4dfe30d798b1af226d2af7a6bdd92d
