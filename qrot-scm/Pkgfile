@@ -1,0 +1,30 @@
+# Description: OSINT helper tool
+# URL:         https://github.com/volgk/qrot
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  git
+
+name=qrot-scm
+version=$(date +%Y%m%d)
+release=1
+
+download_git() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
+
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+}
+
+build() {
+	download_git https://github.com/volgk/${name/-scm} master
+
+	cd $name
+
+	install -Dm 0644 engines.json -t $PKG/usr/share/qrot
+	install -Dm 0644 search.py    -t $PKG/usr/share/qrot
+	install -Dm 0755 qrot.py         $PKG/usr/bin/qrot
+}
