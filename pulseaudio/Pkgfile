@@ -5,11 +5,14 @@
 
 name=pulseaudio
 version=13.99.3
-release=1
+release=2
 source=(https://freedesktop.org/software/$name/releases/$name-$version.tar.xz) 
 
 build() {
 	cd $name-$version
+
+	sed -i 's/ -pipe / /' configure.ac
+	autoreconf -f -i
 
 	./configure \
 		--prefix=/usr                 \
