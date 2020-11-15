@@ -1,11 +1,11 @@
 # Description: KDE Framework - kwidgetsaddons
 # URL:         https://api.kde.org/frameworks/kwidgetsaddons/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  brotli graphite2 icu qt5 zstd
+# Depends on:  brotli graphite2 icu libpcre2 qt5 zstd
 
 name=kwidgetsaddons
-version=5.75.0
-release=2
+version=5.76.0
+release=1
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 build(){
 	cd $name-$version
