@@ -1,11 +1,11 @@
 # Description: KDE Framework - kitemmodels
 # URL:         https://api.kde.org/frameworks/kitemmodels/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  icu keyutils krb5 qt5 zstd
+# Depends on:  icu keyutils krb5 libpcre2 qt5 zstd
 
 name=kitemmodels
-version=5.75.0
-release=2
+version=5.76.0
+release=1
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
