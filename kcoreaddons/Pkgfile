@@ -1,11 +1,11 @@
 # Description: KDE Framework - kcoreaddons
 # URL:         https://api.kde.org/frameworks/kcoreaddons/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  icu qt5 zstd
+# Depends on:  icu libpcre2 qt5 zstd
 
 name=kcoreaddons
-version=5.75.0
-release=2
+version=5.76.0
+release=1
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
