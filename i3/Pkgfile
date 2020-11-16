@@ -5,7 +5,7 @@
 
 name=i3
 version=4.19
-release=1
+release=2
 source=(https://i3wm.org/downloads/$name-$version.tar.xz)
 
 build() {
@@ -14,7 +14,9 @@ build() {
 	mkdir -p build
 	cd build
 
-	meson .. --prefix=/usr
+	meson ..              \
+		--prefix=/usr \
+		--sysconfdir=/usr/etc
 
 	sed -i  -e 's/ \-pipe / /g' \
 		-e 's/ \-g / /g' compile_commands.json build.ninja
