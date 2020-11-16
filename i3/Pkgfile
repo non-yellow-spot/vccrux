@@ -4,15 +4,23 @@
 # Depends on:  brotli graphite2 libev libxkbcommon pango startup-notification xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm xorg-xcb-util-xrm yajl
 
 name=i3
-version=4.18.3
+version=4.19
 release=1
-source=(http://i3wm.org/$name/$name-$version.tar.bz2)
+source=(https://i3wm.org/downloads/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	./configure --prefix=/usr
+	mkdir -p build
+	cd build
 
-	cd x86_64-pc-linux-gnu
-	make V=1 DESTDIR=$PKG install
+	meson .. --prefix=/usr
+
+	sed -i  -e 's/ \-pipe / /g' \
+		-e 's/ \-g / /g' compile_commands.json build.ninja
+
+	ninja -v
+	DESTDIR=$PKG ninja install
+
+	rm -rf $PKG/usr/share/doc/
 }
