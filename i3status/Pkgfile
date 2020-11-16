@@ -1,11 +1,11 @@
 # Description: Generate a status bar for i3 bar
 # URL:         https://i3wm.org/i3status
 # Maintainer:  Cristina Stamatin, dear dot volgk at gmail dot com
-# Depends on:  i3 libcap libconfuse libnl opus pulseaudio wireless-tools
+# Depends on:  i3 libconfuse libnl pulseaudio wireless-tools
 
 name=i3status
 version=2.13
-release=2
+release=3
 source=(http://i3wm.org/$name/$name-$version.tar.bz2)
 
 build() {
