@@ -4,13 +4,13 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/PKG-INFO
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/SOURCES.txt
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/dependency_links.txt
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/entry_points.txt
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/requires.txt
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.51.0-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__main__.py
@@ -65,7 +65,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/auto.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/autonotebook.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/cli.py
--rwxrwxr-x	root/root	usr/lib/python3.7/site-packages/tqdm/completion.sh
+-rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/completion.sh
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/contrib/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/contrib/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/contrib/__pycache__/
@@ -93,5 +93,5 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/contrib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/keras.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/notebook.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/std.py
--rw-rw-r--	root/root	usr/lib/python3.7/site-packages/tqdm/tqdm.1
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/tqdm.1
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/utils.py
