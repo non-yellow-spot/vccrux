@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj3Td2kHDQ9BfOAqvjhs6HjSp0Rt2XW6M1c96/Saqlrs68t9Q5TLDcPo7fOW9lvmsR/k8l1QSw+kmlol7vwUgiAM=
+SHA256 (Pkgfile) = 724e526db6cde0ec322ca9ac15167b3d68a53098d79ac845c5177bbb4429ac32
+SHA256 (.footprint) = dfaa95c17b8f1d38c45ed71e4898698e726740b927a2e3902de2f1fba4144a37
+SHA256 (yersinia-15d41ffd722eb3510c6b51d878bc52f88fa8b6a8.tar.gz) = 0247c2501bf73193591d2d5fcf987e097d582940d95cabc5389d72ce6e058f49
+SHA256 (0001-gtk-interface.c-respect-system-font.patch) = 0fff0da7ee08563c1fc7923c16172948f5af668d418e5a76eb5e6cce46dfd41d
