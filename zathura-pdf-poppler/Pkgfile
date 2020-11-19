@@ -5,17 +5,19 @@
 
 name=zathura-pdf-poppler
 version=0.3.0
-release=2
+release=3
 source=(https://pwmt.org/projects/$name/download/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
 	meson build \
-		--prefix=/usr      \
-		--sysconfdir=/etc  \
-		--buildtype=plain  \
+		--prefix=/usr         \
+		--sysconfdir=/usr/etc \
+		--buildtype=plain     \
 		--backend=ninja
+
+	sed -i 's/ \-pipe / /g' build/{compile_commands.json,build.ninja}
 
 	cd build
 	ninja -v
