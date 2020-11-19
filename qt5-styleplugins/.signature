@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj6IUecOiWfnw3r1rBbgio7bMvsMxmIVL5b4DTOScwnbxcw/ptsLPkk5sMfMocW6gdbMy51fZnLU8Fp6OoZiznAg=
-SHA256 (Pkgfile) = 3d474934180779d9262a1cd7cbcfc9fc0383d17e04b02d802ec7e4e649ddf250
-SHA256 (.footprint) = 006821161e7aa7e7dfcca7770726efb469db9a1ac5384dc2ff4e95863addd016
-SHA256 (qt5-styleplugins-335dbece103e2cbf6c7cf819ab6672c2956b17b3.tar.gz) = 29ec24fa8df64be161ad06d0e5af3ba1a20bfe265004f5fe4ab9f5f3abf9a5ba
-SHA256 (qt5.15.patch) = 7e0c4fb1d98af974500ad31a42da0f85492326cb6ed2155b510d67c85291d7a4
