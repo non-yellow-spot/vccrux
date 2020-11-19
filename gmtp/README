@@ -1,7 +1,0 @@
-README for gmtp
-
-POST-INSTALL
-
-    # /usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas/
-
-    or run post-install script.
