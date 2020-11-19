@@ -1,7 +1,9 @@
 drwxr-xr-x	root/root	etc/
 -rw-r--r--	root/root	etc/pkgdisown.conf
+-rw-r--r--	root/root	etc/prtchkflagz.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/prtchkflagz
 -rwxr-xr-x	root/root	usr/bin/prtchkmdep
 -rwxr-xr-x	root/root	usr/bin/prtchkrevdep
 drwxr-xr-x	root/root	usr/sbin/

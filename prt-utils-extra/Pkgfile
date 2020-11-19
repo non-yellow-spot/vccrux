@@ -3,17 +3,20 @@
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=prt-utils-extra
-version=1756ef0
-_commit=1756ef0f455d111a628595dfbb75cff637436b93
+version=b1940f3
+_commit=b1940f3f3b006500d272b2b4af9f17689cccb001
 release=1
 source=(https://github.com/non-yellow-spot/$name/archive/$_commit/$name-$_commit.zip)
 
 build() {
 	cd $name-$_commit
 
-	install -Dm755 pkgdisown       -t $PKG/usr/sbin
-	install -Dm644 pkgdisown.conf  -t $PKG/etc
+	install -Dm755 pkgdisown         -t $PKG/usr/sbin
+	install -Dm644 pkgdisown.conf    -t $PKG/etc
 
-	install -Dm755 prtchkmdep      -t $PKG/usr/bin
-	install -Dm755 prtchkrevdep    -t $PKG/usr/bin
+	install -Dm755 prtchkmdep        -t $PKG/usr/bin
+	install -Dm755 prtchkrevdep      -t $PKG/usr/bin
+
+	install -Dm755 prtchkflagz       -t $PKG/usr/bin
+	install -Dm644 prtchkflagz.conf  -t $PKG/etc
 }
