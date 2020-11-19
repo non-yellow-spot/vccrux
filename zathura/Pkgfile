@@ -18,9 +18,7 @@ build() {
 		--buildtype=plain     \
 		--backend=ninja
 
-	sed -i -e 's/ \-pipe / /g'           \
-		 build/compile_commands.json \
-		 build/build.ninja
+	sed -i 's/ \-pipe / /g' build/{compile_commands.json,build.ninja}
 
 	cd build
 	ninja -v
