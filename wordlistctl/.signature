@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj4BMI7zlzneWn4JFHjzdhfGTCNENlko4GOJYjfGARRtdjAL4M+qB5EKDHX/G2M9kEDemeRvmvg7elScAKVQpNgg=
-SHA256 (Pkgfile) = 7497a623945473a842406299f45a1406d887efe8890ff09dc74534c3506d898e
-SHA256 (.footprint) = 4975c8f87d55e610b6ad0d08a4cf81a55bfc186bf9b22bc4bfa65faf3d23588c
-SHA256 (wordlistctl-0.8.9.tar.gz) = a43acc2d5945d876561799de09f7cb2030833dd44709a15851edb8a823a06880
-SHA256 (0001-remove-unnecessary-termcolor-dependency.patch) = 647eccfc4ac68d13a6683b00abdc9339eba33b39f79925095db7441351060432
-SHA256 (0001-fix-repo.json-path.patch) = 3c5879bb189f8e9e285b12cbbecc8f765abc96940ae1e727760816151c34f476
