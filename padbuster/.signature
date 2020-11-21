@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj3ceqpPxEAGYIlvCp3WYE64rcaG/9C12pMJ2ZHRkdTKBza5XBTG/QvjzBtA8wdg9zMPt8UY8bvh1CltS9wPFuA0=
-SHA256 (Pkgfile) = fa90c320c23e3b73f443c49bf0a02a2e5e7708e3d4db1be9b0ea1d868fa0deb1
-SHA256 (.footprint) = 136f22206ecbeb2836ef0c6cd360ec4031656a06727f42149d1323657e89985f
-SHA256 (PadBuster-94460ff70218d39a858fb941e7936283f347cf52.zip) = 94799ae09589cb955836a74883d7a70870c3730c4d3dc5fa541f9bd4b1db8224
-SHA256 (0001-padBuster.pl-remove-unnecessary-Crypt-SSLeay.patch) = f54fceb8fee0a784860e0e107e4f3bddfb648e7037caef3618e00c570cfa9e7c
-SHA256 (0002-padBuster.pl-improve-help-message.patch) = f3f6bc3addf62442f215b0037b93a5006fa01a08bc7bed32c535a9ab8ec607d3
