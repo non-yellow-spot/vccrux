@@ -1,10 +1,10 @@
 # Description: Fast, Extensible Progress Meter
-# URL:         https://pypi.org/project/tqdm/
+# URL:         https://pypi.org/project/tqdm
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
 # Depends on:  python3-setuptools
 
 name=python3-tqdm
-version=4.52.0
+version=4.53.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/${name:8:1}/${name#*-}/${name#*-}-$version.tar.gz)
 

@@ -4,13 +4,13 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.52.0-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm-4.53.0-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__main__.py
@@ -19,6 +19,8 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/__init__.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/__main__.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/__main__.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_dist_ver.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_dist_ver.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_main.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_main.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_monitor.cpython-37.opt-1.pyc
@@ -33,8 +35,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_tqdm_pandas.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_utils.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_utils.cpython-37.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_version.cpython-37.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/_version.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/asyncio.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/asyncio.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/auto.cpython-37.opt-1.pyc
@@ -53,6 +53,9 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/std.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/utils.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/utils.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/version.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/version.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_dist_ver.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_main.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_monitor.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_tqdm.py
@@ -60,7 +63,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_tqdm_notebook.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_tqdm_pandas.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_utils.py
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/_version.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/asyncio.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/auto.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/autonotebook.py
@@ -95,3 +97,4 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/tqdm/contrib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/std.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/tqdm.1
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/utils.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/tqdm/version.py
