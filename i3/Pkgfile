@@ -5,21 +5,22 @@
 
 name=i3
 version=4.19
-release=2
+release=3
 source=(https://i3wm.org/downloads/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
-	mkdir -p build
+	meson build                   \
+		--prefix=/usr         \
+		--sysconfdir=/usr/etc \
+		--buildtype=plain     \
+		--backend=ninja
+
+	sed -i  -e 's/ \-pipe / /g'   \
+		-e 's/ \-g / /g' build/{compile_commands.json,build.ninja}
+
 	cd build
-
-	meson ..              \
-		--prefix=/usr \
-		--sysconfdir=/usr/etc
-
-	sed -i  -e 's/ \-pipe / /g' \
-		-e 's/ \-g / /g' compile_commands.json build.ninja
 
 	ninja -v
 	DESTDIR=$PKG ninja install
