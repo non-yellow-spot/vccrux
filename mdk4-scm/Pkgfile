@@ -5,7 +5,7 @@
 
 name=mdk4-scm
 version=$(date +%Y%m%d)
-release=2
+release=1
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
@@ -23,15 +23,17 @@ build() {
 	download_git https://github.com/aircrack-ng/${name/-scm} master
 	cd $name
 
-	# remove optimization flag
-	sed -i 's/ -g -O3 -Wall -Wextra / -Wall -Wextra /' \
-		src/Makefile src/attacks/Makefile
+	# remove default debug/optimization flag
+	sed -i 's/-g -O3//' src/Makefile src/attacks/Makefile
 
 	EXTRAFLAGS="-I.. -I/usr/include/libnl3 -DCONFIG_LIBNL30 -DCONFIG_LIBNL"
 
 	make CFLAGS="$CFLAGS $EXTRAFLAGS" -j1 # fix parallel build
 	make -C src install PREFIX=$PKG/usr
 
+	# rename mdk4 -> mdk4-scm
+	mv $PKG/usr/sbin/{mdk4,$name}
+
 	# install man page manually
-	install -Dm0644 man/mdk4.1 $PKG/usr/share/man/man8/mdk4.8
+	install -Dm644 man/mdk4.1 $PKG/usr/share/man/man8/$name.8
 }
