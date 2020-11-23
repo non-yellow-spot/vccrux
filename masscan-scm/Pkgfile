@@ -5,7 +5,7 @@
 
 name=masscan-scm
 version=$(date +%Y%m%d)
-release=2
+release=1
 
 download_git() {
 	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
@@ -34,5 +34,6 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	install -Dm644 doc/masscan.8 -t "$PKG/usr/share/man/man8"
+	mv $PKG/usr/bin/masscan $PKG/usr/bin/$name
+	install -Dm644 doc/masscan.8 $PKG/usr/share/man/man8/$name.8
 }
