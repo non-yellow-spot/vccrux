@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj71uV0VDU7WBk9gQDtsFgL2u2V69S4thgDdZIwk1E6ji6KUEdXDPUxygOi6ppUmp2Dre20ZD9SiFaVlbzTO3eg4=
-SHA256 (Pkgfile) = b0c81c8a10bae9e03445cfdc878542565ccc2c2a27144527f910517ad9d7a3e7
-SHA256 (.footprint) = 5e5fa657d2efdc0fdae43bb853265d19e03e46dc6f7204bda7e2f3793c6cfa91
-SHA256 (trinity-icon-theme-0.2.tar.gz) = b8eb4d3e414b760bdfcde7ed4dba51c2a841f71446c9d1d1bf769158f6b9260d
+RWT2I5SomoNUj97jFj1AllJmrlWeAmJsdgyanATU+ZL1MFrcJw/MOGUoMqaWLxcLIoRh5DHU6QMD1DS/6Y/VVl2phyQ6JepV2Qg=
+SHA256 (Pkgfile) = 914bf202f75eef695f91e9784f9a87858427f4b194ebaa183e8ab6b51ba50d58
+SHA256 (.footprint) = e4da34a66e1e230ff2ec65027cd4e7250467d68b5cf07d0930415c7ddb28c68e
+SHA256 (trinity-icon-theme-0.3.tar.gz) = e40aa1e3586c0cfb7e20f5d244ae0c844ee63bdcb9b0869ac5354607dac6e148

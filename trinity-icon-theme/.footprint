@@ -2,7 +2,6 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/Trinity/
--rwxr-xr-x	root/root	usr/share/icons/Trinity/LICENSE
 drwxr-xr-x	root/root	usr/share/icons/Trinity/actions/
 drwxr-xr-x	root/root	usr/share/icons/Trinity/actions/scalable/
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/actions/scalable/action-unavailable-symbolic.svg
@@ -1224,7 +1223,6 @@ lrwxrwxrwx	root/root	usr/share/icons/Trinity/categories/scalable/xfce-office.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/categories/scalable/xfce-system.svg -> applications-system.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/categories/scalable/xfce-utils.svg -> applications-accessories.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/categories/scalable/xfce4-settings.svg -> preferences-desktop.svg
--rwxr-xr-x	root/root	usr/share/icons/Trinity/copyright
 drwxr-xr-x	root/root	usr/share/icons/Trinity/devices/
 drwxr-xr-x	root/root	usr/share/icons/Trinity/devices/scalable/
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/devices/scalable/ac-adapter.svg
@@ -1843,7 +1841,6 @@ lrwxrwxrwx	root/root	usr/share/icons/Trinity/emblems/scalable/emblem-web.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/emblems/scalable/slideshow-emblem.svg -> emblem-slideshow.svg
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/emblems/scalable/web-browser-symbolic.svg
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/emblems/scalable/web-browser.svg
--rw-r--r--	root/root	usr/share/icons/Trinity/icon-theme.cache
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/index.theme
 drwxr-xr-x	root/root	usr/share/icons/Trinity/mimetypes/
 drwxr-xr-x	root/root	usr/share/icons/Trinity/mimetypes/scalable/
@@ -2674,6 +2671,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gpm-ups-100-chargin
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gpm-ups-100.svg -> battery-100.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gpm-ups-missing.svg -> battery-000.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gtk-dialog-authentication-panel.svg -> dialog-password-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gtk-dialog-authentication.svg -> dialog-password-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gtk-dialog-error.svg -> dialog-error.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gtk-dialog-info.svg -> dialog-information.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/gtk-dialog-question.svg -> dialog-question.svg
