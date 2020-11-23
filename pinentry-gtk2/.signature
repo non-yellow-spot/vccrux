@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUjxr4s/XF/qSSymgIjcAQMj4rMvLatko3dhhGQyZN1yqFTWcLBPN82/mtcUNQymWPFWa+qthsa9OHniMP3RxkwAw=
+SHA256 (Pkgfile) = 149ddc93cbbd0027017d1fc7829a7cd905cee1df0371dac9001fdf0471832d9d
+SHA256 (.footprint) = 0e886c6c8a4b6c801407e0906364312ec70d121652614d93bc548bebc4555b06
+SHA256 (pinentry-1.1.0.tar.bz2) = 68076686fa724a290ea49cdf0d1c0c1500907d1b759a3bcbfbec0293e8f56570
+SHA256 (pinentry-gtk-2.c-fontfix.patch) = ed60971e61041e33a7936787fd02cf3d0d0014c2de130d54e0a18bce7f599a85
