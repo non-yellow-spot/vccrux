@@ -1,11 +1,11 @@
 # Description: Complete suite of tools to assess WiFi network security
 # URL:         https://github.com/aircrack-ng/aircrack-ng
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  ethtool git hwloc libnl libpcap libpcre libxml2 openssl sqlite3 xorg-libpciaccess
+# Depends on:  ethtool git hwloc libnl libpcap
 
 name=aircrack-ng-scm
 version=$(date +%Y%m%d)
-release=2
+release=1
 source=(0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch)
 
 download_git() {
@@ -24,11 +24,26 @@ build() {
 	download_git https://github.com/${name/-scm}/${name/-scm} master
 	cd $name
 
-	patch -p1 < $SRC/0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch
+	patch -p1 -i $SRC/0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch
 
 	NOCONFIGURE=1 ./autogen.sh
-	./configure --prefix=/usr --libexecdir=/usr/lib
+	./configure --prefix=/usr --libdir=/usr/lib/$name
+
+	# remove default optimization flags
+	find . -name Makefile -exec \
+		sed -i  -e '/CFLAGS =/s/-O3 //g'      \
+			-e '/CXXFLAGS =/s/-O3 //g' {} \;
 
 	make V=1
 	make DESTDIR=$PKG install
+
+	# rename binaries
+	find $PKG/usr/{bin,sbin} -type f -print | xargs -I % mv % %-scm
+
+	# rename man pages
+	(cd $PKG/usr/share/man/man1;for m in *.1;do mv $m ${m/.1/-scm.1};done)
+	(cd $PKG/usr/share/man/man8;for m in *.8;do mv $m ${m/.8/-scm.8};done)
+
+	# move headers
+	mv $PKG/usr/include/aircrack-ng $PKG/usr/include/$name
 }
