@@ -1,6 +1,7 @@
 # Description: Tools to work with Android's .dex format and Java's .class files
 # URL:         https://github.com/pxb1988/dex2jar
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  jdk
 
 name=dex2jar-bin
 version=2.1
