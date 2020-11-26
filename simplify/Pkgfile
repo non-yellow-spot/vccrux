@@ -1,0 +1,16 @@
+# Description: Generic Android Deobfuscator
+# URL:         https://github.com/CalebFenton/simplify
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  jdk
+
+name=simplify
+version=1.3.0
+release=1
+source=(https://github.com/CalebFenton/$name/releases/download/v$version/$name-$version.jar
+	simplify.sh)
+
+build () {
+	install -dm 755                    $PKG/usr/bin
+	install -Dm 644 $name-$version.jar $PKG/usr/share/$name/$name-$version.jar
+	install -m  755 $name.sh           $PKG/usr/bin/$name
+}

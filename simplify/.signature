@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj2LilVaCdAEeBdNwG6wBFBCNqPQL4J1FnMJml3GJlENc3sSYzhRSuhH/D9oNUwnXKtdINmHP5vdCTHYeyb0vcAE=
+SHA256 (Pkgfile) = 0160e41162cc7e69b649775bb42b63750b1008777b8dd1f8015fa9450fd1db71
+SHA256 (.footprint) = 0ded6d849c4319d86b251fcc3257aa71d5bdef552b561c4aa6b933f6fee97c93
+SHA256 (simplify-1.3.0.jar) = f346d6dd064a212cea3d6cd9a22aa78ad9e81f664d2f216551467e59c52d3d31
+SHA256 (simplify.sh) = 569ad3021312b351c783fcee580bab19fd909dc2876ffce56f6361eda73db5d3
