@@ -1,6 +1,6 @@
 # Description: Modern library for one-way hashing of passwords
 # URL:         https://github.com/besser82/libxcrypt/
-# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=libxcrypt2.4
 version=2.4
