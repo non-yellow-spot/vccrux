@@ -1,10 +1,10 @@
 # Description: OWASP Zed Attack Proxy (Weekly Build)
 # URL:         https://github.com/zaproxy/zaproxy
-# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
 # Depends on:  jdk
 
 name=zaproxy-weekly-bin
-version=2020-11-18
+version=2020-11-23
 release=1
 source=(https://github.com/zaproxy/zaproxy/releases/download/w$version/ZAP_WEEKLY_D-$version.zip
 	zaproxy-weekly.sh)

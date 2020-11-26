@@ -65,8 +65,8 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/formhandler-beta-3.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/fuzz-beta-13.1.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/gettingStarted-release-12.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/graaljs-alpha-0.1.0.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/graphql-alpha-0.2.0.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/graaljs-alpha-0.2.0.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/graphql-alpha-0.3.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/help-release-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/hud-beta-0.13.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/importurls-beta-8.zap
@@ -76,7 +76,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/plugnhack-beta-12.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/portscan-beta-9.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/pscanrules-release-30.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/pscanrulesBeta-beta-23.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/pscanrulesBeta-beta-24.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/quickstart-release-29.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/replacer-beta-9.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/retire-release-0.6.0.zap
@@ -88,9 +88,9 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/sequence-alpha-6.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/spiderAjax-release-23.3.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/tips-beta-8.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-23.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdrivermacos-release-22.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverwindows-release-23.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-24.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdrivermacos-release-23.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverwindows-release-24.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/websocket-release-23.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/zest-beta-33.zap
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/
@@ -130,6 +130,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-11-18.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-11-23.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
