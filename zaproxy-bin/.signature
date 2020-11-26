@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj+5Y5DbOnLAhN9OVdh3L9ehwIAKNzHKLTcu9NKUs8pTE9h/kHoAtTDRd7/QdM9GnW23R79vNn++Nm09v92Z5Xgg=
-SHA256 (Pkgfile) = 4ecafa16725f79a86e9a05672ff1cfd3c6e1a9c72b6018da08b02a0e41650e29
-SHA256 (.footprint) = 4713e2e3cd66c9c86e1691e5f02209c5379b5154c6506f7dcb1107020cfc20b7
-SHA256 (ZAP_2.8.0_Linux.tar.gz) = cca5cbf68b861a8ef3d5142f13eb0c586a9e072e3535e2169c4efb0ec3716c60
+RWT2I5SomoNUj6r/2p9fmL+netjhniE7kFwtFjcOZYHjMJCmW7WLSG5+BsA8j/EPlfW3e0FmQ0arKi/n+kHTuT9q6V4Z2b0rDwI=
+SHA256 (Pkgfile) = 98c776309ddacf37e93b316b11115e9cecc91ec0fb9f48ee51c09ea9c21e2959
+SHA256 (.footprint) = eac8cdbfb0f929dbb775cfe4712d05baee09d8c2863611ba4a606f63c5db4d5f
+SHA256 (ZAP_2.9.0_Linux.tar.gz) = 4c72ba9d9ba60f58dc7eb26c5818cf98a38ba58b9bf2313aadd69832d85e9cb1
 SHA256 (zaproxy.sh) = 1a1b4472f19f4bfe136fcb9390371928e290f432c956e601a31df062aa5ca13b
