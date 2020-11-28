@@ -1,9 +1,0 @@
-README for wireshark
-
-POST-INSTALL
-
-    The post-install script requires the partition of /usr to allow
-    setting extended attributes.
-
-    This enables running wireshark without root privileges, provided
-    the executing user is in the wireshark group.
