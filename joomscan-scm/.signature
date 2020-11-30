@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzQOulB7jSLWNZaEnTmjj0XIpzGxk9a5Ke+fUJRt2lV+QQtaOD4GpgSMAHb8H930cRIKdKeCnKz3nj/8dMyR7wk=
-SHA256 (Pkgfile) = c6bafc54f79e34612b308ad484b70bb38b56014c6f7acd310d859f9cf0bd56c4
+RWT2I5SomoNUjyL51QxcgesoiBZSEW3v/idfBYgZQiQgZ/VtyN0CaFaI78btYfVjNBdVPBEhQoJfsLdyVEtP9l1LCUQLMuijMgc=
+SHA256 (Pkgfile) = 1bb312c86df16ea095d94a86b7783d900fabef25a78c5be69702400199343c9d
 SHA256 (.footprint) = 1d88d95f7c626dd3f8a80b0859d9c9a1fc74d84e54f47991972c514d6571e301
 SHA256 (joomscan.sh) = 65397698daa855c62d519df1fea5bd59fd5ddc70ff51db4230dcae697d311d5f
 SHA256 (0001-joomscan.pl-skip-clear-screen-at-startup.patch) = 6281291ddc406b943b81589bd3af40ad423e543bd48d291c9386eb6737e612b0

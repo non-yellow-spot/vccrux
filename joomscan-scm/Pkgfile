@@ -1,11 +1,11 @@
 # Description: Joomla vulnerability scanner (branch:master)
 # URL:         https://github.com/rezasp/joomscan
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  dos2unix git p5-lwp-protocol-https
+# Depends on:  dos2unix git p5-lwp-protocol-https p5-http-message
 
 name=joomscan-scm
 version=$(date +%Y%m%d)
-release=3
+release=4
 source=(joomscan.sh
 	0001-joomscan.pl-skip-clear-screen-at-startup.patch)
 
