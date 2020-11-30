@@ -31,9 +31,6 @@ build() {
 	make CFLAGS="$CFLAGS $EXTRAFLAGS" -j1 # fix parallel build
 	make -C src install PREFIX=$PKG/usr
 
-	# rename mdk4 -> mdk4-scm
-	mv $PKG/usr/sbin/{mdk4,$name}
-
 	# install man page manually
-	install -Dm644 man/mdk4.1 $PKG/usr/share/man/man8/$name.8
+	install -Dm644 man/mdk4.1 $PKG/usr/share/man/man8/mdk4.8
 }
