@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj1EAfhecpPk6nEUJmoPXcoYQxB843J0B4ZMSdhcLK521Aw9vu7+Y4Rcwf23ishiH2Nr1Fz29c5sLjV7sx3CQ2A0=
-SHA256 (Pkgfile) = cc5febbbbb59eb450624707269c33a6f65371cda8bfdf0345cb805d0553ecf16
-SHA256 (.footprint) = ef2e8eac2ec44c0a134a86f15671da54051e7d4d8312037968e1bf00592f79ac
+RWT2I5SomoNUj71E6eQ9c0q2ATb+/c48yKTBL6NMV90z9aBMvQ1AypQk4Hjq3eekhNC8cuwarPiyLqJ7DMlxTuGXUPUlvqB9DgM=
+SHA256 (Pkgfile) = f8dc04f9c231c59495cf72ab6d51d2288a14174b1d36bcd73862bc3d3486c219
+SHA256 (.footprint) = 70e444a1afaf08a28a47d992aaaa4e360a44753a2d79c11f0777177300ddc46c
 SHA256 (0001-airodump-ng.c-add-manufacturer-column-to-the-client-.patch) = 4dc44935e7b80ead814001bc1c36db84960b71ff8faf3023cf598137c46f6656

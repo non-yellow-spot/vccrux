@@ -36,14 +36,4 @@ build() {
 
 	make V=1
 	make DESTDIR=$PKG install
-
-	# rename binaries
-	find $PKG/usr/{bin,sbin} -type f -print | xargs -I % mv % %-scm
-
-	# rename man pages
-	(cd $PKG/usr/share/man/man1;for m in *.1;do mv $m ${m/.1/-scm.1};done)
-	(cd $PKG/usr/share/man/man8;for m in *.8;do mv $m ${m/.8/-scm.8};done)
-
-	# move headers
-	mv $PKG/usr/include/aircrack-ng $PKG/usr/include/$name
 }
