@@ -34,6 +34,5 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	mv $PKG/usr/bin/masscan $PKG/usr/bin/$name
-	install -Dm644 doc/masscan.8 $PKG/usr/share/man/man8/$name.8
+	install -Dm644 doc/masscan.8 -t $PKG/usr/share/man/man8
 }
