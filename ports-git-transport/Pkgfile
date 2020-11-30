@@ -5,7 +5,7 @@
 
 name=ports-git-transport
 version=3.5
-release=2
+release=3
 
 source=(core.git
 	opt.git

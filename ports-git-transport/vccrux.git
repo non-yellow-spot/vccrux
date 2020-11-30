@@ -1,4 +1,4 @@
-URL=git@github.com:non-yellow-spot/vccrux.git
+URL=https://github.com/non-yellow-spot/vccrux.git
 NAME=vccrux
 BRANCH=3.5
 PORTS_DIR=/usr/ports
