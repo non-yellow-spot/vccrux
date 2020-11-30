@@ -5,17 +5,15 @@
 
 name=ports-git-transport
 version=3.5
-release=1
+release=2
 
 source=(core.git
 	opt.git
 	xorg.git
+	vccrux.git
 	compat-32.git.inactive
 	contrib.git.inactive)
 
-build () {
-	for cfg in core.git opt.git xorg.git compat-32.git.inactive contrib.git.inactive
-	do
-		install -Dm0644 $SRC/$cfg -t $PKG/etc/ports
-	done
+build() {
+	install -Dm644 $SRC/* -t $PKG/etc/ports
 }
