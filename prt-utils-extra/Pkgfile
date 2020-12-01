@@ -3,8 +3,8 @@
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=prt-utils-extra
-version=b1940f3
-_commit=b1940f3f3b006500d272b2b4af9f17689cccb001
+version=28bdf48
+_commit=28bdf48e59568c692b2b5c91ea221305a3557bd6
 release=1
 source=(https://github.com/non-yellow-spot/$name/archive/$_commit/$name-$_commit.zip)
 
@@ -19,4 +19,6 @@ build() {
 
 	install -Dm755 prtchkflagz       -t $PKG/usr/bin
 	install -Dm644 prtchkflagz.conf  -t $PKG/etc
+
+	install -Dm755 prtlint           -t $PKG/usr/bin
 }
