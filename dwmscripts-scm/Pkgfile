@@ -1,0 +1,28 @@
+# Description: Day-by-day used scripts and dwm-6.0-chinarulezzz env
+# URL:         https://github.com/chinarulezzz-de/dwmscripts
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  git alsa-utils iw hexchat sylpheed-trinity newsboat xautolock slock xkbswitch imagemagick firefox-bin toxic xdotool tor torsocks polipo proxychains-ng console-font-terminus xorg-font-terminus ttf-terminus-font dunst-scm feh ffmpeg youtube-dl pinentry-gtk2 jukebox lxappearance qt5ct qt5-styleplugins translate-shell transset-df trinity-cursor-theme trinity-extra-theme trinity-gtk-theme trinity-icon-theme xclip zathura zathura-djvu zathura-pdf-poppler
+
+name=dwmscripts-scm
+version=$(date +%Y%m%d)
+release=1
+
+download_git() {
+	if [[ -d $PKGMK_SOURCE_DIR/$name ]]; then
+		git -C $PKGMK_SOURCE_DIR/$name fetch --depth=1
+		git -C $PKGMK_SOURCE_DIR/$name clean -f
+		git -C $PKGMK_SOURCE_DIR/$name reset --hard origin/$2
+	else
+		git -C $PKGMK_SOURCE_DIR clone --depth=1 $1 -b $2 $name
+	fi
+
+	cp -r $PKGMK_SOURCE_DIR/$name $PKGMK_WORK_DIR/src/$name
+}
+
+build() {
+	download_git https://github.com/chinarulezzz-de/${name/-scm} master
+	cd $name
+
+	find . -maxdepth 1 -type f -not -name INSTALL \
+		-exec install -Dm755 {} -t $PKG/opt/bin/ \;
+}
