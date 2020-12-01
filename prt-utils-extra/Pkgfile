@@ -3,8 +3,8 @@
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=prt-utils-extra
-version=28bdf48
-_commit=28bdf48e59568c692b2b5c91ea221305a3557bd6
+version=288f844
+_commit=288f8441f019ccb199e6b5fe794b7185ff236b31
 release=1
 source=(https://github.com/non-yellow-spot/$name/archive/$_commit/$name-$_commit.zip)
 
