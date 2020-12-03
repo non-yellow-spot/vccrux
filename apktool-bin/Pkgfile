@@ -4,7 +4,7 @@
 # Depends on:  jdk
 
 name=apktool-bin
-version=2.4.1
+version=2.5.0
 release=1
 source=(https://github.com/iBotPeaches/Apktool/releases/download/v$version/apktool_$version.jar
 	apktool.sh)
@@ -19,8 +19,7 @@ unpack_source() {
 build() {
 	cd $name-$version
 
-	install -d -m0755 $PKG/usr/{bin,share/apktool}
-
+	install -dm0755                      $PKG/usr/{bin,share/apktool}
 	install -m0755 apktool.sh            $PKG/usr/bin/apktool
 	install -m0755 apktool_$version.jar  $PKG/usr/share/apktool/apktool.jar
 }
