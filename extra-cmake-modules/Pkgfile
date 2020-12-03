@@ -5,19 +5,17 @@
 
 name=extra-cmake-modules
 version=5.76.0
-release=1
+release=2
 source=(https://github.com/KDE/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
-	mkdir build
-	cd build
-
-	cmake ../$name-$version            \
+	cmake -S$name-$version -Bbuild     \
 		-DCMAKE_BUILD_TYPE=Release \
 		-DCMAKE_INSTALL_PREFIX=/usr
 
-	make V=1
-	make DESTDIR=$PKG install
+	cmake --build build -v
+
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/doc
 }
