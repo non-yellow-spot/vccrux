@@ -5,19 +5,16 @@
 
 name=karchive
 version=5.76.0
-release=1
+release=2
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
-	cd $name-$version
+	cmake -S$name-$version -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
 
-	mkdir build
-	cd build
+	cmake --build build -v
 
-	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-
-	make VERBOSE=1
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG cmake --install build
 
 	rm -Rf $PKG/usr/share/locale/
 }
