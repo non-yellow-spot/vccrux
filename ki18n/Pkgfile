@@ -1,23 +1,20 @@
 # Description: KDE Framework - ki18n
 # URL:         https://api.kde.org/frameworks/ki18n/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  icu keyutils krb5 libpcre2 qt5 zstd
+# Depends on:  extra-cmake-modules icu keyutils krb5 libpcre2 qt5 zstd
 
 name=ki18n
 version=5.76.0
-release=1
+release=2
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
-	cd $name-$version
+	cmake -S$name-$version -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
 
-	mkdir build
-	cd build
+	cmake --build build -v
 
-	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-
-	make VERBOSE=1
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 }
