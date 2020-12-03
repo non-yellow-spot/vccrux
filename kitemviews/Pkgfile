@@ -1,23 +1,20 @@
 # Description: KDE Framework - kitemviews
 # URL:         https://api.kde.org/frameworks/kitemviews/html/index.html
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  brotli graphite2 icu libpcre2 qt5 zstd
+# Depends on:  brotli extra-cmake-modules graphite2 icu libpcre2 qt5 zstd
 
 name=kitemviews
 version=5.76.0
-release=1
+release=2
 source=(https://download.kde.org/stable/frameworks/${version:0:4}/$name-$version.tar.xz)
 
 build(){
-	cd $name-$version
+	cmake -S$name-$version -Bbuild \
+		-DCMAKE_INSTALL_PREFIX=/usr
 
-	mkdir build
-	cd build
+	cmake --build build -v
 
-	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-
-	make VERBOSE=1
-	make DESTDIR=$PKG install
+	DESTDIR=$PKG cmake --install build
 
 	rm -rf $PKG/usr/share/locale
 	find $PKG -depth -type d -empty -delete
