@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjyNZJ+Jk5mUijPb87o25QkmoZLSEHi3IoP4unZVxYaLyiYJEL1Fl/N025TxDAOSFYw7n7rjJbv4+yXnUOknvaA8=
-SHA256 (Pkgfile) = 6776672eb5efc7ae5d59acb72083dc42a8cab9cfa2b67291d13025b61e6d93f3
-SHA256 (.footprint) = c5989428edf3683b62c282cb95461724c10c50cbc3dbb3554dda31493482e3f7
-SHA256 (metasploit-6.0.18.tar.gz) = 9109a3651e277f04800ad35f7c9dd9519d9bc4542ec2ae0f3e0bc109d509cf57
+RWT2I5SomoNUj1/u1qGRcgHqCIVUzE5Jt043RmRal/J18IlkEYqY8DmJDjWaBHG2sjzpiaVm8V1MvrVu4oWoNVQlM11YovBReww=
+SHA256 (Pkgfile) = dbfba5b002942a3de4e49de8446753c22875ce27eeec2b424247ec6d7b81be72
+SHA256 (.footprint) = 9d05056071b8ad4c3ae47b0d2538a1eb65e7abfd5f50a536da053e4e1e95bd64
+SHA256 (metasploit-6.0.20.tar.gz) = c531af064548b0e646700dfeea2c605151a155c332ba7fb6f51acf4ce5d6686c
