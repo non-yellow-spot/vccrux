@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj/SGqzJjntVi0qaMdAQ7Sz0dgJ4SsHKsYXyjJdTiozS/xjJVLdzPtmjbomOGeuN/PNqLt8ERqyPAmOi76eiZrg0=
-SHA256 (Pkgfile) = 39e42e762e4b03138bb3705a92ef60b2e872430f7e927b0f64f7536ea147d856
-SHA256 (.footprint) = 1dd178335ba23c210d338222323d5cf1101ea8b7ae1e6667f8c42547f35f84c7
-SHA256 (0001-remove-termcolor-dep.patch) = 9b1beec77c695810dc8f01ebd2e027910119ced97d331749e3c334848b99cba7
-SHA256 (0001-print-action-message-instead-of-url-like-something-i.patch) = be70364ab8fcb27374a3ea708f83806c91819fe46ea484f71d819b144825f040
-SHA256 (holehe.py) = 7883411ab3b671eb8b7938166b801e91f43ad9e95c89f605935888ec2468717b
