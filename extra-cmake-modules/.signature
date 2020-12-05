@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj5FEsi0mBtjt0WKftB/TKeSagQs2z4M2YZRRCRqZdBtKlO7DHls0eavk9PEz4mBPTY22ozvGiUQOBjwGtn1rygE=
-SHA256 (Pkgfile) = 0999f35fa4dcc24f4e133de8f499717462949bc9a8887ca9781c23329a9b7114
-SHA256 (.footprint) = ebfd9bf4b007a0a276517394c0f8b5d4047050c172393851acad1838e6c93503
-SHA256 (extra-cmake-modules-5.76.0.tar.gz) = dc1929ebe09011e617d79db60004bc986e858a5f429cb26190d0cffbeef07b74
