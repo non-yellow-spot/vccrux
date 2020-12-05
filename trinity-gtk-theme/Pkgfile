@@ -4,7 +4,7 @@
 # Depends on:  gtk-engines gtk-engine-murrine
 
 name=trinity-gtk-theme
-version=1.2
+version=1.3
 release=1
 source=(https://github.com/chinarulezzz-de/Trinity-GTK-Theme/archive/v${version}/$name-v${version}.tar.gz)
 
