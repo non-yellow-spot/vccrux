@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj3mIY70JghjVtA72iEeolKZZBWqkMZzX9zwY8+uiIaRCQDUTUXhG42DwhflUxXrpOZjXaEXpZbl4WPuSfpZXKws=
-SHA256 (Pkgfile) = a291e7bb88d6afc9ae4d93c5c4cd0cb725196eb5c7951e142ddedb369e871c9f
+RWT2I5SomoNUjztLbNReUhcO1JGCNiyEJoyYPOBZDLOHr4mmt2WTK2sMrCwacJjpxi+S/R1H+T2bKuocIO3JzmzGlWrChH+0pgc=
+SHA256 (Pkgfile) = 5c793dfc51cad409f9ded081d98ab02c67456837e28cbde673aba41f28e84139
 SHA256 (.footprint) = 8e1057b0359ffc55db131bfce5c2d72ce670d4794a9b3ecd93181d501333c7b7
-SHA256 (php-7.3.10.tar.xz) = 42f00a15419e05771734b7159c8d39d639b8a5a6770413adfa2615f6f923d906
+SHA256 (php-7.4.13.tar.xz) = aead303e3abac23106529560547baebbedba0bb2943b91d5aa08fff1f41680f4
