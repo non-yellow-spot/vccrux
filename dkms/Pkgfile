@@ -3,7 +3,7 @@
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 
 name=dkms
-version=2.8.2
+version=2.8.4
 release=1
 source=(https://github.com/dell/$name/archive/v$version/$name-$version.tar.gz
 	dkms-remove)
