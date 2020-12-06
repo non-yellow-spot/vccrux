@@ -27,6 +27,7 @@ build(){
 	--without-pear                              \
 	--disable-opcache"
 
+	EXTENSION_DIR=/usr/lib/php/extensions       \
 	./configure $PHP_CONFIG --enable-cli
 
 	make
