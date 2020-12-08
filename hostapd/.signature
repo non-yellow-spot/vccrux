@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjzKOndiZTN8VvaOklMG8xqGku7MPBvs0+5FJWtFZKY3hh7YeZm81IvMTrfx9b3dsXV3CSt6uyrd2oJObvAMETw0=
-SHA256 (Pkgfile) = f040ead8470aa00b52c79c0ee2b5dd0cf9c6e42457809258b4d9b37c4e96c823
+RWT2I5SomoNUjw6qvrs6gnUwEafPFF7uLo1Wapei/+WKlsMTHDLlMgmVgcH1UGdeh0qGNilTWy5bxOKpxnFocV3WGPhx4qyXpgQ=
+SHA256 (Pkgfile) = eafb0f7091b10ce6017d8f778271c95bbf20edb0dfd7c0d8c330647a80f80e19
 SHA256 (.footprint) = eee36820d762b26f1ad06384ae725a3ea371e74abd22f58efdec3781141d14e4
-SHA256 (hostapd-2.6.tar.gz) = 01526b90c1d23bec4b0f052039cc4456c2fd19347b4d830d1d58a0a6aea7117d
+SHA256 (hostapd-2.9.tar.gz) = 881d7d6a90b2428479288d64233151448f8990ab4958e0ecaca7eeb3c9db2bd7
 SHA256 (hostapd.rc) = e6de25453181f4291366e7298bf0f4f8031e779273b67c8fbef0b1a7997343db
 SHA256 (0001-hostapd-Avoid-key-reinstallation-in-FT-handshake.patch) = 529113cc81256c6178f3c1cf25dd8d3f33e6d770e4a180bd31c6ab7e4917f40b
 SHA256 (0002-Prevent-reinstallation-of-an-already-in-use-group-ke.patch) = d86d47ab74170f3648b45b91bce780949ca92b09ab43df065178850ec0c335d7
