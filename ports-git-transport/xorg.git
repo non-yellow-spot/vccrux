@@ -1,4 +1,4 @@
 URL=git://crux.nu/ports/xorg.git
 NAME=xorg
-BRANCH=3.5
+BRANCH=3.6
 PORTS_DIR=/usr/ports

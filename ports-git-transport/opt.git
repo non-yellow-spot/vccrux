@@ -1,4 +1,4 @@
 URL=git://crux.nu/ports/opt.git
 NAME=opt
-BRANCH=3.5
+BRANCH=3.6
 PORTS_DIR=/usr/ports
