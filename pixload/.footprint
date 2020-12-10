@@ -1,7 +1,7 @@
 drwxr-xr-x	root/root	opt/
 drwxr-xr-x	root/root	opt/bin/
--rwxr-xr-x	root/root	opt/bin/pixload2bmp
--rwxr-xr-x	root/root	opt/bin/pixload2gif
--rwxr-xr-x	root/root	opt/bin/pixload2jpg
--rwxr-xr-x	root/root	opt/bin/pixload2png
--rwxr-xr-x	root/root	opt/bin/pixload2webp
+-rwxr-xr-x	root/root	opt/bin/pixload-bmp
+-rwxr-xr-x	root/root	opt/bin/pixload-gif
+-rwxr-xr-x	root/root	opt/bin/pixload-jpg
+-rwxr-xr-x	root/root	opt/bin/pixload-png
+-rwxr-xr-x	root/root	opt/bin/pixload-webp
