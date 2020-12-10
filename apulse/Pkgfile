@@ -5,7 +5,7 @@
 
 name=apulse
 version=0.1.13
-release=2
+release=3
 source=(https://github.com/i-rinat/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
@@ -22,4 +22,7 @@ build() {
 
 	make VERBOSE=1
 	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/revdep.d
+	echo '/usr/lib/apulse' > $PKG/etc/revdep.d/apulse
 }
