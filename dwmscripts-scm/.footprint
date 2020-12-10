@@ -7,6 +7,8 @@ drwxr-xr-x	root/root	opt/bin/
 -rwxr-xr-x	root/root	opt/bin/dwm-status-Linux
 -rwxr-xr-x	root/root	opt/bin/irc
 -rwxr-xr-x	root/root	opt/bin/mail
+-rwxr-xr-x	root/root	opt/bin/my-contrib-ports
+-rwxr-xr-x	root/root	opt/bin/my-vccrux-ports
 -rwxr-xr-x	root/root	opt/bin/notes.txt
 -rwxr-xr-x	root/root	opt/bin/print256color
 -rwxr-xr-x	root/root	opt/bin/radio-fallout
