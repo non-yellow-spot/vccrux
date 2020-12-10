@@ -1,5 +1,0 @@
-README for inxi
-
-NOTES
-	To obtain more information about your system will be nice to have:
-	  * xorg-xprop xorg-xdpyinfo xorg-xrandr mesa-demos lm_sensors
