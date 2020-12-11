@@ -7,7 +7,7 @@ name=wpa_supplicant
 version=2.9
 release=2
 source=(https://w1.fi/releases/$name-$version.tar.gz
-	wlan.rc)
+	wlan.rc wpa_supplicant.rc)
 
 build () {
 	cd $name-$version/$name
