@@ -29,7 +29,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-text-1.9.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-validator-1.7.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ezmorph-1.0.6.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/flatlaf-0.44.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/flatlaf-0.45.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/harlib-1.1.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/hsqldb-2.5.1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ice4j-1.0.jar
@@ -127,6 +127,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-12-02.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2020-12-09.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
