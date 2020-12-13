@@ -5,7 +5,7 @@
 
 name=karma
 version=1.2.2
-release=2
+release=3
 source=(https://github.com/chinarulezzz/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
@@ -13,4 +13,7 @@ build() {
 
 	/usr/bin/python3 setup.py build
 	/usr/bin/python3 setup.py install --root=$PKG --prefix=/usr --optimize=1
+
+	# remove junk
+	rm -r $PKG/usr/lib/python*/site-packages/karma-*-py*.egg-info
 }
