@@ -23,7 +23,7 @@ build() {
 	cd $name
 
 	autoreconf -fi
-	./configure \
+	CFLAGS+=" -fcommon" ./configure \
 		--prefix=/usr      \
 		--enable-sound=sdl \
 		--enable-opengl    \
