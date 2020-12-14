@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj2Pg3If8QwPei4ejkZd85A8rt8ZBlM0SSg8kNLgOSZkZrliZLJVwJbOeL+XlY5+M5MLbxIfMDq8CNRMzbzqCaAc=
-SHA256 (Pkgfile) = 614a1b1a26ecb83d8371b08591e7ca2d3eb2b7d426c46ce37e19f03875b1c81b
+RWT2I5SomoNUj+80RSrjiE7WQ4S1jUNrDn+Q5KUbcdW8OrzDynPKAa9VrcDEiPYaGfkD0BYKj+ymJVLXyETIAfRpwkBovVDFxgE=
+SHA256 (Pkgfile) = 8f1cd51ffd2ee3ebbcc38030ff306adcfb34da35d28285c4d12f296f44da672e
 SHA256 (.footprint) = 44727ad76fe1d529c6bbd9f2f0e9107493e42647e0bac548b9a0d8c3e90fbb37
 SHA256 (kismet-2016-07-R1.tar.xz) = bdb21f153311f1ff3b16621bf0d6740f66369bf0982b0a289c9a12af8847e237
 SHA256 (aircrack_crypto_cc.patch) = 519ffa7e7bc32e3201c97305ee3bd006616e50bd6e66528e6bd8147dfd03df90
+SHA256 (fix__cmsg_data_compiling_error.patch) = 5fd562cef47411a05c4544ff94db04e5f2c86890027b31d3de6d3e6853ec0b23
