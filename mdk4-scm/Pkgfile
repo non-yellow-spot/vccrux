@@ -28,7 +28,7 @@ build() {
 
 	EXTRAFLAGS="-I.. -I/usr/include/libnl3 -DCONFIG_LIBNL30 -DCONFIG_LIBNL"
 
-	make CFLAGS="$CFLAGS $EXTRAFLAGS" -j1 # fix parallel build
+	make CFLAGS="$CFLAGS -fcommon $EXTRAFLAGS" -j1 # fix parallel build
 	make -C src install PREFIX=$PKG/usr
 
 	# install man page manually
