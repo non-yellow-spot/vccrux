@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjz73TSeAwRrD+aAiz9N8j1T36dJF2Zv/OOssYDRyHNi+HxEmANHPix9mM+asO6vRujJT/BzmcdQTz3ivUREp+Qg=
+RWT2I5SomoNUj67kyzgnE5v7Prx1asx4qdF8lX4D19p2PKIqsSehC6tu621HYggl8AzKWBOdYC3DB5tMwB/SdbGK0FqWqZbmpgM=
 SHA256 (Pkgfile) = 4ad03b27463ff3e4856d495355fb2178264e5d12f20eb05f727c6cd7946ce456
-SHA256 (.footprint) = faa8bca840fbb74af1a15c38086031ff52300d1cb9306cd2173e8890e7b1d79e
+SHA256 (.footprint) = 9ee07de1a18d15074690ec16903920afced604b3452df3de3f5121c832279abc
 SHA256 (spoofcheck-0.1.tar.gz) = d93760190c6373c84ef354b40b263426ff358ec83698bbdbf92e11e0b7e6afd9
 SHA256 (spoofcheck.sh) = 6320d53600ee15081ccf30ebe9bc8767fe2af7b8bf8e1de578b23ffdb458049b
