@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj3bZkQ4pLlQNPVQED4Fz10gDna+mJeTYy3UiygbGMJs+y57aAxEFcQQqO0W9c/5kE/fjlddUDheXJoP/ijqExgc=
-SHA256 (Pkgfile) = 010771c01138adc5f3708f5bb762f2caecc36b0a487b1c73edda332c1f09759d
-SHA256 (.footprint) = 5c957db975fdbc493cd9aeb9bb9162c2fafe49ed035ea93ceef18224dc2b59b0
-SHA256 (mechanize-0.4.5.tar.gz) = 6355c11141f6d4b54a17fc2106944806b5db2711e60b120d15d83db438c333fd
-SHA256 (0001-use-html5lib-parser-by-default.patch) = 637a6799e4549a98c0f11039b57598a0816e80549c393393e7d74a432ec7843b
