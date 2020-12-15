@@ -4,7 +4,7 @@
 # Depends on:  kmod
 
 name=dracut
-version=050
+version=051
 release=1
 source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$version.tar.xz
 	0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch
@@ -15,7 +15,7 @@ source=(https://mirrors.edge.kernel.org/pub/linux/utils/boot/$name/$name-$versio
 build() {
 	cd $name-$version
 
-	patch -p0 < $SRC/0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch
+	#patch -p0 < $SRC/0001-cryptroot-ask-no-warn-if-run-cryptsetup-exist.patch
 
 	./configure --prefix=/usr --sysconfdir=/etc
 
