@@ -7,7 +7,7 @@ name=virtualbox-bin
 version=6.1.16
 sversion=140961
 release=1
-source=(https://download.virtualbox.org/${name::-4}/$version/VirtualBox-${version}-${sversion}-Linux_amd64.run
+source=(https://download.virtualbox.org/${name::-4}/$version/VirtualBox-$version-$sversion-Linux_amd64.run
 	vbox_build_module
 	60-vboxdrv.rules)
 
@@ -24,6 +24,7 @@ build() {
 		$PKG/opt/bin                                        \
 		$PKG/opt/src/                                       \
 		$PKG/etc/vbox                                       \
+		$PKG/etc/revdep.d                                   \
 		$PKG/opt/VirtualBox                                 \
 		$PKG/etc/udev/rules.d/                              \
 		$PKG/opt/share/pixmaps/                             \
@@ -62,7 +63,7 @@ build() {
 	ln -sf $VBOX_INSTALL/vboxdrv.sh $PKG/sbin/rcvboxdrv
 
 	for n in VBoxVMM.so VBoxRT.so; do
-		ln -sf $VBOX_INSTALL/${n} components
+		ln -sf $VBOX_INSTALL/$n components
 	done
 
 	chmod go-w .
@@ -90,9 +91,10 @@ build() {
 	cd $cur
 
 	# Fix python
-	mkdir -p ${PKG}/opt/lib
-	ln -s /usr/lib/libpython3.7m.so.1.0 ${PKG}/opt/lib/libpython3.4m.so.1.0
-	ln -s /usr/lib/libpython2.7.so.1.0  ${PKG}/opt/lib/libpython2.6.so.1.0
+	mkdir -p $PKG/opt/lib
+	ln -s /usr/lib/libpython3.7m.so.1.0 $PKG/opt/lib/libpython3.4m.so.1.0
+	ln -s /usr/lib/libpython2.7.so.1.0  $PKG/opt/lib/libpython2.6.so.1.0
+	echo "/opt/lib" > $PKG/etc/revdep.d/$name
 
 	# Remove junk
 	find nls -type f ! -name '*en*' -exec rm -f {} \; 
