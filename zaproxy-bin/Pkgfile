@@ -1,10 +1,10 @@
 # Description: OWASP Zed Attack Proxy
 # URL:         https://github.com/zaproxy/zaproxy
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
-# Depends on:  jdk
+# Depends on:  openjdk8
 
 name=zaproxy-bin
-version=2.9.0
+version=2.10.0
 release=1
 source=(https://github.com/zaproxy/zaproxy/releases/download/v$version/ZAP_${version}_Linux.tar.gz
 	zaproxy.sh)
