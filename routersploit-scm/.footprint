@@ -1792,10 +1792,10 @@ drwxr-xr-x	root/root	opt/routersploit/chardet/__pycache__/
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/jisfreq.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/jpcntx.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langbulgarianmodel.cpython-39.pyc
--rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langcyrillicmodel.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langgreekmodel.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langhebrewmodel.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langhungarianmodel.cpython-39.pyc
+-rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langrussianmodel.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langthaimodel.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/langturkishmodel.cpython-39.pyc
 -rw-r--r--	root/root	opt/routersploit/chardet/__pycache__/latin1prober.cpython-39.pyc
@@ -1836,16 +1836,22 @@ drwxr-xr-x	root/root	opt/routersploit/chardet/cli/__pycache__/
 -rw-r--r--	root/root	opt/routersploit/chardet/jisfreq.py
 -rw-r--r--	root/root	opt/routersploit/chardet/jpcntx.py
 -rw-r--r--	root/root	opt/routersploit/chardet/langbulgarianmodel.py
--rw-r--r--	root/root	opt/routersploit/chardet/langcyrillicmodel.py
 -rw-r--r--	root/root	opt/routersploit/chardet/langgreekmodel.py
 -rw-r--r--	root/root	opt/routersploit/chardet/langhebrewmodel.py
 -rw-r--r--	root/root	opt/routersploit/chardet/langhungarianmodel.py
+-rw-r--r--	root/root	opt/routersploit/chardet/langrussianmodel.py
 -rw-r--r--	root/root	opt/routersploit/chardet/langthaimodel.py
 -rw-r--r--	root/root	opt/routersploit/chardet/langturkishmodel.py
 -rw-r--r--	root/root	opt/routersploit/chardet/latin1prober.py
 -rw-r--r--	root/root	opt/routersploit/chardet/mbcharsetprober.py
 -rw-r--r--	root/root	opt/routersploit/chardet/mbcsgroupprober.py
 -rw-r--r--	root/root	opt/routersploit/chardet/mbcssm.py
+drwxr-xr-x	root/root	opt/routersploit/chardet/metadata/
+-rw-r--r--	root/root	opt/routersploit/chardet/metadata/__init__.py (EMPTY)
+drwxr-xr-x	root/root	opt/routersploit/chardet/metadata/__pycache__/
+-rw-r--r--	root/root	opt/routersploit/chardet/metadata/__pycache__/__init__.cpython-39.pyc
+-rw-r--r--	root/root	opt/routersploit/chardet/metadata/__pycache__/languages.cpython-39.pyc
+-rw-r--r--	root/root	opt/routersploit/chardet/metadata/languages.py
 -rw-r--r--	root/root	opt/routersploit/chardet/sbcharsetprober.py
 -rw-r--r--	root/root	opt/routersploit/chardet/sbcsgroupprober.py
 -rw-r--r--	root/root	opt/routersploit/chardet/sjisprober.py
