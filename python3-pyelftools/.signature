@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj3EtfRWqM0kyppfuMRTAvaE4ZidG4pIEBBXN94b9Lc34jiwyfxaXFTV03JnrvZwOwkriZyF68/ar+embbyl8sQg=
+SHA256 (Pkgfile) = 17c2ea2ccbf6f6b7c59ecb501d340f3c53ede701b422cbc3e31e6d437d3306ab
+SHA256 (.footprint) = 4ea3ec1075aa0f8ed14e078f126afc2478fac0ab62ad2a3c3d03d0b7487b57ae
+SHA256 (pyelftools-0.27.tar.gz) = 2958edd7c32909f1d541b8122797fee903db700d02d168b2789aa6b667fc4a30
