@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj02qJgl7lSr+tIXxSR+Y+mhLl+lIr0hw+tG+UsCQRoR4CxjYM9F/ljD8ZsGpWD7rpJex7pvf/dWVeaXwboTuQwo=
-SHA256 (Pkgfile) = 7769fb3ebcf14ba33e955be4098f7fa858fe6413518a01faae0e4f34efac932a
-SHA256 (.footprint) = 6d4a8a6f4ec34a1e3cec0b56b88509dcee305ba2ceb292a46305bf897ceb60ab
-SHA256 (polipo-1.1.1.tar.gz) = a259750793ab79c491d05fcee5a917faf7d9030fb5d15e05b3704e9c9e4ee015
-SHA256 (config) = e0b0af37c9c1d71632521abd5934331990c654f261b573a14295d9dfc75e4da1
-SHA256 (polipo.rc) = 111b8aacd7ae4b45fe38ada74dbaaf224ab59c7f3690b0d1f7724c7418059e35
