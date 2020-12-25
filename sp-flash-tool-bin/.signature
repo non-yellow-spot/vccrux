@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj9jtO0kKZMtS7p0yt2dyIiAzh+dQMya5kKUs8mkRmfBttV041gtn4xck5QMM0bG11HXKLueSM9yLJmKsUXNaugU=
+SHA256 (Pkgfile) = 69021d9f1dc8caf48cb541f27904425c8a8fe369ba41ba71b2f62e828abf2440
+SHA256 (.footprint) = 2bd3c9947eb1c7c670f865bd1c30f64e46585f8d115da9237f96e62db5f8d14e
+SHA256 (SP_Flash_Tool_v5.1952_Linux.zip) = ec0363e3ddea069e81f3f03232d5d7aa2c77abaa88bed711c0dd49e68ebfbbe4
+SHA256 (flash_tool.sh) = fc0305218a16c08b5310015cc5672b8d0ae2340f018a87696bfc3b6cdfd1fad7
