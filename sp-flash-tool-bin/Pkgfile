@@ -1,4 +1,4 @@
-# Description: Flash tool for MediaTek devices
+# Description: MediaTek SP Flash Tool
 # URL:         https://spflashtools.com/linux
 # Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
 # Depends on:  brotli fontconfig glib libbsd libpng12 xorg-libsm xorg-libxext xorg-libxrender
