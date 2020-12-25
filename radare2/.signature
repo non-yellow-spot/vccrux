@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj456LFxhCTPdixWsr/6YsmW1e8mofQv0UmwTOH0rNbLmA22j9y9VDbbNA5tBfhOkPhFSwKH3XBIvA1RUr46/iwA=
-SHA256 (Pkgfile) = 1d469c9db3b5e1d8cf22df08ffc8b7d43334ba9f84a68abb5490360e1accf3c2
-SHA256 (.footprint) = e82c7f77c057079764477f179dbd80945517aafbab671403ee2b5611648b701a
-SHA256 (radare2-4.5.1.tar.gz) = 4e85b35987bd2ca5881ad9585970b970fe7374814bd383bd1cd62e961a0c228b
+RWT2I5SomoNUjxvlFNQF+rsnprYFwjfszppmKgd/c17ohj+v5u4mP+9iauULYlPLVZvX/iggRCZnxPCujtqsaeFd3TIyHz5ntwA=
+SHA256 (Pkgfile) = 0547727f97175c47b281dadcc99ab71b95e1bb2e36a1f3aaa02b73aa497bb413
+SHA256 (.footprint) = 7d64436be769902863ae6d93a8f665052ed8958da09ae48625f6c732957c28d7
+SHA256 (radare2-5.0.0.tar.gz) = 517dd80ebd0569f31498887338eacb92e8cf054bc4625eef8ffe9ea174c1adae
