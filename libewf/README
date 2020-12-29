@@ -1,0 +1,5 @@
+README for libewf
+
+REQUIREMENTS
+
+    fuse: to be able to use ewfmount
