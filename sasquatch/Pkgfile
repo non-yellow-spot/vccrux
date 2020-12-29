@@ -1,7 +1,7 @@
 # Description: Tools for squashfs, a highly compressed read-only filesystem for Linux
 # URL:         https://github.com/devttys0/sasquatch
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  squashfs-tools
+# Depends on:  squashfs-tools lzo xz zlib
 
 name=sasquatch
 version=4.3-3e0cc40
