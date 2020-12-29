@@ -1,0 +1,21 @@
+# Description: Tools for CramFs (Compressed ROM File System)
+# URL:         https://packages.debian.org/jessie/amd64/cramfsprogs
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  zlib
+
+name=cramfsprogs
+version=1.1
+release=1
+source=(http://ftp.ru.debian.org/debian/pool/main/c/cramfs/cramfs_${version}.orig.tar.gz
+	fix-build-undefined-reference-to-major-and-minor-1.1.diff)
+
+build () {
+	cd cramfs-$version
+
+	patch -p1 -i $SRC/fix-build-undefined-reference-to-major-and-minor-1.1.diff
+
+	make all CFLAGS="$CFLAGS -Wall -W" VERBOSE=1
+
+	install -d $PKG/usr/bin	
+	install -m755 {cramfsck,mkcramfs} $PKG/usr/bin/
+}
