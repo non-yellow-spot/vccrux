@@ -15,7 +15,8 @@ NOTES
         openjdk8/jdk8-bin: Java vm/objects/archives
         p7zip:             ZIP, LZMA and ISO decompression support
         python3-opengl:    binviz module support
-        python3-pycrypto:  decrypt some known encrypted firmware images
+        python3-pycryptodome: decrypt some known encrypted firmware
+                              images
         sasquatch:         extract non-standard SquashFS images
         sleuthkit:         forensic analysis support
         squashfs-tools:    SquashFS support
