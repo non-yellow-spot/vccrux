@@ -1,0 +1,19 @@
+# Description: Python Cryptography Toolkit
+# URL:         http://www.pycrypto.org/
+# Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
+# Depends on:  python3
+
+name=python3-pycrypto
+version=2.7a1
+release=1
+source=(https://github.com/${name#*-}/${name#*-}/archive/v$version/$name-v$version.tar.gz)
+
+build() {
+	cd ${name#*-}-$version
+	
+        # prevent creating temporary build data in /tmp
+        export TMPDIR=$PKGMK_WORK_DIR
+
+	python3 setup.py build
+	python3 setup.py install --prefix=/usr --root=$PKG --optimize=1
+}

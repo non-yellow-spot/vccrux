@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj3BsFp4fsEy/G8wZKRIglhNzH1FBV0JIMnm0IwyXbrWZthNpn7HuavEO6OkEl8MoN2LZfxIgKxUEVOrEW6Rrqgk=
+SHA256 (Pkgfile) = 26248d8d2f3196bfca9a20bad1643e436e22716ccaeeb95cc732f0d2c9e468a2
+SHA256 (.footprint) = 9931ec12601cb5fd449af712586fd1d9408b4662c90e49f7ee50b3f1e9dfc8ae
+SHA256 (python3-pycrypto-v2.7a1.tar.gz) = f464965d43d89cdf89207d1f7a6efd52cd20adb976772691c5c7d040019932f1
