@@ -20,9 +20,9 @@ drwxr-xr-x	root/root	usr/include/libewf/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libewf.a
 -rwxr-xr-x	root/root	usr/lib/libewf.la
-lrwxrwxrwx	root/root	usr/lib/libewf.so -> libewf.so.3.0.0
-lrwxrwxrwx	root/root	usr/lib/libewf.so.3 -> libewf.so.3.0.0
--rwxr-xr-x	root/root	usr/lib/libewf.so.3.0.0
+lrwxrwxrwx	root/root	usr/lib/libewf.so -> libewf.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libewf.so.2 -> libewf.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libewf.so.2.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libewf.pc
 drwxr-xr-x	root/root	usr/share/

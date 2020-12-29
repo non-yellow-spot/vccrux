@@ -4,10 +4,10 @@
 # Depends on:  fuse
 
 name=libewf
-version=20201210
+version=20140608
+_commit=fdf615f23937fad8e02b60b9e3e5fb35
 release=1
-source=(https://github.com/libyal/$name/releases/download/$version/libewf-experimental-$version.tar.gz)
-
+source=(https://pkgs.fedoraproject.org/repo/pkgs/$name/$name-$version.tar.gz/$_commit/$name-$version.tar.gz)
 build() {
 	cd $name-$version
 
