@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj9vY3+shzy9crCccihRGm7SEHeXmFbp2Wkx1VQNSP2iJDyDUlw2jyBbNFZ8ogyF4rDEsYggKAC4MSPpU+qC68AA=
+SHA256 (Pkgfile) = b95625360925bfc55e7dd4bc91e41704d196d93339f3740a4e38419cd01979c7
+SHA256 (.footprint) = 748faad9eebebdbc16796d7efad5d40d3297bb9ab57fe09fa49dbe16787847e2
+SHA256 (binwalk-e30a71bdc55ab678c99a57f6e1cbba6d2f007c64.tar.gz) = 3b8a4f5e15858ddd72ce5abfc0f95d3d8028de4d616e2655978475f95fe6362a
