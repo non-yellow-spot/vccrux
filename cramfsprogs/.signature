@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUjxb7hjOTNTzbSoVTUXZ12NxUltn6V5zTxXQ2xM83OEZhCEykPvfK7UmSX92VyRphyERVyMCU80Za+2/35l3GHAY=
-SHA256 (Pkgfile) = 4855d2e58017a309859e9edd19f3115fd1bfe9353e93f46883b07be966ff3c00
-SHA256 (.footprint) = e05d3a80f9778d8041ef3df2cddfcba1fc28adeff2b16cc894ff9f15583078ec
-SHA256 (cramfs_1.1.orig.tar.gz) = 133caca2c4e7c64106555154ee0ff693f5cf5beb9421ce2eb86baee997d22368
-SHA256 (fix-build-undefined-reference-to-major-and-minor-1.1.diff) = 88c01ca35a2bb3b102349d3be2fa6d16ae8513de9be643e2adb76c7e7b860d5d
