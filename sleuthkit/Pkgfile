@@ -1,7 +1,7 @@
 # Description: File system and media management forensic analysis tools
 # URL:         https://www.sleuthkit.org/sleuthkit
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
-# Depends on:  bzip2 libewf perl sqlite3
+# Depends on:  bzip2 libewf-legacy perl sqlite3
 
 name=sleuthkit
 version=4.10.1
