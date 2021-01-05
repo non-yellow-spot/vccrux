@@ -3,13 +3,12 @@
 # Maintainer:  Alexandr Savca, alexandrsavca89 at gmail dot com
 # Depends on:  fuse util-linux
 
-name=libewf
-version=20140608
-_commit=fdf615f23937fad8e02b60b9e3e5fb35
+name=libewf-legacy
+version=20140811
 release=1
-source=(https://pkgs.fedoraproject.org/repo/pkgs/$name/$name-$version.tar.gz/$_commit/$name-$version.tar.gz)
+source=(https://github.com/libyal/$name/releases/download/$version/${name%%-*}-$version.tar.gz)
 build() {
-	cd $name-$version
+	cd ${name%%-*}-$version
 
 	CFLAGS+=" -std=gnu89"
 	./configure --prefix=/usr --sysconfdir=/etc --without-openssl
