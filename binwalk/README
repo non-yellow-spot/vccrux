@@ -6,7 +6,7 @@ NOTES
         arj:               ARJ decompression support
         cabextract:        CAB archive support
         capstone:          disassembly support
-        cramfsprogs:       extract CRAMFS file systems
+        cramfs-tools:      extract CRAMFS file systems
         cramfsswap:        swap to endianess of a CRAMFS filesystem
         jefferson:         extract JFFS2 file systems
         lhasa:             LHA support
