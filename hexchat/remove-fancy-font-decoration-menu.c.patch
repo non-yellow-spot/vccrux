@@ -1,0 +1,11 @@
+--- menu.c	2019-12-21 08:43:47.705736400 +0200
++++ menu.c	2021-01-06 17:06:55.670606176 +0200
+@@ -611,7 +611,7 @@
+ 	GtkWidget *item;
+ 
+ 	/* let the translators tweak this if need be */
+-	fmt = _("<tt><b>%-11s</b></tt> %s");
++	fmt = _("%-11s %s");
+ 	g_snprintf (unknown, sizeof (unknown), "<i>%s</i>", _("Unknown"));
+ 
+ 	if (user->realname)

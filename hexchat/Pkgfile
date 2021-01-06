@@ -7,10 +7,13 @@
 name=hexchat
 version=2.14.3
 release=3
-source=(https://dl.hexchat.net/hexchat/$name-$version.tar.xz)
+source=(https://dl.hexchat.net/hexchat/$name-$version.tar.xz
+	remove-fancy-font-decoration-menu.c.patch)
 
 build() {
 	cd $name-$version
+
+	patch -d src/fe-gtk -i $SRC/remove-fancy-font-decoration-menu.c.patch
 
 	meson build \
 		--prefix=/usr           \
