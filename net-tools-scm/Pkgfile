@@ -34,7 +34,8 @@ build() {
 		HAVE_SERIAL_TOOLS=0    \
 		DESTDIR=$PKG           \
 		BINDIR=/usr/bin        \
-		SBINDIR=/usr/sbin update
+		SBINDIR=/usr/sbin      \
+		arp rarp installbin installdata
 
 	# provided by inetutils
 	rm -f "$PKG"/usr/bin/ifconfig
