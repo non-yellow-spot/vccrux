@@ -83,7 +83,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/scripts-beta-29.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/selenium-release-15.4.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/sequence-alpha-6.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/soap-alpha-5.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/soap-alpha-6.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/spiderAjax-release-23.3.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/tips-beta-8.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-24.zap
@@ -128,6 +128,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2021-01-04.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2021-01-11.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
