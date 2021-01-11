@@ -897,17 +897,6 @@ drwxr-xr-x	root/root	opt/theHarvester/dns/rdtypes/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/dns/version.py
 -rw-r--r--	root/root	opt/theHarvester/dns/wire.py
 -rw-r--r--	root/root	opt/theHarvester/dns/zone.py
-drwxr-xr-x	root/root	opt/theHarvester/docs/
--rw-r--r--	root/root	opt/theHarvester/docs/Makefile
-drwxr-xr-x	root/root	opt/theHarvester/docs/__pycache__/
--rw-r--r--	root/root	opt/theHarvester/docs/__pycache__/conf.cpython-39.pyc
--rw-r--r--	root/root	opt/theHarvester/docs/__pycache__/server.cpython-39.pyc
--rw-r--r--	root/root	opt/theHarvester/docs/changes.md
--rwxr-xr-x	root/root	opt/theHarvester/docs/conf.py
--rw-r--r--	root/root	opt/theHarvester/docs/index.md
--rw-r--r--	root/root	opt/theHarvester/docs/make.bat
--rw-r--r--	root/root	opt/theHarvester/docs/reference.md
--rwxr-xr-x	root/root	opt/theHarvester/docs/server.py
 drwxr-xr-x	root/root	opt/theHarvester/etc/
 drwxr-xr-x	root/root	opt/theHarvester/etc/jupyter/
 drwxr-xr-x	root/root	opt/theHarvester/etc/jupyter/nbconfig/
@@ -24570,7 +24559,9 @@ drwxr-xr-x	root/root	opt/theHarvester/tqdm/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/gui.cpython-39.pyc
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/keras.cpython-39.pyc
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/notebook.cpython-39.pyc
+-rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/rich.cpython-39.pyc
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/std.cpython-39.pyc
+-rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/tk.cpython-39.pyc
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/utils.cpython-39.pyc
 -rw-r--r--	root/root	opt/theHarvester/tqdm/__pycache__/version.cpython-39.pyc
 -rw-r--r--	root/root	opt/theHarvester/tqdm/_dist_ver.py
@@ -24605,7 +24596,9 @@ drwxr-xr-x	root/root	opt/theHarvester/tqdm/contrib/__pycache__/
 -rw-r--r--	root/root	opt/theHarvester/tqdm/gui.py
 -rw-r--r--	root/root	opt/theHarvester/tqdm/keras.py
 -rw-r--r--	root/root	opt/theHarvester/tqdm/notebook.py
+-rw-r--r--	root/root	opt/theHarvester/tqdm/rich.py
 -rw-r--r--	root/root	opt/theHarvester/tqdm/std.py
+-rw-r--r--	root/root	opt/theHarvester/tqdm/tk.py
 -rw-r--r--	root/root	opt/theHarvester/tqdm/tqdm.1
 -rw-r--r--	root/root	opt/theHarvester/tqdm/utils.py
 -rw-r--r--	root/root	opt/theHarvester/tqdm/version.py
