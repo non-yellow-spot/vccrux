@@ -2568,6 +2568,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/dialog-info.svg -> 
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/dialog-information-symbolic.svg -> dialog-information.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/dialog-information.svg -> ../../actions/scalable/gtk-info.svg
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/status/scalable/dialog-password-symbolic.svg
+lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/dialog-password.svg -> dialog-password-symbolic.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/dialog-question-symbolic.svg -> dialog-question.svg
 -rwxr-xr-x	root/root	usr/share/icons/Trinity/status/scalable/dialog-question.svg
 lrwxrwxrwx	root/root	usr/share/icons/Trinity/status/scalable/dialog-warning-symbolic.svg -> dialog-warning.svg
