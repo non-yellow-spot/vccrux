@@ -4,7 +4,7 @@
 # Depends on:  bluez consolekit gst-plugins-base intltool libsndfile libtool sbc xorg-libxtst
 
 name=pulseaudio
-version=14.1
+version=14.2
 release=1
 source=(https://freedesktop.org/software/$name/releases/$name-$version.tar.xz) 
 
