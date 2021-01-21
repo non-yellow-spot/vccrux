@@ -29,7 +29,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-text-1.9.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/commons-validator-1.7.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ezmorph-1.0.6.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/flatlaf-0.45.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/flatlaf-0.46.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/harlib-1.1.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/hsqldb-2.5.1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/ice4j-1.0.jar
@@ -43,7 +43,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/lib/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/log4j-1.2-api-2.14.0.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/log4j-api-2.14.0.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/log4j-core-2.14.0.jar
--rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/rsyntaxtextarea-3.1.1.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/rsyntaxtextarea-3.1.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/sqlite-jdbc-3.32.3.2.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/swingx-all-1.6.5-1.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/lib/xom-1.2.10.jar
@@ -86,9 +86,9 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/soap-alpha-6.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/spiderAjax-release-23.3.0.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/tips-beta-8.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-24.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdrivermacos-release-23.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverwindows-release-24.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverlinux-release-25.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdrivermacos-release-24.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/webdriverwindows-release-25.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/websocket-release-24.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/zest-beta-34.zap
 drwxr-xr-x	root/root	usr/share/zaproxy-weekly/scripts/
@@ -128,6 +128,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.html.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/report.md.xsl
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2021-01-11.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2021-01-20.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
