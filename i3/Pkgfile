@@ -4,8 +4,8 @@
 # Depends on:  brotli graphite2 libev libxkbcommon pango startup-notification xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm xorg-xcb-util-xrm yajl
 
 name=i3
-version=4.19
-release=3
+version=4.19.1
+release=1
 source=(https://i3wm.org/downloads/$name-$version.tar.xz)
 
 build() {
