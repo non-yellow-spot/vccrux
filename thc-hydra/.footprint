@@ -4,7 +4,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/hydra
 -rwxr-xr-x	root/root	usr/bin/hydra-wizard.sh
 -rwxr-xr-x	root/root	usr/bin/pw-inspector
--rwxr-xr-x	root/root	usr/bin/xhydra
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/hydra/
 -rw-r--r--	root/root	usr/share/hydra/dpl4hydra_full.csv
