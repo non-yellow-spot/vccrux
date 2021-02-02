@@ -11,13 +11,11 @@ source=(https://github.com/vanhauser-thc/$name/archive/v$version/$name-v$version
 build() {
 	cd $name-$version
 
-	sed -i 's/dummy_ssh/dummy_sshkey/' hydra-sshkey.c
-	sed -i 's/OPTS=-I. -O3 $(CFLAGS) -fcommon/OPTS=-I. $(CFLAGS) -fcommon/' \
-		Makefile.am
+	sed -i 's/ -O3 / /g' Makefile.am
 
 	./configure --prefix=$PKG/usr
 
-	make
+	make CFLAGS="$CFLAGS -fcommon"     # add -fcommon to fix xhydra build
 	make MANDIR=/share/man install
 
 	# Move password lists
