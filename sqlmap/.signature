@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj1NyEAMLr70F0CNYNHB2m3H95x+N2dzb96bUUWEPH2E4Ch3RlkVMCPMQgpipv06HF1bQ5Mx8yspMt5XaLaC/MwI=
+SHA256 (Pkgfile) = 25cb7d6650d85ac30c93c4feff8b150851f25fcf168bd7f6dbd4aaa6f279814b
+SHA256 (.footprint) = 4d199e5b65cec87a2b1d3a2a86722897b7f3c282cf542c23ecb026134275ba88
+SHA256 (sqlmap-1.5.tar.gz) = 18c38c4ccf04e81e540527abc63130eced72b157da1d705e3af26b1d4768671d
