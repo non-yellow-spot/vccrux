@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7rSaEqhMYWuGzyiWqBjERicKn5zJ2V6Wkdo3WyL0Yzz7v0Gi5EQy13ulFGhtgNnCoElyiQKOBohmWcdBL35fAY=
-SHA256 (Pkgfile) = 88fe1a2b81eb354e7ac9b9fe2e0d1b705aa7c849bb52d1458ca8c084aa5e34d4
+RWT2I5SomoNUj9oFmKBfpq8frhT4LbddI0tWWzTYpDEy3cxdDpZdbmTyxa6p8PWpOGu3pODHjRVaoPhM0IyGHob1ija3pm20XQ8=
+SHA256 (Pkgfile) = e2e1dbd931443528d185c6846f3c293b59d34b224906ad8aa46b2561a3a2d801
 SHA256 (.footprint) = f29781d6dd83a7fd5ad2e8d25b20322bdb70759401eaf19f5921901156001163
-SHA256 (amass-3.11.5.tar.gz) = 8c60b7720eddb46bb4a841384485173de66d625dd2362e10c8d15e3106189e0e
+SHA256 (amass-3.11.7.tar.gz) = 1fbc5a09f1cc9799f4c6a473e4783bbeed2114bd9ed24394b2c3fa6db5e4a478
