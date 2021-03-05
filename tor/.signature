@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/vccrux.pub
+RWT2I5SomoNUj7RfGjnjUsktRfFCD5mUXIib8FzyPb8F1aOFpy9FAMii4PesmtuxZ9smbSA6U4l3BipV4yP+nJM7SpZzSMWy1wU=
+SHA256 (Pkgfile) = e2d28247015ea0865472ba8984feaae1c57d88bb2ccd9136f114c4cf611cf997
+SHA256 (.footprint) = 27c535ef0687650f831351643902322a449c441b01bcfb811a2521509fecb800
+SHA256 (tor-0.4.5.6.tar.gz) = 22cba3794fedd5fa87afc1e512c6ce2c21bc20b4e1c6f8079d832dc1e545e733
+SHA256 (tor.rc) = 4faa73305bda94b517e56a1b0421a28ff306ce64536bf47423ba6777000d9be9
