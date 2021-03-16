@@ -4,7 +4,7 @@
 # Depends on:  freerdp2 gtk libidn libssh mysql postgresql subversion
 
 name=thc-hydra
-version=9.1
+version=9.2
 release=1
 source=(https://github.com/vanhauser-thc/$name/archive/v$version/$name-v$version.tar.gz)
 
