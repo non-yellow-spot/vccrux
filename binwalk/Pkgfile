@@ -1,0 +1,15 @@
+# Description: A tool for searching a given binary image for embedded files
+# URL:         https://github.com/ReFirmLabs/binwalk
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+
+name=binwalk
+version=2.3.1
+release=1
+source=(https://github.com/ReFirmLabs/${name}/archive/v$version/${name}-${version}.tar.gz)
+
+build () {
+	cd $name-$version
+
+	python3 setup.py build
+	python3 setup.py install --prefix=$PKG/usr
+}
