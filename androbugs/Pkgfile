@@ -1,0 +1,21 @@
+# Description: Vulnerability analysis system/scanner for Android applications
+# URL:         https://github.com/AndroBugs/AndroBugs_Framework
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+
+name=androbugs
+version=1.0.0
+release=1
+source=(https://github.com/AndroBugs/AndroBugs_Framework/archive/7fd3a2c/$name-$version.tar.gz
+	androbugs.sh)
+
+build () {
+	cd AndroBugs_Framework-7fd3a2c
+
+	install -d $PKG/usr/share/$name
+
+	rm -rf LICENCE.md NOTICE README.md
+	chmod +x ${name}.py
+	cp -pR . $PKG/usr/share/$name/
+
+	install -Dm755 $SRC/${name}.sh $PKG/usr/bin/$name
+}
