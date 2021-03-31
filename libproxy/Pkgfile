@@ -1,0 +1,20 @@
+# Description: Library that provides automatic proxy configuration management
+# URL:         https://github.com/libproxy/libproxy
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+
+name=libproxy
+version=0.4.17
+release=1
+source=(https://github.com/libproxy/$name/archive/$version/$name-$version.tar.gz)
+
+build () {
+	cmake   -S$name-$version -Bbuild    \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release  \
+		-DCMAKE_C_FLAGS_RELEASE="$CFLAGS -DNDEBUG" \
+		-DCMAKE_CXX_FLAGS_RELEASE="$CFLAGS -DNDEBUG"
+
+	cmake --build build -v
+
+	DESTDIR=$PKG cmake --install build
+}
