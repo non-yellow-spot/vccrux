@@ -4,7 +4,7 @@
 # Depends on:  go git
 
 name=amass
-version=3.11.11
+version=3.11.13
 release=1
 source=(https://github.com/OWASP/Amass/archive/v$version/$name-$version.tar.gz)
 
