@@ -1,0 +1,26 @@
+# Description: Netcat from OpenBSD rewritten by Debian
+# URL:         https://www.debuan.org/
+# Maintainer:  Alan Mizrahi, alan at mizrahi dot com dot ve
+# Packager:    Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  libbsd gnutls
+
+name=netcat-openbsd
+version=1.195
+release=1
+source=(
+http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_${version}.orig.tar.gz
+http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_${version}-2.debian.tar.xz
+)
+
+build(){
+	cd $name-$version
+
+	# apply debian patches
+	for i in `cat $SRC/debian/patches/series`; do
+		patch -p1 -i $SRC/debian/patches/$i
+	done
+
+	gcc -o nc $CFLAGS -I. -L/usr/lib -lgnutls -lssl -lcrypto -lbsd *.c
+	install -D -m755 nc $PKG/usr/bin/nc
+	install -D -m644 nc.1 $PKG/usr/share/man1/nc.1
+}
