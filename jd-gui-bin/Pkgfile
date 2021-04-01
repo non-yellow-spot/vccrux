@@ -1,0 +1,18 @@
+# Description: A standalone Java Decompiler GUI
+# URL:         https://github.com/java-decompiler/jd-gui
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  java
+
+name=jd-gui-bin
+version=1.6.6
+release=1
+source=(https://github.com/java-decompiler/jd-gui/releases/download/v${version}/${name/-bin}-$version.jar
+	jd-gui.sh)
+
+build () {
+	install -d $PKG/usr/share/${name/-bin}
+
+	cp -pR ${name/-bin}-$version.jar $PKG/usr/share/${name/-bin}/${name/-bin}.jar
+
+	install -Dm755 $SRC/${name/-bin}.sh $PKG/usr/bin/${name/-bin}
+}
