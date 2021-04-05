@@ -1,0 +1,17 @@
+# Description: Scanning APK file for URIs, endpoints & secrets
+# URL:         https://github.com/dwisiswant0/apkleaks
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  python3-pyaxmlparser python3-click
+
+name=apkleaks
+version=2.3.2
+release=1
+source=(https://github.com/dwisiswant0/$name/archive/v$version/$name-$version.tar.gz)
+
+build () {
+	cd $name-$version
+
+	/usr/bin/python3 setup.py build
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr --root=/$PKG --optimize=1
+}
