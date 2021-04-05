@@ -1,0 +1,17 @@
+# Description: Parser for Android XML file
+# URL:         https://pypi.org/project/pyaxmlparser
+# Maintainer:  Stamatin Cristina, dear dot volgk at gmail dot com
+# Depends on:  python3-setuptools
+
+name=python3-pyaxmlparser
+version=0.3.26
+release=1
+source=(https://files.pythonhosted.org/packages/f5/c8/749e266955ee0672d18ba3953a07e6a710cc39bd1d7f6bf5580b8d2c910d/pyaxmlparser-$version.tar.gz)
+
+build () {
+	cd pyaxmlparser-$version
+
+	/usr/bin/python3 setup.py build
+	/usr/bin/python3 setup.py install \
+		--prefix=/usr --root=$PKG --optimize=1
+}
