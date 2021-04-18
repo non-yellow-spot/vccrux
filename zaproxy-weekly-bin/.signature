@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj7ViTkODSuHuEg/t6RT+990v7VGgv9uHMaHguh1Jog3kmqFypwUCF6K2vNpByphGA0qWBEh339ZtuIvAyNVdmAg=
-SHA256 (Pkgfile) = 889db1abb0a33dd920c96a45c9913208bf98e1f33d84222eb54dd987ecd76a13
-SHA256 (.footprint) = 357a8fb4eec4775deb4f65ba31854a038a17c9fc57a8c1648ac7ccd733cc4f42
-SHA256 (ZAP_WEEKLY_D-2021-04-06.zip) = c7285fc5ac241daa6a8545114cc340859055cbb35e9f823d88f50ae11d536e2a
+RWT2I5SomoNUj1Uifo93KOiGiogfl3yGM//JCYSPiZ3yuXQfweEu9ppIILAZItw+5lKOnNxneyQZtJCMcDqYZfkEh1+yg/zaQAo=
+SHA256 (Pkgfile) = 3a83bae418468ded3dce9fd4d7eacb1a161b4f01a9cc969f11ab83da14114e9a
+SHA256 (.footprint) = 89603a238589b9ab45bc34c76b0a75a52dd264107aee9acf9ebaf886befa06a8
+SHA256 (ZAP_WEEKLY_D-2021-04-12.zip) = d0b5cb188f9d8e9481ecddedd25dc2a2448142fdb9bbdba633d91b2252172ea5
 SHA256 (zaproxy-weekly.sh) = 95ea6ed9634c3957e3ac43989ad928a2441d024ba6bf7c3febeb3f55e7c013f5
