@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj8tIVby7l2U1CLjZt3h/O5mGL0FIlC4LCgZRXMMYusLucO6PqlcPn5Y/UNFro4AFhsNyVwmdie32AYRC7xtXwQU=
-SHA256 (Pkgfile) = 562a65323c3dfed19b18baabcee06bca6f3475e7390d940140c4133ed6db4577
-SHA256 (.footprint) = 8abced18ac9e9d2c102128981af08f3020af180bc1dedbbd839a34240b3be29d
-SHA256 (wpscan-3.8.17.tar.gz) = bcd6e052fa0c28e0e5ffda5d674b313c3bd40164bbe4def701faec12627ba001
+RWT2I5SomoNUjz42O+rQjuROhGISi9CSbMRMLE7ckcRt9Jw21T7nM5yqPfgCuEUWowy2K8vWJs3YXGfbllOzUGpL05PH/qgGPg0=
+SHA256 (Pkgfile) = 11b07af2785a7ad1fbe794e0727af4752d9cdc0967507c5aac3e20acaf266c50
+SHA256 (.footprint) = 4ffa670056e3e5db2b5f7e37c98b5972ad4a9eb7762bae06e57060f13491f7a7
+SHA256 (wpscan-3.8.18.tar.gz) = 50a1d0c0aa5f8fe6d4c23e2ed607cfe4d924eacaecfed6979ceffe55c8a12cd0
 SHA256 (wpscan.sh) = 21ad131d3f1d746220568d8014b8e4619b09f6c3b225758014e807145800ab18
