@@ -4,7 +4,7 @@
 # Depends on:  openjdk8
 
 name=zaproxy-weekly-bin
-version=2021-06-07
+version=2021-06-15
 release=1
 source=(https://github.com/zaproxy/zaproxy/releases/download/w$version/ZAP_WEEKLY_D-$version.zip
 	zaproxy-weekly.sh)
