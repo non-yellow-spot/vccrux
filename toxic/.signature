@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/vccrux.pub
-RWT2I5SomoNUj/kgKU18Nt6DC5hj73sLfWsvJM1k5JbVNIUWE98H4c6fgLMrsHfflXHoOk+2NOXQhmqZ5gfqEZ1arK3Dq7oXSAM=
-SHA256 (Pkgfile) = dc20dffafaece69c0bebe55803ad5707200c43638d8bf9ade45376b8bd0e2548
+RWT2I5SomoNUj6mC4Zb33mCvpGZnvA8h1KZMyJ5vEc5+lb+m26W21whKoYouGzH/YlICMcfSxbtHIyTVDh3CHhVbU4lUYJqb5gQ=
+SHA256 (Pkgfile) = 50e575a773cebd3d896be69e81a9617083082700b0225b3f160bfdb39aa8025e
 SHA256 (.footprint) = b6465ce35755bda10da5b8b845bc810560c8afd5e944bb5ea7d19dc881dc8fa1
-SHA256 (toxic-0.10.1.tar.gz) = b3cfbea28135fbc48c083276160cef02de755b60f6cfe1bd6efc1b5fdd4b92fe
+SHA256 (toxic-0.11.1.tar.gz) = 5df8f3cf21c2b228546399f0c2a77c6d8f5356939a85c32222a4f6a26b82688a
