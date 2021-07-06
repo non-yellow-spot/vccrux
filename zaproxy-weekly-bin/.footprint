@@ -70,7 +70,7 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/plugin/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/importurls-beta-8.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/invoke-beta-11.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/onlineMenu-release-9.zap
--rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/openapi-beta-19.zap
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/openapi-beta-20.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/plugnhack-beta-12.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/portscan-beta-9.zap
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/plugin/pscanrules-release-35.zap
@@ -128,6 +128,6 @@ drwxr-xr-x	root/root	usr/share/zaproxy-weekly/xml/
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/drivers.dtd
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/drivers.xml
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/xml/reportCompare.xsl
--rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2021-06-28.jar
+-rw-r--r--	root/root	usr/share/zaproxy-weekly/zap-D-2021-07-05.jar
 -rw-r--r--	root/root	usr/share/zaproxy-weekly/zap.ico
 -rwxr-xr-x	root/root	usr/share/zaproxy-weekly/zap.sh
